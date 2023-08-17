@@ -63,7 +63,7 @@ OutputMaster = <Control>(SUBPLUGIN_Param6)<Value>(0.5)
 LeadMaster = <Control>(SUBPLUGIN_Param7)<Value>(0.5)
 RhythmClip = <Control>(SUBPLUGIN_Param8)<Value>(0.0)
 Channel = <Control>(SUBPLUGIN_Param9)<Value>(0.0)
-Output =<Control>(SUBPLUGIN_Param10)<Value>(1.0)
+Output = <Control>(SUBPLUGIN_Param10)<Value>(1.0)
 Gate = <Value>(0.0)
 OutputVolume = <Value>(0.5)
 Mic = <Value>(1.0)
@@ -126,5 +126,86 @@ Meter1 = <Meter>(SUBPLUGIN_Meter1)
 Meter2 = <Meter>(SUBPLUGIN_Meter2)
 Meter3 = <Meter>(SUBPLUGIN_Meter3)
 Meter4 = <Meter>(SUBPLUGIN_Meter4)
+MeterGate = <MeterNotMapped>
+MapEnd
+
+MapStart<Alt1>
+PluginDisplayName = "Marshall Silver Jubilee 2555"
+PluginDisplayType = <Comp>
+Presence = <Value>(0.5)<Control>(COMP_Release)
+Bass = <Value>(0.5)
+Middle = <Value>(0.5)
+Treble = <Value>(0.5)
+InputGain = <Value>(0.5)
+OutputMaster = <Value>(0.5)
+LeadMaster = <Value>(0.5)
+RhythmClip = <Value>(0.0)
+Channel = <Value>(0.0)
+Output = <Value>(1.0)
+Gate = <Value>(0.0)
+OutputVolume = <Value>(0.5)
+Mic = <Value>(1.0)
+Level1 = <Value>(0.60000002)
+Level2 = <Value>(0.60000002)
+Level3 = <Value>(0.60000002)
+Level4 = <Value>(0.60000002)
+Pan1 = <Value>(0.5)
+Pan2 = <Value>(0.5)
+Pan3 = <Value>(0.5)
+Pan4 = <Value>(0.5)
+In1 = <Value>(1.0)
+In2 = <Value>(1.0)
+In3 = <Value>(0.0)
+In4 = <Value>(0.0)
+Delay = <Value>(0.0)
+Feedback = <Value>(0.0)
+View = <Value>(0.0)
+AmpBypass = <Value>(0.0)
+//meters
+Meter1 = <MeterNotMapped>
+Meter2 = <MeterNotMapped>
+Meter3 = <MeterNotMapped>
+Meter4 = <MeterNotMapped>
+MeterGate = <MeterNotMapped>
+MapEnd
+
+
+MapStart<Alt2>
+PluginDisplayName = "Marshall Silver Jubilee Gate"
+PluginDisplayType = <Gate>
+Presence = <Value>(0.5)
+Bass = <Value>(0.5)
+Middle = <Value>(0.5)
+Treble = <Value>(0.5)
+InputGain = <Value>(0.5)
+OutputMaster = <Value>(0.5)
+LeadMaster = <Value>(0.5)
+RhythmClip = <Value>(0.0)
+Channel = <Value>(0.0)
+Output = <Value>(1.0)
+Gate = <Value>(0.0)
+OutputVolume = <Value>(0.5)
+Mic = <Value>(1.0)
+Level1 = <Value>(0.60000002)
+Level2 = <Value>(0.60000002)
+Level3 = <Value>(0.60000002)
+Level4 = <Value>(0.60000002)
+Pan1 = <Value>(0.5)
+Pan2 = <Value>(0.5)
+Pan3 = <Value>(0.5)
+Pan4 = <Value>(0.5)
+In1 = <Value>(1.0)
+In2 = <Value>(1.0)
+In3 = <Value>(0.0)
+In4 = <Value>(0.0)
+Delay = <Value>(0.0)
+Feedback = <Value>(0.0)
+View = <Value>(0.0)
+AmpBypass = <Value>(0.0)
+//meters
+Meter1 = <MeterNotMapped>
+Meter2 = <MeterNotMapped>
+Meter3 = <MeterNotMapped>
+Meter4 = <MeterNotMapped>
 MeterGate = <MeterNotMapped>
 MapEnd
