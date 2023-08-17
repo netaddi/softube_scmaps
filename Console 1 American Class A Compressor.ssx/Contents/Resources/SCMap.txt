@@ -18,7 +18,7 @@ CompRelease = <Value>(0.5) <Control>(COMP_Release) <DisplayName>(Release)
 CompThreshold = <Value>(0.35) <Control>(COMP_Threshold) <DisplayName>(Threshold)
 CompKnee = <Value>(0.0)
 CompType = <Value>(1.0)
-MakeUp = <Value>(0.472)
+MakeUp = <Value>(0.472) <Control>(COMP_Parallel) <DisplayName>(MakeUp)
 ExternalSidechain = <Value>(1.0)
 GainRed = <Meter>(COMP_MeterReduction)
 MapEnd
@@ -33,14 +33,14 @@ CompRelease = <Value>(0.5) <Control>(COMP_Release) <DisplayName>(Release)
 CompThreshold = <Value>(0.35) <Control>(COMP_Threshold) <DisplayName>(Threshold)
 CompKnee = <Value>(1.0)
 CompType = <Value>(0.0)
-MakeUp = <Value>(0.283)
+MakeUp = <Value>(0.283) <Control>(COMP_Parallel)  <DisplayName>(MakeUp)
 ExternalSidechain = <Value>(1.0)
 GainRed = <Meter>(COMP_MeterReduction)
 MapEnd
 
 MapStart<Alt2>
+RetainValuesOnLoad = true
 PluginDisplayName = "American Class A Native Compressor"
-PluginDisplayType = <Other>
 CompOn = <Value>(0.0)
 CompRatio = <Value>(0.2) <Control>(COMP_Ratio) <DisplayName>(Ratio)
 CompAttack = <Value>(1.0) <Control>(COMP_Attack) <DisplayName>(Attack)

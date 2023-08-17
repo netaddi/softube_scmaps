@@ -6,7 +6,69 @@ PluginType: Comp
 // "Plugin parameter" = <"Control or Value">"HW location"
 // Add <Control> tags to map parameter to Console 1 control
 // ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+
 MapStart<Default>
+PluginDisplayName = "Weiss Compressor Limiter Default"
+InputGain = <Value>(0.5)
+OutputGain = <Value>(0.5)
+LimiterGain = <Value>(0.0)
+SafetyLimiter = <Value>(1.0)
+SafetyLimiterMode = <Value>(0.1)
+Bypass = <Value>(0.0)
+Monitor = <Value>(0.0)
+Channel = <Value>(0.0)
+AutoMake-Up = <Value>(0.0)
+Preview = <Value>(0.0)
+RMS = <Value>(0.0)
+FilterType1 = <Value>(0.0)
+Bandwidth1 = <Value>(0.234)
+CenterFrequency1 = <Value>(0.38100001)
+Attack1 = <Control>(COMP_Attack)<Value>(0.67439997)<DisplayName>(Attack)
+ReleaseDelay1 = <Value>(0.0)
+ReleaseFast1 = <Control>(COMP_Release)<Value>(0.6415)<DisplayName>(Release Fast)
+Average1 = <Value>(0.58490002)
+ReleaseSlow1 = <Value>(0.69809997)
+SoftKnee1 = <Value>(1.0)
+Threshold1 = <Control>(COMP_Threshold)<Value>(0.98329997)<DisplayName>(Threshold)
+Ratio1 = <Control>(COMP_Ratio)<Value>(0.5)<DisplayName>(Ratio)
+GainMake-Up1 = <Value>(0.5)
+FilterType2 = <Value>(0.0)
+Bandwidth2 = <Value>(0.234)
+CenterFrequency2 = <Value>(0.38100001)
+Attack2 = <Value>(0.67439997)
+ReleaseDelay2 = <Value>(0.0)
+ReleaseFast2 = <Value>(0.6415)
+Average2 = <Value>(0.58490002)
+ReleaseSlow2 = <Value>(0.69809997)
+SoftKnee2 = <Value>(1.0)
+Threshold2 = <Value>(0.98329997)
+Ratio2 = <Value>(0.5)
+GainMake-Up2 = <Value>(0.5)
+MSMode = <Value>(0.0)
+SidechainLink = <Value>(0.0)
+Sidechain = <Value>(1.0)
+ParallelCompression = <Value>(0.0)
+ParallelMix = <Value>(1.0)
+Dither = <Value>(0.0)
+Ganged = <Value>(1.0)
+KneeRange = <Value>(0.33329999)
+FrequencyZoom = <Value>(1.0)
+AutoRelease1 = <Value>(0.65249997)
+AutoRelease2 = <Value>(0.65249997)
+SidechainFiltering = <Value>(1.000000)
+MapEnd
+
+// Weiss Compressor Limiter Pagetable v.1
+PluginID: gaeu
+PluginName: "Weiss Compressor Limiter"
+PluginType: Comp
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+// Add <Control> tags to map parameter to Console 1 control
+// ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+
+MapStart<Default>
+PluginDisplayName = "Weiss Limiter"
 InputGain = <Value>(0.5)
 OutputGain = <Value>(0.5)
 LimiterGain = <Value>(0.0)
