@@ -1,0 +1,13 @@
+// Console 1 American Output Pagetable v.1
+PluginID: najs
+PluginName: "Console 1 American Class A Output"
+PluginType: OUT
+PluginExectutable: AmericanClassAOutput_VST_AU_Debug
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+RetainValuesOnLoad = true
+PluginDisplayName = "American Class A Output"
+Drive = <Control>(OUT_Drive)<Value>(0)
+DriveCharacter = <Control>(OUT_Drive_Character)<Value>(0.5)<DisplayName>(Character)
+MapEnd

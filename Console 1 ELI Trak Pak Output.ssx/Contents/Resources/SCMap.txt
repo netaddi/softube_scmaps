@@ -1,0 +1,17 @@
+// Console 1 ELI Trak Pak Output Pagetable v.1
+PluginID: bgfu
+PluginName: "Console 1 ELI Trak Pak Output"
+PluginType: OUT
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Empirical Labs Trak Pak Output"
+RetainValuesOnLoad = true
+
+// Parameters
+eParamDrive = <Value>(0.0)<Control>(OUT_Drive)
+eParamDriveCharacter = <Value>(0.5)<Control>(OUT_Drive_Character)<DisplayName>(Character)
+
+MapEnd

@@ -1,0 +1,35 @@
+// TSAR-1R Reverb Pagetable v.1
+PluginID: ts1r
+PluginName: "TSAR-1R Reverb"
+PluginType: Module
+PluginModularLatencyInSeconds: 0.003
+PluginModularInputNormalling: 1
+PluginModularOutputNormalling: 1
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+Predelay = <Control>(MODULE_Param1)<Value>(0.0)
+ReverbTime = <Control>(MODULE_Param2)<Value>(0.25)
+Color = <Control>(MODULE_Param3)<Value>(0.5)
+ReverbMix = <Control>(MODULE_Param4)<Value>(1.0)
+OutputVol = <Control>(MODULE_Param5)<Value>(0.75)
+MeterInputL = <Meter>(MODULE_Meter1)
+MeterInputR = <Meter>(MODULE_Meter2)
+MeterOutputL = <Meter>(MODULE_Meter3)
+MeterOutputR = <Meter>(MODULE_Meter4)
+MapEnd
+
+MapStart<AmpRoomTsar1r>
+PluginDisplayType = <AmpRoomModule>
+Predelay = <Control>(SUBPLUGIN_Param1)<Value>(0.0)
+ReverbTime = <Control>(SUBPLUGIN_Param2)<Value>(0.25)
+Color = <Control>(SUBPLUGIN_Param3)<Value>(0.5)
+ReverbMix = <Control>(SUBPLUGIN_Param4)<Value>(1.0)
+OutputVol = <Control>(SUBPLUGIN_Param5)<Value>(0.75)
+MeterInputL = <MeterNotMapped>
+MeterInputR = <MeterNotMapped>
+MeterOutputL = <MeterNotMapped>
+MeterOutputR = <MeterNotMapped>
+MapEnd

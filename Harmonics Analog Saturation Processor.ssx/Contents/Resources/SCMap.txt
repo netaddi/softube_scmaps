@@ -1,0 +1,147 @@
+// Harmonics Analog Saturation Processor Pagetable v.1
+PluginID: witi
+PluginName: "Harmonics Analog Saturation Processor"
+PluginType: OUT
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+MapStart<Default>
+// Parameters
+PluginDisplayType = <HarmonicsModule>
+Drive = <Control>(MAIN_Drive)<Value>(0.5)
+Character = <Control>(MAIN_Character)<Value>(0.5)
+Dynamics = <Control>(MAIN_Dynamics)<Value>(0.5)
+DriveType = <Control>(MAIN_DriveType)<Value>(0.0)
+DryWet = <Control>(MAIN_DryWet)<Value>(1.0)
+PrePostDistortion = <Control>(MAIN_PrePostDistortion)<Value>(0.0)
+DynamicsOnOff = <Control>(MAIN_DynamicsOnOff)<Value>(1.0)
+LowCutType = <Control>(MAIN_LowCutType)<Value>(0.0)
+HighCutType = <Control>(MAIN_HighCutType)<Value>(0.0)
+Input = <Control>(MAIN_Input)<Value>(0.6)
+Output = <Control>(MAIN_Output)<Value>(0.6)
+LowCut = <Control>(MAIN_LowCut)<Value>(0.0)
+HighCut = <Control>(MAIN_HighCut)<Value>(1.0)
+Meter = <Value>(0.0)
+Reserved = <SubsystemIndex><Value>(0.0)
+
+// Meters
+// MeterOutputVUL = <MeterNotMapped>
+// MeterOutputVUR = <MeterNotMapped>
+
+MapEnd
+
+
+MapStart<C1FOut_Solid>
+PluginDisplayName = "Harmonics Solid"
+Drive = <Value>(0.5)<Control>(OUT_Drive)
+Character = <Value>(0.5)<Control>(OUT_Drive_Character)
+Dynamics = <Value>(0.5)
+DriveType = <Value>(0.0)
+DryWet = <Value>(1.0)
+Pre/PostDistortion = <Value>(0.0)
+DynamicsOnOff = <Value>(1.0)
+LowCutType = <Value>(0.0)
+HighCutType = <Value>(0.0)
+Input = <Value>(0.60000002)
+Output = <Value>(0.60000002)
+LowCut = <Value>(0.0)
+HighCut = <Value>(1.0)
+Meter = <Value>(0.0)
+MapEnd
+
+MapStart<C1FOut2_Transf>
+PluginDisplayName = "Harmonics Transformer"
+Drive = <Value>(0.5)<Control>(OUT_Drive)
+Character = <Value>(0.5)<Control>(OUT_Drive_Character)
+Dynamics = <Value>(0.5)
+DriveType = <Value>(0.25)
+DryWet = <Value>(1.0)
+Pre/PostDistortion = <Value>(0.0)
+DynamicsOnOff = <Value>(1.0)
+LowCutType = <Value>(0.0)
+HighCutType = <Value>(0.0)
+Input = <Value>(0.60000002)
+Output = <Value>(0.60000002)
+LowCut = <Value>(0.0)
+HighCut = <Value>(1.0)
+Meter = <Value>(0.0)
+MapEnd
+
+MapStart<C1FOut_Master>
+PluginDisplayName = "Harmonics Master"
+Drive = <Value>(0.5)<Control>(OUT_Drive)
+Character = <Value>(0.5)<Control>(OUT_Drive_Character)
+Dynamics = <Value>(0.5)
+DriveType = <Value>(0.5)
+DryWet = <Value>(1.0)
+Pre/PostDistortion = <Value>(0.0)
+DynamicsOnOff = <Value>(1.0)
+LowCutType = <Value>(0.0)
+HighCutType = <Value>(0.0)
+Input = <Value>(0.60000002)
+Output = <Value>(0.60000002)
+LowCut = <Value>(0.0)
+HighCut = <Value>(1.0)
+Meter = <Value>(0.0)
+MapEnd
+
+MapStart<C1FOut_Tube>
+PluginDisplayName = "Harmonics Tube"
+Drive = <Value>(0.5)<Control>(OUT_Drive)
+Character = <Value>(0.5)<Control>(OUT_Drive_Character)
+Dynamics = <Value>(0.5)
+DriveType = <Value>(0.75)
+DryWet = <Value>(1.0)
+Pre/PostDistortion = <Value>(0.0)
+DynamicsOnOff = <Value>(1.0)
+LowCutType = <Value>(0.0)
+HighCutType = <Value>(0.0)
+Input = <Value>(0.60000002)
+Output = <Value>(0.60000002)
+LowCut = <Value>(0.0)
+HighCut = <Value>(1.0)
+Meter = <Value>(0.0)
+MapEnd
+
+MapStart<C1FOut_Modern>
+PluginDisplayName = "Harmonics Modern"
+Drive = <Value>(0.5)<Control>(OUT_Drive)
+Character = <Value>(0.5)<Control>(OUT_Drive_Character)
+Dynamics = <Value>(1.0)
+DriveType = <Value>(0.0)
+DryWet = <Value>(1.0)
+Pre/PostDistortion = <Value>(0.0)
+DynamicsOnOff = <Value>(1.0)
+LowCutType = <Value>(0.0)
+HighCutType = <Value>(0.0)
+Input = <Value>(0.60000002)
+Output = <Value>(0.60000002)
+LowCut = <Value>(0.0)
+HighCut = <Value>(1.0)
+Meter = <Value>(0.0)
+MapEnd
+
+MapStart<C1_Shape>
+PluginDisplayName = "Harmonics"
+PluginDisplayType = <Gate>
+Drive = <Value>(0.5)<Control>(SHAPE_Gate)
+Character = <Value>(0.5)<Control>(SHAPE_Punch)
+Dynamics = <Value>(0.5)<Control>(SHAPE_Sustain)
+DriveType = <Value>(0.0)<Control>(SHAPE_GateRelease)
+DryWet = <Value>(1.0)<Control>(SHAPE_HardGate)<Min>(1.0)<Max>(0.5)<GuiQuantization>(2)
+Pre/PostDistortion = <Value>(0.0)
+DynamicsOnOff = <Value>(1.0)
+LowCutType = <Value>(0.0)
+HighCutType = <Value>(0.0)
+Input = <Value>(0.60000002)
+Output = <Value>(0.60000002)
+LowCut = <Value>(0.0)
+HighCut = <Value>(1.0)
+Meter = <Value>(0.0)
+eMeterLevelVUL = <MeterNotMapped>
+eMeterLevelVUR = <MeterNotMapped>
+eMeterTHDVUL = <MeterNotMapped>
+eMeterTHDVUR = <MeterNotMapped>
+eMeterSidebarIn = <MeterNotMapped>
+eMeterSidebarOut = <MeterNotMapped>
+MapEnd

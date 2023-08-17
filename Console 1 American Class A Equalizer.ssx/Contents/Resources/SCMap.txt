@@ -1,0 +1,79 @@
+// Console 1 Equalizer Pagetable v.1
+PluginID: azum
+PluginName: "Console 1 American Class A Equalizer"
+PluginType: EQ
+PluginExectutable: AmericanClassAEQ_VST_AU_Debug
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "American Class A Original EQ"
+RetainValuesOnLoad = true
+In = <Value>(1.0)
+LowType = <Control>(EQ_LF_Type)<Value>(0.0)<DisplayName>(Low Type)
+LowFrequency = <Control>(EQ_LF_Freq)<Value>(0.5) <DisplayName>(Low Frequency)
+LowGain = <Control>(EQ_LF_Gain)<Value>(0.5) <DisplayName>(Low Gain)
+LowMidFrequency = <Control>(EQ_LMF_Freq)<Value>(0.5) <DisplayName>(Low Mid Freq)
+LowMidQ = <Value>(0.5)
+LowMidGain = <Control>(EQ_LMF_Gain)<Value>(0.5) <DisplayName>(Low Mid Gain)
+HighMidFrequency = <Control>(EQ_HMF_Freq)<Value>(0.5)<DisplayName>(High Mid Freq)
+HighMidQ = <Value>(0.5)
+HighMidGain = <Control>(EQ_HMF_Gain)<Value>(0.5) <DisplayName>(High Mid Gain)
+HighType = <Control>(EQ_HF_Type)<Value>(0.0) <DisplayName>(High Type)
+HighFrequency = <Control>(EQ_HF_Freq)<Value>(0.5) <DisplayName>(High Frequency)
+HighGain = <Control>(EQ_HF_Gain)<Value>(0.5) <DisplayName>(High Gain)
+GainMultiplier = <Value>(1.0)
+AutoMultiplier = <Value>(0.0)
+EQAutoLowGain = <Value>(0.0)
+EQAutoLowMidGain = <Value>(0.0)
+EQAutoHighMidGain = <Value>(0.0)
+EQAutoHighGain = <Value>(0.0)
+
+MapEnd
+
+MapStart<Alt1>
+PluginDisplayName = "American Class A Extended EQ"
+RetainValuesOnLoad = true
+In = <Value>(1.0)
+LowType = <Control>(EQ_LF_Type)<Value>(0.0)<DisplayName>(Low Type)
+LowFrequency = <Control>(EQ_LF_Freq)<Value>(0.5) <DisplayName>(Low Frequency)
+LowGain = <Value>(0.5)
+LowMidFrequency = <Control>(EQ_LMF_Freq)<Value>(0.5) <DisplayName>(Low Mid Freq)
+LowMidQ = <Control>(EQ_LMF_Q)<Value>(0.5) <DisplayName>(Low Mid Q)
+LowMidGain = <Value>(0.5)
+HighMidFrequency = <Control>(EQ_HMF_Freq)<Value>(0.5)<DisplayName>(High Mid Freq)
+HighMidQ = <Control>(EQ_HMF_Q)<Value>(0.5) <DisplayName>(High Mid Q)
+HighMidGain = <Value>(0.5)
+HighType = <Control>(EQ_HF_Type)<Value>(0.0) <DisplayName>(High Type)
+HighFrequency = <Control>(EQ_HF_Freq)<Value>(0.5) <DisplayName>(High Frequency)
+HighGain = <Value>(0.5)
+GainMultiplier = <Value>(0.4711)
+AutoMultiplier = <Value>(1.0)
+EQAutoLowGain = <Value>(0.5) <Control>(EQ_LF_Gain) <DisplayName>(Low Gain)
+EQAutoLowMidGain = <Value>(0.5) <Control>(EQ_LMF_Gain) <DisplayName>(Low Mid Gain)
+EQAutoHighMidGain = <Value>(0.5) <Control>(EQ_HMF_Gain) <DisplayName>(High Mid Gain)
+EQAutoHighGain = <Value>(0.5) <Control>(EQ_HF_Gain) <DisplayName>(High Gain)
+MapEnd
+
+MapStart<Alt2>
+PluginDisplayName = "American Class A Native EQ"
+PluginDisplayType = <Other>
+In = <Value>(1.0)
+LowType = <Control>(EQ_LF_Type)<Value>(0.0)<DisplayName>(Low Type)
+LowFrequency = <Control>(EQ_LF_Freq)<Value>(0.5) <DisplayName>(Low Frequency)
+LowGain = <Control>(EQ_LF_Gain)<Value>(0.5) <DisplayName>(Low Gain)
+LowMidFrequency = <Control>(EQ_LMF_Freq)<Value>(0.5) <DisplayName>(Low Mid Freq)
+LowMidQ = <Value>(0.5)
+LowMidGain = <Control>(EQ_LMF_Gain)<Value>(0.5) <DisplayName>(Low Mid Gain)
+HighMidFrequency = <Control>(EQ_HMF_Freq)<Value>(0.5)<DisplayName>(High Mid Freq)
+HighMidQ = <Value>(0.5)
+HighMidGain = <Control>(EQ_HMF_Gain)<Value>(0.5) <DisplayName>(High Mid Gain)
+HighType = <Control>(EQ_HF_Type)<Value>(0.0) <DisplayName>(High Type)
+HighFrequency = <Control>(EQ_HF_Freq)<Value>(0.5) <DisplayName>(High Frequency)
+HighGain = <Control>(EQ_HF_Gain)<Value>(0.5) <DisplayName>(High Gain)
+GainMultiplier = <Control>(EQ_Gain_Multiplier) <Value>(1.0)
+AutoMultiplier = <Value>(0.0)
+EQAutoLowGain = <Value>(1.0)
+EQAutoLowMidGain = <Value>(1.0)
+EQAutoHighMidGain = <Value>(1.0)
+EQAutoHighGain = <Value>(1.0)
+MapEnd

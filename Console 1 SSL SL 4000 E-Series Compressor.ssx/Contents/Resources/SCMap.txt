@@ -1,0 +1,19 @@
+// Console 1 UK 4k Compressor Pagetable v.1
+PluginID: scCP
+PluginName: "Console 1 SSL SL 4000 E-Series Compressor"
+PluginType: Comp
+PluginExectutable: StripControlComp_VST_AU_Debug
+
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+RetainValuesOnLoad = true
+PluginDisplayName = "SSL SL 4000 E-Series Compressor"
+Threshold = <Control>(COMP_Threshold) <Value>(0.35)
+Ratio = <Control>(COMP_Ratio) <Value>(0.2)
+Attack = <Control>(COMP_Attack) <Value>(1.0)
+Release = <Control>(COMP_Release) <Value>(0.5)
+ExternalSideChain = <Value>(1.0)
+
+MeterReduction = <Meter>(COMP_MeterReduction)
+MapEnd

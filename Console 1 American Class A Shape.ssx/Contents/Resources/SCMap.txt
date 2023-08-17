@@ -1,0 +1,17 @@
+// Console 1 American Class A Shape Pagetable v.1
+PluginID: good
+PluginName: "Console 1 American Class A Shape"
+PluginType: Gate
+
+MapStart<Default>
+RetainValuesOnLoad = true
+PluginDisplayName = "American Class A Shape"
+ShapeOn = <Value>(1.0)
+ShapeGate = <Control>(SHAPE_Gate)<Value>(0.0)<DisplayName>(Gate)
+ShapeHardGate = <Control>(SHAPE_HardGate)<Value>(0.0)<DisplayName>(Hard Gate)<GuiQuantization>(2)
+ShapeGateRelease = <Control>(SHAPE_GateRelease)<Value>(0.5)<DisplayName>(Gate Release)
+ShapeSustain = <Control>(SHAPE_Sustain)<Value>(0.5)<DisplayName>(Sustain)
+ShapePunch = <Control>(SHAPE_Punch)<Value>(0.5)<DisplayName>(Punch)
+ExternalSidechain = <Value>(1.0)
+MeterGainReduction = <Meter>(SHAPE_MeterReduction)
+MapEnd

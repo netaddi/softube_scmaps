@@ -1,0 +1,13 @@
+// Console 1 American Input Pagetable v.1
+PluginID: fett
+PluginName: "Console 1 American Class A Input"
+PluginType: IN
+PluginExectutable: AmericanClassAInput_VST_AU_Debug
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+RetainValuesOnLoad = true
+PluginDisplayName = "American Class A Input"
+HighCut = <Control>(IN_High_Cut) <Value>(1)
+LowCut = <Control>(IN_Low_Cut) <Value>(0)
+MapEnd

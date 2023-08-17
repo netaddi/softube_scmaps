@@ -1,0 +1,22 @@
+// Console 1 ELI Trak Pak Deesser Pagetable v.1
+PluginID: pspw
+PluginName: "Console 1 ELI Trak Pak Deesser"
+PluginType: Gate
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+// Make sure all parameters are mapped! Hint: Use build/bin/mapgen Console 1 Weiss Gambit Shape.vst
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+RetainValuesOnLoad = false
+PluginDisplayName = "Empirical Labs Trak Pak Deesser"
+
+// Parameters
+Frequency = <Control>(SHAPE_GateRelease) <Value><Value>(0.5)
+Threshold = <Control>(SHAPE_Gate)<Value>(0.5)
+HFLimiter = <Control>(SHAPE_HardGate)<Value>(0.0)
+
+// Meters
+MeterGainReduction = <Meter>(SHAPE_MeterReduction)
+
+MapEnd

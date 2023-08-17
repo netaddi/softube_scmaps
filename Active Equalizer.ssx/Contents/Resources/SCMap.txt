@@ -1,0 +1,69 @@
+// Active Equalizer Pagetable v.1
+PluginID: AcEQ
+PluginName: "Active Equalizer"
+PluginType: EQ
+PluginExectutable: ActiveEQ_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+// Make sure ALL the parameters below are mapped to a value or a control and that they are mapped in the following order:
+//
+// ...
+//
+// Each one of these can be mapped to one of the following on the HW:
+//
+// IN_Gain
+// IN_High_Cut
+// IN_Low_Cut
+// IN_Filt_To_Dyn_SC
+// IN_SC_Listen
+// IN_Phase_Invert
+// SHAPE_On
+// SHAPE_GateRelease
+// SHAPE_GateHard
+// SHAPE_Gate
+// SHAPE_Sustain
+// SHAPE_Punch
+// EQ_On
+// EQ_LF_Type
+// EQ_LF_Freq
+// EQ_LF_Gain
+// EQ_LMF_Freq
+// EQ_LMF_Q
+// EQ_LMF_Gain
+// EQ_HMF_Freq
+// EQ_HMF_Q
+// EQ_HMF_Gain
+// EQ_HF_Type
+// EQ_HF_Freq
+// EQ_HF_Gain
+// COMP_On
+// COMP_Ratio
+// COMP_Parallel
+// COMP_Attack
+// COMP_Release
+// COMP_Threshold
+// Block_Order
+// Ext_Sidechain
+// OUT_Drive
+// OUT_Drive_Character
+// OUT_Pan_Balance
+// OUT_Solo
+// OUT_Mute
+// OUT_Volume
+
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+LowGain = <Control>(EQ_LF_Gain)<Value>(0.5455)
+LowFrequency = <Control>(EQ_LF_Freq)<Value>(0.5455)<Min>(1.0)<Max>(0.0)
+LowWidth = <Control>(EQ_LF_Type)<Value>(0.0)<Min>(1.0)<Max>(0.0)
+MiddleGain = <Control>(EQ_LMF_Gain)<Value>(0.5455)
+MiddleFrequency = <Control>(EQ_LMF_Freq)<Value>(0.5455)<Min>(1.0)<Max>(0.0)
+MiddleWidth = <Control>(EQ_LMF_Q)<Value>(0.0)<Min>(1.0)<Max>(0.0)
+HighGain = <Control>(EQ_HF_Gain)<Value>(0.5455)
+HighFrequency = <Control>(EQ_HF_Freq)<Value>(0.5455)<Min>(1.0)<Max>(0.0)
+HighWidth = <Control>(EQ_HF_Type)<Value>(0.0)<Min>(1.0)<Max>(0.0)
+LowCut = <Value>(1.0)
+HighCut = <Value>(0.0)
+Output = <Value>(0.5)
+MapEnd

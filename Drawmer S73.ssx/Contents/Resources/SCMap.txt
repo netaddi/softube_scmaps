@@ -1,0 +1,44 @@
+// Drawmer S73 Pagetable v.1
+PluginID: bs6y
+PluginName: "Drawmer S73"
+PluginType: Comp
+PluginExectutable: DrawmerS73_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+// Make sure ALL the parameters below are mapped to a value or a control and that they are mapped in the following order:
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+Amount = <Control>(COMP_Threshold)<Value>(0.5)
+Air = <Control>(COMP_Attack)<Value>(0.0)
+Style = <Control>(COMP_Ratio)<Value>(0.0)
+Mix  = <Value>(0.0)
+Gain = <Value>(0.5)
+MeterOutputVU1 = <MeterNotMapped>
+MeterOutputVU2 = <MeterNotMapped>
+MeterOutputGRMax = <Meter>(COMP_MeterReduction)
+Dummy1 = <MeterNotMapped>
+Dummy2 = <MeterNotMapped>
+Dummy3 = <MeterNotMapped>
+Dummy4 = <MeterNotMapped>
+Dummy5 = <MeterNotMapped>
+Dummy6 = <MeterNotMapped>
+MapEnd
+
+MapStart<AmpRoomDrawmerS73>
+PluginDisplayType = <AmpRoomModule>
+Amount = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+Air = <Control>(SUBPLUGIN_Param2)<Value>(0.0)
+Style = <Control>(SUBPLUGIN_Param3)<Value>(0.0)
+Mix  = <Control>(SUBPLUGIN_Param4)<Value>(0.0)
+Gain = <Control>(SUBPLUGIN_Param5)<Value>(0.5)
+MeterOutputVU1 = <Meter>(SUBPLUGIN_Meter1)
+MeterOutputVU2 = <Meter>(SUBPLUGIN_Meter2)
+MeterOutputGRMax = <Meter>(SUBPLUGIN_Meter3)
+Dummy1 = <MeterNotMapped>
+Dummy2 = <MeterNotMapped>
+Dummy3 = <MeterNotMapped>
+Dummy4 = <MeterNotMapped>
+Dummy5 = <MeterNotMapped>
+Dummy6 = <MeterNotMapped>
+MapEnd

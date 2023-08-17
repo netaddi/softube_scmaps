@@ -1,0 +1,17 @@
+// Console 1 ELI Trak Pak Input Pagetable v.1
+PluginID: kgsk
+PluginName: "Console 1 ELI Trak Pak Input"
+PluginType: IN
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+RetainValuesOnLoad = true
+PluginDisplayName = "Empirical Labs Trak Pak Input"
+
+// Parameters
+eParamHighPass = <Value>(0.0)<Control>(IN_Low_Cut)
+eParamLowPass = <Value>(1.0)<Control>(IN_High_Cut)
+
+MapEnd

@@ -1,0 +1,31 @@
+// Saturation Knob Pagetable v.1
+PluginID: satn
+PluginName: "Saturation Knob"
+PluginType: Module
+PluginModularLatencyInSeconds: 0.001
+PluginModularInputNormalling: 1
+PluginModularOutputNormalling: 1
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+Saturation = <Control>(MODULE_Param1)<Value>(0.0)
+SaturationType = <Control>(MODULE_Param2)<Value>(0.5)
+MeterSaturation = <Meter>(MODULE_Meter1)
+MapEnd
+
+MapStart<C1FOut>
+PluginDisplayName = "Saturation Knob"
+PluginDisplayType = <OUT>
+Saturation = <Control>(OUT_Drive)<Value>(0.0)
+SaturationType = <Control>(OUT_Drive_Character)<Value>(0.5)
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<AmpRoom>
+PluginDisplayType = <AmpRoomModule>
+Saturation = <Control>(SUBPLUGIN_Param1)<Value>(0.0)
+SaturationType = <Control>(SUBPLUGIN_Param2)<Value>(0.5)
+MeterSaturation = <Meter>(SUBPLUGIN_Meter1)
+MapEnd

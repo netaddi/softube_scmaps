@@ -1,0 +1,18 @@
+// Console 1 UK 4k Dynamic Shaper Pagetable v.1
+PluginID: scSH
+PluginName: "Console 1 SSL SL 4000 E-Series Dynamic Shaper"
+PluginType: Gate
+PluginExectutable: StripControlShape_VST_AU_Debug
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+RetainValuesOnLoad = true
+PluginDisplayName = "SSL SL 4000 E-Series Dynamic Shaper"
+Gate = <Control>(SHAPE_Gate) <Value>(0)
+GateRelease = <Control>(SHAPE_GateRelease) <Value>(0.5)
+GateHard = <Control>(SHAPE_HardGate) <Value>(0)
+Punch = <Control>(SHAPE_Punch)<Value>(0.5)
+Sustain = <Control>(SHAPE_Sustain) <Value>(0.5)
+ExternalSidechain = <Value>(1.0)
+MeterGainReduction = <Meter>(SHAPE_MeterReduction)
+MapEnd

@@ -1,0 +1,13 @@
+// Console 1 UK 4k Output Pagetable v.1
+PluginID: scOT
+PluginName: "Console 1 SSL SL 4000 E-Series Output"
+PluginType: OUT
+PluginExectutable: StripControlOutput_VST_AU_Debug
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+RetainValuesOnLoad = true
+PluginDisplayName = "SSL SL 4000 E-Series Output"
+Drive = <Control>(OUT_Drive)<Value>(0)
+DriveCharacter = <Control>(OUT_Drive_Character)<Value>(0.5)<DisplayName>(Character)
+MapEnd

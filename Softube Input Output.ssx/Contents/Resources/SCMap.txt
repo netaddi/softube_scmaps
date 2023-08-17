@@ -1,0 +1,28 @@
+// Softube Input Output Pagetable v.1
+PluginID: olgw
+PluginName: "Softube Input Output"
+PluginType: Dummy
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+// Make sure all parameters are mapped! Hint: Use build/bin/mapgen Softube Input Output.vst
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+
+// Parameters
+ProcessMode = <Value>(0.0)
+
+// Meters
+// ...
+
+MapEnd
+
+MapStart<Output>
+
+// Parameters
+ProcessMode = <Value>(1.0)
+
+// Meters
+// ...
+
+MapEnd

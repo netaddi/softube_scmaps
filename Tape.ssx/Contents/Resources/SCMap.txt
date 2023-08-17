@@ -1,0 +1,102 @@
+ Tape/Resources/SCMap.txt// Tape Pagetable v.1
+PluginID: nnfw
+PluginName: "Tape"
+PluginType: Distortion
+PluginExectutable: Tape_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+
+// Parameters
+Meter = <Value>(0.0)
+ColorAmount = <Control>(MAIN_ColorAmount)<Value>(0.5)
+ColorType = <Control>(MAIN_ColorType)<Value>(1.0)
+TapeSpeed = <Control>(MAIN_TapeSpeed)<Value>(0.75)
+DryWet = <Control>(MAIN_DryWet)<Value>(1.0)
+SpeedStability = <Control>(MAIN_SpeedStability)<Value>(0.0)
+HighFreqTrim = <Control>(MAIN_HighFreqTrim)<Value>(0.5)
+Crosstalk = <Value>(0.0)
+Input = <Control>(MAIN_Input)<Value>(0.6)
+Output = <Control>(MAIN_Output)<Value>(0.6)
+Noise = <Control>(MAIN_Noise)<Value>(0.0)
+Playback = <Control>(MAIN_Playback)<Value>(1.0)
+View = <Value>(0.0)
+Reserved = <SubsystemIndex><Value>(0.0)
+MapEnd
+
+MapStart<C1FOut>
+PluginDisplayName = "Tape"
+PluginDisplayType = <OUT>
+Meter = <Value>(0.0)
+ColorAmount = <Value>(0.5)<Control>(OUT_Drive)
+ColorType = <Value>(0.0)<Control>(OUT_Drive_Character)<Min>(1.0)<Max>(0.0)
+TapeSpeed = <<Value>(0.75)
+DryWet = <Value>(1.0)
+SpeedStability = <Value>(0.0)
+HighFreqTrim = <Value>(0.5)
+Crosstalk = <Value>(0.0)
+Input = <Value>(0.6)
+Output = <Value>(0.6)
+Noise = <Value>(0.0)
+Playback = <Value>(1.0)
+View = <Value>(0.0)
+Reserved = <Value>(0.0)
+MapEnd
+
+MapStart<AmpRoomTape>
+PluginDisplayName = "Softube Tape"
+PluginDisplayType = <AmpRoomModule>
+Meter = <Value>(0.0)
+ColorAmount = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+ColorType = <Control>(SUBPLUGIN_Param2)<Value>(0.0)
+TapeSpeed = <Control>(SUBPLUGIN_Param3)<Value>(0.75)
+DryWet = <Control>(SUBPLUGIN_Param4)<Value>(1.0)
+SpeedStability = <Control>(SUBPLUGIN_Param5)<Value>(0.0)
+HighFreqTrim = <Control>(SUBPLUGIN_Param6)<Value>(0.5)
+Crosstalk =<Control>(SUBPLUGIN_Param7) <Value>(0.0)
+Input = <Control>(SUBPLUGIN_Param8)<Value>(0.6)
+Output = <Control>(SUBPLUGIN_Param9)<Value>(0.6)
+Noise = <Control>(SUBPLUGIN_Param11)<Value>(0.0)
+Playback = <Control>(SUBPLUGIN_Param10)<Value>(1.0)
+View = <Value>(0.0)
+Reserved = <Value>(0.0)
+
+// Meters
+eMeterLevelVUL = <MeterNotMapped>
+eMeterLevelVUR = <MeterNotMapped>
+eMeterTHDVUL = <MeterNotMapped>
+eMeterTHDVUR = <MeterNotMapped>
+eMeterTransportState = <MeterNotMapped>
+eMeterSidebarIn = <Meter>(SUBPLUGIN_Meter1)
+eMeterSidebarOut = <Meter>(SUBPLUGIN_Meter2)
+MapEnd
+
+MapStart<Alt1>
+PluginDisplayName = "Tape"
+PluginDisplayType = <Gate>
+Meter = <Value>(0.0)
+ColorAmount = <Value>(0.5)<Control>(SHAPE_Gate)
+ColorType = <Value>(0.0)<Control>(SHAPE_GateRelease)<Min>(1.0)<Max>(0.0)
+TapeSpeed = <Value>(0.75)<Control>(SHAPE_Sustain)
+DryWet = <Value>(1.0)
+SpeedStability = <Value>(0.0)<Control>(SHAPE_Punch)
+HighFreqTrim = <Value>(0.5)
+Crosstalk = <Value>(0.0)
+Input = <Value>(0.6)
+Output = <Value>(0.6)
+Noise = <Value>(0.0)
+Playback = <Value>(1.0)
+View = <Value>(0.0)
+Reserved = <Value>(0.0)
+
+// Meters
+eMeterLevelVUL = <MeterNotMapped>
+eMeterLevelVUR = <MeterNotMapped>
+eMeterTHDVUL = <MeterNotMapped>
+eMeterTHDVUR = <MeterNotMapped>
+eMeterTransportState = <MeterNotMapped>
+eMeterSidebarIn = <MeterNotMapped>
+eMeterSidebarOut = <MeterNotMapped>
+MapEnd

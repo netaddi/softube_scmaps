@@ -1,0 +1,27 @@
+// Console 1 ELI Trak Pak EQ Pagetable v.1
+PluginID: iycn
+PluginName: "Console 1 ELI Trak Pak EQ"
+PluginType: EQ
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+RetainValuesOnLoad = true
+PluginDisplayName = "Empirical Labs Trak Pak EQ"
+
+// Parameters
+eParamLowType = <Control>(EQ_LF_Type)<Value>(0.5)
+eParamLowFrequency = <Control>(EQ_LF_Freq)<Value>(0.5)<DisplayName>(Low Freq)
+eParamLowGain = <Control>(EQ_LF_Gain)<Value>(0.5)
+eParamLowMidFrequency = <Control>(EQ_LMF_Freq)<Value>(0.5)
+eParamLowMidGain = <Control>(EQ_LMF_Gain)<Value>(0.5)
+eParamLowMidQ = <Control>(EQ_LMF_Q)<Value>(0.5)<DisplayName>(Low Mid BW)
+eParamHighMidFrequency = <Control>(EQ_HMF_Freq)<Value>(0.5)
+eParamHighMidGain = <Control>(EQ_HMF_Gain)<Value>(0.5)
+eParamHighMidQ = <Control>(EQ_HMF_Q)<Value>(0.5)<DisplayName>(High Mid BW)
+eParamHighType = <Control>(EQ_HF_Type)<Value>(0.5)
+eParamHighFrequency = <Control>(EQ_HF_Freq)<Value>(0.5)<DisplayName>(High Freq)
+eParamHighGain = <Control>(EQ_HF_Gain)<Value>(0.5)
+
+MapEnd
