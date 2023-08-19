@@ -1,0 +1,14 @@
+// Modular Delay Pagetable v.1
+PluginID: pl8i
+PluginName: "Modular Delay"
+PluginType: Module
+PluginExectutable: ModularDelay_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Delay"
+Time = <Control>(MODULE_Param1)<Value>(0.5)
+CVAmount = <Control>(MODULE_Param2)<Value>(0.5)
+MapEnd

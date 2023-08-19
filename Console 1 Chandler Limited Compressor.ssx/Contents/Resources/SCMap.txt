@@ -1,0 +1,24 @@
+// Console 1 Chandler Limited Compressor Pagetable v.1
+PluginID: gghz
+PluginName: "Console 1 Chandler Limited Compressor"
+PluginType: Comp
+PluginAutoMakeup: 0.25
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+RetainValuesOnLoad = true
+PluginDisplayName = "Chandler Limited Zener-Bender Compressor"
+
+// Parameters
+Ext/IntSidechain = <Value>(1.0)
+Threshold = <Control>(COMP_Threshold)<Value>(0.5)
+Attack = <Control>(COMP_Attack)<Value>(0.1)
+CompMode = <Control>(COMP_Ratio)<Value>(0.0)
+Release = <Control>(COMP_Release)<Value>(0.1)
+
+// Meters
+MeterGainReduction = <Meter>(COMP_MeterReduction) 
+
+MapEnd

@@ -1,0 +1,17 @@
+// Modular Switch N to 1 Pagetable v.1
+PluginID: jdpw
+PluginName: "Modular Switch N to 1"
+PluginType: Module
+PluginExectutable: ModularSwitchN1_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Switch 4 to 1"
+SelectInput = <Control>(MODULE_Param1)<Value>(0)
+MeterSelected1 = <Meter>(MODULE_Meter1)
+MeterSelected2 = <Meter>(MODULE_Meter2)
+MeterSelected3 = <Meter>(MODULE_Meter3)
+MeterSelected4 = <Meter>(MODULE_Meter4)
+MapEnd

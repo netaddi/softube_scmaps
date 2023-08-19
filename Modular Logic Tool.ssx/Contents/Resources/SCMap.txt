@@ -1,0 +1,21 @@
+// Modular Logic Tool Pagetable v.1
+PluginID: rs2y
+PluginName: "Modular Logic Tool"
+PluginType: Module
+PluginExectutable: ModularLogicTool_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Logic Tool"
+Dummy = <Value>(0)
+MeterInv1 = <Meter>(MODULE_Meter1)
+MeterInv2 = <Meter>(MODULE_Meter2)
+MeterAND = <Meter>(MODULE_Meter3)
+MeterOR = <Meter>(MODULE_Meter4)
+MeterNAND = <Meter>(MODULE_Meter5)
+MeterNOR = <Meter>(MODULE_Meter6)
+MeterXNOR = <Meter>(MODULE_Meter7)
+MeterXOR = <Meter>(MODULE_Meter8)
+MapEnd

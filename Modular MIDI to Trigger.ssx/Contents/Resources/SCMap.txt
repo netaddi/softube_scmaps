@@ -1,0 +1,21 @@
+// Modular MIDI to Trigger Pagetable v.1
+PluginID: 5uvj
+PluginName: "Modular MIDI to Trigger"
+PluginType: Module
+PluginExectutable: ModularMIDITrigger_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "MIDI to Trigger"
+MIDIChannel = <Control>(MODULE_Param1)<Value>(0)
+MIDIKey1 = <Control>(MODULE_Param2)<Value>(0.2834646)
+MIDIKey2 = <Control>(MODULE_Param3)<Value>(0.2913386)
+MIDIKey3 = <Control>(MODULE_Param4)<Value>(0.2992126)
+MIDIKey4 = <Control>(MODULE_Param5)<Value>(0.3070866)
+MeterTrigger1 = <Meter>(MODULE_Meter1)
+MeterTrigger2 = <Meter>(MODULE_Meter2)
+MeterTrigger3 = <Meter>(MODULE_Meter3)
+MeterTrigger4 = <Meter>(MODULE_Meter4)
+MapEnd

@@ -1,0 +1,13 @@
+// Modular Multiple Pagetable v.1
+PluginID: dsbo
+PluginName: "Modular Multiple"
+PluginType: Module
+PluginExectutable: ModularMultiple_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Multiple"
+Dummy = <Value>(0)
+MapEnd

@@ -1,0 +1,85 @@
+// Modular Mixer Pagetable v.1
+PluginID: qa2f
+PluginName: "Modular Mixer"
+PluginType: Module
+PluginExectutable: ModularMixer_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Empty"
+Enable = <Value>(0)
+Mode = <Value>(0)
+Input1 = <Value>(0)
+Input2 = <Value>(0)
+Input3 = <Value>(0)
+Input4 = <Value>(0)
+Output = <Control>(MODULE_Param1)<Value>(0)
+MapEnd
+
+MapStart<Alt1>
+PluginDisplayName = "CV Mix"
+PluginDisplayType = <Module>
+Enable = <Value>(1)
+Mode = <Value>(0)
+Input1Lin = <Control>(MODULE_Param1)<Value>(0.25)<DisplayName>(Input 1)
+Input2Lin = <Control>(MODULE_Param2)<Value>(0.25)<DisplayName>(Input 2)
+Input3Lin = <Control>(MODULE_Param3)<Value>(0.25)<DisplayName>(Input 3)
+Input4Lin = <Control>(MODULE_Param4)<Value>(0.25)<DisplayName>(Input 4)
+OutputLin = <Control>(MODULE_Param5)<Value>(0.25)<DisplayName>(Output)
+Input1Exp = <Value>(0)
+Input2Exp = <Value>(0)
+Input3Exp = <Value>(0)
+Input4Exp = <Value>(0)
+OutputExp = <Value>(0)
+Input1Polarizing = <Value>(0)
+Input2Polarizing = <Value>(0)
+Input3Polarizing = <Value>(0)
+Input4Polarizing = <Value>(0)
+OutputPolarizing = <Value>(0)
+MapEnd
+
+MapStart<Alt2>
+PluginDisplayName = "Audio Mix"
+PluginDisplayType = <Module>
+Enable = <Value>(1)
+Mode = <Value>(0.5)
+Input1Lin = <Value>(0)
+Input2Lin = <Value>(0)
+Input3Lin = <Value>(0)
+Input4Lin = <Value>(0)
+OutputLin = <Value>(0)
+Input1Exp = <Control>(MODULE_Param1)<Value>(0.5)<DisplayName>(Input 1)
+Input2Exp = <Control>(MODULE_Param2)<Value>(0.5)<DisplayName>(Input 2)
+Input3Exp = <Control>(MODULE_Param3)<Value>(0.5)<DisplayName>(Input 3)
+Input4Exp = <Control>(MODULE_Param4)<Value>(0.5)<DisplayName>(Input 4)
+OutputExp = <Control>(MODULE_Param5)<Value>(0.5)<DisplayName>(Output)
+Input1Polarizing = <Value>(0)
+Input2Polarizing = <Value>(0)
+Input3Polarizing = <Value>(0)
+Input4Polarizing = <Value>(0)
+OutputPolarizing = <Value>(0)
+MapEnd
+
+MapStart<Alt3>
+PluginDisplayName = "Pol Mix"
+PluginDisplayType = <Module>
+Enable = <Value>(1)
+Mode = <Value>(1)
+Input1Lin = <Value>(0)
+Input2Lin = <Value>(0)
+Input3Lin = <Value>(0)
+Input4Lin = <Value>(0)
+OutputLin = <Value>(0)
+Input1Exp = <Value>(0)
+Input2Exp = <Value>(0)
+Input3Exp = <Value>(0)
+Input4Exp = <Value>(0)
+OutputExp = <Value>(0)
+Input1Polarizing = <Control>(MODULE_Param1)<Value>(1.0)<DisplayName>(Input 1)
+Input2Polarizing = <Control>(MODULE_Param2)<Value>(1.0)<DisplayName>(Input 2)
+Input3Polarizing = <Control>(MODULE_Param3)<Value>(1.0)<DisplayName>(Input 3)
+Input4Polarizing = <Control>(MODULE_Param4)<Value>(1.0)<DisplayName>(Input 4)
+OutputPolarizing = <Control>(MODULE_Param5)<Value>(1.0)<DisplayName>(Output)
+MapEnd

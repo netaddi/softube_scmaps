@@ -1,0 +1,26 @@
+// Modular Slew Limiter Pagetable v.1
+PluginID: fbbw
+PluginName: "Modular Slew Limiter"
+PluginType: Module
+PluginExectutable: ModularSlew_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Slew Limiter"
+Mode = <Value>(0)
+Time = <Control>(MODULE_Param1)<Value>(0.5)
+Attack = <Value>(0)
+Release = <Value>(0)
+MeterEnvelope = <MeterNotMapped>
+MapEnd
+
+MapStart<EnvFollower>
+PluginDisplayName = "Envelope Follower"
+Mode = <Value>(1)
+Time = <Value>(0)
+Attack = <Control>(MODULE_Param1)<Value>(0)
+Release = <Control>(MODULE_Param2)<Value>(0.5)
+MeterEnvelope = <Meter>(MODULE_Meter1)
+MapEnd

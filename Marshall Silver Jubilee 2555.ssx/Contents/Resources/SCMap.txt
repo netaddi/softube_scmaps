@@ -132,7 +132,7 @@ MapEnd
 MapStart<Alt1>
 PluginDisplayName = "Marshall Silver Jubilee 2555"
 PluginDisplayType = <Comp>
-Presence = <Value>(0.5)<Control>(COMP_Release)
+Presence = <Value>(0.5)<Control>(COMP_Release)DisplayName(Presence)
 Bass = <Value>(0.5)
 Middle = <Value>(0.5)
 Treble = <Value>(0.5)
@@ -173,13 +173,13 @@ MapEnd
 MapStart<Alt2>
 PluginDisplayName = "Marshall Silver Jubilee Gate"
 PluginDisplayType = <Gate>
-Presence = <Value>(0.5)
+Presence = <Value>(0.5)<Control>(SHAPE_Gate)DisplayName(Presence)
 Bass = <Value>(0.5)
 Middle = <Value>(0.5)
 Treble = <Value>(0.5)
-InputGain = <Value>(0.5)
-OutputMaster = <Value>(0.5)
-LeadMaster = <Value>(0.5)
+InputGain = <Value>(0.5)<Control>(SHAPE_GateRelease)DisplayName(InputGain)
+OutputMaster = <Value>(0.5)<Control>(SHAPE_Punch)DisplayName(OutputMaster)
+LeadMaster = <Value>(0.5)<Control>(SHAPE_Sustain)DisplayName(LeadMaster)
 RhythmClip = <Value>(0.0)
 Channel = <Value>(0.0)
 Output = <Value>(1.0)

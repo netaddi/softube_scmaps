@@ -1,0 +1,28 @@
+// Modular MIDI MPE Pagetable v.1
+PluginID: lja8
+PluginName: "Modular MIDI MPE"
+PluginType: Module
+PluginExectutable: ModularMIDIMPE_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "ROLI Seaboard RISE"
+GlideToNote = <Control>(MODULE_Param1)<Value>(1)
+Mode = <Control>(MODULE_Param2)<Value>(0.5)
+MeterGate1 = <MeterNotMapped>
+MeterGate2 = <MeterNotMapped>
+MeterGate3 = <MeterNotMapped>
+MeterGate4 = <MeterNotMapped>
+MeterGateALL = <Meter>(MODULE_Meter5)
+MeterCV1 = <Meter>(MODULE_Meter6)
+MeterCV2 = <Meter>(MODULE_Meter7)
+MeterCV3 = <Meter>(MODULE_Meter8)
+MeterCVX = <Meter>(MODULE_Meter9)
+MeterCVY = <Meter>(MODULE_Meter10)
+MeterPress1 = <Meter>(MODULE_Meter1)
+MeterPress2 = <Meter>(MODULE_Meter2)
+MeterPress3 = <Meter>(MODULE_Meter3)
+MeterPress4 = <Meter>(MODULE_Meter4)
+MapEnd

@@ -1,0 +1,25 @@
+// Console 1 Chandler Limited EQ Pagetable v.1
+PluginID: aret
+PluginName: "Console 1 Chandler Limited EQ"
+PluginType: EQ
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+RetainValuesOnLoad = true
+PluginDisplayName = "Chandler Limited Zener-Bender EQ"
+
+// Parameters
+LowType = <Control>(EQ_LF_Type)<Value>(0.5)
+LowFrequency = <Control>(EQ_LF_Freq)<Value>(0.6666667)
+LowGain = <Control>(EQ_LF_Gain)<Value>(0.5)
+LowMidFrequency = <Control>(EQ_LMF_Freq)<Value>(0.5714286)
+LowMidGain = <Control>(EQ_LMF_Gain)<Value>(0.5)
+HighMidFrequency = <Control>(EQ_HMF_Freq)<Value>(0.5714286)
+LowMidGain = <Control>(EQ_HMF_Gain)<Value>(0.5)
+HighType = <Control>(EQ_HF_Type)<Value>(0.5)
+HighFrequency = <Control>(EQ_HF_Freq)<Value>(0.5714286)
+HighGain = <Control>(EQ_HF_Gain)<Value>(0.5)
+
+MapEnd

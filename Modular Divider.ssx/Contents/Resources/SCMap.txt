@@ -1,0 +1,19 @@
+// Modular Divider Pagetable v.1
+PluginID: yt3o
+PluginName: "Modular Divider"
+PluginType: Module
+PluginExectutable: ModularDivider_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Clock Divider"
+Divide = <Control>(MODULE_Param1)<Value>(0)
+MeterDivideOut = <Meter>(MODULE_Meter1)
+Meter2 = <Meter>(MODULE_Meter2)
+Meter3 = <Meter>(MODULE_Meter3)
+Meter4 = <Meter>(MODULE_Meter4)
+Meter8 = <Meter>(MODULE_Meter5)
+Meter16 = <Meter>(MODULE_Meter6)
+MapEnd

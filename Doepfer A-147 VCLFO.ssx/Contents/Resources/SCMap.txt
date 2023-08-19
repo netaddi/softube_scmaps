@@ -1,0 +1,17 @@
+// Doepfer A-147 VCLFO Pagetable v.1
+PluginID: cmrt
+PluginName: "Doepfer A-147 VCLFO"
+PluginType: Module
+PluginExectutable: ModularDoepferA147_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+Frequency = <Control>(MODULE_Param1)<Value>(0.5)
+CV = <Control>(MODULE_Param2)<Value>(0.0)
+Subsystem = <SubsystemIndex><Value>(0)
+MeterSine = <Meter>(MODULE_Meter1)
+MeterSquare = <Meter>(MODULE_Meter2)
+MeterSaw = <Meter>(MODULE_Meter3)
+MapEnd

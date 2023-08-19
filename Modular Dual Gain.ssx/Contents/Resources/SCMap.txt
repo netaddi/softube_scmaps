@@ -1,0 +1,14 @@
+// Dual Gain Pagetable v.1
+PluginID: m0rs
+PluginName: "Modular Dual Gain"
+PluginType: Module
+PluginExectutable: ModularDualGain_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Dual Gain"
+Gain1 = <Control>(MODULE_Param1)<Value>(0.5)<DisplayName>(Gain 1)
+Gain2 = <Control>(MODULE_Param2)<Value>(0.5)<DisplayName>(Gain 2)
+MapEnd

@@ -1,0 +1,491 @@
+// Modular Interface Pagetable v.1
+PluginID: bttw
+PluginName: "Modular Interface"
+PluginType: Module
+PluginExectutable: ModularInterface_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Performance M (4 Knobs)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param5)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param6)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param7)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Control>(MODULE_Param2)<Value>(0.5)<CustomValue>(1)
+Custom2Param = <Control>(MODULE_Param8)<Value>(1.0)<CustomParam>(1)<DisplayName>(2-Param)
+Custom2Min = <Control>(MODULE_Param9)<Value>(0.0)<CustomMin>(1)<DisplayName>(2-Min)
+Custom2Max = <Control>(MODULE_Param10)<Value>(1.0)<CustomMax>(1)<DisplayName>(2-Max)
+Custom3Value = <Control>(MODULE_Param3)<Value>(0.5)<CustomValue>(2)
+Custom3Param = <Control>(MODULE_Param11)<Value>(1.0)<CustomParam>(2)<DisplayName>(3-Param)
+Custom3Min = <Control>(MODULE_Param12)<Value>(0.0)<CustomMin>(2)<DisplayName>(3-Min)
+Custom3Max = <Control>(MODULE_Param13)<Value>(1.0)<CustomMax>(2)<DisplayName>(3-Max)
+Custom4Value = <Control>(MODULE_Param4)<Value>(0.5)<CustomValue>(3)
+Custom4Param = <Control>(MODULE_Param14)<Value>(1.0)<CustomParam>(3)<DisplayName>(4-Param)
+Custom4Min = <Control>(MODULE_Param15)<Value>(0.0)<CustomMin>(3)<DisplayName>(4-Min)
+Custom4Max = <Control>(MODULE_Param16)<Value>(1.0)<CustomMax>(3)<DisplayName>(4-Max)
+MeterEnable = <Value>(0)
+Meter1 = <MeterNotMapped>
+MapEnd
+
+MapStart<M4s>
+PluginDisplayName = "Performance M (4 Switches)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param5)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param6)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param7)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Control>(MODULE_Param2)<Value>(0.5)<CustomValue>(1)
+Custom2Param = <Control>(MODULE_Param8)<Value>(1.0)<CustomParam>(1)<DisplayName>(2-Param)
+Custom2Min = <Control>(MODULE_Param9)<Value>(0.0)<CustomMin>(1)<DisplayName>(2-Min)
+Custom2Max = <Control>(MODULE_Param10)<Value>(1.0)<CustomMax>(1)<DisplayName>(2-Max)
+Custom3Value = <Control>(MODULE_Param3)<Value>(0.5)<CustomValue>(2)
+Custom3Param = <Control>(MODULE_Param11)<Value>(1.0)<CustomParam>(2)<DisplayName>(3-Param)
+Custom3Min = <Control>(MODULE_Param12)<Value>(0.0)<CustomMin>(2)<DisplayName>(3-Min)
+Custom3Max = <Control>(MODULE_Param13)<Value>(1.0)<CustomMax>(2)<DisplayName>(3-Max)
+Custom4Value = <Control>(MODULE_Param4)<Value>(0.5)<CustomValue>(3)
+Custom4Param = <Control>(MODULE_Param14)<Value>(1.0)<CustomParam>(3)<DisplayName>(4-Param)
+Custom4Min = <Control>(MODULE_Param15)<Value>(0.0)<CustomMin>(3)<DisplayName>(4-Min)
+Custom4Max = <Control>(MODULE_Param16)<Value>(1.0)<CustomMax>(3)<DisplayName>(4-Max)
+MeterEnable = <Value>(0)
+Meter1 = <MeterNotMapped>
+MapEnd
+
+MapStart<R4f>
+PluginDisplayName = "Performance R (4 Faders)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param5)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param6)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param7)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Control>(MODULE_Param2)<Value>(0.5)<CustomValue>(1)
+Custom2Param = <Control>(MODULE_Param8)<Value>(1.0)<CustomParam>(1)<DisplayName>(2-Param)
+Custom2Min = <Control>(MODULE_Param9)<Value>(0.0)<CustomMin>(1)<DisplayName>(2-Min)
+Custom2Max = <Control>(MODULE_Param10)<Value>(1.0)<CustomMax>(1)<DisplayName>(2-Max)
+Custom3Value = <Control>(MODULE_Param3)<Value>(0.5)<CustomValue>(2)
+Custom3Param = <Control>(MODULE_Param11)<Value>(1.0)<CustomParam>(2)<DisplayName>(3-Param)
+Custom3Min = <Control>(MODULE_Param12)<Value>(0.0)<CustomMin>(2)<DisplayName>(3-Min)
+Custom3Max = <Control>(MODULE_Param13)<Value>(1.0)<CustomMax>(2)<DisplayName>(3-Max)
+Custom4Value = <Control>(MODULE_Param4)<Value>(0.5)<CustomValue>(3)
+Custom4Param = <Control>(MODULE_Param14)<Value>(1.0)<CustomParam>(3)<DisplayName>(4-Param)
+Custom4Min = <Control>(MODULE_Param15)<Value>(0.0)<CustomMin>(3)<DisplayName>(4-Min)
+Custom4Max = <Control>(MODULE_Param16)<Value>(1.0)<CustomMax>(3)<DisplayName>(4-Max)
+MeterEnable = <Value>(0)
+Meter1 = <MeterNotMapped>
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Alt1>
+PluginDisplayName = "Performance M (3 Knobs)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param4)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param5)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param6)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Control>(MODULE_Param2)<Value>(0.5)<CustomValue>(1)
+Custom2Param = <Control>(MODULE_Param7)<Value>(1.0)<CustomParam>(1)<DisplayName>(2-Param)
+Custom2Min = <Control>(MODULE_Param8)<Value>(0.0)<CustomMin>(1)<DisplayName>(2-Min)
+Custom2Max = <Control>(MODULE_Param9)<Value>(1.0)<CustomMax>(1)<DisplayName>(2-Max)
+Custom3Value = <Control>(MODULE_Param3)<Value>(0.5)<CustomValue>(2)
+Custom3Param = <Control>(MODULE_Param10)<Value>(1.0)<CustomParam>(2)<DisplayName>(3-Param)
+Custom3Min = <Control>(MODULE_Param11)<Value>(0.0)<CustomMin>(2)<DisplayName>(3-Min)
+Custom3Max = <Control>(MODULE_Param12)<Value>(1.0)<CustomMax>(2)<DisplayName>(3-Max)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(0)
+Meter1 = <MeterNotMapped>
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<R3f>
+PluginDisplayName = "Performance R (3 Faders)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param4)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param5)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param6)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Control>(MODULE_Param2)<Value>(0.5)<CustomValue>(1)
+Custom2Param = <Control>(MODULE_Param7)<Value>(1.0)<CustomParam>(1)<DisplayName>(2-Param)
+Custom2Min = <Control>(MODULE_Param8)<Value>(0.0)<CustomMin>(1)<DisplayName>(2-Min)
+Custom2Max = <Control>(MODULE_Param9)<Value>(1.0)<CustomMax>(1)<DisplayName>(2-Max)
+Custom3Value = <Control>(MODULE_Param3)<Value>(0.5)<CustomValue>(2)
+Custom3Param = <Control>(MODULE_Param10)<Value>(1.0)<CustomParam>(2)<DisplayName>(3-Param)
+Custom3Min = <Control>(MODULE_Param11)<Value>(0.0)<CustomMin>(2)<DisplayName>(3-Min)
+Custom3Max = <Control>(MODULE_Param12)<Value>(1.0)<CustomMax>(2)<DisplayName>(3-Max)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(0)
+Meter1 = <MeterNotMapped>
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<M3s>
+PluginDisplayName = "Performance M (3 Switches)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param4)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param5)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param6)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Control>(MODULE_Param2)<Value>(0.5)<CustomValue>(1)
+Custom2Param = <Control>(MODULE_Param7)<Value>(1.0)<CustomParam>(1)<DisplayName>(2-Param)
+Custom2Min = <Control>(MODULE_Param8)<Value>(0.0)<CustomMin>(1)<DisplayName>(2-Min)
+Custom2Max = <Control>(MODULE_Param9)<Value>(1.0)<CustomMax>(1)<DisplayName>(2-Max)
+Custom3Value = <Control>(MODULE_Param3)<Value>(0.5)<CustomValue>(2)
+Custom3Param = <Control>(MODULE_Param10)<Value>(1.0)<CustomParam>(2)<DisplayName>(3-Param)
+Custom3Min = <Control>(MODULE_Param11)<Value>(0.0)<CustomMin>(2)<DisplayName>(3-Min)
+Custom3Max = <Control>(MODULE_Param12)<Value>(1.0)<CustomMax>(2)<DisplayName>(3-Max)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(0)
+Meter1 = <MeterNotMapped>
+MapEnd
+
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<M2k1s>
+PluginDisplayName = "Performance M (2 Knobs, 1 Switch)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param4)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param5)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param6)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Control>(MODULE_Param2)<Value>(0.5)<CustomValue>(1)
+Custom2Param = <Control>(MODULE_Param7)<Value>(1.0)<CustomParam>(1)<DisplayName>(2-Param)
+Custom2Min = <Control>(MODULE_Param8)<Value>(0.0)<CustomMin>(1)<DisplayName>(2-Min)
+Custom2Max = <Control>(MODULE_Param9)<Value>(1.0)<CustomMax>(1)<DisplayName>(2-Max)
+Custom3Value = <Control>(MODULE_Param3)<Value>(0.5)<CustomValue>(2)
+Custom3Param = <Control>(MODULE_Param10)<Value>(1.0)<CustomParam>(2)<DisplayName>(3-Param)
+Custom3Min = <Control>(MODULE_Param11)<Value>(0.0)<CustomMin>(2)<DisplayName>(3-Min)
+Custom3Max = <Control>(MODULE_Param12)<Value>(1.0)<CustomMax>(2)<DisplayName>(3-Max)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+Meter1 = <MeterNotMapped>
+MeterEnable = <Value>(0)
+Meter1 = <MeterNotMapped>
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Alt2>
+PluginDisplayName = "Performance M (2 Knobs)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param3)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param4)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param5)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Control>(MODULE_Param2)<Value>(0.5)<CustomValue>(1)
+Custom2Param = <Control>(MODULE_Param6)<Value>(1.0)<CustomParam>(1)<DisplayName>(2-Param)
+Custom2Min = <Control>(MODULE_Param7)<Value>(0.0)<CustomMin>(1)<DisplayName>(2-Min)
+Custom2Max = <Control>(MODULE_Param8)<Value>(1.0)<CustomMax>(1)<DisplayName>(2-Max)
+Custom3Value = <Value>(0.0)
+Custom3Param = <Value>(1.0)
+Custom3Min = <Value>(0.0)
+Custom3Max = <Value>(1.0)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(0)
+Meter1 = <MeterNotMapped>
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<R2f>
+PluginDisplayName = "Performance R (2 Faders)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param3)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param4)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param5)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Control>(MODULE_Param2)<Value>(0.5)<CustomValue>(1)
+Custom2Param = <Control>(MODULE_Param6)<Value>(1.0)<CustomParam>(1)<DisplayName>(2-Param)
+Custom2Min = <Control>(MODULE_Param7)<Value>(0.0)<CustomMin>(1)<DisplayName>(2-Min)
+Custom2Max = <Control>(MODULE_Param8)<Value>(1.0)<CustomMax>(1)<DisplayName>(2-Max)
+Custom3Value = <Value>(0.0)
+Custom3Param = <Value>(1.0)
+Custom3Min = <Value>(0.0)
+Custom3Max = <Value>(1.0)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(0)
+Meter1 = <MeterNotMapped>
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<M1k1s>
+PluginDisplayName = "Performance M (1 Knob, 1 Switch)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param3)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param4)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param5)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Control>(MODULE_Param2)<Value>(0.5)<CustomValue>(1)
+Custom2Param = <Control>(MODULE_Param6)<Value>(1.0)<CustomParam>(1)<DisplayName>(2-Param)
+Custom2Min = <Control>(MODULE_Param7)<Value>(0.0)<CustomMin>(1)<DisplayName>(2-Min)
+Custom2Max = <Control>(MODULE_Param8)<Value>(1.0)<CustomMax>(1)<DisplayName>(2-Max)
+Custom3Value = <Value>(0.0)
+Custom3Param = <Value>(1.0)
+Custom3Min = <Value>(0.0)
+Custom3Max = <Value>(1.0)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(0)
+Meter1 = <MeterNotMapped>
+MapEnd
+
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<M2s>
+PluginDisplayName = "Performance M (2 Switches)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param3)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param4)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param5)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Control>(MODULE_Param2)<Value>(0.5)<CustomValue>(1)
+Custom2Param = <Control>(MODULE_Param6)<Value>(1.0)<CustomParam>(1)<DisplayName>(2-Param)
+Custom2Min = <Control>(MODULE_Param7)<Value>(0.0)<CustomMin>(1)<DisplayName>(2-Min)
+Custom2Max = <Control>(MODULE_Param8)<Value>(1.0)<CustomMax>(1)<DisplayName>(2-Max)
+Custom3Value = <Value>(0.0)
+Custom3Param = <Value>(1.0)
+Custom3Min = <Value>(0.0)
+Custom3Max = <Value>(1.0)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(0)
+Meter1 = <MeterNotMapped>
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Alt3>
+PluginDisplayName = "Performance M (1 Switch)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param2)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param3)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param4)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Value>(0.0)
+Custom2Param = <Value>(1.0)
+Custom2Min = <Value>(0.0)
+Custom2Max = <Value>(1.0)
+Custom3Value = <Value>(0.0)
+Custom3Param = <Value>(1.0)
+Custom3Min = <Value>(0.0)
+Custom3Max = <Value>(1.0)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(0)
+Meter1 = <Meter>(MODULE_Meter1)
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<R1sB>
+PluginDisplayName = "Performance R (1 Switch Blue)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param2)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param3)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param4)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Value>(0.0)
+Custom2Param = <Value>(1.0)
+Custom2Min = <Value>(0.0)
+Custom2Max = <Value>(1.0)
+Custom3Value = <Value>(0.0)
+Custom3Param = <Value>(1.0)
+Custom3Min = <Value>(0.0)
+Custom3Max = <Value>(1.0)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(1)
+Meter1 = <Meter>(MODULE_Meter1)
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<R1sY>
+PluginDisplayName = "Performance R (1 Switch Yellow)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param2)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param3)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param4)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Value>(0.0)
+Custom2Param = <Value>(1.0)
+Custom2Min = <Value>(0.0)
+Custom2Max = <Value>(1.0)
+Custom3Value = <Value>(0.0)
+Custom3Param = <Value>(1.0)
+Custom3Min = <Value>(0.0)
+Custom3Max = <Value>(1.0)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(1)
+Meter1 = <Meter>(MODULE_Meter1)
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<R1sR>
+PluginDisplayName = "Performance R (1 Switch Red)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param2)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param3)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param4)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Value>(0.0)
+Custom2Param = <Value>(1.0)
+Custom2Min = <Value>(0.0)
+Custom2Max = <Value>(1.0)
+Custom3Value = <Value>(0.0)
+Custom3Param = <Value>(1.0)
+Custom3Min = <Value>(0.0)
+Custom3Max = <Value>(1.0)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(1)
+Meter1 = <Meter>(MODULE_Meter1)
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Alt4>
+PluginDisplayName = "Performance R (1 Fader Blue)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param2)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param3)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param4)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Value>(0.0)
+Custom2Param = <Value>(1.0)
+Custom2Min = <Value>(0.0)
+Custom2Max = <Value>(1.0)
+Custom3Value = <Value>(0.0)
+Custom3Param = <Value>(1.0)
+Custom3Min = <Value>(0.0)
+Custom3Max = <Value>(1.0)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(1)
+Meter1 = <Meter>(MODULE_Meter1)
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Alt5>
+PluginDisplayName = "Performance R (1 Fader Red)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param2)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param3)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param4)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Value>(0.0)
+Custom2Param = <Value>(1.0)
+Custom2Min = <Value>(0.0)
+Custom2Max = <Value>(1.0)
+Custom3Value = <Value>(0.0)
+Custom3Param = <Value>(1.0)
+Custom3Min = <Value>(0.0)
+Custom3Max = <Value>(1.0)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(1)
+Meter1 = <Meter>(MODULE_Meter1)
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Alt6>
+PluginDisplayName = "Performance M Frame"
+Custom1Value = <Value>(0.5)
+Custom1Param = <Value>(1.0)
+Custom1Min = <Value>(0.0)
+Custom1Max = <Value>(1.0)
+Custom2Value = <Value>(0.0)
+Custom2Param = <Value>(1.0)
+Custom2Min = <Value>(0.0)
+Custom2Max = <Value>(1.0)
+Custom3Value = <Value>(0.0)
+Custom3Param = <Value>(1.0)
+Custom3Min = <Value>(0.0)
+Custom3Max = <Value>(1.0)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(0)
+Meter1 = <MeterNotMapped>
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Alt7>
+PluginDisplayName = "Performance R Frame"
+Custom1Value = <Value>(0.5)
+Custom1Param = <Value>(1.0)
+Custom1Min = <Value>(0.0)
+Custom1Max = <Value>(1.0)
+Custom2Value = <Value>(0.0)
+Custom2Param = <Value>(1.0)
+Custom2Min = <Value>(0.0)
+Custom2Max = <Value>(1.0)
+Custom3Value = <Value>(0.0)
+Custom3Param = <Value>(1.0)
+Custom3Min = <Value>(0.0)
+Custom3Max = <Value>(1.0)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(0)
+Meter1 = <MeterNotMapped>
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<M1k1l>
+PluginDisplayName = "Performance M (1 Knob, 1 LED)"
+Custom1Value = <Control>(MODULE_Param1)<Value>(0.5)<CustomValue>(0)
+Custom1Param = <Control>(MODULE_Param2)<Value>(1.0)<CustomParam>(0)<DisplayName>(1-Param)
+Custom1Min = <Control>(MODULE_Param3)<Value>(0.0)<CustomMin>(0)<DisplayName>(1-Min)
+Custom1Max = <Control>(MODULE_Param4)<Value>(1.0)<CustomMax>(0)<DisplayName>(1-Max)
+Custom2Value = <Value>(0.0)
+Custom2Param = <Value>(1.0)
+Custom2Min = <Value>(0.0)
+Custom2Max = <Value>(1.0)
+Custom3Value = <Value>(0.0)
+Custom3Param = <Value>(1.0)
+Custom3Min = <Value>(0.0)
+Custom3Max = <Value>(1.0)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(1)
+Meter1 = <Meter>(MODULE_Meter1)
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<MMeterMono>
+PluginDisplayName = "Performance M (Mono LED Meter)"
+Custom1Value = <Value>(0.5)
+Custom1Param = <Value>(1.0)
+Custom1Min = <Value>(0.0)
+Custom1Max = <Value>(1.0)
+Custom2Value = <Value>(0.0)
+Custom2Param = <Value>(1.0)
+Custom2Min = <Value>(0.0)
+Custom2Max = <Value>(1.0)
+Custom3Value = <Value>(0.0)
+Custom3Param = <Value>(1.0)
+Custom3Min = <Value>(0.0)
+Custom3Max = <Value>(1.0)
+Custom4Value = <Value>(0.0)
+Custom4Param = <Value>(1.0)
+Custom4Min = <Value>(0.0)
+Custom4Max = <Value>(1.0)
+MeterEnable = <Value>(1)
+Meter1 = <Meter>(MODULE_Meter1)
+MapEnd

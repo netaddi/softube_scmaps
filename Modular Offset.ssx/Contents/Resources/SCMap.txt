@@ -1,0 +1,24 @@
+// Modular Offset Pagetable v.1
+PluginID: sx8d
+PluginName: "Modular Offset"
+PluginType: Module
+PluginExectutable: ModularOffset_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Offset"
+Offset1 = <Control>(MODULE_Param1)<Value>(0.5)
+Offset2 = <Value>(0.5)
+Offset3 = <Value>(0.5)
+Offset4 = <Value>(0.5)
+MapEnd
+
+MapStart<Quad>
+PluginDisplayName = "Quad Offset"
+Offset1 = <Control>(MODULE_Param1)<Value>(0.5)
+Offset2 = <Control>(MODULE_Param2)<Value>(0.5)
+Offset3 = <Control>(MODULE_Param3)<Value>(0.5)
+Offset4 = <Control>(MODULE_Param4)<Value>(0.5)
+MapEnd

@@ -1,0 +1,13 @@
+// Modular Test Pagetable v.1
+PluginID: djfh
+PluginName: "Modular Sine Oscillator"
+PluginType: Module
+PluginExectutable: ModularTest_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Sine Oscillator"
+Pitch = <Control>(MODULE_Param1)<Value>(0.5)
+MapEnd

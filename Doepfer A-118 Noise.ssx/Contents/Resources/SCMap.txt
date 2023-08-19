@@ -1,0 +1,18 @@
+// Doepfer A-118 Noise Pagetable v.1
+PluginID: ndxx
+PluginName: "Doepfer A-118 Noise"
+PluginType: Module
+PluginExectutable: ModularDoepferA118_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+Blue = <Control>(MODULE_Param1)<Value>(0.5)
+Red = <Control>(MODULE_Param2)<Value>(0.5)
+Rate = <Control>(MODULE_Param3)<Value>(0.5)
+Level = <Control>(MODULE_Param4)<Value>(0.5)
+Subsystem = <SubsystemIndex><Value>(0)
+MeterPos = <Meter>(MODULE_Meter1)
+MeterNeg = <Meter>(MODULE_Meter2)
+MapEnd

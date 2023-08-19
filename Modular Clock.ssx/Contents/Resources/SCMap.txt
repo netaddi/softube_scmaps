@@ -1,0 +1,24 @@
+// Modular Clock v.1
+PluginID: 6lgg
+PluginName: "Modular Clock"
+PluginType: Module
+PluginExectutable: ModularClock_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "DAW Sync"
+Tempo = <Value>(0.3571429)
+Run = <Value>(1)
+SynctoDAW = <Value>(1)
+Divide = <Value>(0)
+Meter1/1 = <Meter>(MODULE_Meter1)
+Meter1/4 = <Meter>(MODULE_Meter2)
+Meter1/8 = <Meter>(MODULE_Meter3)
+Meter1/8T = <Meter>(MODULE_Meter4)
+Meter1/16 = <Meter>(MODULE_Meter5)
+Meter1/32 = <Meter>(MODULE_Meter6)
+MeterReset = <Meter>(MODULE_Meter7)
+MeterRun = <Meter>(MODULE_Meter8)
+MapEnd

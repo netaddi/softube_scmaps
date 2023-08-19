@@ -1,0 +1,30 @@
+// Modular Pan / X-Fade Pagetable v.1
+PluginID: 0byg
+PluginName: "Modular Pan and X-Fade"
+PluginType: Module
+PluginExectutable: ModularPanXFade_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Dual Pan"
+Mode = <Value>(0)
+Pan1 = <Control>(MODULE_Param1)<Value>(0.5)
+Pan2 = <Control>(MODULE_Param2)<Value>(0.5)
+MeterPan1L = <Meter>(MODULE_Meter1)
+MeterPan1R = <Meter>(MODULE_Meter2)
+MeterPan2L = <Meter>(MODULE_Meter3)
+MeterPan2R = <Meter>(MODULE_Meter4)
+MapEnd
+
+MapStart<XFade>
+PluginDisplayName = "Dual X-Fade"
+Mode = <Value>(1)
+Pan1 = <Control>(MODULE_Param1)<Value>(0.5)<DisplayName>(X-Fade 1)
+Pan2 = <Control>(MODULE_Param2)<Value>(0.5)<DisplayName>(X-Fade 2)
+MeterPan1L = <Meter>(MODULE_Meter1)
+MeterPan1R = <Meter>(MODULE_Meter2)
+MeterPan2L = <Meter>(MODULE_Meter3)
+MeterPan2R = <Meter>(MODULE_Meter4)
+MapEnd

@@ -1,0 +1,17 @@
+// Modular Switch 1 to N Pagetable v.1
+PluginID: mi3x
+PluginName: "Modular Switch 1 to N"
+PluginType: Module
+PluginExectutable: ModularSwitch1N_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Switch 1 to 4"
+SelectOutput = <Control>(MODULE_Param1)<Value>(0)
+MeterSelected1 = <Meter>(MODULE_Meter1)
+MeterSelected2 = <Meter>(MODULE_Meter2)
+MeterSelected3 = <Meter>(MODULE_Meter3)
+MeterSelected4 = <Meter>(MODULE_Meter4)
+MapEnd

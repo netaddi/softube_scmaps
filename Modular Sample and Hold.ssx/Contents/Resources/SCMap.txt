@@ -1,0 +1,14 @@
+// Modular Sample and Hold Pagetable v.1
+PluginID: 0hny
+PluginName: "Modular Sample and Hold"
+PluginType: Module
+PluginExectutable: ModularSH_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Sample & Hold"
+Dummy = <Value>(0)
+MeterTriggerIn = <Meter>(MODULE_Meter1)
+MapEnd

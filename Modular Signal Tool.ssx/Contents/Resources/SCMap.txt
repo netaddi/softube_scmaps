@@ -1,0 +1,14 @@
+// Modular Signal Tool Pagetable v.1
+PluginID: t9sn
+PluginName: "Modular Signal Tool"
+PluginType: Module
+PluginExectutable: ModularSignalTool_VST_AU_Debug
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Signal Tool"
+Dummy = <Value>(0)
+Meter12 = <Meter>(MODULE_Meter1)
+MapEnd

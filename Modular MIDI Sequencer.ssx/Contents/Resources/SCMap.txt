@@ -1,0 +1,23 @@
+// MIDI Step Sequencer Pagetable v.1
+PluginID: swdg
+PluginName: "Modular MIDI Sequencer"
+PluginType: Module
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+MapStart<Default>
+PluginDisplayName = "MIDI Sequencer"
+Mode =          <Control>(MODULE_Param1)<Value>(0.0)
+MIDI Channel =  <Control>(MODULE_Param3)<Value>(0.0)
+Length =        <Control>(MODULE_Param7)<Value>(0.246)
+Direction =     <Control>(MODULE_Param8)<Value>(0.0)
+Loop =          <Control>(MODULE_Param9)<Value>(1.0)
+Glide =         <Control>(MODULE_Param10)<Value>(0.0)
+
+MeterStep = <Meter>(MODULE_Meter1)
+MeterMIDINote = <Meter>(MODULE_Meter2)
+MeterTie = <Meter>(MODULE_Meter3)
+MeterAccent = <Meter>(MODULE_Meter4)
+MeterRest = <Meter>(MODULE_Meter5)
+
+MapEnd

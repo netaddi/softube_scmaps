@@ -38,11 +38,11 @@ MapEnd
 MapStart<Alt1>
 PluginDisplayName = "TSAR-1R"
 PluginDisplayType = <Comp>
-Predelay = <Value>(0.0)
-ReverbTime = <Value>(0.25)
-Color = <Value>(0.5)
+Predelay = <Value>(0.0) <Control>(COMP_Attack) <DisplayName>(Predelay)
+ReverbTime = <Value>(0.25) <Control>(COMP_Release) <DisplayName>(ReverbTime)
+Color = <Value>(0.5) <Control>(COMP_Ratio) <DisplayName>(Color)
 ReverbMix = <Value>(1.0)
-OutputVol = <Value>(0.75)
+OutputVol = <Value>(0.75) <Control>(COMP_Threshold) <DisplayName>(OutputVol)
 MeterInputL = <MeterNotMapped>
 MeterInputR = <MeterNotMapped>
 MeterOutputL = <MeterNotMapped>

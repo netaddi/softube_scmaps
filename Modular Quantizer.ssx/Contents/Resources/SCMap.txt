@@ -1,0 +1,23 @@
+// Modular Quantizer Pagetable v.1
+PluginID: tld9
+PluginName: "Modular Quantizer"
+PluginType: Module
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName = "Quantizer"
+C = <Control>(MODULE_Param1)<Value>(1)
+Csharp = <Control>(MODULE_Param2)<Value>(1)
+D = <Control>(MODULE_Param3)<Value>(1)
+Dsharp = <Control>(MODULE_Param4)<Value>(1)
+E = <Control>(MODULE_Param5)<Value>(1)
+F = <Control>(MODULE_Param6)<Value>(1)
+Fsharp = <Control>(MODULE_Param7)<Value>(1)
+G = <Control>(MODULE_Param8)<Value>(1)
+Gsharp = <Control>(MODULE_Param9)<Value>(1)
+A = <Control>(MODULE_Param10)<Value>(1)
+Asharp = <Control>(MODULE_Param11)<Value>(1)
+B = <Control>(MODULE_Param12)<Value>(1)
+MapEnd
