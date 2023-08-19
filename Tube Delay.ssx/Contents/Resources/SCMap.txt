@@ -5,7 +5,6 @@ PluginType: Module
 PluginModularLatencyInSeconds: 0.003
 PluginModularInputNormalling: 1
 PluginModularOutputNormalling: 1
-PluginAutoMakeup: 0.0
 
 // IMPORTANT: Editing of this file may have unexpected consequences!
 
@@ -23,35 +22,7 @@ Sync = <Control>(MODULE_Param9)<Value>(0.0)
 OutputVolume = <Value>(0.5)
 MapEnd
 
-MapStart<Alt1>
-PluginDisplayName = "TubeDelay-Alt1"
-PluginDisplayType = <Gate>
-DirectDrive = <Value>(0.5)
-Timems = <Value>(0.5)
-TimeBeat = <Value>(0.5)
-DelayDrive = <Value>(0.5)
-Bass = <Value>(0.5)
-Treble = <Value>(0.5)
-Feedback = <Value>(0.5)
-Mix = <Value>(0.5)
-Sync = <Value>(0.0)
-OutputVolume = <Value>(0.5)
-MapEnd
 
-MapStart<Alt2>
-PluginDisplayName = "TubeDelay-Alt2"
-PluginDisplayType = <Comp>
-DirectDrive = <Value>(0.5)
-Timems = <Value>(0.5)
-TimeBeat = <Value>(0.5)
-DelayDrive = <Value>(0.5)
-Bass = <Value>(0.5)
-Treble = <Value>(0.5)
-Feedback = <Value>(0.5)
-Mix = <Value>(0.5)
-Sync = <Value>(0.0)
-OutputVolume = <Value>(0.5)
-MapEnd
 
 MapStart<C1FOut>
 PluginDisplayName = "Tube Delay"
