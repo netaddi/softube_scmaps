@@ -1,0 +1,21 @@
+// Marshall 1936V 2x12 Pagetable v.1
+PluginID: ST58
+PluginName: "Marshall 1936V 2x12"
+PluginType: AmpRoomCabSubModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+// Make sure all parameters are mapped! Hint: Use tube/tools/bin/mapgen Marshall 1936V 2x12.vst
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<AmpRoomSSXLoader_FabCab1936V>
+
+ParamMicType =  <Control>(SUBPLUGIN_Param1)<Value>(0.0)
+ParamOffset =  <Control>(SUBPLUGIN_Param2)<Value>(0.5)
+ParamDistance =  <Control>(SUBPLUGIN_Param3)<Value>(0.333333)
+ParamPhaseAlign =  <Control>(SUBPLUGIN_Param4)<Value>(1.0)
+ParamReserved1 = <Value>(0.5)
+ParamReserved2 = <Value>(0.5)
+
+
+MapEnd
+

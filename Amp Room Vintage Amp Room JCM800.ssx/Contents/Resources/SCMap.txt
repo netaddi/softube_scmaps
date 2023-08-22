@@ -1,0 +1,70 @@
+// Amp Room Vintage Amp Room JCM800 Pagetable v.1
+PluginID: ST13
+PluginName: "Amp Room Vintage Amp Room JCM800"
+PluginType: AmpRoomModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+MapStart<WhiteAmpMk2>
+PluginDisplayName = "MARSHALL JCM 800 LEAD SERIES"
+PluginLinearGainOutput: 1.258925
+AmpSwitch = <Value>(0.0)
+Presence(White) = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+Bass(White) = <Control>(SUBPLUGIN_Param2)<Value>(0.5)
+Middle(White) = <Control>(SUBPLUGIN_Param3)<Value>(0.5)
+Treble(White) = <Control>(SUBPLUGIN_Param4)<Value>(0.5)
+MasterVol(White) = <Control>(SUBPLUGIN_Param5)<Value>(0.5)
+PreampVol(White) = <Control>(SUBPLUGIN_Param6)<Value>(0.5)
+Microphone(White) = <Value>(0.5)
+BrightSwitch(Brown) = <Value>(0.0)
+Volume(Brown) = <Value>(0.5)
+Treble(Brown) = <Value>(0.5)
+Middle(Brown) = <Value>(0.5)
+Bass(Brown) = <Value>(0.5)
+VibratoSwitch(Brown) = <Value>(0.0)
+VibratoSpeed(Brown) = <Value>(0.5)
+VibratoIntensity(Brown) = <Value>(0.5)
+Microphone(Brown) = <Value>(0.5)
+Vib-TremOff-On(Green) = <Value>(0.0)
+Vib-TremSpeed(Green) = <Value>(0.0)
+Vib-TremSwitch(Green) = <Value>(0.0)
+Vib-TremVolume(Green) = <Value>(0.5)
+NormalVolume(Green) = <Value>(0.5)
+BrilliantVolume(Green) = <Value>(0.5)
+Tone(Green) = <Value>(0.5)
+Microphone(Green) = <Value>(0.5)
+AmpCabBypass = <Value>(1.0)
+MapEnd
+
+MapStart<WhiteCab>
+PluginDisplayName = "Vintage Amp Room Cabs"
+PluginLinearGainOutput: 1.258925
+AmpSwitch = <Control>(SUBPLUGIN_Param1)<Value>(0.0)
+Presence(White) = <Value>(0.5)
+Bass(White) = <Value>(0.5)
+Middle(White) = <Value>(0.5)
+Treble(White) = <Value>(0.5)
+MasterVol(White) = <Value>(0.5)
+PreampVol(White) = <Value>(0.5)
+Microphone(White) = <Control>(SUBPLUGIN_Param2)<Value>(0.5)
+BrightSwitch(Brown) = <Value>(0.0)
+Volume(Brown) = <Value>(0.5)
+Treble(Brown) = <Value>(0.5)
+Middle(Brown) = <Value>(0.5)
+Bass(Brown) = <Value>(0.5)
+VibratoSwitch(Brown) = <Value>(0.0)
+VibratoSpeed(Brown) = <Value>(0.5)
+VibratoIntensity(Brown) = <Value>(0.5)
+Microphone(Brown) = <Control>(SUBPLUGIN_Param3)<Value>(0.5)
+Vib-TremOff-On(Green) = <Value>(0.0)
+Vib-TremSpeed(Green) = <Value>(0.0)
+Vib-TremSwitch(Green) = <Value>(0.0)
+Vib-TremVolume(Green) = <Value>(0.5)
+NormalVolume(Green) = <Value>(0.5)
+BrilliantVolume(Green) = <Value>(0.5)
+Tone(Green) = <Value>(0.5)
+Microphone(Green) = <Control>(SUBPLUGIN_Param4)<Value>(0.5)
+AmpCabBypass = <Value>(0.5)
+MapEnd
+
+

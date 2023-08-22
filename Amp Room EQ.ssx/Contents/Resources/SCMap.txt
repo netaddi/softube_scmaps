@@ -1,0 +1,35 @@
+// Amp Room EQ Pagetable v.1
+PluginID: prpw
+PluginName: "Amp Room EQ"
+PluginType: AmpRoomModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+eParamBand1Active = <Control>(SUBPLUGIN_Param1)<Value>(1.0)
+eParamBand1Gain = <Control>(SUBPLUGIN_Param2)<Value>(0.5)
+eParamBand1Frequency = <Control>(SUBPLUGIN_Param3)<Value>(0.2)
+eParamBand1Q = <Control>(SUBPLUGIN_Param4)<Value>(0.5)
+eParamBand1Type = <Control>(SUBPLUGIN_Param5)<Value>(0.5)
+eParamBand2Active = <Control>(SUBPLUGIN_Param6)<Value>(1.0)
+eParamBand2Gain = <Control>(SUBPLUGIN_Param7)<Value>(0.5)
+eParamBand2Frequency = <Control>(SUBPLUGIN_Param8)<Value>(0.35)
+eParamBand2Q = <Control>(SUBPLUGIN_Param9)<Value>(0.5)
+eParamBand2Type = <Control>(SUBPLUGIN_Param10)<Value>(0.5)
+eParamBand3Active = <Control>(SUBPLUGIN_Param11)<Value>(1.0)
+eParamBand3Gain = <Control>(SUBPLUGIN_Param12)<Value>(0.5)
+eParamBand3Frequency = <Control>(SUBPLUGIN_Param13)<Value>(0.5)
+eParamBand3Q = <Control>(SUBPLUGIN_Param14)<Value>(0.5)
+eParamBand3Type = <Control>(SUBPLUGIN_Param15)<Value>(0.5)
+eParamBand4Active = <Control>(SUBPLUGIN_Param16)<Value>(1.0)
+eParamBand4Gain = <Control>(SUBPLUGIN_Param17)<Value>(0.5)
+eParamBand4Frequency = <Control>(SUBPLUGIN_Param18)<Value>(0.65)
+eParamBand4Q = <Control>(SUBPLUGIN_Param19)<Value>(0.5)
+eParamBand4Type = <Control>(SUBPLUGIN_Param20)<Value>(0.5)
+eParamBand5Active = <Control>(SUBPLUGIN_Param21)<Value>(1.0)
+eParamBand5Gain = <Control>(SUBPLUGIN_Param22)<Value>(0.5)
+eParamBand5Frequency = <Control>(SUBPLUGIN_Param23)<Value>(0.8)
+eParamBand5Q = <Control>(SUBPLUGIN_Param24)<Value>(0.5)
+eParamBand5Type= <Control>(SUBPLUGIN_Param25)<Value>(0.5)
+MapEnd

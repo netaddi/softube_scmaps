@@ -1,0 +1,121 @@
+// Marshall Bluesbreaker 1962 Pagetable v.1
+PluginID: naoq
+PluginName: "Marshall Bluesbreaker 1962"
+PluginType: AmpRoomModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+// Make sure ALL the parameters below are mapped to a value or a control and that they are mapped in the following order:
+//
+// ...
+//
+// Each one of these can be mapped to one of the following on the HW:
+//
+// IN_Gain
+// IN_High_Cut
+// IN_Low_Cut
+// IN_Filt_To_Dyn_SC
+// IN_SC_Listen
+// IN_Phase_Invert
+// SHAPE_On
+// SHAPE_GateRelease
+// SHAPE_GateHard
+// SHAPE_Gate
+// SHAPE_Sustain
+// SHAPE_Punch
+// EQ_On
+// EQ_LF_Type
+// EQ_LF_Freq
+// EQ_LF_Gain
+// EQ_LMF_Freq
+// EQ_LMF_Q
+// EQ_LMF_Gain
+// EQ_HMF_Freq
+// EQ_HMF_Q
+// EQ_HMF_Gain
+// EQ_HF_Type
+// EQ_HF_Freq
+// EQ_HF_Gain
+// COMP_On
+// COMP_Ratio
+// COMP_Parallel
+// COMP_Attack
+// COMP_Release
+// COMP_Threshold
+// Block_Order
+// Ext_Sidechain
+// OUT_Drive
+// OUT_Drive_Character
+// OUT_Pan_Balance
+// OUT_Solo
+// OUT_Mute
+// OUT_Volume
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+// Add <Control> tags to map parameter to Console 1 control
+// ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+MapStart<AmpRoomAmp>
+Input = <Control>(SUBPLUGIN_Param1)<Value>(0.090908997)
+Loudness1 = <Control>(SUBPLUGIN_Param2)<Value><Value>(0.5)
+Loudness2 = <Control>(SUBPLUGIN_Param3)<Value><Value>(0.5)
+Bass = <Control>(SUBPLUGIN_Param4)<Value><Value>(0.5)
+Middle = <Control>(SUBPLUGIN_Param5)<Value><Value>(0.5)
+Treble = <Control>(SUBPLUGIN_Param6)<Value><Value>(0.5)
+Presence = <Control>(SUBPLUGIN_Param7)<Value><Value>(0.5)
+Intensity = <Control>(SUBPLUGIN_Param8)<Value><Value>(0.0)
+Speed = <Control>(SUBPLUGIN_Param9)<Value><Value>(0.5)
+OutputVolume = <Value>(0.5)
+Mic = <Value>(1.0)
+Level1 = <Value>(0.60000002)
+Level2 = <Value>(0.60000002)
+Level3 = <Value>(0.60000002)
+Level4 = <Value>(0.60000002)
+Pan1 = <Value>(0.5)
+Pan2 = <Value>(0.5)
+Pan3 = <Value>(0.5)
+Pan4 = <Value>(0.5)
+In1 = <Value>(1.0)
+In2 = <Value>(1.0)
+In3 = <Value>(0.0)
+In4 = <Value>(0.0)
+View = <Value>(0.0)
+AmpBypass = <Value>(0.0)
+MapEnd
+
+MapStart<AmpRoomCab>
+PluginDisplayName:"Marshall Bluesbreaker 2x12 Tony Platt"
+Input = <Value>(0.090908997)
+Loudness1 = <Value>(0.5)
+Loudness2 = <Value>(0.5)
+Bass = <Value>(0.5)
+Middle = <Value>(0.5)
+Treble = <Value>(0.5)
+Presence = <Value>(0.5)
+Intensity = <Value>(0.0)
+Speed = <Value>(0.5)
+OutputVolume =<Value>(0.5)
+Mic = <Control>(SUBPLUGIN_Param1)<Value><Value>(0.0)
+Level1 = <Control>(SUBPLUGIN_Param2)<Value><Value>(0.60000002)
+Level2 = <Control>(SUBPLUGIN_Param3)<Value><Value>(0.60000002)
+Level3 = <Control>(SUBPLUGIN_Param4)<Value><Value>(0.60000002)
+Level4 = <Control>(SUBPLUGIN_Param5)<Value><Value>(0.60000002)
+Pan1 = <Control>(SUBPLUGIN_Param6)<Value><Value>(0.5)
+Pan2 = <Control>(SUBPLUGIN_Param7)<Value><Value>(0.5)
+Pan3 = <Control>(SUBPLUGIN_Param8)<Value><Value>(0.5)
+Pan4 = <Control>(SUBPLUGIN_Param9)<Value><Value>(0.5)
+In1 = <Control>(SUBPLUGIN_Param10)<Value><Value>(1.0)
+In2 = <Control>(SUBPLUGIN_Param11)<Value><Value>(1.0)
+In3 = <Control>(SUBPLUGIN_Param12)<Value><Value>(0.0)
+In4 = <Control>(SUBPLUGIN_Param13)<Value><Value>(0.0)
+View = <Value>(0.0)
+AmpBypass = <Value>(1.0)
+//
+eMeter1 =  <Meter>(SUBPLUGIN_Meter1)
+eMeter2 =  <Meter>(SUBPLUGIN_Meter2)
+eMeter3 =  <Meter>(SUBPLUGIN_Meter3)
+eMeter4 =  <Meter>(SUBPLUGIN_Meter4)
+eMeterOutputVUL = <Meter>(SUBPLUGIN_Meter5)
+eMeterOutputVUR = <Meter>(SUBPLUGIN_Meter6)
+eMeterOutputL = <MeterNotMapped>
+eMeterOutputR = <MeterNotMapped>
+
+MapEnd

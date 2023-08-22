@@ -1,0 +1,50 @@
+// Amp Room Cut Shelving Filter Pagetable v.1
+PluginID: fgqx
+PluginName: "Amp Room Cut Shelving Filter"
+PluginType: AmpRoomModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+
+
+
+MapStart<LowCut>
+PluginDisplayName: "UTILITY LOW CUT"
+Frequency = <Control>(SUBPLUGIN_Param1)<Value>(0.5)<DisplayName>(Lo Cut)
+FilterGain = <Value>(0.5)
+Loworhighfrequency = <Value>(0.0)
+Cutorshelving = <Value>(0.0)
+MeterLeft = <Meter>(SUBPLUGIN_Meter1)
+MeterRight = <Meter>(SUBPLUGIN_Meter2)
+MapEnd
+
+MapStart<HighCut>
+PluginDisplayName: "UTILITY HIGH CUT"
+Frequency = <Control>(SUBPLUGIN_Param1)<Value>(0.5)<DisplayName>(Hi Cut)
+FilterGain = <Value>(0.5)
+Loworhighfrequency = <Value>(1.0)
+Cutorshelving = <Value>(0.0)
+MeterLeft = <Meter>(SUBPLUGIN_Meter1)
+MeterRight = <Meter>(SUBPLUGIN_Meter2)
+MapEnd
+
+MapStart<LowShelving>
+PluginDisplayName: "UTILITY LOW SHELVING"
+Frequency = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+FilterGain = <Control>(SUBPLUGIN_Param2)<Value>(0.5)<DisplayName>(Lo Gain)
+Loworhighfrequency = <Value>(0.0)
+Cutorshelving = <Value>(1.0)
+MeterLeft = <Meter>(SUBPLUGIN_Meter1)
+MeterRight = <Meter>(SUBPLUGIN_Meter2)
+MapEnd
+
+MapStart<HighShelving>
+PluginDisplayName: "UTILITY HIGH SHELVING"
+Frequency = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+FilterGain = <Control>(SUBPLUGIN_Param2)<Value>(0.5)<DisplayName>(Hi Gain)
+Loworhighfrequency = <Value>(1.0)
+Cutorshelving = <Value>(1.0)
+MeterLeft = <Meter>(SUBPLUGIN_Meter1)
+MeterRight = <Meter>(SUBPLUGIN_Meter2)
+MapEnd

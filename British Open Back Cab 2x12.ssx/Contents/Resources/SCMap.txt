@@ -1,0 +1,15 @@
+// British Open Back Cab 2x12 Pagetable v.1
+PluginID: sinp
+PluginName: "British Open Back Cab 2x12"
+PluginType: AmpRoomModule
+
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+// Add <Control> tags to map parameter to Console 1 control
+// ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+MapStart<Default>
+PluginLinearGainOutput: 0.7079458
+PluginDisplayName = "BRITISH OR 2X12 OPEN BACK"
+Volume = <Value>(0.5)
+Mic = <Value>(0.0) <Control>(SUBPLUGIN_Param1)
+MapEnd

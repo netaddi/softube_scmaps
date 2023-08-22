@@ -1,0 +1,12 @@
+// Amp Room Gate Pagetable v.1
+PluginID: qavn
+PluginName: "Amp Room Gate"
+PluginType: AmpRoomModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName:"SOFTUBE TROLLEGATER"
+Threshold = <Control>(SUBPLUGIN_Param1)<Value>(0)<DisplayName>(Threshold)
+MapEnd

@@ -1,0 +1,26 @@
+// Amp Room ACA Comp Pagetable v.1
+PluginID: nekq
+PluginName: "Amp Room ACA Comp"
+PluginType: AmpRoomModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+// Make sure ALL the parameters below are mapped to a value or a control and that they are mapped in the following order:
+
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+// Add <Control> tags to map parameter to Console 1 control
+// ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+MapStart<AmpRoomACAComp>
+PluginLinearGainOutput: 1.1220185
+PluginDisplayName:"ACA 25 COMP"
+CompOn = <Value>(1.0)
+CompRatio = <Value>(0.2) <Control>(SUBPLUGIN_Param2) <DisplayName>(Ratio)
+CompAttack = <Value>(1.0) <Control>(SUBPLUGIN_Param4) <DisplayName>(Attack)
+CompRelease = <Value>(0.5) <Control>(SUBPLUGIN_Param3) <DisplayName>(Release)
+CompThreshold = <Value>(0.35) <Control>(SUBPLUGIN_Param1) <DisplayName>(Threshold)
+CompKnee = <Value>(0.0) <Control>(SUBPLUGIN_Param5) <DisplayName>(Knee)
+CompType = <Value>(0.0) <Control>(SUBPLUGIN_Param6) <DisplayName>(Type)
+MakeUp = <Value>(0.283)
+ExternalSidechain = <Value>(0.0)
+GainRed = <Meter>(SUBPLUGIN_Meter1)
+MapEnd

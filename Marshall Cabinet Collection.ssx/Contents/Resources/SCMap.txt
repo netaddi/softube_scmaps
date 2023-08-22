@@ -1,0 +1,119 @@
+// Marshall Cabinet Collection Pagetable v.1
+PluginID: hvjg
+PluginName: "Marshall Cabinet Collection"
+PluginType: AmpRoomModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginLinearGainOutput: 0.6309573
+Cab = <Control>(SUBPLUGIN_Param1)<Value>(0.0)
+Mic1 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)<DisplayName>(Mic)
+Mic2 = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Mic)
+Mic3 = <Control>(SUBPLUGIN_Param4)<Value>(0.0)<DisplayName>(Mic)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Mic7 = <Control>(SUBPLUGIN_Param8)<Value>(0.0)<DisplayName>(Mic)
+Mic8 = <Control>(SUBPLUGIN_Param9)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Control>(SUBPLUGIN_Param10)<Value>(0.5)
+MapEnd
+
+MapStart<1960V>
+PluginLinearGainOutput: 0.6309573
+Cab = <Control>(SUBPLUGIN_Param1)<Value>(0.14286)
+Mic1 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)<DisplayName>(Mic)
+Mic2 = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Mic)
+Mic3 = <Control>(SUBPLUGIN_Param4)<Value>(0.0)<DisplayName>(Mic)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Mic7 = <Control>(SUBPLUGIN_Param8)<Value>(0.0)<DisplayName>(Mic)
+Mic8 = <Control>(SUBPLUGIN_Param9)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Control>(SUBPLUGIN_Param10)<Value>(0.5)
+MapEnd
+
+MapStart<1960AX>
+PluginLinearGainOutput: 0.6309573
+Cab = <Control>(SUBPLUGIN_Param1)<Value>(0.28752)
+Mic1 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)<DisplayName>(Mic)
+Mic2 = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Mic)
+Mic3 = <Control>(SUBPLUGIN_Param4)<Value>(0.0)<DisplayName>(Mic)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Mic7 = <Control>(SUBPLUGIN_Param8)<Value>(0.0)<DisplayName>(Mic)
+Mic8 = <Control>(SUBPLUGIN_Param9)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Control>(SUBPLUGIN_Param10)<Value>(0.5)
+MapEnd
+
+MapStart<1960HW>
+PluginLinearGainOutput: 0.6309573
+Cab = <Control>(SUBPLUGIN_Param1)<Value>(0.42858)
+Mic1 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)<DisplayName>(Mic)
+Mic2 = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Mic)
+Mic3 = <Control>(SUBPLUGIN_Param4)<Value>(0.0)<DisplayName>(Mic)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Mic7 = <Control>(SUBPLUGIN_Param8)<Value>(0.0)<DisplayName>(Mic)
+Mic8 = <Control>(SUBPLUGIN_Param9)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Control>(SUBPLUGIN_Param10)<Value>(0.5)
+MapEnd
+
+MapStart<1936>
+PluginLinearGainOutput: 0.6309573
+Cab = <Control>(SUBPLUGIN_Param1)<Value>(0.57144)
+Mic1 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)<DisplayName>(Mic)
+Mic2 = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Mic)
+Mic3 = <Control>(SUBPLUGIN_Param4)<Value>(0.0)<DisplayName>(Mic)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Mic7 = <Control>(SUBPLUGIN_Param8)<Value>(0.0)<DisplayName>(Mic)
+Mic8 = <Control>(SUBPLUGIN_Param9)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Control>(SUBPLUGIN_Param10)<Value>(0.5)
+MapEnd
+
+MapStart<1936V>
+PluginLinearGainOutput: 0.6309573
+Cab = <Control>(SUBPLUGIN_Param1)<Value>(0.71430)
+Mic1 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)<DisplayName>(Mic)
+Mic2 = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Mic)
+Mic3 = <Control>(SUBPLUGIN_Param4)<Value>(0.0)<DisplayName>(Mic)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Mic7 = <Control>(SUBPLUGIN_Param8)<Value>(0.0)<DisplayName>(Mic)
+Mic8 = <Control>(SUBPLUGIN_Param9)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Control>(SUBPLUGIN_Param10)<Value>(0.5)
+MapEnd
+
+MapStart<1912>
+PluginLinearGainOutput: 0.6309573
+Cab = <Control>(SUBPLUGIN_Param1)<Value>(0.85716)
+Mic1 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)<DisplayName>(Mic)
+Mic2 = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Mic)
+Mic3 = <Control>(SUBPLUGIN_Param4)<Value>(0.0)<DisplayName>(Mic)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Mic7 = <Control>(SUBPLUGIN_Param8)<Value>(0.0)<DisplayName>(Mic)
+Mic8 = <Control>(SUBPLUGIN_Param9)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Control>(SUBPLUGIN_Param10)<Value>(0.5)
+MapEnd
+
+MapStart<1974CX>
+PluginLinearGainOutput: 0.6309573
+Cab = <Control>(SUBPLUGIN_Param1)<Value>(1.0)
+Mic1 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)<DisplayName>(Mic)
+Mic2 = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Mic)
+Mic3 = <Control>(SUBPLUGIN_Param4)<Value>(0.0)<DisplayName>(Mic)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Mic7 = <Control>(SUBPLUGIN_Param8)<Value>(0.0)<DisplayName>(Mic)
+Mic8 = <Control>(SUBPLUGIN_Param9)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Control>(SUBPLUGIN_Param10)<Value>(0.5)
+MapEnd

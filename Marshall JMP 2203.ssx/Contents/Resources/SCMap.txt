@@ -1,0 +1,122 @@
+// Marshall JMP 2203 Pagetable v.1
+PluginID: dyza
+PluginName: "Marshall JMP 2203"
+PluginType: AmpRoomModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+// Make sure ALL the parameters below are mapped to a value or a control and that they are mapped in the following order:
+//
+// ...
+//
+// Each one of these can be mapped to one of the following on the HW:
+//
+// IN_Gain
+// IN_High_Cut
+// IN_Low_Cut
+// IN_Filt_To_Dyn_SC
+// IN_SC_Listen
+// IN_Phase_Invert
+// SHAPE_On
+// SHAPE_GateRelease
+// SHAPE_GateHard
+// SHAPE_Gate
+// SHAPE_Sustain
+// SHAPE_Punch
+// EQ_On
+// EQ_LF_Type
+// EQ_LF_Freq
+// EQ_LF_Gain
+// EQ_LMF_Freq
+// EQ_LMF_Q
+// EQ_LMF_Gain
+// EQ_HMF_Freq
+// EQ_HMF_Q
+// EQ_HMF_Gain
+// EQ_HF_Type
+// EQ_HF_Freq
+// EQ_HF_Gain
+// COMP_On
+// COMP_Ratio
+// COMP_Parallel
+// COMP_Attack
+// COMP_Release
+// COMP_Threshold
+// Block_Order
+// Ext_Sidechain
+// OUT_Drive
+// OUT_Drive_Character
+// OUT_Pan_Balance
+// OUT_Solo
+// OUT_Mute
+// OUT_Volume
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+// Add <Control> tags to map parameter to Console 1 control
+// ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+MapStart<AmpRoomAmp>
+Presence = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+Bass = <Control>(SUBPLUGIN_Param2)<Value>(0.5)
+Middle = <Control>(SUBPLUGIN_Param3)<Value>(0.5)
+Treble = <Control>(SUBPLUGIN_Param4)<Value>(0.5)
+PreampVolume = <Control>(SUBPLUGIN_Param5)<Value>(0.5)
+MasterVolume = <Control>(SUBPLUGIN_Param6)<Value>(0.5)
+Input = <Control>(SUBPLUGIN_Param7)<Value>(1.0)
+Gate = <Value>(0.0)
+Mic1 = <Value>(1.0)
+Mic2 = <Value>(1.0)
+Level1 = <Value>(0.60000002)
+Level2 = <Value>(0.60000002)
+Pan1 = <Value>(0.5)
+Pan2 = <Value>(0.5)
+In1 = <Value>(1.0)
+In2 = <Value>(1.0)
+LowGain = <Value>(0.5)
+MidGain = <Value>(0.5)
+MidFreq = <Value>(0.5)
+HighGain = <Value>(0.5)
+OutputVolume = <Value>(0.5)
+View = <Value>(0.0)
+AmpBypass = <Value>(0.0)'
+
+//meters
+Meter1 = <MeterNotMapped>
+Meter2 = <MeterNotMapped>
+MeterGate = <MeterNotMapped>
+MeterOutputL = <MeterNotMapped>
+MeterOutputR = <MeterNotMapped>
+MapEnd
+
+MapStart<AmpRoomCab>
+PluginDisplayName:"Marshall 1960B Tony Platt"
+Presence = <Value>(0.5)
+Bass = <Value>(0.5)
+Middle = <Value>(0.5)
+Treble = <Value>(0.5)
+PreampVolume = <Value>(0.5)
+MasterVolume = <Value>(0.5)
+Input = <Value>(1.0)
+Gate =  <Value>(1.0)
+Mic1 = <Control>(SUBPLUGIN_Param1)<Value>(0.0)
+Mic2 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)
+Level1 = <Control>(SUBPLUGIN_Param3)<Value>(0.60000002)
+Level2 = <Control>(SUBPLUGIN_Param4)<Value>(0.60000002)
+Pan1 = <Control>(SUBPLUGIN_Param5)<Value>(0.5)
+Pan2 = <Control>(SUBPLUGIN_Param6)<Value>(0.5)
+In1 = <Control>(SUBPLUGIN_Param7)<Value>(1.0)
+In2 = <Control>(SUBPLUGIN_Param8)<Value>(1.0)
+LowGain = <Control>(SUBPLUGIN_Param9)<Value>(0.5)
+MidGain = <Control>(SUBPLUGIN_Param10)<Value>(0.5)
+MidFreq = <Control>(SUBPLUGIN_Param11)<Value>(0.5)
+HighGain = <Control>(SUBPLUGIN_Param12)<Value>(0.5)
+OutputVolume = <Value>(0.5)
+View = <Value>(0.0)
+AmpBypass = <Value>(1.0)
+
+//meters
+Meter1 = <Meter>(SUBPLUGIN_Meter1)
+Meter2 = <Meter>(SUBPLUGIN_Meter2)
+MeterGate = <MeterNotMapped>
+MeterOutputL = <MeterNotMapped>
+MeterOutputR = <MeterNotMapped>
+
+MapEnd

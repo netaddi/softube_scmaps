@@ -1,0 +1,14 @@
+// Kraft Pagetable v.1
+PluginID: hfkq
+PluginName: "Kraft"
+PluginType: AmpRoomModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName:"KRAFT"
+Distortion = <Control>(SUBPLUGIN_Param1)<Value>(0.5)<DisplayName>(Distortion)
+Filter = <Control>(SUBPLUGIN_Param2)<Value>(0.5)<DisplayName>(Filter)
+Volume = <Control>(SUBPLUGIN_Param3)<Value>(0.5)<DisplayName>(Volume)
+MapEnd

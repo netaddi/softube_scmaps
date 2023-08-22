@@ -1,0 +1,17 @@
+// Amp Room Delay Pagetable v.1
+PluginID: u8la
+PluginName: "Amp Room Delay"
+PluginType: AmpRoomModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+
+// Parameters
+PluginDisplayName:"SOFTUBE WILD BOAR"
+Delay = <Control>(SUBPLUGIN_Param1)<Value>(0.5)<DisplayName>(Delay)
+Feedback = <Control>(SUBPLUGIN_Param2)<Value>(0.5)<DisplayName>(Feedback)
+Tone = <Control>(SUBPLUGIN_Param3)<Value>(0.5)<DisplayName>(Tone)
+Mix = <Control>(SUBPLUGIN_Param4)<Value>(0.5)<DisplayName>(Mix)
+MapEnd

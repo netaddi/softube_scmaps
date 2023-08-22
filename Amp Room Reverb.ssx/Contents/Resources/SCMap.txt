@@ -1,0 +1,15 @@
+// Amp Room Reverb Pagetable v.1
+PluginID: smuz
+PluginName: "Amp Room Reverb"
+PluginType: AmpRoomModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName:"SOFTUBE DOOM CHVRCH"
+Time = <Control>(SUBPLUGIN_Param1)<Value>(0.5)<DisplayName>(Time)
+Bass = <Control>(SUBPLUGIN_Param2)<Value>(0.5)<DisplayName>(Bass)
+Treble = <Control>(SUBPLUGIN_Param3)<Value>(0.5)<DisplayName>(Treble)
+Dry/Wet = <Control>(SUBPLUGIN_Param4)<Value>(0.5)<DisplayName>(Mix)
+MapEnd

@@ -1,0 +1,97 @@
+// Amp Room Legacy HD Cabs Pagetable v.1
+PluginID: 5bzj
+PluginName: "Amp Room Legacy HD Cabs"
+PluginType: AmpRoomModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginLinearGainOutput: 0.8912509
+Cab = <Control>(SUBPLUGIN_Param1)<Value>(0.0)
+Mic1 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)<DisplayName>(Mic)
+Mic2 = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Mic)
+Mic3 = <Control>(SUBPLUGIN_Param4)<Value>(0.0)<DisplayName>(Mic)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Value>(0.5)
+MapEnd
+
+MapStart<XXL>
+PluginLinearGainOutput: 0.8912509
+PluginDisplayName = "LEGACY CABS REVISITED"
+Cab = <Control>(SUBPLUGIN_Param1)<Value>(0.0)
+Mic1 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)<DisplayName>(Mic)
+Mic2 = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Mic)
+Mic3 = <Control>(SUBPLUGIN_Param4)<Value>(0.0)<DisplayName>(Mic)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Value>(0.5)
+MapEnd
+
+MapStart<1960>
+PluginLinearGainOutput: 0.8912509
+PluginDisplayName = "LEGACY CABS REVISITED"
+Cab = <Control>(SUBPLUGIN_Param1)<Value>(0.2)
+Mic1 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)<DisplayName>(Mic)
+Mic2 = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Mic)
+Mic3 = <Control>(SUBPLUGIN_Param4)<Value>(0.0)<DisplayName>(Mic)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Value>(0.5)
+MapEnd
+
+MapStart<Twin>
+PluginLinearGainOutput: 0.8912509
+PluginDisplayName = "LEGACY CABS REVISITED"
+Cab = <Control>(SUBPLUGIN_Param1)<Value>(0.4)
+Mic1 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)<DisplayName>(Mic)
+Mic2 = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Mic)
+Mic3 = <Control>(SUBPLUGIN_Param4)<Value>(0.0)<DisplayName>(Mic)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Control>(SUBPLUGIN_Param8)<Value>(0.5)
+MapEnd
+
+MapStart<AC30>
+PluginLinearGainOutput: 0.7079458
+PluginDisplayName = "LEGACY CABS REVISITED"
+Cab = <Control>(SUBPLUGIN_Param1)<Value>(0.6)
+Mic1 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)<DisplayName>(Mic)
+Mic2 = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Mic)
+Mic3 = <Control>(SUBPLUGIN_Param4)<Value>(0.0)<DisplayName>(Mic)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Value>(0.5)
+MapEnd
+
+MapStart<8x10>
+PluginLinearGainOutput: 0.8912509
+PluginDisplayName = "LEGACY CABS REVISITED"
+Cab = <Control>(SUBPLUGIN_Param1)<Value>(0.8)
+Mic1 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)<DisplayName>(Mic)
+Mic2 = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Mic)
+Mic3 = <Control>(SUBPLUGIN_Param4)<Value>(0.0)<DisplayName>(Mic)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Value>(0.5)
+MapEnd
+
+MapStart<1912-H>
+PluginLinearGainOutput: 0.7079458
+PluginDisplayName = "LEGACY CABS REVISITED"
+Cab = <Control>(SUBPLUGIN_Param1)<Value>(1.0)
+Mic1 = <Control>(SUBPLUGIN_Param2)<Value>(0.0)<DisplayName>(Mic)
+Mic2 = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Mic)
+Mic3 = <Control>(SUBPLUGIN_Param4)<Value>(0.0)<DisplayName>(Mic)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Value>(0.5)
+MapEnd

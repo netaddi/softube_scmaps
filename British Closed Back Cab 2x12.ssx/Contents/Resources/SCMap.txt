@@ -1,0 +1,17 @@
+// British Closed Back Cab 2x12 Pagetable v.1
+PluginID: rakq
+PluginName: "British Closed Back Cab 2x12"
+PluginType: AmpRoomModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+// Make sure ALL the parameters below are mapped to a value or a control and that they are mapped in the following order:
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+// Add <Control> tags to map parameter to Console 1 control
+// ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+MapStart<Default>
+PluginLinearGainOutput: 0.7079458
+PluginDisplayName = "BRITISH 2X12"
+Volume = <Value>(0.5)
+Mic = <Value>(0.0) <Control>(SUBPLUGIN_Param1)
+MapEnd

@@ -1,0 +1,18 @@
+// Amp Room D Room Pagetable v.1
+PluginID: rgbm
+PluginName: "Amp Room D Room"
+PluginType: AmpRoomModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<Default>
+PluginDisplayName:"SOFTUBE ROOM IR"
+FarPan = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+FarVolume = <Control>(SUBPLUGIN_Param2)<Value>(0.6)
+NearPan = <Control>(SUBPLUGIN_Param3)<Value>(0.5)
+NearVolume = <Control>(SUBPLUGIN_Param4)<Value>(0.6)
+Predelay = <Control>(SUBPLUGIN_Param5)<Value>(0.0)
+Dry/Wet = <Control>(SUBPLUGIN_Param6)<Value>(0.5)
+Room = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<Max>(0.2106)
+MapEnd

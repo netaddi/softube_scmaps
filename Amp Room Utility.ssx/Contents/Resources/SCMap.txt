@@ -1,0 +1,504 @@
+ // Amp Room Utility Pagetable v.1
+PluginID: tege
+PluginName: "Amp Room Utility"
+PluginType: AmpRoomModule
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+
+MapStart<Default>
+PluginDisplayName = "Softube Mix"
+// Parameters
+UtilityType = <Value>(0.0)
+Mix = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+CrossoverFrequency = <Value>(0.5)
+VariablePhaseFrequency = <Value>(0.5)
+Volume = <Value>(0.6)
+Phase Invert = <Value>(0.0)
+Mute = <Value>(0.0)
+Pan = <Value>(0.5)
+Pan Volume = <Value>(0.5)
+Low to top = <Value>(0.0)
+X-Over On = <Value>(0.0)
+Top Pan = <Value>(0.5)
+Top Volume = <Value>(0.5)
+Bottom Pan = <Value>(0.5)
+Bottom Volume = <Value>(0.5)
+TopPhaseInvert = <Value>(0.0)
+PathSelector = <Value>(0.5)
+BottomPhaseInvert = <Value>(0.0)
+Delay = <Value>(0.0)
+TopMute = <Value>(0.0)
+BottomMute = <Value>(0.0)
+BlendOnOff = <Value>(1.0)
+Blend = <Value>(0.5)
+// Meters
+SplitterTopLeft = <MeterNotMapped>
+SplitterTopRight = <MeterNotMapped>
+SplitterBottomLeft = <MeterNotMapped>
+SplitterBottomRight = <MeterNotMapped>
+MixerTopLeft = <MeterNotMapped>
+MixerTopRight = <MeterNotMapped>
+MixerBottomLeft = <MeterNotMapped>
+MixerBottomRight = <MeterNotMapped>
+GainMuteLeft = <MeterNotMapped>
+GainMuteRight = <MeterNotMapped>
+PanVolumeLeft = <MeterNotMapped>
+PanVolumeRight = <MeterNotMapped>
+DelayVolumeLeft = <MeterNotMapped>
+DelayVolumeRight = <MeterNotMapped>
+VarPhaseVolumeLeft = <MeterNotMapped>
+VarPhaseVolumeRight =  <MeterNotMapped>
+MapEnd
+
+MapStart<CrossoverFilter>
+PluginDisplayName = "Amp Room Crossover Filter"
+// Parameters
+UtilityType = <Value>(0.125)
+Mix = <Value>(0.5)
+CrossoverFrequency = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+VariablePhaseFrequency = <Value>(0.5)
+Volume = <Value>(0.6)
+Phase Invert = <Value>(0.0)
+Mute = <Value>(0.0)
+Pan = <Value>(0.5)
+Pan Volume = <Value>(0.5)
+Low to top = <Value>(0.0)
+X-Over On = <Value>(0.0)
+Top Pan = <Value>(0.5)
+Top Volume = <Value>(0.5)
+Bottom Pan = <Value>(0.5)
+Bottom Volume = <Value>(0.5)
+TopPhaseInvert = <Value>(0.0)
+PathSelector = <Value>(0.5)
+BottomPhaseInvert = <Value>(0.0)
+Delay = <Value>(0.0)
+TopMute = <Value>(0.0)
+BottomMute = <Value>(0.0)
+BlendOnOff = <Value>(1.0)
+Blend = <Value>(0.5)
+// Meters
+SplitterTopLeft = <MeterNotMapped>
+SplitterTopRight = <MeterNotMapped>
+SplitterBottomLeft = <MeterNotMapped>
+SplitterBottomRight = <MeterNotMapped>
+MixerTopLeft = <MeterNotMapped>
+MixerTopRight = <MeterNotMapped>
+MixerBottomLeft = <MeterNotMapped>
+MixerBottomRight = <MeterNotMapped>
+GainMuteLeft = <MeterNotMapped>
+GainMuteRight = <MeterNotMapped>
+PanVolumeLeft = <MeterNotMapped>
+PanVolumeRight = <MeterNotMapped>
+DelayVolumeLeft = <MeterNotMapped>
+DelayVolumeRight = <MeterNotMapped>
+VarPhaseVolumeLeft = <MeterNotMapped>
+VarPhaseVolumeRight =  <MeterNotMapped>
+MapEnd
+
+MapStart<VariablePhase>
+PluginDisplayName = "utility Variable Phase"
+// Parameters
+UtilityType = <Value>(0.25)
+Mix = <Value>(0.5)
+CrossoverFrequency = <Value>(0.6666667)
+VariablePhaseFrequency = <Control>(SUBPLUGIN_Param1)<Value>(0.5)<DisplayName>(Variable Phase)
+Volume = <Value>(0.6)
+Phase Invert = <Value>(0.0)
+Mute = <Value>(0.0)
+Pan = <Value>(0.5)
+Pan Volume = <Value>(0.5)
+Low to top = <Value>(0.0)
+X-Over On = <Value>(0.0)
+Top Pan = <Value>(0.5)
+Top Volume = <Value>(0.5)
+Bottom Pan = <Value>(0.5)
+Bottom Volume = <Value>(0.5)
+TopPhaseInvert = <Value>(0.0)
+PathSelector = <Value>(0.5)
+BottomPhaseInvert = <Value>(0.0)
+Delay = <Value>(0.0)
+TopMute = <Value>(0.0)
+BottomMute = <Value>(0.0)
+BlendOnOff = <Value>(1.0)
+Blend = <Value>(0.5)
+// Meters
+SplitterTopLeft = <MeterNotMapped>
+SplitterTopRight = <MeterNotMapped>
+SplitterBottomLeft = <MeterNotMapped>
+SplitterBottomRight = <MeterNotMapped>
+MixerTopLeft = <MeterNotMapped>
+MixerTopRight = <MeterNotMapped>
+MixerBottomLeft = <MeterNotMapped>
+MixerBottomRight = <MeterNotMapped>
+GainMuteLeft = <MeterNotMapped>
+GainMuteRight = <MeterNotMapped>
+PanVolumeLeft = <MeterNotMapped>
+PanVolumeRight = <MeterNotMapped>
+DelayVolumeLeft = <MeterNotMapped>
+DelayVolumeRight = <MeterNotMapped>
+VarPhaseVolumeLeft = <Meter>(SUBPLUGIN_Meter1)
+VarPhaseVolumeRight = <Meter>(SUBPLUGIN_Meter2)
+MapEnd
+
+MapStart<GainMute>
+PluginDisplayName = "utility Gain/Mute"
+// Parameters
+UtilityType = <Value>(0.375)
+Mix = <Value>(0.5)
+CrossoverFrequency = <Value>(0.5)
+VariablePhaseFrequency = <Value>(0.5)
+Volume = <Control>(SUBPLUGIN_Param1)<Value>(0.75)
+Phase Invert = <Control>(SUBPLUGIN_Param3)<Value>(0.0)
+Mute = <Control>(SUBPLUGIN_Param2)<Value>(0.0)
+Pan = <Value>(0.5)
+Pan Volume = <Value>(0.5)
+Low to top = <Value>(0.0)
+X-Over On = <Value>(0.0)
+Top Pan = <Value>(0.5)
+Top Volume = <Value>(0.5)
+Bottom Pan = <Value>(0.5)
+Bottom Volume = <Value>(0.5)
+TopPhaseInvert = <Value>(0.0)
+PathSelector = <Value>(0.5)
+BottomPhaseInvert = <Value>(0.0)
+Delay = <Value>(0.0)
+TopMute = <Value>(0.0)
+BottomMute = <Value>(0.0)
+BlendOnOff = <Value>(1.0)
+Blend = <Value>(0.5)
+// Meters
+SplitterTopLeft = <MeterNotMapped>
+SplitterTopRight = <MeterNotMapped>
+SplitterBottomLeft = <MeterNotMapped>
+SplitterBottomRight = <MeterNotMapped>
+MixerTopLeft = <MeterNotMapped>
+MixerTopRight = <MeterNotMapped>
+MixerBottomLeft = <MeterNotMapped>
+MixerBottomRight = <MeterNotMapped>
+GainMuteLeft = <Meter>(SUBPLUGIN_Meter1)
+GainMuteRight = <Meter>(SUBPLUGIN_Meter2)
+PanVolumeLeft = <MeterNotMapped>
+PanVolumeRight = <MeterNotMapped>
+DelayVolumeLeft = <MeterNotMapped>
+DelayVolumeRight = <MeterNotMapped>
+MapEnd
+
+MapStart<Splitter>
+PluginDisplayName = "AMP ROOM SPLIT SIGNAL"
+// Parameters
+UtilityType = <Value>(0.5)
+Mix = <Value>(0.5)
+CrossoverFrequency = <Value>(0.5)
+VariablePhaseFrequency = <Value>(0.5)
+Volume = <Value>(0.6)
+Phase Invert = <Value>(0.0)
+Mute = <Value>(0.0)
+Pan = <Value>(0.5)
+Pan Volume = <Value>(0.5)
+Low to top = <Value>(0.0)
+X-Over On = <Value>(0.0)
+Top Pan = <Value>(0.5)
+Top Volume = <Value>(0.5)
+Bottom Pan = <Value>(0.5)
+Bottom Volume = <Value>(0.5)
+TopPhaseInvert = <Value>(0.0)
+PathSelector = <Value>(0.5)
+BottomPhaseInvert = <Value>(0.0)
+Delay = <Value>(0.0)
+TopMute = <Value>(0.0)
+BottomMute = <Value>(0.0)
+BlendOnOff = <Value>(1.0)
+Blend = <Value>(0.5)
+// Meters
+SplitterTopLeft = <MeterNotMapped>
+SplitterTopRight = <MeterNotMapped>
+SplitterBottomLeft = <MeterNotMapped>
+SplitterBottomRight = <MeterNotMapped>
+MixerTopLeft = <MeterNotMapped>
+MixerTopRight = <MeterNotMapped>
+MixerBottomLeft = <MeterNotMapped>
+MixerBottomRight = <MeterNotMapped>
+GainMuteLeft = <MeterNotMapped>
+GainMuteRight = <MeterNotMapped>
+PanVolumeLeft = <MeterNotMapped>
+PanVolumeRight = <MeterNotMapped>
+DelayVolumeLeft = <MeterNotMapped>
+DelayVolumeRight = <MeterNotMapped>
+VarPhaseVolumeLeft = <MeterNotMapped>
+VarPhaseVolumeRight =  <MeterNotMapped>
+MapEnd
+
+MapStart<PanVolume>
+PluginDisplayName = "utility Pan/Volume"
+// Parameters
+UtilityType = <Value>(0.625)
+Mix = <Value>(0.5)
+CrossoverFrequency = <Value>(0.5)
+VariablePhaseFrequency = <Value>(0.5)
+Volume = <Value>(0.6)
+Phase Invert = <Value>(0.0)
+Mute = <Value>(0.0)
+Pan = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+Pan Volume = <Control>(SUBPLUGIN_Param2)<Value>(0.75)
+Low to top = <Value>(0.0)
+X-Over On = <Value>(0.0)
+Top Pan = <Value>(0.5)
+Top Volume = <Value>(0.5)
+Bottom Pan = <Value>(0.5)
+Bottom Volume = <Value>(0.5)
+TopPhaseInvert = <Value>(0.0)
+PathSelector = <Value>(0.5)
+BottomPhaseInvert = <Value>(0.0)
+Delay = <Value>(0.0)
+TopMute = <Value>(0.0)
+BottomMute = <Value>(0.0)
+BlendOnOff = <Value>(1.0)
+Blend = <Value>(0.5)
+// Meters
+SplitterTopLeft = <MeterNotMapped>
+SplitterTopRight = <MeterNotMapped>
+SplitterBottomLeft = <MeterNotMapped>
+SplitterBottomRight = <MeterNotMapped>
+MixerTopLeft = <MeterNotMapped>
+MixerTopRight = <MeterNotMapped>
+MixerBottomLeft = <MeterNotMapped>
+MixerBottomRight = <MeterNotMapped>
+GainMuteLeft = <MeterNotMapped>
+GainMuteRight = <MeterNotMapped>
+PanVolumeLeft = <Meter>(SUBPLUGIN_Meter1)
+PanVolumeRight = <Meter>(SUBPLUGIN_Meter2)
+DelayVolumeLeft = <MeterNotMapped>
+DelayVolumeRight = <MeterNotMapped>
+VarPhaseVolumeLeft = <MeterNotMapped>
+VarPhaseVolumeRight =  <MeterNotMapped>
+MapEnd
+
+MapStart<SuperSplitter>
+PluginDisplayName = "AMP ROOM SPLIT SIGNAL"
+// Parameters
+UtilityType = <Value>(0.75)
+Mix = <Value>(0.5)
+CrossoverFrequency = <Control>(SUBPLUGIN_Param2)<Value>(0.5)
+VariablePhaseFrequency = <Value>(0.5)
+Volume = <Value>(0.6)
+Phase Invert = <Value>(0.0)
+Mute = <Value>(0.0)
+Pan = <Value>(0.5)
+Pan Volume = <Value>(0.5)
+Low to top = <Control>(SUBPLUGIN_Param3)<Value>(0.0)<DisplayName>(Routing)
+X-Over On = <Control>(SUBPLUGIN_Param1)<Value>(0.0)<DisplayName>(X-Over)
+Top Pan = <Value>(0.5)
+Top Volume = <Value>(0.5)
+Bottom Pan = <Value>(0.5)
+Bottom Volume = <Value>(0.5)
+TopPhaseInvert = <Value>(0.0)
+PathSelector = <Value>(0.5)
+BottomPhaseInvert = <Value>(0.0)
+Delay = <Value>(0.0)
+TopMute = <Value>(0.0)
+BottomMute = <Value>(0.0)
+BlendOnOff = <Value>(1.0)
+Blend = <Value>(0.5)
+// Meters
+SplitterTopLeft = <Meter>(SUBPLUGIN_Meter1)
+SplitterTopRight = <Meter>(SUBPLUGIN_Meter2)
+SplitterBottomLeft = <Meter>(SUBPLUGIN_Meter3)
+SplitterBottomRight = <Meter>(SUBPLUGIN_Meter4)
+MixerTopLeft = <MeterNotMapped>
+MixerTopRight = <MeterNotMapped>
+MixerBottomLeft = <MeterNotMapped>
+MixerBottomRight = <MeterNotMapped>
+GainMuteLeft = <MeterNotMapped>
+GainMuteRight = <MeterNotMapped>
+PanVolumeLeft = <MeterNotMapped>
+PanVolumeRight = <MeterNotMapped>
+DelayVolumeLeft = <MeterNotMapped>
+DelayVolumeRight = <MeterNotMapped>
+VarPhaseVolumeLeft = <MeterNotMapped>
+VarPhaseVolumeRight =  <MeterNotMapped>
+MapEnd
+
+MapStart<SuperMixer>
+PluginDisplayName = "AMP ROOM MIXER"
+// Parameters
+UtilityType = <Value>(0.875)
+Mix = <Value>(0.5)
+CrossoverFrequency = <Value>(0.5)
+VariablePhaseFrequency = <Value>(0.5)
+Volume = <Value>(0.6)
+Phase Invert = <Value>(0.0)
+Mute = <Value>(0.0)
+Pan = <Value>(0.5)
+Pan Volume = <Value>(0.5)
+Low to top = <Value>(0.0)
+X-Over On = <Value>(0.0)
+Top Pan = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+Top Volume = <Control>(SUBPLUGIN_Param2)<Value>(0.75)
+Bottom Pan = <Control>(SUBPLUGIN_Param3)<Value>(0.5)
+Bottom Volume = <Control>(SUBPLUGIN_Param4)<Value>(0.75)
+TopPhaseInvert = <Control>(SUBPLUGIN_Param5)<Value>(0.0)
+PathSelector = <Control>(SUBPLUGIN_Param6)<Value>(0.5)<DisplayName>(Solo)
+BottomPhaseInvert = <Control>(SUBPLUGIN_Param7)<Value>(0.0)
+Delay = <Value>(0.0)
+TopMute = <Control>(SUBPLUGIN_Param8)<Value>(0.0)
+BottomMute = <Control>(SUBPLUGIN_Param9)<Value>(0.0)
+BlendOnOff = <Value>(1.0)
+Blend = <Value>(0.5)
+// Meters
+SplitterTopLeft = <MeterNotMapped>
+SplitterTopRight = <MeterNotMapped>
+SplitterBottomLeft = <MeterNotMapped>
+SplitterBottomRight = <MeterNotMapped>
+MixerTopLeft = <Meter>(SUBPLUGIN_Meter1)
+MixerTopRight = <Meter>(SUBPLUGIN_Meter2)
+MixerBottomLeft = <Meter>(SUBPLUGIN_Meter3)
+MixerBottomRight = <Meter>(SUBPLUGIN_Meter4)
+GainMuteLeft = <MeterNotMapped>
+GainMuteRight = <MeterNotMapped>
+PanVolumeLeft = <MeterNotMapped>
+PanVolumeRight = <MeterNotMapped>
+DelayVolumeLeft = <MeterNotMapped>
+DelayVolumeRight = <MeterNotMapped>
+VarPhaseVolumeLeft = <MeterNotMapped>
+VarPhaseVolumeRight =  <MeterNotMapped>
+MapEnd
+
+MapStart<SuperMixer2>
+PluginDisplayName = "AMP ROOM MIXER"
+// Parameters
+UtilityType = <Value>(0.875)
+Mix = <Value>(0.5)
+CrossoverFrequency = <Value>(0.5)
+VariablePhaseFrequency = <Value>(0.5)
+Volume = <Value>(0.6)
+Phase Invert = <Value>(0.0)
+Mute = <Value>(0.0)
+Pan = <Value>(0.5)
+Pan Volume = <Value>(0.5)
+Low to top = <Value>(0.0)
+X-Over On = <Value>(0.0)
+Top Pan = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+Top Volume = <Control>(SUBPLUGIN_Param2)<Value>(0.75)
+Bottom Pan = <Control>(SUBPLUGIN_Param3)<Value>(0.5)
+Bottom Volume = <Control>(SUBPLUGIN_Param4)<Value>(0.75)
+TopPhaseInvert = <Control>(SUBPLUGIN_Param5)<Value>(0.0)
+PathSelector = <Control>(SUBPLUGIN_Param6)<Value>(0.5)<DisplayName>(Solo)
+BottomPhaseInvert = <Control>(SUBPLUGIN_Param7)<Value>(0.0)
+Delay = <Value>(0.0)
+TopMute = <Control>(SUBPLUGIN_Param8)<Value>(0.0)
+BottomMute = <Control>(SUBPLUGIN_Param9)<Value>(0.0)
+BlendOnOff = <Value>(1.0)
+Blend = <Value>(0.5)
+// Meters
+SplitterTopLeft = <MeterNotMapped>
+SplitterTopRight = <MeterNotMapped>
+SplitterBottomLeft = <MeterNotMapped>
+SplitterBottomRight = <MeterNotMapped>
+MixerTopLeft = <Meter>(SUBPLUGIN_Meter1)
+MixerTopRight = <Meter>(SUBPLUGIN_Meter2)
+MixerBottomLeft = <Meter>(SUBPLUGIN_Meter3)
+MixerBottomRight = <Meter>(SUBPLUGIN_Meter4)
+GainMuteLeft = <MeterNotMapped>
+GainMuteRight = <MeterNotMapped>
+PanVolumeLeft = <MeterNotMapped>
+PanVolumeRight = <MeterNotMapped>
+DelayVolumeLeft = <MeterNotMapped>
+DelayVolumeRight = <MeterNotMapped>
+VarPhaseVolumeLeft = <MeterNotMapped>
+VarPhaseVolumeRight =  <MeterNotMapped>
+MapEnd
+
+
+
+MapStart<ShortDelay>
+PluginDisplayName = "utility Short Delay"
+// Parameters
+UtilityType = <Value>(1.0)
+Mix = <Value>(0.5)
+CrossoverFrequency = <Value>(0.5)
+VariablePhaseFrequency = <Value>(0.5)
+Volume = <Value>(0.6)
+Phase Invert = <Value>(0.0)
+Mute = <Value>(0.0)
+Pan = <Value>(0.5)
+Pan Volume = <Value>(0.5)
+Low to top = <Value>(0.0)
+X-Over On = <Value>(0.0)
+Top Pan = <Value>(0.5)
+Top Volume = <Value>(0.75)
+Bottom Pan = <Value>(0.5)
+Bottom Volume = <Value>(0.75)
+TopPhaseInvert = <Value>(0.0)
+PathSelector = <Value>(0.5)
+BottomPhaseInvert = <Value>(0.0)
+Delay = <Control>(SUBPLUGIN_Param1)<Value>(0.0)
+TopMute = <Value>(0.0)
+BottomMute = <Value>(0.0)
+BlendOnOff = <Value>(1.0)
+Blend = <Value>(0.5)
+// Meters
+SplitterTopLeft = <MeterNotMapped>
+SplitterTopRight = <MeterNotMapped>
+SplitterBottomLeft = <MeterNotMapped>
+SplitterBottomRight = <MeterNotMapped>
+MixerTopLeft = <MeterNotMapped>
+MixerTopRight = <MeterNotMapped>
+MixerBottomLeft = <MeterNotMapped>
+MixerBottomRight = <MeterNotMapped>
+GainMuteLeft = <MeterNotMapped>
+GainMuteRight = <MeterNotMapped>
+PanVolumeLeft = <MeterNotMapped>
+PanVolumeRight = <MeterNotMapped>
+DelayVolumeLeft = <Meter>(SUBPLUGIN_Meter1)
+DelayVolumeRight = <Meter>(SUBPLUGIN_Meter2)
+VarPhaseVolumeLeft = <MeterNotMapped>
+VarPhaseVolumeRight =  <MeterNotMapped>
+MapEnd
+
+
+MapStart<SuperMixer3>
+PluginDisplayName = "AMP ROOM MIXER"
+// Parameters
+UtilityType = <Value>(0.875)
+Mix = <Value>(0.5)
+CrossoverFrequency = <Value>(0.5)
+VariablePhaseFrequency = <Value>(0.5)
+Volume = <Value>(0.6)
+Phase Invert = <Value>(0.0)
+Mute = <Value>(0.0)
+Pan = <Value>(0.5)
+Pan Volume = <Value>(0.5)
+Low to top = <Value>(0.0)
+X-Over On = <Value>(0.0)
+Top Pan = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+Top Volume = <Control>(SUBPLUGIN_Param2)<Value>(0.75)
+Bottom Pan = <Control>(SUBPLUGIN_Param3)<Value>(0.5)
+Bottom Volume = <Control>(SUBPLUGIN_Param4)<Value>(0.75)
+TopPhaseInvert = <Control>(SUBPLUGIN_Param5)<Value>(0.0)
+PathSelector = <Control>(SUBPLUGIN_Param6)<Value>(0.5)<DisplayName>(Solo)
+BottomPhaseInvert = <Control>(SUBPLUGIN_Param7)<Value>(0.0)
+Delay = <Value>(0.0)
+TopMute = <Control>(SUBPLUGIN_Param8)<Value>(0.0)
+BottomMute = <Control>(SUBPLUGIN_Param9)<Value>(0.0)
+BlendOnOff = <Control>(SUBPLUGIN_Param10)<Value>(1.0)
+Blend = <Control>(SUBPLUGIN_Param11)<Value>(0.5)
+// Meters
+SplitterTopLeft = <MeterNotMapped>
+SplitterTopRight = <MeterNotMapped>
+SplitterBottomLeft = <MeterNotMapped>
+SplitterBottomRight = <MeterNotMapped>
+MixerTopLeft = <Meter>(SUBPLUGIN_Meter1)
+MixerTopRight = <Meter>(SUBPLUGIN_Meter2)
+MixerBottomLeft = <Meter>(SUBPLUGIN_Meter3)
+MixerBottomRight = <Meter>(SUBPLUGIN_Meter4)
+GainMuteLeft = <MeterNotMapped>
+GainMuteRight = <MeterNotMapped>
+PanVolumeLeft = <MeterNotMapped>
+PanVolumeRight = <MeterNotMapped>
+DelayVolumeLeft = <MeterNotMapped>
+DelayVolumeRight = <MeterNotMapped>
+VarPhaseVolumeLeft = <MeterNotMapped>
+VarPhaseVolumeRight =  <MeterNotMapped>
+MapEnd

@@ -1,0 +1,32 @@
+// Amp Room ACA EQ Pagetable v.1
+PluginID: nllo
+PluginName: "Amp Room ACA EQ"
+PluginType: AmpRoomModule
+
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+// Add <Control> tags to map parameter to Console 1 control
+// ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+
+MapStart<AmpRoomACAEQ>
+PluginDisplayName:"ACA 55 EQ"
+In = <Value>(1.0)
+LowType = <Control>(SUBPLUGIN_Param1)<Value>(0.0)<DisplayName>(Low Type)<Min>(0.0)<Max>(0.5)
+LowFrequency = <Control>(SUBPLUGIN_Param2)<Value>(0.5) <DisplayName>(Low Frequency)
+LowGain = <Control>(SUBPLUGIN_Param3)<Value>(0.5) <DisplayName>(Low Gain)
+LowMidFrequency = <Control>(SUBPLUGIN_Param4)<Value>(0.5) <DisplayName>(Low Mid Freq)
+LowMidQ = <Value>(0.5)
+LowMidGain = <Control>(SUBPLUGIN_Param5)<Value>(0.5) <DisplayName>(Low Mid Gain)
+HighMidFrequency = <Control>(SUBPLUGIN_Param6)<Value>(0.5)<DisplayName>(High Mid Freq)
+HighMidQ = <Value>(0.5)
+HighMidGain = <Control>(SUBPLUGIN_Param7)<Value>(0.5) <DisplayName>(High Mid Gain)
+HighType = <Control>(SUBPLUGIN_Param8)<Value>(0.0) <DisplayName>(High Type)<Min>(0.0)<Max>(0.5)
+HighFrequency = <Control>(SUBPLUGIN_Param9)<Value>(0.5) <DisplayName>(High Frequency)
+HighGain = <Control>(SUBPLUGIN_Param10)<Value>(0.5) <DisplayName>(High Gain)
+GainMultiplier = <Value>(1.0)
+AutoMultiplier = <Value>(0.0)
+EQAutoLowGain = <Value>(1.0)
+EQAutoLowMidGain = <Value>(1.0)
+EQAutoHighMidGain = <Value>(1.0)
+EQAutoHighGain = <Value>(1.0)
+MapEnd
