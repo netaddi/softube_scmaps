@@ -13,9 +13,9 @@ PluginDisplayName = "Empirical Labs Trak Pak Compressor"
 
 // Parameters
 Attack = <Control>(COMP_Attack)<Value>(0.25)
-Ratio = <Control>(COMP_Ratio)<Value>(0.4)<Min>(0)<Max>(1.0)
+Ratio = <Control>(COMP_Ratio)<Value>(0.4)<Min>(0.2)<Max>(1.0)<GuiQuantization>(5)
 Release = <Control>(COMP_Release)<Value>(0.333333)
-Threshold = <Control>(COMP_Threshold)<Value>(0.5)<Min>(0)<Max>(1.0)
+Threshold = <Control>(COMP_Threshold)<Value>(0.5)<Min>(0.2)<Max>(0.95)
 
 // Meters
 MeterInputL = <MeterNotMapped>
