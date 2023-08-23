@@ -15,3 +15,19 @@ Feedback = <Control>(SUBPLUGIN_Param2)<Value>(0.5)<DisplayName>(Feedback)
 Tone = <Control>(SUBPLUGIN_Param3)<Value>(0.5)<DisplayName>(Tone)
 Mix = <Control>(SUBPLUGIN_Param4)<Value>(0.5)<DisplayName>(Mix)
 MapEnd
+
+MapStart<Alt1>
+PluginDisplayType: <Comp>
+Delay = <Control>(COMP_Attack)<Value>(0.5)<DisplayName>(Delay)
+Feedback = <Control>(COMP_Release)<Value>(0.5)<DisplayName>(Feedback)
+Tone = <Control>(COMP_Threshold)<Value>(0.5)<DisplayName>(Tone)
+Mix = <Control>(COMP_Ratio)<Value>(0)<DisplayName>(Mix)
+MapEnd
+
+MapStart<Alt3>
+PluginDisplayType: <Gate>
+Delay = <Control>(SHAPE_GateRelease)<Value>(0.5)<DisplayName>(Delay)
+Feedback = <Control>(SHAPE_Sustain)<Value>(0.5)<DisplayName>(Feedback)
+Tone = <Control>(SHAPE_Punch)<Value>(0.5)<DisplayName>(Tone)
+Mix = <Control>(SHAPE_Gate)<Value>(0)<DisplayName>(Mix)
+MapEnd

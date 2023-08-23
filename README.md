@@ -20,13 +20,13 @@ MapEnd
 
 MapStart<Alt2>
 PluginDisplayName:""
-PluginDisplayType: <EQ>
+PluginDisplayType: <Gate>
 
 MapEnd
 
 MapStart<Alt3>
 PluginDisplayName:""
-PluginDisplayType: <Gate>
+PluginDisplayType: <EQ>
 
 MapEnd
 ```
