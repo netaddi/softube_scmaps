@@ -95,3 +95,17 @@ Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
 Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
 Volume = <Value>(0.5)
 MapEnd
+
+MapStart<Alt2>
+PluginDisplayName:"Amp Room Legacy HD Cabs"
+PluginDisplayType: <Gate>
+PluginLinearGainOutput: 0.8912509
+Cab = <Control>(SHAPE_HardGate)<Value>(1.0)
+Mic1 = <Control>(SHAPE_GateRelease)<Value>(0.0)<DisplayName>(Mic1)
+Mic2 = <Control>(SHAPE_Sustain)<Value>(0.0)<DisplayName>(Mic2)
+Mic3 = <Control>(SHAPE_Punch)<Value>(0.0)<DisplayName>(Mic3)
+Mic4 = <Control>(SUBPLUGIN_Param5)<Value>(0.0)<DisplayName>(Mic)
+Mic5 = <Control>(SUBPLUGIN_Param6)<Value>(0.0)<DisplayName>(Mic)
+Mic6 = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<DisplayName>(Mic)
+Volume = <Control>(SHAPE_Gate)<Value>(0.5)
+MapEnd

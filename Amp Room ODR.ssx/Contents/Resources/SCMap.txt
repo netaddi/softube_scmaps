@@ -66,3 +66,10 @@ Drive = <Control>(SUBPLUGIN_Param1)<Value>(0.5)<DisplayName>(Drive)
 Tone = <Control>(SUBPLUGIN_Param2)<Value>(0.5)<DisplayName>(Tone)
 Volume = <Control>(SUBPLUGIN_Param3)<Value>(0.5)<DisplayName>(Level)
 MapEnd
+
+MapStart<AltGate>
+PluginDisplayType: <Gate>
+Drive = <Control>(SHAPE_GateRelease)<Value>(0.5)<DisplayName>(Drive)
+Tone = <Control>(SHAPE_Sustain)<Value>(0.5)<DisplayName>(Tone)
+Volume = <Control>(SHAPE_Gate)<Value>(0.5)<DisplayName>(Level)
+MapEnd

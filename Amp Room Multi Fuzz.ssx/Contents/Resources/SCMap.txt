@@ -14,3 +14,11 @@ ParamType = <Control>(SUBPLUGIN_Param2)<Value>(0.0)
 ParamTone = <Control>(SUBPLUGIN_Param3)<Value>(0.5)
 ParamOutput = <Control>(SUBPLUGIN_Param4)<Value>(0.5)<DisplayName>(Level)
 MapEnd
+
+MapStart<AltGate>
+PluginDisplayType: <Gate>
+ParamFuzz = <Control>(SHAPE_GateRelease)<Value>(0.5)
+ParamType = <Control>(SHAPE_HardGate)<Value>(0.0)
+ParamTone = <Control>(SHAPE_Sustain)<Value>(0.5)
+ParamOutput = <Control>(SHAPE_Gate)<Value>(0.5)<DisplayName>(Level)
+MapEnd

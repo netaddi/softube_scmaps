@@ -19,3 +19,12 @@ eParamVibratoMode = <Control>(SUBPLUGIN_Param5)<Value>(0.0)
 // ...
 
 MapEnd
+
+MapStart<AltGate>
+PluginDisplayType: <Gate>
+eParamSpeed = <Control>(SHAPE_GateRelease)<Value>(0.5)
+eParamDepth = <Control>(SHAPE_Sustain)<Value>(0.5)
+eParamWaveform = <Control>(SHAPE_Gate)<Value>(0.0)
+eParamLFOMode = <Control>(SHAPE_HardGate)<Value>(0.0)
+eParamVibratoMode = <Control>(SHAPE_Punch)<Value>(0.0)
+MapEnd
