@@ -66,3 +66,19 @@ Drive = <Control>(SUBPLUGIN_Param1)<Value>(0.5)<DisplayName>(Drive)
 Tone = <Control>(SUBPLUGIN_Param2)<Value>(0.5)<DisplayName>(Tone)
 Volume = <Control>(SUBPLUGIN_Param3)<Value>(0.5)<DisplayName>(Level)
 MapEnd
+
+MapStart<Alt1>
+PluginDisplayName:"Amp Room DIS"
+PluginDisplayType: <Comp>
+Drive = <Control>(COMP_Ratio)<Value>(0.5)<DisplayName>(Drive)
+Tone = <Control>(COMP_Attack)<Value>(0.5)<DisplayName>(Tone)
+Volume = <Control>(COMP_Release)<Value>(0.5)<DisplayName>(Level)
+MapEnd
+
+MapStart<Alt3>
+PluginDisplayName:"Amp Room DIS"
+PluginDisplayType: <Gate>
+Drive = <Control>(SHAPE_Gate)<SHAPE_Gate>(0.5)<DisplayName>(Drive)
+Tone = <Control>(SHAPE_GateRelease)<Value>(0.5)<DisplayName>(Tone)
+Volume = <Control>(SHAPE_Sustain)<Value>(0.5)<DisplayName>(Level)
+MapEnd

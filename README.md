@@ -34,10 +34,11 @@ MapEnd
 ## options to fill
 
 Gate:
-COMP_Release
-COMP_Attack
-COMP_Threshold
-COMP_Ratio
+SHAPE_GateRelease
+SHAPE_Sustain
+SHAPE_HardGate
+SHAPE_Punch
+SHAPE_Gate
 
 Eq:
 EQ_LF_Typ
