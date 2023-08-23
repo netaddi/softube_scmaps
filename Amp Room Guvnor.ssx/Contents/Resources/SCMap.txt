@@ -69,3 +69,21 @@ Middle = <Control>(SUBPLUGIN_Param3)<Value>(0.5)<DisplayName>(Middle)
 Treble = <Control>(SUBPLUGIN_Param4)<Value>(0.5)<DisplayName>(Treble)
 Volume = <Control>(SUBPLUGIN_Param5)<Value>(0.5)<DisplayName>(Level)
 MapEnd
+
+MapStart<Alt1>
+PluginDisplayType: <Comp>
+Gain = <Control>(COMP_Ratio)<Value>(0.5)<DisplayName>(Drive)
+Bass = <Control>(COMP_Attack)<Value>(0.5)<DisplayName>(Bass)
+Middle = <Control>(COMP_Release)<Value>(0.5)<DisplayName>(Middle)
+Treble = <Control>(COMP_Threshold)<Value>(0.5)<DisplayName>(Treble)
+Volume = <Control>(SUBPLUGIN_Param5)<Value>(0.5)<DisplayName>(Level)
+MapEnd
+
+MapStart<Alt3>
+PluginDisplayType: <Gate>
+Gain = <Control>(SHAPE_Gate)<Value>(0.5)<DisplayName>(Drive)
+Bass = <Control>(SHAPE_GateRelease)<Value>(0.5)<DisplayName>(Bass)
+Middle = <Control>(SHAPE_Sustain)<Value>(0.5)<DisplayName>(Middle)
+Treble = <Control>(SHAPE_Punch)<Value>(0.5)<DisplayName>(Treble)
+Volume = <Control>(SUBPLUGIN_Param5)<Value>(0.5)<DisplayName>(Level)
+MapEnd
