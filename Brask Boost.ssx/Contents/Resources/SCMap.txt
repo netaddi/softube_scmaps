@@ -13,6 +13,23 @@ ParamPickup = <Value>(0.5)
 ParamVolume = <Control>(SUBPLUGIN_Param3)<Value>(0.5)
 ParamLowCutFrequency = <Control>(SUBPLUGIN_Param2)<Value>(0.5)
 ParamBoost = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+MapEnd
+
+MapStart<Alt1>
+PluginDisplayName:"Amp Room - Softube Brask"
+PluginDisplayType: <Gate>
+ParamPickup = <Control>(SHAPE_Punch)<Value>(0.5)
+ParamVolume = <Control>(SHAPE_Gate)<Value>(0.5)
+ParamLowCutFrequency = <Control>(SHAPE_Sustain)<Value>(0.5)
+ParamBoost = <Control>(SHAPE_HardGate)<Value>(0.5)
+MapEnd
 
 
+MapStart<Alt2>
+PluginDisplayName:"Amp Room - Softube Brask"
+PluginDisplayType: <Comp>
+ParamPickup = <Control>(COMP_Threshold)<Value>(0.5)
+ParamVolume = <Control>(COMP_Ratio)<Value>(0.5)
+ParamLowCutFrequency = <Control>(COMP_Attack)<Value>(0.5)
+ParamBoost = <Control>(COMP_Release)<Value>(0.5)
 MapEnd
