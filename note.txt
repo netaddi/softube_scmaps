@@ -12,5 +12,6 @@ Weiss Eq
 Weiss Comp
 
 skip:
+British Cabs
 Amp Room Utilities
 Legacy JCM800
