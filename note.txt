@@ -1,10 +1,6 @@
 TODO:
-Brask Boost
-British Open
-British Closed
 Focusing Eq
 Harmonics
-Kraft
 Marshall series
 Saturation Knob
 Spring Reverb

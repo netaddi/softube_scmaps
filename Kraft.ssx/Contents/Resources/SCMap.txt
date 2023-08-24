@@ -12,3 +12,22 @@ Distortion = <Control>(SUBPLUGIN_Param1)<Value>(0.5)<DisplayName>(Distortion)
 Filter = <Control>(SUBPLUGIN_Param2)<Value>(0.5)<DisplayName>(Filter)
 Volume = <Control>(SUBPLUGIN_Param3)<Value>(0.5)<DisplayName>(Volume)
 MapEnd
+
+MapStart<Alt2>
+PluginDisplayType: <Gate>
+PluginDisplayName:"Amp Room - KRAFT"
+Distortion = <Control>(SHAPE_Gate)<Value>(0.5)<DisplayName>(Distortion)
+Filter = <Control>(SHAPE_GateRelease)<Value>(0.5)<DisplayName>(Filter)
+Volume = <Control>(SHAPE_Sustain)<Value>(0.5)<DisplayName>(Volume)
+MapEnd
+
+
+
+MapStart<Alt1>
+PluginDisplayType: <Comp>
+PluginDisplayName:"Amp Room - KRAFT"
+Distortion = <Control>(COMP_Ratio)<Value>(0.5)<DisplayName>(Distortion)
+Filter = <Control>(COMP_Attack)<Value>(0.5)<DisplayName>(Filter)
+Volume = <Control>(COMP_Release)<Value>(0.5)<DisplayName>(Volume)
+MapEnd
+
