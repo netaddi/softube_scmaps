@@ -18,3 +18,28 @@ ParamReserved2 = <Value>(0.5)
 
 
 MapEnd
+
+
+
+MapStart<Alt2>
+PluginDisplayType: <Gate>
+ParamMicType = <Control>(SHAPE_Gate) <Value>(0.0)
+ParamOffset = <Control>(SHAPE_GateRelease) <Value>(0.5)
+ParamDistance = <Control>(SHAPE_Sustain) <Value>(0.333333)
+ParamPhaseAlign = <Control>(SHAPE_HardGate) <Value>(1.0)
+ParamReserved1 = <Value>(0.5)
+ParamReserved2 = <Value>(0.5)
+MapEnd
+        
+
+
+MapStart<Alt1>
+PluginDisplayType: <Comp>
+ParamMicType = <Control>(COMP_Ratio) <Value>(0.0)
+ParamOffset = <Control>(COMP_Attack) <Value>(0.5)
+ParamDistance = <Control>(COMP_Release) <Value>(0.333333)
+ParamPhaseAlign = <Control>(COMP_Threshold) <Value>(1.0)
+ParamReserved1 = <Value>(0.5)
+ParamReserved2 = <Value>(0.5)
+MapEnd
+        
