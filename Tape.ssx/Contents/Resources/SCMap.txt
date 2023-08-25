@@ -78,10 +78,38 @@ PluginDisplayName = "Tape"
 PluginDisplayType = <Gate>
 Meter = <Value>(0.0)
 ColorAmount = <Value>(0.5)<Control>(SHAPE_Gate)
-ColorType = <Value>(0.0)<Control>(SHAPE_GateRelease)<Min>(1.0)<Max>(0.0)
+ColorType = <Value>(0.0)<Control>(SHAPE_HardGate)
 TapeSpeed = <Value>(0.75)<Control>(SHAPE_Sustain)
 DryWet = <Value>(1.0)
 SpeedStability = <Value>(0.0)<Control>(SHAPE_Punch)
+HighFreqTrim = <Value>(0.5)
+Crosstalk = <Value>(0.0)<Control>(SHAPE_GateRelease)
+Input = <Value>(0.6)
+Output = <Value>(0.6)
+Noise = <Value>(0.0)
+Playback = <Value>(1.0)
+View = <Value>(0.0)
+Reserved = <Value>(0.0)
+
+// Meters
+eMeterLevelVUL = <MeterNotMapped>
+eMeterLevelVUR = <MeterNotMapped>
+eMeterTHDVUL = <MeterNotMapped>
+eMeterTHDVUR = <MeterNotMapped>
+eMeterTransportState = <MeterNotMapped>
+eMeterSidebarIn = <MeterNotMapped>
+eMeterSidebarOut = <MeterNotMapped>
+MapEnd
+
+MapStart<Alt2>
+PluginDisplayName = "Tape"
+PluginDisplayType = <Comp>
+Meter = <Value>(0.0)
+ColorAmount = <Value>(0.5)<Control>(COMP_Ratio)
+ColorType = <Value>(0.0)<Control>(COMP_Attack)
+TapeSpeed = <Value>(0.75)<Control>(COMP_Release)
+DryWet = <Value>(1.0)
+SpeedStability = <Value>(0.0)<Control>(COMP_Threshold)
 HighFreqTrim = <Value>(0.5)
 Crosstalk = <Value>(0.0)
 Input = <Value>(0.6)

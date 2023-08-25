@@ -1,7 +1,6 @@
 TODO:
 Marshall series
 Spring Reverb
-Tape
 Tube Delay
 Wasted Space
 Weiss Eq
