@@ -1,10 +1,6 @@
 TODO:
-Focusing Eq
-Harmonics
 Marshall series
-Saturation Knob
 Spring Reverb
-TSAR-1 Reverb
 Tape
 Tube Delay
 Wasted Space

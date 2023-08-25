@@ -29,3 +29,10 @@ Saturation = <Control>(SUBPLUGIN_Param1)<Value>(0.0)
 SaturationType = <Control>(SUBPLUGIN_Param2)<Value>(0.5)
 MeterSaturation = <Meter>(SUBPLUGIN_Meter1)
 MapEnd
+
+MapStart<SHAPE_Gate>
+PluginDisplayType = <Gate>
+Saturation = <Control>(SHAPE_Gate)<Value>(0.0)
+SaturationType = <Control>(SHAPE_GateRelease)<Value>(0.5)
+MeterSaturation = <Meter>(SUBPLUGIN_Meter1)
+MapEnd

@@ -6,7 +6,7 @@ PluginExectutable: ChannelEq_VST_AU_Debug
 
 // IMPORTANT: Editing of this file may have unexpected consequences!
 // Make sure ALL the parameters below are mapped to a value or a control and that they are mapped in the following order:
-// 
+//
 // ...
 //
 // Each one of these can be mapped to one of the following on the HW:
@@ -53,14 +53,14 @@ PluginExectutable: ChannelEq_VST_AU_Debug
 
 // "Plugin parameter" = <"Control or Value">"HW location"
 MapStart<Default>
-Saturation = <Value>(0.0)
+Saturation = <Control>(EQ_LMF_Q)<Value>(0.0)
 LowCut = <Control>(EQ_LF_Freq)<Value>(0.0)
 HighCut = <Control>(EQ_HF_Freq)<Value>(1.0)
 LowGain = <Control>(EQ_LF_Gain)<Value>(0.0)
 MidGain = <Control>(EQ_LMF_Gain)<Value>(0.5)
 HighGain = <Control>(EQ_HF_Gain)<Value>(0.0)
-Output = <Value>(0.5)
-SaturationType = <Value>(0.5)
+Output = <Control>(EQ_HMF_Q)<Value>(0.5)
+SaturationType = <Control>(EQ_HF_Type)<Value>(0.5)
 EqualizerType = <Control>(EQ_LF_Type)<Value>(1.0)
 MapEnd
 

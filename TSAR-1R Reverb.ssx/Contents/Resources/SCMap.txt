@@ -33,3 +33,29 @@ MeterInputR = <MeterNotMapped>
 MeterOutputL = <MeterNotMapped>
 MeterOutputR = <MeterNotMapped>
 MapEnd
+
+MapStart<Alt1>
+PluginDisplayType = <Gate>
+Predelay = <Control>(SHAPE_GateRelease)<Value>(0.0)
+ReverbTime = <Control>(SHAPE_Sustain)<Value>(0.25)
+Color = <Control>(SHAPE_HardGate)<Value>(0.5)
+ReverbMix = <Control>(SHAPE_Gate)<Value>(1.0)
+OutputVol = <Control>(SHAPE_Punch)<Value>(0.75)
+MeterInputL = <MeterNotMapped>
+MeterInputR = <MeterNotMapped>
+MeterOutputL = <MeterNotMapped>
+MeterOutputR = <MeterNotMapped>
+MapEnd
+
+MapStart<Alt2>
+PluginDisplayType = <Comp>
+Predelay = <Control>(COMP_Attack)<Value>(0.0)
+ReverbTime = <Control>(COMP_Release)<Value>(0.25)
+Color = <Control>(COMP_Ratio)<Value>(0.5)
+ReverbMix = <Value>(1.0)
+OutputVol = <Control>(COMP_Threshold)<Value>(0.75)
+MeterInputL = <MeterNotMapped>
+MeterInputR = <MeterNotMapped>
+MeterOutputL = <MeterNotMapped>
+MeterOutputR = <MeterNotMapped>
+MapEnd

@@ -128,7 +128,32 @@ Drive = <Value>(0.5)<Control>(SHAPE_Gate)
 Character = <Value>(0.5)<Control>(SHAPE_Punch)
 Dynamics = <Value>(0.5)<Control>(SHAPE_Sustain)
 DriveType = <Value>(0.0)<Control>(SHAPE_GateRelease)
-DryWet = <Value>(1.0)<Control>(SHAPE_HardGate)<Min>(1.0)<Max>(0.5)<GuiQuantization>(2)
+DryWet = <Value>(1.0)<Control>(SHAPE_HardGate)<Min>(1.0)<Max>(0.25)<GuiQuantization>(4)
+Pre/PostDistortion = <Value>(0.0)
+DynamicsOnOff = <Value>(1.0)
+LowCutType = <Value>(0.0)
+HighCutType = <Value>(0.0)
+Input = <Value>(0.60000002)
+Output = <Value>(0.60000002)
+LowCut = <Value>(0.0)
+HighCut = <Value>(1.0)
+Meter = <Value>(0.0)
+eMeterLevelVUL = <MeterNotMapped>
+eMeterLevelVUR = <MeterNotMapped>
+eMeterTHDVUL = <MeterNotMapped>
+eMeterTHDVUR = <MeterNotMapped>
+eMeterSidebarIn = <MeterNotMapped>
+eMeterSidebarOut = <MeterNotMapped>
+MapEnd
+
+MapStart<C1_Comp>
+PluginDisplayName = "Harmonics"
+PluginDisplayType = <Comp>
+Drive = <Value>(0.5)<Control>(COMP_Ratio)
+Character = <Value>(0.5)<Control>(COMP_Threshold)
+Dynamics = <Value>(0.5)<Control>(COMP_Release)
+DriveType = <Value>(0.0)<Control>(COMP_Attack)
+DryWet = <Value>(1.0)
 Pre/PostDistortion = <Value>(0.0)
 DynamicsOnOff = <Value>(1.0)
 LowCutType = <Value>(0.0)
