@@ -37,3 +37,31 @@ ParamDryWet = <Control>(MODULE_Param6)<Value>(0.25)
 MeterInput = <Meter>(MODULE_Meter1)
 MeterOutput = <Meter>(MODULE_Meter2)
 MapEnd
+
+
+MapStart<Alt1>
+PluginDisplayType = <Gate>
+ParamPredelay = <Control>(SHAPE_GateRelease)<Value>(0.0)
+ParamTime = <Control>(SHAPE_Sustain)<Value>(0.5)
+ParamFilterType = <Control>(SHAPE_HardGate)<Value>(1.0)
+ParamRate = <Control>(SHAPE_Punch)<Value>(1.0)
+ParamHighPass = <Value>(0.0)
+ParamDryWet = <Control>(SHAPE_Gate)<Value>(1)
+
+MeterInput = <Meter>(MODULE_Meter1)
+MeterOutput = <Meter>(MODULE_Meter2)
+MapEnd
+
+
+MapStart<Alt2>
+PluginDisplayType = <Comp>
+ParamPredelay = <Control>(COMP_Attack)<Value>(0.0)
+ParamTime = <Control>(COMP_Release)<Value>(0.5)
+ParamFilterType = <Control>(COMP_Ratio)<Value>(1.0)
+ParamRate = <Control>(COMP_Threshold)<Value>(1.0)
+ParamHighPass = <Value>(0.0)
+ParamDryWet = <Value>(1)
+
+MeterInput = <Meter>(MODULE_Meter1)
+MeterOutput = <Meter>(MODULE_Meter2)
+MapEnd
