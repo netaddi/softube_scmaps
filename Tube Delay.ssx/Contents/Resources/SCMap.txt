@@ -86,3 +86,18 @@ Sync = <Value>(0.0)
 OutputVolume = <Value>(0.75)
 MapEnd
 
+MapStart<Alt3>
+PluginDisplayType = <EQ>
+PluginDisplayName:"Tube Delay"
+DirectDrive = <Value>(0.5)<Control>(EQ_LF_Freq)
+Timems = <Value>(0.5)<Control>(EQ_LMF_Freq)
+TimeBeat = <Value>(0.5)<Control>(EQ_LMF_Gain)
+DelayDrive = <Value>(0.5)<Control>(EQ_LF_Gain)
+Bass = <Value>(0.5)<Control>(EQ_HF_Freq)
+Treble = <Value>(0.5)<Control>(EQ_HF_Gain)
+Feedback = <Value>(0.5)<Control>(EQ_HMF_Freq)
+Mix = <Value>(0.0)<Control>(EQ_HMF_Gain)
+Sync = <Value>(0.0)<Control>(EQ_LF_Type)
+OutputVolume = <Value>(0.75)<Control>(EQ_HMF_Q)
+MapEnd
+

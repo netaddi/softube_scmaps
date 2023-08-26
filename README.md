@@ -41,7 +41,7 @@ SHAPE_Punch
 SHAPE_Gate
 
 Eq:
-EQ_LF_Typ
+EQ_LF_Type
 EQ_LF_Freq
 EQ_LF_Gain
 EQ_LMF_Freq

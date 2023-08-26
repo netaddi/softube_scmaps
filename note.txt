@@ -1,6 +1,5 @@
 TODO:
 Marshall series
-Tube Delay
 Weiss Eq
 Weiss Comp
 
