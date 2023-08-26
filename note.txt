@@ -1,6 +1,5 @@
 TODO:
 Marshall series
-Weiss Eq
 Weiss Comp
 
 skip:
