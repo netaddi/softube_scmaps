@@ -29,3 +29,23 @@ Bass = <Control>(SUBPLUGIN_Param6)<Value>(0.5)
 Treble = <Control>(SUBPLUGIN_Param5)<Value>(0.5)
 Shake = <Control>(SUBPLUGIN_Param2)<Value>(0.5)
 MapEnd
+
+MapStart<Alt1>
+PluginDisplayType = <Gate>
+Mix = <Control>(SHAPE_HardGate)<Value>(0.5)<GuiQuantization>(5)
+Springs = <Control>(SHAPE_Gate)<Value>(0.5)
+Tension = <Control>(SHAPE_Punch)<Value>(0.5)
+Bass = <Control>(SHAPE_GateRelease)<Value>(0.5)
+Treble = <Control>(SHAPE_Sustain)<Value>(0.5)
+Shake = <Value>(0.5)
+MapEnd
+
+MapStart<Alt2>
+PluginDisplayType = <Comp>
+Mix = <Value>(1)
+Springs = <Control>(COMP_Ratio)<Value>(0.5)
+Tension = <Control>(COMP_Attack)<Value>(0.5)
+Bass = <Control>(COMP_Release)<Value>(0.5)
+Treble = <Control>(COMP_Threshold)<Value>(0.5)
+Shake = <Value>(0.5)
+MapEnd
