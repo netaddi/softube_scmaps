@@ -55,3 +55,34 @@ Sync = <Control>(SUBPLUGIN_Param8)<Value>(0.0)
 OutputVolume = <Control>(SUBPLUGIN_Param9)<Value>(0.5)
 MapEnd
 
+
+MapStart<Alt1>
+PluginDisplayType = <Gate>
+PluginDisplayName:"Tube Delay Drive"
+DirectDrive = <Value>(0.5)<Control>(SHAPE_Gate)
+Timems = <Value>(0.5)
+TimeBeat = <Value>(0.5)
+DelayDrive = <Value>(0.5)
+Bass = <Value>(0.5)<Control>(SHAPE_GateRelease)
+Treble = <Value>(0.5)<Control>(SHAPE_Sustain)
+Feedback = <Value>(0.5)
+Mix = <Value>(0.0)
+Sync = <Value>(0.0)
+OutputVolume = <Value>(0.5)<Control>(SHAPE_Punch)
+MapEnd
+
+MapStart<Alt2>
+PluginDisplayType = <Gate>
+PluginDisplayName:"Tube Delay No Tempo"
+DirectDrive = <Value>(0.5)<Control>(SHAPE_HardGate)<GuiQuantization>(5)
+Timems = <Value>(0.5)<Control>(SHAPE_GateRelease)
+TimeBeat = <Value>(0.5)
+DelayDrive = <Value>(0.5)<Control>(SHAPE_Gate)
+Bass = <Value>(0.5)
+Treble = <Value>(0.5)
+Feedback = <Value>(0.5)<Control>(SHAPE_Sustain)
+Mix = <Value>(0.0)<Control>(SHAPE_Punch)
+Sync = <Value>(0.0)
+OutputVolume = <Value>(0.75)
+MapEnd
+
