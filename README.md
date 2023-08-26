@@ -59,3 +59,6 @@ COMP_Release
 COMP_Attack
 COMP_Threshold
 COMP_Ratio
+
+Other Options:
+GuiQuantization
