@@ -30,7 +30,7 @@ ParamPhaseAlign = <Control>(SHAPE_HardGate) <Value>(1.0)
 ParamReserved1 = <Value>(0.5)
 ParamReserved2 = <Value>(0.5)
 MapEnd
-        
+
 
 
 MapStart<Alt1>
@@ -42,4 +42,4 @@ ParamPhaseAlign = <Control>(COMP_Threshold) <Value>(1.0)
 ParamReserved1 = <Value>(0.5)
 ParamReserved2 = <Value>(0.5)
 MapEnd
-        
+

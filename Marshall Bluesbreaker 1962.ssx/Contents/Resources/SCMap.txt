@@ -119,3 +119,93 @@ eMeterOutputL = <MeterNotMapped>
 eMeterOutputR = <MeterNotMapped>
 
 MapEnd
+
+MapStart<AmpAlt1>
+PluginDisplayName:"Marshall Bluesbreaker Amp"
+PluginDisplayType: <Gate>
+Input = <Value>(0.090908997)
+Loudness1 = <Control>(SHAPE_GateRelease)<Value><Value>(0.5)<DisplayName>(Loud HiTreble)
+Loudness2 = <Control>(SHAPE_Sustain)<Value><Value>(0.5)<DisplayName>(Loud Normal)
+Bass = <Value><Value>(0.5)
+Middle = <Value><Value>(0.5)
+Treble = <Value><Value>(0.5)
+Presence = <Value><Value>(0.5)
+Intensity = <Control>(SHAPE_Gate)<Value><Value>(0.0)<DisplayName>(Tremolo Intensity)
+Speed = <Control>(SHAPE_Punch)<Value><Value>(0.5)<DisplayName>(Tremolo Speed)
+OutputVolume = <Value>(0.5)
+Mic = <Value>(1.0)
+Level1 = <Value>(0.60000002)
+Level2 = <Value>(0.60000002)
+Level3 = <Value>(0.60000002)
+Level4 = <Value>(0.60000002)
+Pan1 = <Value>(0.5)
+Pan2 = <Value>(0.5)
+Pan3 = <Value>(0.5)
+Pan4 = <Value>(0.5)
+In1 = <Value>(1.0)
+In2 = <Value>(1.0)
+In3 = <Value>(0.0)
+In4 = <Value>(0.0)
+View = <Value>(0.0)
+AmpBypass = <Value>(0.0)<Control>(SHAPE_HardGate)
+MapEnd
+
+MapStart<AmpAlt2>
+PluginDisplayName:"Marshall Bluesbreaker Amp"
+PluginDisplayType: <EQ>
+Input = <Value>(0.090908997)
+Loudness1 = <Control>(EQ_LF_Freq)<Value>(0.5)<DisplayName>(Loud HiTreble)
+Loudness2 = <Control>(EQ_LF_Gain)<Value>(0.5)<DisplayName>(Loud Normal)
+Bass = <Control>(EQ_LMF_Gain)<Value>(0.5)
+Middle = <Control>(EQ_HMF_Gain)<Value>(0.5)
+Treble = <Control>(EQ_HF_Gain)<Value>(0.5)
+Presence = <Control>(EQ_LMF_Freq)<Value>(0.5)
+Intensity = <Control>(EQ_HMF_Freq)<Value><Value>(0.0)<DisplayName>(Tremolo Intensity)
+Speed = <Control>(EQ_HF_Freq)<Value><Value>(0.5)<DisplayName>(Tremolo Speed)
+OutputVolume = <Value>(0.5)
+Mic = <Value>(1.0)<Control>(EQ_HF_Type)
+Level1 = <Value>(0.60000002)<Control>(EQ_LMF_Q)
+Level2 = <Value>(0.60000002)<Control>(EQ_HMF_Q)
+Level3 = <Value>(0.60000002)
+Level4 = <Value>(0.60000002)
+Pan1 = <Value>(0.5)
+Pan2 = <Value>(0.5)
+Pan3 = <Value>(0.5)
+Pan4 = <Value>(0.5)
+In1 = <Value>(1.0)
+In2 = <Value>(1.0)
+In3 = <Value>(0.0)
+In4 = <Value>(0.0)
+View = <Value>(0.0)
+AmpBypass = <Value>(0.0)<Control>(EQ_LF_Type)
+MapEnd
+
+MapStart<AmpAlt3>
+PluginDisplayName:"Marshall Bluesbreaker Cab"
+PluginDisplayType: <EQ>
+Input = <Value>(0.090908997)
+Loudness1 = <Control>(EQ_LMF_Q)<Value>(0.5)<DisplayName>(Loud HiTreble)
+Loudness2 = <Control>(EQ_HMF_Q)<Value>(0.5)<DisplayName>(Loud Normal)
+Bass = <Value>(0.5)
+Middle = <Value>(0.5)
+Treble = <Value>(0.5)
+Presence = <Value>(0.5)
+Intensity = <Value><Value>(0.0)
+Speed = <Value><Value>(0.5)
+OutputVolume = <Value>(0.5)
+Mic = <Value>(1.0)<Control>(EQ_HF_Type)
+Level1 = <Value>(0.60000002)<Control>(EQ_LF_Gain)
+Level2 = <Value>(0.60000002)<Control>(EQ_LMF_Gain)
+Level3 = <Value>(0.60000002)<Control>(EQ_HMF_Gain)
+Level4 = <Value>(0.60000002)<Control>(EQ_HF_Gain)
+Pan1 = <Value>(0.5)<Control>(EQ_LF_Freq)
+Pan2 = <Value>(0.5)<Control>(EQ_LMF_Freq)
+Pan3 = <Value>(0.5)<Control>(EQ_HMF_Freq)
+Pan4 = <Value>(0.5)<Control>(EQ_HF_Freq)
+In1 = <Value>(1.0)
+In2 = <Value>(1.0)
+In3 = <Value>(0.0)
+In4 = <Value>(0.0)
+View = <Value>(0.0)
+AmpBypass = <Value>(1.0)<Control>(EQ_LF_Type)
+MapEnd
