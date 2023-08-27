@@ -99,10 +99,74 @@ Microphone(Green) = <Value>(0.5)
 AmpCabBypass = <Value>(1.0)
 MapEnd
 
+MapStart<AltBrown>
+PluginDisplayName = "Marshall JCM 800 Brown Amp"
+PluginDisplayType: <Gate>
+PluginLinearGainOutput: 1.258925
+AmpSwitch = <Value>(0.5)
+Presence(White) = <Value>(0.5)
+Bass(White) = <Value>(0.5)
+Middle(White) = <Value>(0.5)
+Treble(White) = <Value>(0.5)
+MasterVol(White) = <Value>(0.5)
+PreampVol(White) = <Value>(0.5)
+Microphone(White) = <Value>(0.5)
+BrightSwitch(Brown) = <Control>(SHAPE_HardGate)<Value>(0.0)
+Volume(Brown) = <Control>(SHAPE_Gate)<Value>(0.5)
+Treble(Brown) = <Value>(0.5)
+Middle(Brown) = <Value>(0.5)
+Bass(Brown) = <Value>(0.5)
+VibratoSwitch(Brown) = <Control>(SHAPE_GateRelease)<Value>(0.0)
+VibratoSpeed(Brown) = <Control>(SHAPE_Sustain)<Value>(0.5)
+VibratoIntensity(Brown) = <Control>(SHAPE_Punch)<Value>(0.5)
+Microphone(Brown) = <Value>(0.5)
+Vib-TremOff-On(Green) = <Value>(0.0)
+Vib-TremSpeed(Green) = <Value>(0.0)
+Vib-TremSwitch(Green) = <Value>(0.0)
+Vib-TremVolume(Green) = <Value>(0.5)
+NormalVolume(Green) = <Value>(0.5)
+BrilliantVolume(Green) = <Value>(0.5)
+Tone(Green) = <Value>(0.5)
+Microphone(Green) = <Value>(0.5)
+AmpCabBypass = <Value>(1.0)
+MapEnd
+
+MapStart<AltGreen>
+PluginDisplayName = "Marshall JCM 800 Green Amp"
+PluginDisplayType: <Gate>
+PluginLinearGainOutput: 1.258925
+AmpSwitch = <Value>(1.0)
+Presence(White) = <Value>(0.5)
+Bass(White) = <Value>(0.5)
+Middle(White) = <Value>(0.5)
+Treble(White) = <Value>(0.5)
+MasterVol(White) = <Value>(0.5)
+PreampVol(White) = <Value>(0.5)
+Microphone(White) = <Value>(0.5)
+BrightSwitch(Brown) = <Value>(0.0)
+Volume(Brown) = <Value>(0.5)
+Treble(Brown) = <Value>(0.5)
+Middle(Brown) = <Value>(0.5)
+Bass(Brown) = <Value>(0.5)
+VibratoSwitch(Brown) = <Value>(0.0)
+VibratoSpeed(Brown) = <Value>(0.5)
+VibratoIntensity(Brown) = <Value>(0.5)
+Microphone(Brown) = <Value>(0.5)
+Vib-TremOff-On(Green) = <Value>(1.0)
+Vib-TremSpeed(Green) = <Control>(SHAPE_Sustain)<Value>(0.0)
+Vib-TremSwitch(Green) = <Control>(SHAPE_HardGate)<Value>(0.0)
+Vib-TremVolume(Green) = <Control>(SHAPE_GateRelease)<Value>(0.5)
+NormalVolume(Green) = <Control>(SHAPE_Gate)<Value>(0.5)
+BrilliantVolume(Green) = <Value>(0.5)
+Tone(Green) = <Control>(SHAPE_Punch)<Value>(0.5)
+Microphone(Green) = <Value>(0.5)
+AmpCabBypass = <Value>(1.0)
+MapEnd
+
 // TODO: add config for Brown and Green.
 
 MapStart<Alt2>
-PluginDisplayName = "MARSHALL JCM 800 Vintage Cabs"
+PluginDisplayName = "Marshall JCM 800 Vintage Cabs"
 PluginDisplayType: <Gate>
 PluginLinearGainOutput: 1.258925
 AmpSwitch = <Control>(SHAPE_HardGate)<Value>(0.0)
