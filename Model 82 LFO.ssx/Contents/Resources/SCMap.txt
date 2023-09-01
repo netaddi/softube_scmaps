@@ -1,0 +1,18 @@
+// Model 82 LFO Pagetable v.1
+PluginID: ST00
+PluginName: "Model 82 LFO"
+PluginType: Module
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+// Make sure all parameters are mapped! Hint: Use build/bin/mapgen Model 82 LFO.vst
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<ModularM82LFO>
+Rate        = <Control>(MODULE_Param1)<Value>(0.5)
+DAWDivision = <Control>(MODULE_Param2)<Value>(1.0)
+DAWSync     = <Control>(MODULE_Param3)<Value>(0.0)
+Waveform    = <Control>(MODULE_Param4)<Value>(0.0)
+Subsystem   = <SubsystemIndex><Value>(0.0)
+
+LFOLED      = <Meter>(MODULE_Meter1)
+MapEnd

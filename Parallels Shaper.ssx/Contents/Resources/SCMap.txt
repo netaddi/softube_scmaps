@@ -1,0 +1,90 @@
+// Parallels Shaper Pagetable v.1
+PluginID: irvu
+PluginName: "Parallels Shaper"
+PluginType: Module
+PluginModularLatencyInSeconds: 0.00072562
+
+MapStart<Default>
+PluginDisplayName = "Parallels Shaper"
+PluginDisplayType = <Dummy>
+MapEnd
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+// Add <Control> tags to map parameter to Console 1 control
+// ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+
+MapStart<ParallelsShapes>
+PluginDisplayName = "Parallels Shaper"
+ShaperType = <Control>(MODULE_Param10)<Value>(1.0)
+SVFFrequency = <Control>(MODULE_Param9)<Value>(0.5)
+SVFResonance = <Control>(MODULE_Param8)<Value>(0.5)
+SVFType = <Control>(MODULE_Param7)<Value>(0.0)
+RESCenterFreq = <Control>(MODULE_Param6)<Value>(0.5)
+RESTilt = <Control>(MODULE_Param4)<Value>(0.5)
+RESSpread = <Control>(MODULE_Param5)<Value>(0.5)
+LPGFrequency = <Control>(MODULE_Param3)<Value>(0.5)
+LPGResonance = <Control>(MODULE_Param2)<Value>(0.5)
+LPGSlewRate = <Control>(MODULE_Param1)<Value>(0.5)
+MapEnd
+
+MapStart<ParallelsShapesAmpRoom>
+PluginDisplayName = "Parallels Shaper"
+PluginDisplayType = <AmpRoomModule>
+ShaperType = <Control>(SUBPLUGIN_Param10)<Value>(1.0)
+SVFFrequency = <Control>(SUBPLUGIN_Param9)<Value>(0.5)<VirtualInput>(0)
+SVFResonance = <Control>(SUBPLUGIN_Param8)<Value>(0.5)<VirtualInput>(1)
+SVFType = <Control>(SUBPLUGIN_Param7)<Value>(0.0)<VirtualInput>(2)
+RESCenterFreq = <Control>(SUBPLUGIN_Param6)<Value>(0.5)<VirtualInput>(3)
+RESTilt = <Control>(SUBPLUGIN_Param4)<Value>(0.5)<VirtualInput>(4)
+RESSpread = <Control>(SUBPLUGIN_Param5)<Value>(0.5)<VirtualInput>(5)
+LPGFrequency = <Control>(SUBPLUGIN_Param3)<Value>(0.5)<VirtualInput>(6)
+LPGResonance = <Control>(SUBPLUGIN_Param2)<Value>(0.5)<VirtualInput>(7)
+LPGSlewRate = <Control>(SUBPLUGIN_Param1)<Value>(0.5)<VirtualInput>(8)
+// No meters
+// Inputs
+MonoIn = <Input>(0)
+// Outputs
+MonoOut = <Output>(0)
+MapEnd
+
+MapStart<ParallelsLPG>
+PluginDisplayName = "Parallels Shape LPG"
+ShaperType = <Value>(1.0)
+SVFFrequency = <Value>(0.5)
+SVFResonance = <Value>(0.5)
+SVFType = <Value>(0.0)
+RESCenterFreq = <Value>(0.5)
+RESTilt = <Value>(0.5)
+RESSpread = <Value>(0.5)
+LPGFrequency = <Control>(MODULE_Param3)<Value>(0.5)
+LPGResonance = <Control>(MODULE_Param2)<Value>(0.5)
+LPGSlewRate = <Control>(MODULE_Param1)<Value>(0.5)
+MapEnd
+
+MapStart<ParallelsRES>
+PluginDisplayName = "Parallels Shape RES"
+ShaperType = <Value>(0.5)
+SVFFrequency = <Value>(0.5)
+SVFResonance = <Value>(0.5)
+SVFType = <Value>(0.0)
+RESCenterFreq = <Control>(MODULE_Param3)<Value>(0.5)
+RESTilt = <Control>(MODULE_Param1)<Value>(0.5)
+RESSpread = <Control>(MODULE_Param2)<Value>(0.5)
+LPGFrequency = <Value>(0.5)
+LPGResonance = <Value>(0.5)
+LPGSlewRate = <Value>(0.5)
+MapEnd
+
+MapStart<ParallelsSVF>
+PluginDisplayName = "Parallels Shape SVF"
+ShaperType = <Value>(0.0)
+SVFFrequency = <Control>(MODULE_Param3)<Value>(0.5)
+SVFResonance = <Control>(MODULE_Param2)<Value>(0.5)
+SVFType = <Control>(MODULE_Param1)<Value>(0.0)
+RESCenterFreq = <Value>(0.5)
+RESTilt = <Value>(0.5)
+RESSpread = <Value>(0.5)
+LPGFrequency = <Value>(0.5)
+LPGResonance = <Value>(0.5)
+LPGSlewRate = <Value>(0.5)
+MapEnd

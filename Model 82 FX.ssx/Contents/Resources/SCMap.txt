@@ -1,0 +1,18 @@
+// Model 82 FX Pagetable v.1
+PluginID: ST06
+PluginName: "Model 82 FX"
+PluginType: Module
+PluginModularLatencyInSeconds: 0.003
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+// Make sure all parameters are mapped! Hint: Use build/bin/mapgen Model 82 FX.vst
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+MapStart<ModularM82FX>
+
+ParamDrive    = <Control>(MODULE_Param1)<Value>(0.0)<VirtualInput>(0)
+ParamTone     = <Control>(MODULE_Param2)<Value>(1.0)
+ParamLevel    = <Control>(MODULE_Param3)<Value>(1.0)
+ParamDoubling = <Control>(MODULE_Param4)<Value>(0.5)
+
+MapEnd

@@ -1,0 +1,29 @@
+// Parallels Envelope Pagetable v.1
+PluginID: zbye
+PluginName: "Parallels Env"
+PluginType: Module
+PluginModularLatencyInSeconds: 0.00072562
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+// Add <Control> tags to map parameter to Console 1 control
+// ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+
+MapStart<Default>
+PluginDisplayName = "Parallels Env"
+PluginDisplayType = <Dummy>
+MapEnd
+
+MapStart<ParallelsEnvelope><1>
+PluginDisplayName = "Parallels Mod Envelope"
+Modulation = <Value>(1.0)
+Debug = <Value>(1.0)
+Note = <Control>(MODULE_Param5)<Value>(0.245)
+ENVAttack = <Control>(MODULE_Param1)<Value>(0.5)
+ENVRelease = <Control>(MODULE_Param3)<Value>(0.5)
+ENVSustain = <Control>(MODULE_Param2)<Value>(0.5)
+ENVDecay = <Control>(MODULE_Param4)<Value>(0.0)
+ENVLink = <Value>(0.0)
+MapEnd
+

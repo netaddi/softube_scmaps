@@ -1,10 +1,9 @@
 TODO:
-Marshall series
-Amp Room Vintage Amp Room JCM800
 Marshall JMP 2203
 Plexi Super Lead 1959
 Silver Jubilee 2555
-Weiss Comp
+Model 82 FX
+Parallels FX
 
 skip:
 British Cabs

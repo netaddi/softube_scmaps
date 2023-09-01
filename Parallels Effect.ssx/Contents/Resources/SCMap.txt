@@ -1,0 +1,307 @@
+// Parallels Shaper Pagetable v.1
+PluginID: akik
+PluginName: "Parallels Effect"
+PluginType: Module
+PluginModularLatencyInSeconds: 0.00072562
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+// Add <Control> tags to map parameter to Console 1 control
+// ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+
+MapStart<Default>
+PluginDisplayName = "Parallels Effect"
+PluginDisplayType = <Dummy>
+MapEnd
+
+MapStart<ParallelsEffects>
+PluginDisplayName = "Parallels Effects"
+SrcMix = <Value>(0.5)
+DistortionActive = <Control>(MODULE_Param18)<Value>(1.0)
+DistortionAmount = <Control>(MODULE_Param7)<Value>(0.5)
+DistortionCharacter = <Control>(MODULE_Param8)<Value>(0.5)<DisplayName>(Distortion Tone)
+DistortionDry/Wet = <Control>(MODULE_Param9)<Value>(1.0)
+ChorusActive = <Control>(MODULE_Param16)<Value>(0.0)
+ChorusSpeed = <Control>(MODULE_Param1)<Value>(0.5)
+ChorusWidth = <Control>(MODULE_Param2)<Value>(0.5)
+ChorusDry/Wet = <<Control>(MODULE_Param3)Value>(1.0)
+FlangerActive = <Control>(MODULE_Param19)<Value>(0.0)
+FlangerSpeed = <Control>(MODULE_Param10)<Value>(0.5)
+FlangerFeedback = <Control>(MODULE_Param11)<Value>(0.5)
+FlangerDry/Wet = <Control>(MODULE_Param12)<Value>(1.0)
+DelayActive = <Control>(MODULE_Param17)<Value>(0.0)
+DelayTime = <Control>(MODULE_Param4)<Value>(0.5)
+DelayFeedback = <Control>(MODULE_Param5)<Value>(0.5)
+DelayDry/Wet = <Control>(MODULE_Param6)<Value>(0.40000001)
+ReverbActive = <Control>(MODULE_Param20)<Value>(0.0)
+ReverbTime = <Control>(MODULE_Param13)<Value>(0.5)
+ReverbTone = <Control>(MODULE_Param14)<Value>(0.5)
+ReverbDry/Wet = <Control>(MODULE_Param15)<Value>(0.30000001)
+OutputVolume = <Value>(0.5)
+MapEnd
+
+MapStart<ParallelsChorus>
+PluginDisplayName = "Parallels FX Chorus"
+SrcMix = <Value>(0.5)
+DistortionActive = <Value>(0.0)
+DistortionAmount = <Value>(0.5)
+DistortionCharacter = <Value>(0.5)
+DistortionDry/Wet = <Value>(1.0)
+ChorusActive = <Value>(1.0)
+ChorusSpeed = <Control>(MODULE_Param1)<Value>(0.5)
+ChorusWidth = <Control>(MODULE_Param2)<Value>(0.5)
+ChorusDry/Wet = <Control>(MODULE_Param3)Value>(1.0)
+FlangerActive = <Value>(0.0)
+FlangerSpeed = <Value>(0.5)
+FlangerFeedback = <Value>(0.5)
+FlangerDry/Wet = <Value>(1.0)
+DelayActive = <Value>(0.0)
+DelayTime = <Value>(0.5)
+DelayFeedback = <Value>(0.5)
+DelayDry/Wet = <Value>(0.40000001)
+ReverbActive = <Value>(0.0)
+ReverbTime = <Value>(0.5)
+ReverbTone = <Value>(0.5)
+ReverbDry/Wet = <Value>(0.30000001)
+OutputVolume = <Value>(0.5)
+MapEnd
+
+MapStart<ParallelsDelay>
+PluginDisplayName = "Parallels FX Delay"
+SrcMix = <Value>(0.5)
+DistortionActive = <Value>(0.0)
+DistortionAmount = <Value>(0.5)
+DistortionCharacter = <Value>(0.5)
+DistortionDry/Wet = <Value>(1.0)
+ChorusActive = <Value>(0.0)
+ChorusSpeed = <Value>(0.5)
+ChorusWidth = <Value>(0.5)
+ChorusDry/Wet = <Value>(0.0)
+FlangerActive = <Value>(0.0)
+FlangerSpeed = <Value>(0.5)
+FlangerFeedback = <Value>(0.5)
+FlangerDry/Wet = <Value>(1.0)
+DelayActive = <Value>(1.0)
+DelayTime = <Control>(MODULE_Param1)<Value>(0.5)
+DelayFeedback = <Control>(MODULE_Param2)<Value>(0.5)
+DelayDry/Wet = <Control>(MODULE_Param3)<Value>(0.40000001)
+ReverbActive = <Value>(0.0)
+ReverbTime = <Value>(0.5)
+ReverbTone = <Value>(0.5)
+ReverbDry/Wet = <Value>(0.30000001)
+OutputVolume = <Value>(0.5)
+MapEnd
+
+MapStart<ParallelsDistortion>
+PluginDisplayName = "Parallels FX Distortion"
+SrcMix = <Value>(0.5)
+DistortionActive = <Value>(1.0)
+DistortionAmount = <Control>(MODULE_Param1)<Value>(0.5)
+DistortionCharacter = <Control>(MODULE_Param2)<Value>(0.5)
+DistortionDry/Wet = <Control>(MODULE_Param3)<Value>(1.0)
+ChorusActive = <Value>(0.0)
+ChorusSpeed = <Value>(0.5)
+ChorusWidth = <Value>(0.5)
+ChorusDry/Wet = <Value>(0.0)
+FlangerActive = <Value>(0.0)
+FlangerSpeed = <Value>(0.5)
+FlangerFeedback = <Value>(0.5)
+FlangerDry/Wet = <Value>(0.0)
+DelayActive = <Value>(0.0)
+DelayTime = <Value>(0.5)
+DelayFeedback = <Value>(0.5)
+DelayDry/Wet = <Value>(0.40000001)
+ReverbActive = <Value>(0.0)
+ReverbTime = <Value>(0.5)
+ReverbTone = <Value>(0.5)
+ReverbDry/Wet = <Value>(0.30000001)
+OutputVolume = <Value>(0.5)
+MapEnd
+
+MapStart<ParallelsFlanger>
+PluginDisplayName = "Parallels FX Flanger"
+SrcMix = <Value>(0.5)
+DistortionActive = <Value>(0.0)
+DistortionAmount = <Value>(0.5)
+DistortionCharacter = <Value>(0.5)
+DistortionDry/Wet = <Value>(1.0)
+ChorusActive = <Value>(0.0)
+ChorusSpeed = <Value>(0.5)
+ChorusWidth = <Value>(0.5)
+ChorusDry/Wet = <Value>(1.0)
+FlangerActive = <Value>(1.0)
+FlangerSpeed = <Control>(MODULE_Param1)<Value>(0.5)
+FlangerFeedback = <Control>(MODULE_Param2)<Value>(0.5)
+FlangerDry/Wet = <Control>(MODULE_Param3)<Value>(1.0)
+DelayActive = <Value>(0.0)
+DelayTime = <Value>(0.5)
+DelayFeedback = <Value>(0.5)
+DelayDry/Wet = <Value>(0.40000001)
+ReverbActive = <Value>(0.0)
+ReverbTime = <Value>(0.5)
+ReverbTone = <Value>(0.5)
+ReverbDry/Wet = <Value>(0.30000001)
+OutputVolume = <Value>(0.5)
+MapEnd
+
+MapStart<ParallelsReverb>
+PluginDisplayName = "Parallels FX Reverb"
+SrcMix = <Value>(0.5)
+DistortionActive = <Value>(0.0)
+DistortionAmount = <Value>(0.5)
+DistortionCharacter = <Value>(0.5)
+DistortionDry/Wet = <Value>(1.0)
+ChorusActive = <Value>(0.0)
+ChorusSpeed = <Value>(0.5)
+ChorusWidth = <Value>(0.5)
+ChorusDry/Wet = <Value>(0.0)
+FlangerActive = <Value>(0.0)
+FlangerSpeed = <Value>(0.5)
+FlangerFeedback = <Value>(0.5)
+FlangerDry/Wet = <Value>(1.0)
+DelayActive = <Value>(0.0)
+DelayTime = <Value>(0.5)
+DelayFeedback = <Value>(0.5)
+DelayDry/Wet = <Value>(0.40000001)
+ReverbActive = <Value>(1.0)
+ReverbTime = <Control>(MODULE_Param1)<Value>(0.5)
+ReverbTone = <Control>(MODULE_Param2)<Value>(0.5)
+ReverbDry/Wet = <Control>(MODULE_Param3)<Value>(0.30000001)
+OutputVolume = <Value>(0.5)
+MapEnd
+
+MapStart<ParallelsDistortionAmpRoom>
+PluginDisplayName = "Parallels Effects"
+PluginDisplayType = <AmpRoomModule>
+SrcMix = <Value>(0.5)
+DistortionActive = <Value>(1.0)
+DistortionAmount = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+DistortionCharacter = <Control>(SUBPLUGIN_Param2)<Value>(0.5)<DisplayName>(Distortion Tone)
+DistortionDry/Wet = <Control>(SUBPLUGIN_Param3)<Value>(1.0)
+ChorusActive = <Value>(0.0)
+ChorusSpeed = <Value>(0.5)
+ChorusWidth = <Value>(0.5)
+ChorusDry/Wet = <Value>(1.0)
+FlangerActive = <Value>(0.0)
+FlangerSpeed = <Value>(0.5)
+FlangerFeedback = <Value>(0.5)
+FlangerDry/Wet = <Value>(1.0)
+DelayActive = <Value>(0.0)
+DelayTime = <Value>(0.5)
+DelayFeedback = <Value>(0.5)
+DelayDry/Wet = <Value>(0.40000001)
+ReverbActive = <Value>(0.0)
+ReverbTime = <Value>(0.5)
+ReverbTone = <Value>(0.5)
+ReverbDry/Wet = <Value>(0.30000001)
+OutputVolume = <Value>(0.5)
+MapEnd
+
+MapStart<ParallelsChorusAmpRoom>
+PluginDisplayName = "Parallels Effects"
+PluginDisplayType = <AmpRoomModule>
+SrcMix = <Value>(0.5)
+DistortionActive = <Value>(0.0)
+DistortionAmount = <Value>(0.5)
+DistortionCharacter = <Value>(0.5)<DisplayName>(Distortion Tone)
+DistortionDry/Wet = <Value>(1.0)
+ChorusActive = <Value>(1.0)
+ChorusSpeed = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+ChorusWidth = <Control>(SUBPLUGIN_Param2)<Value>(0.5)
+ChorusDry/Wet = <Control>(SUBPLUGIN_Param3)<Value>(1.0)
+FlangerActive = <Value>(0.0)
+FlangerSpeed = <Value>(0.5)
+FlangerFeedback = <Value>(0.5)
+FlangerDry/Wet = <Value>(1.0)
+DelayActive = <Value>(0.0)
+DelayTime = <Value>(0.5)
+DelayFeedback = <Value>(0.5)
+DelayDry/Wet = <Value>(0.40000001)
+ReverbActive = <Value>(0.0)
+ReverbTime = <Value>(0.5)
+ReverbTone = <Value>(0.5)
+ReverbDry/Wet = <Value>(0.30000001)
+OutputVolume = <Value>(0.5)
+MapEnd
+
+MapStart<ParallelsFlangerAmpRoom>
+PluginDisplayName = "Parallels Effects"
+PluginDisplayType = <AmpRoomModule>
+SrcMix = <Value>(0.5)
+DistortionActive = <Value>(0.0)
+DistortionAmount = <Value>(0.5)
+DistortionCharacter = <Value>(0.5)<DisplayName>(Distortion Tone)
+DistortionDry/Wet = <Value>(1.0)
+ChorusActive = <Value>(0.0)
+ChorusSpeed = <Value>(0.5)
+ChorusWidth = <Value>(0.5)
+ChorusDry/Wet = <Value>(1.0)
+FlangerActive = <Value>(1.0)
+FlangerSpeed = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+FlangerFeedback = <Control>(SUBPLUGIN_Param2)<Value>(0.5)
+FlangerDry/Wet = <Control>(SUBPLUGIN_Param3)<Value>(1.0)
+DelayActive = <Value>(0.0)
+DelayTime = <Value>(0.5)
+DelayFeedback = <Value>(0.5)
+DelayDry/Wet = <Value>(0.40000001)
+ReverbActive = <Value>(0.0)
+ReverbTime = <Value>(0.5)
+ReverbTone = <Value>(0.5)
+ReverbDry/Wet = <Value>(0.30000001)
+OutputVolume = <Value>(0.5)
+MapEnd
+
+MapStart<ParallelsDelayAmpRoom>
+PluginDisplayName = "Parallels Effects"
+PluginDisplayType = <AmpRoomModule>
+SrcMix = <Value>(0.5)
+DistortionActive = <Value>(0.0)
+DistortionAmount = <Value>(0.5)
+DistortionCharacter = <Value>(0.5)<DisplayName>(Distortion Tone)
+DistortionDry/Wet = <Value>(1.0)
+ChorusActive = <Value>(0.0)
+ChorusSpeed = <Value>(0.5)
+ChorusWidth = <Value>(0.5)
+ChorusDry/Wet = <Value>(1.0)
+FlangerActive = <Value>(0.0)
+FlangerSpeed = <Value>(0.5)
+FlangerFeedback = <Value>(0.5)
+FlangerDry/Wet = <Value>(1.0)
+DelayActive = <Value>(1.0)
+DelayTime = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+DelayFeedback = <Control>(SUBPLUGIN_Param2)<Value>(0.5)
+DelayDry/Wet = <Control>(SUBPLUGIN_Param3)<Value>(0.40000001)
+ReverbActive = <Value>(0.0)
+ReverbTime = <Value>(0.5)
+ReverbTone = <Value>(0.5)
+ReverbDry/Wet = <Value>(0.30000001)
+OutputVolume = <Value>(0.5)
+MapEnd
+
+MapStart<ParallelsReverbAmpRoom>
+PluginDisplayName = "Parallels Effects"
+PluginDisplayType = <AmpRoomModule>
+SrcMix = <Value>(0.5)
+DistortionActive = <Value>(0.0)
+DistortionAmount = <Value>(0.5)
+DistortionCharacter = <Value>(0.5)
+DistortionDry/Wet = <Value>(1.0)
+ChorusActive = <Value>(0.0)
+ChorusSpeed = <Value>(0.5)
+ChorusWidth = <Value>(0.5)
+ChorusDry/Wet = <Value>(1.0)
+FlangerActive = <Value>(0.0)
+FlangerSpeed = <Value>(0.5)
+FlangerFeedback = <Value>(0.5)
+FlangerDry/Wet = <Value>(1.0)
+DelayActive = <Value>(0.0)
+DelayTime = <Value>(0.0)
+DelayFeedback = <Value>(0.5)
+DelayDry/Wet = <Value>(0.40000001)
+ReverbActive = <Value>(1.0)
+ReverbTime = <Control>(SUBPLUGIN_Param1)<Value>(0.5)
+ReverbTone = <Control>(SUBPLUGIN_Param2)<Value>(0.5)
+ReverbDry/Wet = <Control>(SUBPLUGIN_Param3)<Value>(0.30000001)
+OutputVolume = <Value>(0.5)
+MapEnd
