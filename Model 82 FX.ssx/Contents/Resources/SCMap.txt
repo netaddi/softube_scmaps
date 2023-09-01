@@ -16,3 +16,14 @@ ParamLevel    = <Control>(MODULE_Param3)<Value>(1.0)
 ParamDoubling = <Control>(MODULE_Param4)<Value>(0.5)
 
 MapEnd
+
+MapStart<AltShape>
+PluginDisplayName:"Model 82 (SH-101) FX"
+PluginDisplayType: <Gate>
+
+ParamDrive    = <Control>(SHAPE_Gate)<Value>(0.0)
+ParamTone     = <Control>(SHAPE_GateRelease)<Value>(1.0)
+ParamLevel    = <Control>(SHAPE_Punch)<Value>(1.0)
+ParamDoubling = <Control>(SHAPE_Sustain)<Value>(0.5)
+
+MapEnd
