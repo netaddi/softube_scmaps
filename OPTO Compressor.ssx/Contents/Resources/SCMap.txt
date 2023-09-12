@@ -1,0 +1,48 @@
+// OPTO Compressor Pagetable v.1
+PluginID: qeme
+PluginName: "OPTO Compressor"
+PluginType: Comp
+PluginAutoMakeup: 0.25
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+// Make sure all parameters are mapped! Hint: Use build/bin/mapgen OPTO Compressor.vst
+// "Plugin parameter" = <"Control or Value">"HW location"
+// Add <Control> tags to map parameter to Console 1 control
+// ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+
+MapStart<Default>
+
+// Parameters
+Time = <Control>(COMP_Attack)<Value>(0.0)
+Compression = <Control>(COMP_Threshold)<Value>(0.5)
+SidechainEmphasis = (COMP_Release)<Value>(0.0)
+Ratio = <Control>(COMP_Ratio)<Value>(1.0)
+HFMake-Up = <Value>(0.0)
+SidechainPunch = <Value>(0.0)
+StereoLink = <Value>(1.0)
+ExternalSidechain = <Value>(0.5)
+Dry/Wet = <Value>(1.0)
+Output = <Value>(0.5)
+Drive = <Value>(0.0)
+
+MeterReduction = <Meter>(COMP_MeterReduction)
+MeterReductionVU = <MeterNotMapped>
+MeterOutput = <MeterNotMapped>
+MeterClip = <MeterNotMapped>
+
+MapEnd
+
+MapStart<Drive>
+PluginDisplayType = <OUT>
+Time = <Value>(0.0)
+Compression = <Value>(0.0)
+SidechainEmphasis = <Value>(0.0)
+Ratio = <Value>(1.0)
+HFMake-Up = <Value>(0.0)
+SidechainPunch = <Value>(0.0)
+StereoLink = <Value>(1.0)
+ExternalSidechain = <Value>(0.5)
+Dry/Wet = <Value>(1.0)
+Output = <Value>(0.5)
+Drive = <Control>(OUT_Drive)<Value>(0.0)
+MapEnd

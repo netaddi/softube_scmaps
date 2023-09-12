@@ -1,0 +1,54 @@
+// VCA Compressor Pagetable v.1
+PluginID: zr9k
+PluginName: "VCA Compressor"
+PluginType: Comp
+PluginAutoMakeup: 0.25
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+// Make sure all parameters are mapped! Hint: Use build/bin/mapgen VCA Compressor.vst
+// "Plugin parameter" = <"Control or Value">"HW location"
+// Add <Control> tags to map parameter to Console 1 control
+// ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+
+MapStart<Default>
+
+// Parameters
+Compression =  <Control>(COMP_Threshold)<Value>(0.5)
+Ratio = Ratio = <Control>(COMP_Ratio)<Value>(0.5)
+Output = <Value>(0.5)
+Attack = <Control>(COMP_Attack)<Value>(0.5)
+Release = <Control>(COMP_Release)<Value>(0.5)
+HFMake-Up = <Value>(0.0)
+StereoLink = <Value>(1.0)
+SidechainPunch = <Value>(0.0)
+SidechainFilter = <Value>(0.0)
+ExternalSidechain = <Value>(0.5)
+OutputDrive = <Value>(0.0)
+Dry/Wet = <Value>(1.0)
+
+MeterReduction = <Meter>(COMP_MeterReduction)
+MeterReductionVU = <MeterNotMapped>
+MeterInputVU = <MeterNotMapped>
+MeterOutputL = <MeterNotMapped>
+MeterOutputR = <MeterNotMapped>
+MeterBelow = <MeterNotMapped>
+MeterAbove = <MeterNotMapped>
+MeterClip = <MeterNotMapped>
+
+MapEnd
+
+MapStart<Drive>
+PluginDisplayType = <OUT>
+Compression =  <Value>(0.0)
+Ratio = Ratio = <Value>(0.0)
+Output = <Value>(0.5)
+Attack = <Value>(0.5)
+Release = <Value>(0.5)
+HFMake-Up = <Value>(0.0)
+StereoLink = <Value>(1.0)
+SidechainPunch = <Value>(0.0)
+SidechainFilter = <Value>(0.0)
+ExternalSidechain = <Value>(0.5)
+OutputDrive = <Control>(OUT_Drive)<Value>(0.0)<DisplayName>(Drive)
+Dry/Wet = <Value>(1.0)
+MapEnd

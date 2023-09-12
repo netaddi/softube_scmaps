@@ -1,0 +1,96 @@
+// FET Compressor Mk II Pagetable v.1
+PluginID: vjcb
+PluginName: "FET Compressor Mk II"
+PluginType: Comp
+PluginAutoMakeup: 0.25
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+// Make sure ALL the parameters below are mapped to a value or a control and that they are mapped in the following order:
+//
+// ...
+//
+// Each one of these can be mapped to one of the following on the HW:
+//
+// IN_Gain
+// IN_High_Cut
+// IN_Low_Cut
+// IN_Filt_To_Dyn_SC
+// IN_SC_Listen
+// IN_Phase_Invert
+// SHAPE_On
+// SHAPE_GateRelease
+// SHAPE_GateHard
+// SHAPE_Gate
+// SHAPE_Sustain
+// SHAPE_Punch
+// EQ_On
+// EQ_LF_Type
+// EQ_LF_Freq
+// EQ_LF_Gain
+// EQ_LMF_Freq
+// EQ_LMF_Q
+// EQ_LMF_Gain
+// EQ_HMF_Freq
+// EQ_HMF_Q
+// EQ_HMF_Gain
+// EQ_HF_Type
+// EQ_HF_Freq
+// EQ_HF_Gain
+// COMP_On
+// COMP_Ratio
+// COMP_Parallel
+// COMP_Attack
+// COMP_Release
+// COMP_Threshold
+// Block_Order
+// Ext_Sidechain
+// OUT_Drive
+// OUT_Drive_Character
+// OUT_Pan_Balance
+// OUT_Solo
+// OUT_Mute
+// OUT_Volume
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+// Add <Control> tags to map parameter to Console 1 control
+// ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+MapStart<Default>
+Input = <Value>(0.5)
+Output = <Value>(0.5)
+Drive = <Value>(0.5)
+TransformerDrive = <Value>(0.0)
+FETDrive = <Value>(0.0)
+Dry/Wet = <Value>(1.0)
+Ratio = <Control>(COMP_Ratio)<Value>(0.5)
+Attack = <Control>(COMP_Attack)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+Release = <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+HFMake-Up = <Value>(0.0)
+StereoLink = <Value>(1.0)
+SidechainPunch = <Value>(0.0)
+SidechainFilter = <Value>(0.0)
+ExternalSidechain = <Control>(COMP_Threshold)<Value>(0.2914980)<DisplayName>(Compression)<Min>(0.2943)<Max>(1.0)
+
+MeterInput =  <MeterNotMapped>
+MeterOutput = <MeterNotMapped>
+MeterReduction = <Meter>(COMP_MeterReduction)
+MeterReductionVU = <MeterNotMapped>
+MeterClip = <MeterNotMapped>
+MapEnd
+
+MapStart<Drive>
+PluginDisplayType = <OUT>
+Input = <Value>(0.5)
+Output = <Value>(0.5)
+Drive = <Control>(OUT_Drive)<Value>(0.5)
+TransformerDrive = <Control>(OUT_Drive_Character)<Value>(0.5)<Min>(0.02)<Max>(0.98)
+FETDrive = <Value>(1.0)
+Dry/Wet = <Value>(1.0)
+Ratio = <Value>(0.0)
+Attack = <Value>(0.5)
+Release = <Value>(0.5)
+HFMake-Up = <Value>(0.0)
+StereoLink = <Value>(1.0)
+SidechainPunch = <Value>(0.0)
+SidechainFilter = <Value>(0.0)
+ExternalSidechain = <Value>(0.5)
+MapEnd
