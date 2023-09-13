@@ -17,7 +17,7 @@ ParamDoubling = <Control>(MODULE_Param4)<Value>(0.5)
 
 MapEnd
 
-MapStart<Alt1>
+MapStart<AltShape>
 PluginDisplayName:"Model 82 (SH-101) FX"
 PluginDisplayType: <Gate>
 
@@ -25,16 +25,5 @@ ParamDrive    = <Control>(SHAPE_Gate)<Value>(0.0)
 ParamTone     = <Control>(SHAPE_GateRelease)<Value>(1.0)
 ParamLevel    = <Control>(SHAPE_Punch)<Value>(1.0)
 ParamDoubling = <Control>(SHAPE_Sustain)<Value>(0.5)
-
-MapEnd
-
-MapStart<Alt2>
-PluginDisplayName:"Model 82 (SH-101) FX"
-PluginDisplayType: <Comp>
-
-ParamDrive    = <Control>(COMP_Ratio)<Value>(0.0)
-ParamTone     = <Control>(COMP_Attack)<Value>(1.0)
-ParamLevel    = <Control>(COMP_Threshold)<Value>(1.0)
-ParamDoubling = <Control>(COMP_Release)<Value>(0.5)
 
 MapEnd

@@ -2,7 +2,6 @@ TODO:
 Marshall JMP 2203
 Plexi Super Lead 1959
 Silver Jubilee 2555
-Model 82 FX
 Parallels FX
 
 skip:
