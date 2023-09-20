@@ -15,21 +15,87 @@ MapStart<Default>
 // Parameters
 Time = <Control>(COMP_Attack)<Value>(0.0)
 Compression = <Control>(COMP_Threshold)<Value>(0.5)
-SidechainEmphasis = (COMP_Release)<Value>(0.0)
-Ratio = <Control>(COMP_Ratio)<Value>(1.0)
+SidechainEmphasis = <Control>(COMP_Release)<Value>(0.0)
+Ratio = <Value>(1.0)
 HFMake-Up = <Value>(0.0)
 SidechainPunch = <Value>(0.0)
 StereoLink = <Value>(1.0)
 ExternalSidechain = <Value>(0.5)
 Dry/Wet = <Value>(1.0)
 Output = <Value>(0.5)
-Drive = <Value>(0.0)
+Drive = <Control>(COMP_Ratio)<Value>(0.0)
 
 MeterReduction = <Meter>(COMP_MeterReduction)
 MeterReductionVU = <MeterNotMapped>
 MeterOutput = <MeterNotMapped>
 MeterClip = <MeterNotMapped>
 
+MapEnd
+
+MapStart<DefaultAlt>
+PluginDisplayName = "OPTO Compressor - Limit"
+
+// Parameters
+Time = <Control>(COMP_Attack)<Value>(0.0)
+Compression = <Control>(COMP_Threshold)<Value>(0.5)
+SidechainEmphasis = <Control>(COMP_Release)<Value>(0.0)
+Ratio = <Value>(0.0)
+HFMake-Up = <Value>(0.0)
+SidechainPunch = <Value>(0.0)
+StereoLink = <Value>(1.0)
+ExternalSidechain = <Value>(0.5)
+Dry/Wet = <Value>(1.0)
+Output = <Value>(0.5)
+Drive = <Control>(COMP_Ratio)<Value>(0.0)
+
+MeterReduction = <Meter>(COMP_MeterReduction)
+MeterReductionVU = <MeterNotMapped>
+MeterOutput = <MeterNotMapped>
+MeterClip = <MeterNotMapped>
+
+MapEnd
+
+MapStart<Alt1>
+PluginDisplayName = "OPTO Compressor LA-2A mode"
+// Parameters
+Time = <Control>(COMP_Attack)<Value>(0.0)
+Compression = <Control>(COMP_Threshold)<Value>(0.5)
+SidechainEmphasis = <Value>(0.0)
+Ratio = <Value>(1.0)
+HFMake-Up = <Value>(0.0)
+SidechainPunch = <Value>(0.0)
+StereoLink = <Value>(1.0)
+ExternalSidechain = <Value>(0.5)
+Dry/Wet = <Value>(1.0)
+Output = <Control>(COMP_Release)<Value>(0.5)
+Drive = <Control>(COMP_Ratio)<Value>(0.0)
+
+MeterReduction = <Meter>(COMP_MeterReduction)
+MeterReductionVU = <MeterNotMapped>
+MeterOutput = <MeterNotMapped>
+MeterClip = <MeterNotMapped>
+MapEnd
+
+MapStart<AltGate>
+PluginDisplayType = <Gate>
+PluginDisplayName = "OPTO Compressor"
+// Parameters
+Time = <Control>(SHAPE_GateRelease)<Value>(0.0)
+Compression = <Control>(SHAPE_Gate)<Value>(0.5)
+SidechainEmphasis = <Value>(0.0)
+Ratio = <Value>(1.0)
+HFMake-Up = <Value>(0.0)
+SidechainPunch = <Control>(SHAPE_HardGate)<Value>(0.0)
+StereoLink = <Value>(1.0)
+ExternalSidechain = <Value>(0.5)
+Dry/Wet = <Value>(1.0)
+Output = <Control>(SHAPE_Sustain)<Value>(0.5)
+Drive = <Control>(SHAPE_Punch)<Value>(0.0)
+
+MeterReduction = <Meter>(COMP_MeterReduction)
+MeterReductionVU = <MeterNotMapped>
+MeterOutput = <MeterNotMapped>
+MeterClip = <MeterNotMapped>
 MapEnd
 
 MapStart<Drive>
