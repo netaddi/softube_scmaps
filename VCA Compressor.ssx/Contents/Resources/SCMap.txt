@@ -2,7 +2,7 @@
 PluginID: zr9k
 PluginName: "VCA Compressor"
 PluginType: Comp
-PluginAutoMakeup: 0.25
+PluginAutoMakeup: 0.5
 
 // IMPORTANT: Editing of this file may have unexpected consequences!
 // Make sure all parameters are mapped! Hint: Use build/bin/mapgen VCA Compressor.vst
@@ -24,6 +24,34 @@ SidechainPunch = <Value>(0.0)
 SidechainFilter = <Value>(0.0)
 ExternalSidechain = <Value>(0.5)
 OutputDrive = <Value>(0.0)
+Dry/Wet = <Value>(1.0)
+
+MeterReduction = <Meter>(COMP_MeterReduction)
+MeterReductionVU = <MeterNotMapped>
+MeterInputVU = <MeterNotMapped>
+MeterOutputL = <MeterNotMapped>
+MeterOutputR = <MeterNotMapped>
+MeterBelow = <MeterNotMapped>
+MeterAbove = <MeterNotMapped>
+MeterClip = <MeterNotMapped>
+
+MapEnd
+
+MapStart<Alt1>
+
+PluginDisplayName = "VCA Compression - dbx 160"
+// Parameters
+Compression =  <Control>(COMP_Threshold)<Value>(0.5)
+Ratio = Ratio = <Control>(COMP_Ratio)<Value>(0.5)
+Output = <Control>(COMP_Release)<Value>(0.5)
+Attack = <Value>(0.5)
+Release = <Value>(0.5)
+HFMake-Up = <Value>(0.0)
+StereoLink = <Value>(1.0)
+SidechainPunch = <Value>(0.0)
+SidechainFilter = <Value>(0.0)
+ExternalSidechain = <Value>(0.5)
+OutputDrive = <Control>(COMP_Attack)<Value>(0.1)
 Dry/Wet = <Value>(1.0)
 
 MeterReduction = <Meter>(COMP_MeterReduction)

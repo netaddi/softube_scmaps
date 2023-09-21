@@ -2,7 +2,7 @@
 PluginID: qeme
 PluginName: "OPTO Compressor"
 PluginType: Comp
-PluginAutoMakeup: 0.25
+PluginAutoMakeup: 0.5
 
 // IMPORTANT: Editing of this file may have unexpected consequences!
 // Make sure all parameters are mapped! Hint: Use build/bin/mapgen OPTO Compressor.vst

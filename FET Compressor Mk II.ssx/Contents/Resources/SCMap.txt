@@ -2,7 +2,7 @@
 PluginID: vjcb
 PluginName: "FET Compressor Mk II"
 PluginType: Comp
-PluginAutoMakeup: 0.25
+PluginAutoMakeup: 0.5
 
 // IMPORTANT: Editing of this file may have unexpected consequences!
 // Make sure ALL the parameters below are mapped to a value or a control and that they are mapped in the following order:
@@ -54,6 +54,8 @@ PluginAutoMakeup: 0.25
 // "Plugin parameter" = <"Control or Value">"HW location"
 // Add <Control> tags to map parameter to Console 1 control
 // ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+
+
 MapStart<Default>
 Input = <Value>(0.5)
 Output = <Value>(0.5)
@@ -69,6 +71,54 @@ StereoLink = <Value>(1.0)
 SidechainPunch = <Value>(0.0)
 SidechainFilter = <Value>(0.0)
 ExternalSidechain = <Control>(COMP_Threshold)<Value>(0.2914980)<DisplayName>(Compression)<Min>(0.2943)<Max>(1.0)
+
+MeterInput =  <MeterNotMapped>
+MeterOutput = <MeterNotMapped>
+MeterReduction = <Meter>(COMP_MeterReduction)
+MeterReductionVU = <MeterNotMapped>
+MeterClip = <MeterNotMapped>
+MapEnd
+
+MapStart<AltD>
+PluginDisplayName = "FET Compressor Mk II - Driven"
+Input = <Value>(0.5)
+Output = <Value>(0.5)
+Drive = <Value>(0.5)
+TransformerDrive = <Value>(1.0)
+FETDrive = <Value>(1.0)
+Dry/Wet = <Value>(1.0)
+Ratio = <Control>(COMP_Ratio)<Value>(0.5)
+Attack = <Control>(COMP_Attack)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+Release = <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+HFMake-Up = <Value>(0.0)
+StereoLink = <Value>(1.0)
+SidechainPunch = <Value>(0.0)
+SidechainFilter = <Value>(0.0)
+ExternalSidechain = <Control>(COMP_Threshold)<Value>(0.2914980)<DisplayName>(Compression)<Min>(0.2943)<Max>(1.0)
+
+MeterInput =  <MeterNotMapped>
+MeterOutput = <MeterNotMapped>
+MeterReduction = <Meter>(COMP_MeterReduction)
+MeterReductionVU = <MeterNotMapped>
+MeterClip = <MeterNotMapped>
+MapEnd
+
+MapStart<Alt1>
+PluginDisplayType = <Gate>
+Input = <Value>(0.5)
+Output = <Control>(SHAPE_Sustain)<Value>(0.5)
+Drive = <Control>(SHAPE_Gate)<Value>(0.5)
+TransformerDrive = <Value>(1.0)
+FETDrive = <Control>(SHAPE_HardGate)<Value>(0.0)
+Dry/Wet = <Value>(1.0)
+Ratio = <Control>(SHAPE_GateRelease)<Value>(0.5)
+Attack = <Value>(0.5)
+Release = <Value>(0.5)
+HFMake-Up = <Value>(0.0)
+StereoLink = <Value>(1.0)
+SidechainPunch = <Value>(0.0)
+SidechainFilter = <Value>(0.0)
+ExternalSidechain = <Control>(SHAPE_Punch)<Value>(0.2914980)<DisplayName>(Compression)<Min>(0.2943)<Max>(1.0)
 
 MeterInput =  <MeterNotMapped>
 MeterOutput = <MeterNotMapped>
