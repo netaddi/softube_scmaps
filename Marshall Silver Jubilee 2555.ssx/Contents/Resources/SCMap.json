@@ -1,0 +1,384 @@
+{
+ "maps": [
+  {
+   "mapName": "AmpRoomAmp",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "dptu",
+   "pluginName": "Marshall Silver Jubilee 2555",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Presence",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Bass",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Middle",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Treble",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Input Gain",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Output Master",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Lead Master",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Rhythm Clip",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Channel",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Output",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Gate",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Output Volume",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Mic",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Level 1",
+     "value": 0.6
+    },
+    {
+     "id": 14,
+     "name": "Level 2",
+     "value": 0.6
+    },
+    {
+     "id": 15,
+     "name": "Level 3",
+     "value": 0.6
+    },
+    {
+     "id": 16,
+     "name": "Level 4",
+     "value": 0.6
+    },
+    {
+     "id": 17,
+     "name": "Pan 1",
+     "value": 0.5
+    },
+    {
+     "id": 18,
+     "name": "Pan 2",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Pan 3",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Pan 4",
+     "value": 0.5
+    },
+    {
+     "id": 21,
+     "name": "In 1",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "In 2",
+     "value": 1.0
+    },
+    {
+     "id": 23,
+     "name": "In 3",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "In 4",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "Delay",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "Feedback",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "View",
+     "value": 0.0
+    },
+    {
+     "id": 28,
+     "name": "AmpBypass",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeter3"
+    },
+    {
+     "id": 3,
+     "name": "eMeter4"
+    },
+    {
+     "id": 4,
+     "name": "eMeterGate"
+    }
+   ]
+  },
+  {
+   "mapName": "AmpRoomCab",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "dptu",
+   "pluginName": "Marshall Silver Jubilee 2555",
+   "displayName": "Marshall 2551AV Tony Platt",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Presence",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Bass",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Middle",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Treble",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Input Gain",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Output Master",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Lead Master",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Rhythm Clip",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Channel",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Output",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Gate",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Output Volume",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Mic",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Level 1",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.6
+    },
+    {
+     "id": 14,
+     "name": "Level 2",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.6
+    },
+    {
+     "id": 15,
+     "name": "Level 3",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.6
+    },
+    {
+     "id": 16,
+     "name": "Level 4",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.6
+    },
+    {
+     "id": 17,
+     "name": "Pan 1",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.5
+    },
+    {
+     "id": 18,
+     "name": "Pan 2",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Pan 3",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Pan 4",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.5
+    },
+    {
+     "id": 21,
+     "name": "In 1",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "In 2",
+     "mapsTo": "SUBPLUGIN_Param11",
+     "value": 1.0
+    },
+    {
+     "id": 23,
+     "name": "In 3",
+     "mapsTo": "SUBPLUGIN_Param12",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "In 4",
+     "mapsTo": "SUBPLUGIN_Param13",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "Delay",
+     "mapsTo": "SUBPLUGIN_Param14",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "Feedback",
+     "mapsTo": "SUBPLUGIN_Param15",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "View",
+     "value": 0.0
+    },
+    {
+     "id": 28,
+     "name": "AmpBypass",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeter1",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeter2",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeter3",
+     "mapsTo": "SUBPLUGIN_Meter3"
+    },
+    {
+     "id": 3,
+     "name": "eMeter4",
+     "mapsTo": "SUBPLUGIN_Meter4"
+    },
+    {
+     "id": 4,
+     "name": "eMeterGate"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "qavn",
+   "pluginName": "Amp Room Gate",
+   "displayName": "SOFTUBE TROLLEGATER",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Threshold",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.0,
+     "displayName": "Threshold"
+    }
+   ]
+  }
+ ]
+}

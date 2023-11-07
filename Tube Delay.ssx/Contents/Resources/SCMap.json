@@ -1,0 +1,210 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "TbDe",
+   "pluginName": "Tube Delay",
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Direct Drive",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Time ms",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Time Beat",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Delay Drive",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Bass",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Treble",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Feedback",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Mix",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Sync",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Output Volume",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "C1FOut",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "TbDe",
+   "pluginName": "Tube Delay",
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Direct Drive",
+     "mapsTo": "OUT_Drive",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Time ms",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Time Beat",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Delay Drive",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Bass",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Treble",
+     "mapsTo": "OUT_Drive_Character",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Mix",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Sync",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Output Volume",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "AmpRoomTubeDelay",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "TbDe",
+   "pluginName": "Tube Delay",
+   "displayName": "SOFTUBE TUBE DELAY",
+   "modularLatencyInSeconds": 0.003,
+   "linearGainOutput": 3.1622777,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Direct Drive",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Time ms",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Time Beat",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Delay Drive",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Bass",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Treble",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Feedback",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Mix",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Sync",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Output Volume",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.5
+    }
+   ]
+  }
+ ]
+}

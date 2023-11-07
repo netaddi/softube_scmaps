@@ -1,0 +1,53 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "scCP",
+   "pluginName": "Console 1 SSL SL 4000 E-Series Compressor",
+   "displayName": "SSL SL 4000 E-Series Compressor",
+   "displayNameShort": "SSL 4000E",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Threshold",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.35
+    },
+    {
+     "id": 1,
+     "name": "Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.2,
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 2,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "value": 1.0
+    },
+    {
+     "id": 3,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "External Side Chain",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterGainReduction",
+     "mapsTo": "COMP_MeterReduction"
+    }
+   ]
+  }
+ ]
+}

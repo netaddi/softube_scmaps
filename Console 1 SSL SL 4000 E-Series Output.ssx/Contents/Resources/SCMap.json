@@ -1,0 +1,36 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "scOT",
+   "pluginName": "Console 1 SSL SL 4000 E-Series Output",
+   "displayName": "SSL SL 4000 E-Series Drive",
+   "displayNameShort": "SSL 4000E",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Drive",
+     "mapsTo": "OUT_Drive",
+     "value": 0.0,
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 1,
+     "name": "Drive Character",
+     "mapsTo": "OUT_Drive_Character",
+     "value": 0.5,
+     "displayName": "Character",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leaderParams": [
+      {
+       "name": "OUT_Drive"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

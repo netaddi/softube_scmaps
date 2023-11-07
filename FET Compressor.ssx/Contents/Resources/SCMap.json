@@ -1,0 +1,94 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "Tcpn",
+   "pluginName": "FET Compressor",
+   "displayNameShort": "FET Comp.",
+   "autoMakeup": 0.5,
+   "doFakeGrMeter": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Input",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "value": 0.5,
+     "minValue": 1.0,
+     "maxValue": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "value": 0.5,
+     "minValue": 1.0,
+     "maxValue": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Parallel Inject",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "High Cut",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Lookahead",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "External Side Chain",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.0,
+     "squared": true,
+     "minValue": 0.05,
+     "displayName": "Threshold"
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterInput"
+    },
+    {
+     "id": 1,
+     "name": "eMeterReduction"
+    },
+    {
+     "id": 2,
+     "name": "eMeterOutputL"
+    },
+    {
+     "id": 3,
+     "name": "eMeterOutputR"
+    }
+   ]
+  }
+ ]
+}

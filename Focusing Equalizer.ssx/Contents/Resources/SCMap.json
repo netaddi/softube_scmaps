@@ -1,0 +1,123 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "pluginId": "ChEq",
+   "pluginName": "Focusing Equalizer",
+   "displayNameShort": "Focusing",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Saturation",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "High Cut",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 1.0,
+     "knobMode": "KNOB_MODE_REVERSED"
+    },
+    {
+     "id": 3,
+     "name": "Low Gain",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Mid Gain",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR"
+    },
+    {
+     "id": 5,
+     "name": "High Gain",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Saturation Type",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Equalizer Type",
+     "mapsTo": "EQ_LF_Type",
+     "value": 1.0,
+     "displayName": "Type"
+    }
+   ]
+  },
+  {
+   "mapName": "C1FOut",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "ChEq",
+   "pluginName": "Focusing Equalizer",
+   "displayNameShort": "Focusing EQ",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Saturation",
+     "mapsTo": "OUT_Drive",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "High Cut",
+     "value": 1.0
+    },
+    {
+     "id": 3,
+     "name": "Low Gain",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Mid Gain",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "High Gain",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Saturation Type",
+     "mapsTo": "OUT_Drive_Character",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Equalizer Type",
+     "value": 0.5
+    }
+   ]
+  }
+ ]
+}

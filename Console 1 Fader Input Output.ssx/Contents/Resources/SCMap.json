@@ -1,0 +1,220 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_FILTER",
+   "pluginId": "kfvh",
+   "pluginName": "Console 1 Fader Input Output",
+   "displayName": "Console 1 Fader Discrete Filters",
+   "displayNameShort": "C1 Discrete",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_FADER_DISCRETE",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "High Cut",
+     "mapsTo": "IN_High_Cut",
+     "value": 1.0,
+     "knobMode": "KNOB_MODE_REVERSED"
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "mapsTo": "IN_Low_Cut",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Drive",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Drive Character",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Filter Type",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Drive Type",
+     "value": 1.0
+    }
+   ]
+  },
+  {
+   "mapName": "C1FIn2",
+   "mapType": "SSX_TYPE_CONSOLE1_FILTER",
+   "pluginId": "kfvh",
+   "pluginName": "Console 1 Fader Input Output",
+   "displayName": "Console 1 Fader Tube Filters",
+   "displayNameShort": "C1 Tube",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_FADER_TUBE",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "High Cut",
+     "mapsTo": "IN_High_Cut",
+     "value": 1.0,
+     "knobMode": "KNOB_MODE_REVERSED"
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "mapsTo": "IN_Low_Cut",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Drive",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Drive Character",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Filter Type",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Drive Type",
+     "value": 1.0
+    }
+   ]
+  },
+  {
+   "mapName": "C1FOut1",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "kfvh",
+   "pluginName": "Console 1 Fader Input Output",
+   "displayName": "Console 1 Fader Discrete Drive",
+   "displayNameShort": "C1 Discrete",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_FADER_DISCRETE",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "High Cut",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Drive",
+     "mapsTo": "OUT_Drive",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Drive Character",
+     "mapsTo": "OUT_Drive_Character",
+     "value": 0.5,
+     "displayName": "Character",
+     "knobMode": "KNOB_MODE_BIPOLAR"
+    },
+    {
+     "id": 4,
+     "name": "Filter Type",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Drive Type",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "C1FOut2",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "kfvh",
+   "pluginName": "Console 1 Fader Input Output",
+   "displayName": "Console 1 Fader Tube Drive",
+   "displayNameShort": "C1 Tube",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_FADER_TUBE",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "High Cut",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Drive",
+     "mapsTo": "OUT_Drive",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Drive Character",
+     "mapsTo": "OUT_Drive_Character",
+     "value": 0.5,
+     "displayName": "Character",
+     "knobMode": "KNOB_MODE_BIPOLAR"
+    },
+    {
+     "id": 4,
+     "name": "Filter Type",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Drive Type",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "C1FBypass",
+   "pluginId": "kfvh",
+   "pluginName": "Console 1 Fader Input Output",
+   "displayName": "Empty",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "High Cut",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Drive",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Drive Character",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Filter Type",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Drive Type",
+     "value": 1.0
+    }
+   ]
+  }
+ ]
+}

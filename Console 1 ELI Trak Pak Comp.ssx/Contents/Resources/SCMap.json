@@ -1,0 +1,93 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "wheg",
+   "pluginName": "Console 1 ELI Trak Pak Comp",
+   "displayName": "Empirical Labs Trak Pak Compressor",
+   "displayNameShort": "ELI Trak Pak",
+   "autoMakeup": 0.25,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "value": 0.25
+    },
+    {
+     "id": 1,
+     "name": "Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.4,
+     "minValue": 0.2,
+     "guiQuantization": 5,
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 2,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "value": 0.333333
+    },
+    {
+     "id": 3,
+     "name": "Threshold",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.5,
+     "minValue": 0.2,
+     "maxValue": 0.95
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterInputL"
+    },
+    {
+     "id": 1,
+     "name": "eMeterInputR"
+    },
+    {
+     "id": 2,
+     "name": "eMeterOutputL"
+    },
+    {
+     "id": 3,
+     "name": "eMeterOutputR"
+    },
+    {
+     "id": 4,
+     "name": "eMeterInputClipDet"
+    },
+    {
+     "id": 5,
+     "name": "eMeterCleanClipDet"
+    },
+    {
+     "id": 6,
+     "name": "eMeterGainRedClipDet"
+    },
+    {
+     "id": 7,
+     "name": "eMeterOutputClipDet"
+    },
+    {
+     "id": 8,
+     "name": "eMeterToastyWarm"
+    },
+    {
+     "id": 9,
+     "name": "eMeterGRLeds"
+    },
+    {
+     "id": 10,
+     "name": "eMeterGainReduction",
+     "mapsTo": "COMP_MeterReduction"
+    }
+   ]
+  }
+ ]
+}

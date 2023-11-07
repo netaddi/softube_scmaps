@@ -1,0 +1,100 @@
+{
+ "maps": [
+  {
+   "mapName": "IRLoader",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "wmxf",
+   "pluginName": "LoadIR",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Resonance",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Tone",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Punch Gain",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Punch Freq",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Volume",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Phase",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterClip",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    }
+   ]
+  },
+  {
+   "mapName": "AmpRoomSSXLoader_LoadIR",
+   "mapType": "SSX_TYPE_AMP_ROOM_CAB_SUB_MODULE",
+   "pluginId": "wmxf",
+   "pluginName": "LoadIR",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Resonance",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Tone",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Punch Gain",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Punch Freq",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Volume",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Phase",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterClip",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    }
+   ]
+  }
+ ]
+}

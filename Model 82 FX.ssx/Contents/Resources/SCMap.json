@@ -1,0 +1,38 @@
+{
+ "maps": [
+  {
+   "mapName": "ModularM82FX",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "ST06",
+   "pluginName": "Model 82 FX",
+   "modularLatencyInSeconds": 0.003,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Drive",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0,
+     "virtualInput": 0
+    },
+    {
+     "id": 1,
+     "name": "Tone",
+     "mapsTo": "MODULE_Param2",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Level",
+     "mapsTo": "MODULE_Param3",
+     "value": 1.0
+    },
+    {
+     "id": 3,
+     "name": "Doubling",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5
+    }
+   ]
+  }
+ ]
+}

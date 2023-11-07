@@ -1,0 +1,187 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "zr9k",
+   "pluginName": "VCA Compressor",
+   "displayNameShort": "VCA Comp.",
+   "autoMakeup": 0.25,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Compression",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "HF Make-Up",
+     "mapsTo": "COMP_Attack_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Stereo Link",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "Sidechain Punch",
+     "mapsTo": "COMP_Ratio_Shift",
+     "value": 0.0,
+     "displayName": "Punch"
+    },
+    {
+     "id": 8,
+     "name": "Sidechain Filter",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "External Sidechain",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Output Drive",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Dry/Wet",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterReduction",
+     "mapsTo": "COMP_MeterReduction"
+    },
+    {
+     "id": 1,
+     "name": "eMeterReductionVU"
+    },
+    {
+     "id": 2,
+     "name": "eMeterInputVU"
+    },
+    {
+     "id": 3,
+     "name": "eMeterOutputL"
+    },
+    {
+     "id": 4,
+     "name": "eMeterOutputR"
+    },
+    {
+     "id": 5,
+     "name": "eMeterBelow"
+    },
+    {
+     "id": 6,
+     "name": "eMeterAbove"
+    },
+    {
+     "id": 7,
+     "name": "eMeterClip"
+    }
+   ]
+  },
+  {
+   "mapName": "Drive",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "zr9k",
+   "pluginName": "VCA Compressor",
+   "autoMakeup": 0.25,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Compression",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Ratio",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Attack",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Release",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "HF Make-Up",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Stereo Link",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "Sidechain Punch",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Sidechain Filter",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "External Sidechain",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Output Drive",
+     "mapsTo": "OUT_Drive",
+     "value": 0.0,
+     "displayName": "Drive"
+    },
+    {
+     "id": 11,
+     "name": "Dry/Wet",
+     "value": 1.0
+    }
+   ]
+  }
+ ]
+}

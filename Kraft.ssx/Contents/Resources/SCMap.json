@@ -1,0 +1,34 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "hfkq",
+   "pluginName": "Kraft",
+   "displayName": "KRAFT",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Distortion",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5,
+     "displayName": "Distortion"
+    },
+    {
+     "id": 1,
+     "name": "Filter",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5,
+     "displayName": "Filter"
+    },
+    {
+     "id": 2,
+     "name": "Volume",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5,
+     "displayName": "Volume"
+    }
+   ]
+  }
+ ]
+}

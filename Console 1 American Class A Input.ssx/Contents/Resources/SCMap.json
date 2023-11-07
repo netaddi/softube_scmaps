@@ -1,0 +1,33 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_FILTER",
+   "pluginId": "fett",
+   "pluginName": "Console 1 American Class A Input",
+   "displayName": "American Class A Filters",
+   "displayNameShort": "ACA",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "High Cut",
+     "mapsTo": "IN_High_Cut",
+     "value": 1.0,
+     "knobMode": "KNOB_MODE_REVERSED",
+     "leadParamValue": 1.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "mapsTo": "IN_Low_Cut",
+     "value": 0.0,
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    }
+   ]
+  }
+ ]
+}

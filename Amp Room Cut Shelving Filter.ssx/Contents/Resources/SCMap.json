@@ -1,0 +1,178 @@
+{
+ "maps": [
+  {
+   "mapName": "LowCut",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "fgqx",
+   "pluginName": "Amp Room Cut Shelving Filter",
+   "displayName": "UTILITY LOW CUT",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Frequency",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5,
+     "displayName": "Lo Cut"
+    },
+    {
+     "id": 1,
+     "name": "Filter Gain",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Low or high frequency",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Cut or shelving",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterCutShelvLeft",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterCutShelvRight",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    }
+   ]
+  },
+  {
+   "mapName": "HighCut",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "fgqx",
+   "pluginName": "Amp Room Cut Shelving Filter",
+   "displayName": "UTILITY HIGH CUT",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Frequency",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5,
+     "displayName": "Hi Cut"
+    },
+    {
+     "id": 1,
+     "name": "Filter Gain",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Low or high frequency",
+     "value": 1.0
+    },
+    {
+     "id": 3,
+     "name": "Cut or shelving",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterCutShelvLeft",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterCutShelvRight",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    }
+   ]
+  },
+  {
+   "mapName": "LowShelving",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "fgqx",
+   "pluginName": "Amp Room Cut Shelving Filter",
+   "displayName": "UTILITY LOW SHELVING",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Frequency",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Filter Gain",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5,
+     "displayName": "Lo Gain"
+    },
+    {
+     "id": 2,
+     "name": "Low or high frequency",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Cut or shelving",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterCutShelvLeft",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterCutShelvRight",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    }
+   ]
+  },
+  {
+   "mapName": "HighShelving",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "fgqx",
+   "pluginName": "Amp Room Cut Shelving Filter",
+   "displayName": "UTILITY HIGH SHELVING",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Frequency",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Filter Gain",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5,
+     "displayName": "Hi Gain"
+    },
+    {
+     "id": 2,
+     "name": "Low or high frequency",
+     "value": 1.0
+    },
+    {
+     "id": 3,
+     "name": "Cut or shelving",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterCutShelvLeft",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterCutShelvRight",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    }
+   ]
+  }
+ ]
+}

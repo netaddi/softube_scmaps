@@ -1,0 +1,316 @@
+{
+ "maps": [
+  {
+   "mapName": "AmpRoomAmp",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "dyza",
+   "pluginName": "Marshall JMP 2203",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Presence",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Bass",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Middle",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Treble",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Preamp Volume",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Master Volume",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Input",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "Gate",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Mic 1",
+     "value": 1.0
+    },
+    {
+     "id": 9,
+     "name": "Mic 2",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Level 1",
+     "value": 0.6
+    },
+    {
+     "id": 11,
+     "name": "Level 2",
+     "value": 0.6
+    },
+    {
+     "id": 12,
+     "name": "Pan 1",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Pan 2",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "In 1",
+     "value": 1.0
+    },
+    {
+     "id": 15,
+     "name": "In 2",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Low Gain",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Mid Gain",
+     "value": 0.5
+    },
+    {
+     "id": 18,
+     "name": "Mid Freq",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "High Gain",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Output Volume",
+     "value": 0.5
+    },
+    {
+     "id": 21,
+     "name": "View",
+     "value": 0.0
+    },
+    {
+     "id": 22,
+     "name": "AmpBypass",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeterGate"
+    },
+    {
+     "id": 3,
+     "name": "eMeterOutputL"
+    },
+    {
+     "id": 4,
+     "name": "eMeterOutputR"
+    }
+   ]
+  },
+  {
+   "mapName": "AmpRoomCab",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "dyza",
+   "pluginName": "Marshall JMP 2203",
+   "displayName": "Marshall 1960B Tony Platt",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Presence",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Bass",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Middle",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Treble",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Preamp Volume",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Master Volume",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Input",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "Gate",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Mic 1",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Mic 2",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Level 1",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.6
+    },
+    {
+     "id": 11,
+     "name": "Level 2",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.6
+    },
+    {
+     "id": 12,
+     "name": "Pan 1",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Pan 2",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "In 1",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 1.0
+    },
+    {
+     "id": 15,
+     "name": "In 2",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Low Gain",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Mid Gain",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 0.5
+    },
+    {
+     "id": 18,
+     "name": "Mid Freq",
+     "mapsTo": "SUBPLUGIN_Param11",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "High Gain",
+     "mapsTo": "SUBPLUGIN_Param12",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Output Volume",
+     "value": 0.5
+    },
+    {
+     "id": 21,
+     "name": "View",
+     "value": 0.0
+    },
+    {
+     "id": 22,
+     "name": "AmpBypass",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeter1",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeter2",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeterGate"
+    },
+    {
+     "id": 3,
+     "name": "eMeterOutputL"
+    },
+    {
+     "id": 4,
+     "name": "eMeterOutputR"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2157 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "tege",
+   "pluginName": "Amp Room Utility",
+   "displayName": "Softube Mix",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Utility Type",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Mix",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Crossover Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Variable Phase Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Volume",
+     "value": 0.6
+    },
+    {
+     "id": 5,
+     "name": "Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Mute",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Pan",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Pan Volume",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Low to top",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "X-Over On",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Top Pan",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Top Volume",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Bottom Pan",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "Bottom Volume",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Top Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Path Selector",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Bottom Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Delay",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Top Mute",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Bottom Mute",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Blend On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Blend",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterSplitterTopLeft"
+    },
+    {
+     "id": 1,
+     "name": "eMeterSplitterTopRight"
+    },
+    {
+     "id": 2,
+     "name": "eMeterSplitterBottomLeft"
+    },
+    {
+     "id": 3,
+     "name": "eMeterSplitterBottomRight"
+    },
+    {
+     "id": 4,
+     "name": "eMeterMixerTopLeft"
+    },
+    {
+     "id": 5,
+     "name": "eMeterMixerTopRight"
+    },
+    {
+     "id": 6,
+     "name": "eMeterMixerBottomLeft"
+    },
+    {
+     "id": 7,
+     "name": "eMeterMixerBottomRight"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainMuteLeft"
+    },
+    {
+     "id": 9,
+     "name": "eMeterGainMuteRight"
+    },
+    {
+     "id": 10,
+     "name": "eMeterPanVolumeLeft"
+    },
+    {
+     "id": 11,
+     "name": "eMeterPanVolumeRight"
+    },
+    {
+     "id": 12,
+     "name": "eMeterDelayVolumeLeft"
+    },
+    {
+     "id": 13,
+     "name": "eMeterDelayVolumeRight"
+    },
+    {
+     "id": 14,
+     "name": "eMeterVarPhaseVolumeLeft"
+    },
+    {
+     "id": 15,
+     "name": "eMeterVarPhaseVolumeRight"
+    }
+   ]
+  },
+  {
+   "mapName": "CrossoverFilter",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "tege",
+   "pluginName": "Amp Room Utility",
+   "displayName": "Amp Room Crossover Filter",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Utility Type",
+     "value": 0.125
+    },
+    {
+     "id": 1,
+     "name": "Mix",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Crossover Frequency",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Variable Phase Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Volume",
+     "value": 0.6
+    },
+    {
+     "id": 5,
+     "name": "Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Mute",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Pan",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Pan Volume",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Low to top",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "X-Over On",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Top Pan",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Top Volume",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Bottom Pan",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "Bottom Volume",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Top Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Path Selector",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Bottom Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Delay",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Top Mute",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Bottom Mute",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Blend On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Blend",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterSplitterTopLeft"
+    },
+    {
+     "id": 1,
+     "name": "eMeterSplitterTopRight"
+    },
+    {
+     "id": 2,
+     "name": "eMeterSplitterBottomLeft"
+    },
+    {
+     "id": 3,
+     "name": "eMeterSplitterBottomRight"
+    },
+    {
+     "id": 4,
+     "name": "eMeterMixerTopLeft"
+    },
+    {
+     "id": 5,
+     "name": "eMeterMixerTopRight"
+    },
+    {
+     "id": 6,
+     "name": "eMeterMixerBottomLeft"
+    },
+    {
+     "id": 7,
+     "name": "eMeterMixerBottomRight"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainMuteLeft"
+    },
+    {
+     "id": 9,
+     "name": "eMeterGainMuteRight"
+    },
+    {
+     "id": 10,
+     "name": "eMeterPanVolumeLeft"
+    },
+    {
+     "id": 11,
+     "name": "eMeterPanVolumeRight"
+    },
+    {
+     "id": 12,
+     "name": "eMeterDelayVolumeLeft"
+    },
+    {
+     "id": 13,
+     "name": "eMeterDelayVolumeRight"
+    },
+    {
+     "id": 14,
+     "name": "eMeterVarPhaseVolumeLeft"
+    },
+    {
+     "id": 15,
+     "name": "eMeterVarPhaseVolumeRight"
+    }
+   ]
+  },
+  {
+   "mapName": "VariablePhase",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "tege",
+   "pluginName": "Amp Room Utility",
+   "displayName": "utility Variable Phase",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Utility Type",
+     "value": 0.25
+    },
+    {
+     "id": 1,
+     "name": "Mix",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Crossover Frequency",
+     "value": 0.6666667
+    },
+    {
+     "id": 3,
+     "name": "Variable Phase Frequency",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5,
+     "displayName": "Variable Phase"
+    },
+    {
+     "id": 4,
+     "name": "Volume",
+     "value": 0.6
+    },
+    {
+     "id": 5,
+     "name": "Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Mute",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Pan",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Pan Volume",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Low to top",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "X-Over On",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Top Pan",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Top Volume",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Bottom Pan",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "Bottom Volume",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Top Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Path Selector",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Bottom Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Delay",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Top Mute",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Bottom Mute",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Blend On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Blend",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterSplitterTopLeft"
+    },
+    {
+     "id": 1,
+     "name": "eMeterSplitterTopRight"
+    },
+    {
+     "id": 2,
+     "name": "eMeterSplitterBottomLeft"
+    },
+    {
+     "id": 3,
+     "name": "eMeterSplitterBottomRight"
+    },
+    {
+     "id": 4,
+     "name": "eMeterMixerTopLeft"
+    },
+    {
+     "id": 5,
+     "name": "eMeterMixerTopRight"
+    },
+    {
+     "id": 6,
+     "name": "eMeterMixerBottomLeft"
+    },
+    {
+     "id": 7,
+     "name": "eMeterMixerBottomRight"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainMuteLeft"
+    },
+    {
+     "id": 9,
+     "name": "eMeterGainMuteRight"
+    },
+    {
+     "id": 10,
+     "name": "eMeterPanVolumeLeft"
+    },
+    {
+     "id": 11,
+     "name": "eMeterPanVolumeRight"
+    },
+    {
+     "id": 12,
+     "name": "eMeterDelayVolumeLeft"
+    },
+    {
+     "id": 13,
+     "name": "eMeterDelayVolumeRight"
+    },
+    {
+     "id": 14,
+     "name": "eMeterVarPhaseVolumeLeft",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 15,
+     "name": "eMeterVarPhaseVolumeRight",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    }
+   ]
+  },
+  {
+   "mapName": "GainMute",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "tege",
+   "pluginName": "Amp Room Utility",
+   "displayName": "utility Gain/Mute",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Utility Type",
+     "value": 0.375
+    },
+    {
+     "id": 1,
+     "name": "Mix",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Crossover Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Variable Phase Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Volume",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.75
+    },
+    {
+     "id": 5,
+     "name": "Phase Invert",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Mute",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Pan",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Pan Volume",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Low to top",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "X-Over On",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Top Pan",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Top Volume",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Bottom Pan",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "Bottom Volume",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Top Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Path Selector",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Bottom Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Delay",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Top Mute",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Bottom Mute",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Blend On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Blend",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterSplitterTopLeft"
+    },
+    {
+     "id": 1,
+     "name": "eMeterSplitterTopRight"
+    },
+    {
+     "id": 2,
+     "name": "eMeterSplitterBottomLeft"
+    },
+    {
+     "id": 3,
+     "name": "eMeterSplitterBottomRight"
+    },
+    {
+     "id": 4,
+     "name": "eMeterMixerTopLeft"
+    },
+    {
+     "id": 5,
+     "name": "eMeterMixerTopRight"
+    },
+    {
+     "id": 6,
+     "name": "eMeterMixerBottomLeft"
+    },
+    {
+     "id": 7,
+     "name": "eMeterMixerBottomRight"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainMuteLeft",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 9,
+     "name": "eMeterGainMuteRight",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    },
+    {
+     "id": 10,
+     "name": "eMeterPanVolumeLeft"
+    },
+    {
+     "id": 11,
+     "name": "eMeterPanVolumeRight"
+    },
+    {
+     "id": 12,
+     "name": "eMeterDelayVolumeLeft"
+    },
+    {
+     "id": 13,
+     "name": "eMeterDelayVolumeRight"
+    }
+   ]
+  },
+  {
+   "mapName": "Splitter",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "tege",
+   "pluginName": "Amp Room Utility",
+   "displayName": "AMP ROOM SPLIT SIGNAL",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Utility Type",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Mix",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Crossover Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Variable Phase Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Volume",
+     "value": 0.6
+    },
+    {
+     "id": 5,
+     "name": "Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Mute",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Pan",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Pan Volume",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Low to top",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "X-Over On",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Top Pan",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Top Volume",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Bottom Pan",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "Bottom Volume",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Top Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Path Selector",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Bottom Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Delay",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Top Mute",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Bottom Mute",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Blend On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Blend",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterSplitterTopLeft"
+    },
+    {
+     "id": 1,
+     "name": "eMeterSplitterTopRight"
+    },
+    {
+     "id": 2,
+     "name": "eMeterSplitterBottomLeft"
+    },
+    {
+     "id": 3,
+     "name": "eMeterSplitterBottomRight"
+    },
+    {
+     "id": 4,
+     "name": "eMeterMixerTopLeft"
+    },
+    {
+     "id": 5,
+     "name": "eMeterMixerTopRight"
+    },
+    {
+     "id": 6,
+     "name": "eMeterMixerBottomLeft"
+    },
+    {
+     "id": 7,
+     "name": "eMeterMixerBottomRight"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainMuteLeft"
+    },
+    {
+     "id": 9,
+     "name": "eMeterGainMuteRight"
+    },
+    {
+     "id": 10,
+     "name": "eMeterPanVolumeLeft"
+    },
+    {
+     "id": 11,
+     "name": "eMeterPanVolumeRight"
+    },
+    {
+     "id": 12,
+     "name": "eMeterDelayVolumeLeft"
+    },
+    {
+     "id": 13,
+     "name": "eMeterDelayVolumeRight"
+    },
+    {
+     "id": 14,
+     "name": "eMeterVarPhaseVolumeLeft"
+    },
+    {
+     "id": 15,
+     "name": "eMeterVarPhaseVolumeRight"
+    }
+   ]
+  },
+  {
+   "mapName": "PanVolume",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "tege",
+   "pluginName": "Amp Room Utility",
+   "displayName": "utility Pan/Volume",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Utility Type",
+     "value": 0.625
+    },
+    {
+     "id": 1,
+     "name": "Mix",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Crossover Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Variable Phase Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Volume",
+     "value": 0.6
+    },
+    {
+     "id": 5,
+     "name": "Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Mute",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Pan",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Pan Volume",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.75
+    },
+    {
+     "id": 9,
+     "name": "Low to top",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "X-Over On",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Top Pan",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Top Volume",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Bottom Pan",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "Bottom Volume",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Top Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Path Selector",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Bottom Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Delay",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Top Mute",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Bottom Mute",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Blend On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Blend",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterSplitterTopLeft"
+    },
+    {
+     "id": 1,
+     "name": "eMeterSplitterTopRight"
+    },
+    {
+     "id": 2,
+     "name": "eMeterSplitterBottomLeft"
+    },
+    {
+     "id": 3,
+     "name": "eMeterSplitterBottomRight"
+    },
+    {
+     "id": 4,
+     "name": "eMeterMixerTopLeft"
+    },
+    {
+     "id": 5,
+     "name": "eMeterMixerTopRight"
+    },
+    {
+     "id": 6,
+     "name": "eMeterMixerBottomLeft"
+    },
+    {
+     "id": 7,
+     "name": "eMeterMixerBottomRight"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainMuteLeft"
+    },
+    {
+     "id": 9,
+     "name": "eMeterGainMuteRight"
+    },
+    {
+     "id": 10,
+     "name": "eMeterPanVolumeLeft",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 11,
+     "name": "eMeterPanVolumeRight",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    },
+    {
+     "id": 12,
+     "name": "eMeterDelayVolumeLeft"
+    },
+    {
+     "id": 13,
+     "name": "eMeterDelayVolumeRight"
+    },
+    {
+     "id": 14,
+     "name": "eMeterVarPhaseVolumeLeft"
+    },
+    {
+     "id": 15,
+     "name": "eMeterVarPhaseVolumeRight"
+    }
+   ]
+  },
+  {
+   "mapName": "SuperSplitter",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "tege",
+   "pluginName": "Amp Room Utility",
+   "displayName": "AMP ROOM SPLIT SIGNAL",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Utility Type",
+     "value": 0.75
+    },
+    {
+     "id": 1,
+     "name": "Mix",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Crossover Frequency",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Variable Phase Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Volume",
+     "value": 0.6
+    },
+    {
+     "id": 5,
+     "name": "Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Mute",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Pan",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Pan Volume",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Low to top",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.0,
+     "displayName": "Routing"
+    },
+    {
+     "id": 10,
+     "name": "X-Over On",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.0,
+     "displayName": "X-Over"
+    },
+    {
+     "id": 11,
+     "name": "Top Pan",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Top Volume",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Bottom Pan",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "Bottom Volume",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Top Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Path Selector",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Bottom Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Delay",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Top Mute",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Bottom Mute",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Blend On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Blend",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterSplitterTopLeft",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterSplitterTopRight",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeterSplitterBottomLeft",
+     "mapsTo": "SUBPLUGIN_Meter3"
+    },
+    {
+     "id": 3,
+     "name": "eMeterSplitterBottomRight",
+     "mapsTo": "SUBPLUGIN_Meter4"
+    },
+    {
+     "id": 4,
+     "name": "eMeterMixerTopLeft"
+    },
+    {
+     "id": 5,
+     "name": "eMeterMixerTopRight"
+    },
+    {
+     "id": 6,
+     "name": "eMeterMixerBottomLeft"
+    },
+    {
+     "id": 7,
+     "name": "eMeterMixerBottomRight"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainMuteLeft"
+    },
+    {
+     "id": 9,
+     "name": "eMeterGainMuteRight"
+    },
+    {
+     "id": 10,
+     "name": "eMeterPanVolumeLeft"
+    },
+    {
+     "id": 11,
+     "name": "eMeterPanVolumeRight"
+    },
+    {
+     "id": 12,
+     "name": "eMeterDelayVolumeLeft"
+    },
+    {
+     "id": 13,
+     "name": "eMeterDelayVolumeRight"
+    },
+    {
+     "id": 14,
+     "name": "eMeterVarPhaseVolumeLeft"
+    },
+    {
+     "id": 15,
+     "name": "eMeterVarPhaseVolumeRight"
+    }
+   ]
+  },
+  {
+   "mapName": "SuperMixer",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "tege",
+   "pluginName": "Amp Room Utility",
+   "displayName": "AMP ROOM MIXER",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Utility Type",
+     "value": 0.875
+    },
+    {
+     "id": 1,
+     "name": "Mix",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Crossover Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Variable Phase Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Volume",
+     "value": 0.6
+    },
+    {
+     "id": 5,
+     "name": "Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Mute",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Pan",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Pan Volume",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Low to top",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "X-Over On",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Top Pan",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Top Volume",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.75
+    },
+    {
+     "id": 13,
+     "name": "Bottom Pan",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "Bottom Volume",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.75
+    },
+    {
+     "id": 15,
+     "name": "Top Phase Invert",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Path Selector",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.5,
+     "displayName": "Solo"
+    },
+    {
+     "id": 17,
+     "name": "Bottom Phase Invert",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Delay",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Top Mute",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Bottom Mute",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Blend On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Blend",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterSplitterTopLeft"
+    },
+    {
+     "id": 1,
+     "name": "eMeterSplitterTopRight"
+    },
+    {
+     "id": 2,
+     "name": "eMeterSplitterBottomLeft"
+    },
+    {
+     "id": 3,
+     "name": "eMeterSplitterBottomRight"
+    },
+    {
+     "id": 4,
+     "name": "eMeterMixerTopLeft",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 5,
+     "name": "eMeterMixerTopRight",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    },
+    {
+     "id": 6,
+     "name": "eMeterMixerBottomLeft",
+     "mapsTo": "SUBPLUGIN_Meter3"
+    },
+    {
+     "id": 7,
+     "name": "eMeterMixerBottomRight",
+     "mapsTo": "SUBPLUGIN_Meter4"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainMuteLeft"
+    },
+    {
+     "id": 9,
+     "name": "eMeterGainMuteRight"
+    },
+    {
+     "id": 10,
+     "name": "eMeterPanVolumeLeft"
+    },
+    {
+     "id": 11,
+     "name": "eMeterPanVolumeRight"
+    },
+    {
+     "id": 12,
+     "name": "eMeterDelayVolumeLeft"
+    },
+    {
+     "id": 13,
+     "name": "eMeterDelayVolumeRight"
+    },
+    {
+     "id": 14,
+     "name": "eMeterVarPhaseVolumeLeft"
+    },
+    {
+     "id": 15,
+     "name": "eMeterVarPhaseVolumeRight"
+    }
+   ]
+  },
+  {
+   "mapName": "SuperMixer2",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "tege",
+   "pluginName": "Amp Room Utility",
+   "displayName": "AMP ROOM MIXER",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Utility Type",
+     "value": 0.875
+    },
+    {
+     "id": 1,
+     "name": "Mix",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Crossover Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Variable Phase Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Volume",
+     "value": 0.6
+    },
+    {
+     "id": 5,
+     "name": "Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Mute",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Pan",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Pan Volume",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Low to top",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "X-Over On",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Top Pan",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Top Volume",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.75
+    },
+    {
+     "id": 13,
+     "name": "Bottom Pan",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "Bottom Volume",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.75
+    },
+    {
+     "id": 15,
+     "name": "Top Phase Invert",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Path Selector",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.5,
+     "displayName": "Solo"
+    },
+    {
+     "id": 17,
+     "name": "Bottom Phase Invert",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Delay",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Top Mute",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Bottom Mute",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Blend On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Blend",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterSplitterTopLeft"
+    },
+    {
+     "id": 1,
+     "name": "eMeterSplitterTopRight"
+    },
+    {
+     "id": 2,
+     "name": "eMeterSplitterBottomLeft"
+    },
+    {
+     "id": 3,
+     "name": "eMeterSplitterBottomRight"
+    },
+    {
+     "id": 4,
+     "name": "eMeterMixerTopLeft",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 5,
+     "name": "eMeterMixerTopRight",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    },
+    {
+     "id": 6,
+     "name": "eMeterMixerBottomLeft",
+     "mapsTo": "SUBPLUGIN_Meter3"
+    },
+    {
+     "id": 7,
+     "name": "eMeterMixerBottomRight",
+     "mapsTo": "SUBPLUGIN_Meter4"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainMuteLeft"
+    },
+    {
+     "id": 9,
+     "name": "eMeterGainMuteRight"
+    },
+    {
+     "id": 10,
+     "name": "eMeterPanVolumeLeft"
+    },
+    {
+     "id": 11,
+     "name": "eMeterPanVolumeRight"
+    },
+    {
+     "id": 12,
+     "name": "eMeterDelayVolumeLeft"
+    },
+    {
+     "id": 13,
+     "name": "eMeterDelayVolumeRight"
+    },
+    {
+     "id": 14,
+     "name": "eMeterVarPhaseVolumeLeft"
+    },
+    {
+     "id": 15,
+     "name": "eMeterVarPhaseVolumeRight"
+    }
+   ]
+  },
+  {
+   "mapName": "ShortDelay",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "tege",
+   "pluginName": "Amp Room Utility",
+   "displayName": "utility Short Delay",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Utility Type",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Mix",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Crossover Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Variable Phase Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Volume",
+     "value": 0.6
+    },
+    {
+     "id": 5,
+     "name": "Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Mute",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Pan",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Pan Volume",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Low to top",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "X-Over On",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Top Pan",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Top Volume",
+     "value": 0.75
+    },
+    {
+     "id": 13,
+     "name": "Bottom Pan",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "Bottom Volume",
+     "value": 0.75
+    },
+    {
+     "id": 15,
+     "name": "Top Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Path Selector",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Bottom Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Delay",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Top Mute",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Bottom Mute",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Blend On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Blend",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterSplitterTopLeft"
+    },
+    {
+     "id": 1,
+     "name": "eMeterSplitterTopRight"
+    },
+    {
+     "id": 2,
+     "name": "eMeterSplitterBottomLeft"
+    },
+    {
+     "id": 3,
+     "name": "eMeterSplitterBottomRight"
+    },
+    {
+     "id": 4,
+     "name": "eMeterMixerTopLeft"
+    },
+    {
+     "id": 5,
+     "name": "eMeterMixerTopRight"
+    },
+    {
+     "id": 6,
+     "name": "eMeterMixerBottomLeft"
+    },
+    {
+     "id": 7,
+     "name": "eMeterMixerBottomRight"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainMuteLeft"
+    },
+    {
+     "id": 9,
+     "name": "eMeterGainMuteRight"
+    },
+    {
+     "id": 10,
+     "name": "eMeterPanVolumeLeft"
+    },
+    {
+     "id": 11,
+     "name": "eMeterPanVolumeRight"
+    },
+    {
+     "id": 12,
+     "name": "eMeterDelayVolumeLeft",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 13,
+     "name": "eMeterDelayVolumeRight",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    },
+    {
+     "id": 14,
+     "name": "eMeterVarPhaseVolumeLeft"
+    },
+    {
+     "id": 15,
+     "name": "eMeterVarPhaseVolumeRight"
+    }
+   ]
+  },
+  {
+   "mapName": "SuperMixer3",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "tege",
+   "pluginName": "Amp Room Utility",
+   "displayName": "AMP ROOM MIXER",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Utility Type",
+     "value": 0.875
+    },
+    {
+     "id": 1,
+     "name": "Mix",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Crossover Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Variable Phase Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Volume",
+     "value": 0.6
+    },
+    {
+     "id": 5,
+     "name": "Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Mute",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Pan",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Pan Volume",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Low to top",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "X-Over On",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Top Pan",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Top Volume",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.75
+    },
+    {
+     "id": 13,
+     "name": "Bottom Pan",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "Bottom Volume",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.75
+    },
+    {
+     "id": 15,
+     "name": "Top Phase Invert",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Path Selector",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.5,
+     "displayName": "Solo"
+    },
+    {
+     "id": 17,
+     "name": "Bottom Phase Invert",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Delay",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Top Mute",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Bottom Mute",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Blend On/Off",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Blend",
+     "mapsTo": "SUBPLUGIN_Param11",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterSplitterTopLeft"
+    },
+    {
+     "id": 1,
+     "name": "eMeterSplitterTopRight"
+    },
+    {
+     "id": 2,
+     "name": "eMeterSplitterBottomLeft"
+    },
+    {
+     "id": 3,
+     "name": "eMeterSplitterBottomRight"
+    },
+    {
+     "id": 4,
+     "name": "eMeterMixerTopLeft",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 5,
+     "name": "eMeterMixerTopRight",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    },
+    {
+     "id": 6,
+     "name": "eMeterMixerBottomLeft",
+     "mapsTo": "SUBPLUGIN_Meter3"
+    },
+    {
+     "id": 7,
+     "name": "eMeterMixerBottomRight",
+     "mapsTo": "SUBPLUGIN_Meter4"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainMuteLeft"
+    },
+    {
+     "id": 9,
+     "name": "eMeterGainMuteRight"
+    },
+    {
+     "id": 10,
+     "name": "eMeterPanVolumeLeft"
+    },
+    {
+     "id": 11,
+     "name": "eMeterPanVolumeRight"
+    },
+    {
+     "id": 12,
+     "name": "eMeterDelayVolumeLeft"
+    },
+    {
+     "id": 13,
+     "name": "eMeterDelayVolumeRight"
+    },
+    {
+     "id": 14,
+     "name": "eMeterVarPhaseVolumeLeft"
+    },
+    {
+     "id": 15,
+     "name": "eMeterVarPhaseVolumeRight"
+    }
+   ]
+  }
+ ]
+}

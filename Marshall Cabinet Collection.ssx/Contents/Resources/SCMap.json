@@ -1,0 +1,620 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "hvjg",
+   "pluginName": "Marshall Cabinet Collection",
+   "linearGainOutput": 0.6309573,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Cab",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Mic1",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 2,
+     "name": "Mic2",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 3,
+     "name": "Mic3",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 4,
+     "name": "Mic4",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 5,
+     "name": "Mic5",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 6,
+     "name": "Mic6",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 7,
+     "name": "Mic7",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 8,
+     "name": "Mic8",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 9,
+     "name": "Volume",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "1960V",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "hvjg",
+   "pluginName": "Marshall Cabinet Collection",
+   "linearGainOutput": 0.6309573,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Cab",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.14286
+    },
+    {
+     "id": 1,
+     "name": "Mic1",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 2,
+     "name": "Mic2",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 3,
+     "name": "Mic3",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 4,
+     "name": "Mic4",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 5,
+     "name": "Mic5",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 6,
+     "name": "Mic6",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 7,
+     "name": "Mic7",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 8,
+     "name": "Mic8",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 9,
+     "name": "Volume",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "1960AX",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "hvjg",
+   "pluginName": "Marshall Cabinet Collection",
+   "linearGainOutput": 0.6309573,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Cab",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.28752
+    },
+    {
+     "id": 1,
+     "name": "Mic1",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 2,
+     "name": "Mic2",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 3,
+     "name": "Mic3",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 4,
+     "name": "Mic4",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 5,
+     "name": "Mic5",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 6,
+     "name": "Mic6",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 7,
+     "name": "Mic7",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 8,
+     "name": "Mic8",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 9,
+     "name": "Volume",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "1960HW",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "hvjg",
+   "pluginName": "Marshall Cabinet Collection",
+   "linearGainOutput": 0.6309573,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Cab",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.42858
+    },
+    {
+     "id": 1,
+     "name": "Mic1",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 2,
+     "name": "Mic2",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 3,
+     "name": "Mic3",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 4,
+     "name": "Mic4",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 5,
+     "name": "Mic5",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 6,
+     "name": "Mic6",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 7,
+     "name": "Mic7",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 8,
+     "name": "Mic8",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 9,
+     "name": "Volume",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "1936",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "hvjg",
+   "pluginName": "Marshall Cabinet Collection",
+   "linearGainOutput": 0.6309573,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Cab",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.57144
+    },
+    {
+     "id": 1,
+     "name": "Mic1",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 2,
+     "name": "Mic2",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 3,
+     "name": "Mic3",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 4,
+     "name": "Mic4",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 5,
+     "name": "Mic5",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 6,
+     "name": "Mic6",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 7,
+     "name": "Mic7",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 8,
+     "name": "Mic8",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 9,
+     "name": "Volume",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "1936V",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "hvjg",
+   "pluginName": "Marshall Cabinet Collection",
+   "linearGainOutput": 0.6309573,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Cab",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.7143
+    },
+    {
+     "id": 1,
+     "name": "Mic1",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 2,
+     "name": "Mic2",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 3,
+     "name": "Mic3",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 4,
+     "name": "Mic4",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 5,
+     "name": "Mic5",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 6,
+     "name": "Mic6",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 7,
+     "name": "Mic7",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 8,
+     "name": "Mic8",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 9,
+     "name": "Volume",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "1912",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "hvjg",
+   "pluginName": "Marshall Cabinet Collection",
+   "linearGainOutput": 0.6309573,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Cab",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.85716
+    },
+    {
+     "id": 1,
+     "name": "Mic1",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 2,
+     "name": "Mic2",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 3,
+     "name": "Mic3",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 4,
+     "name": "Mic4",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 5,
+     "name": "Mic5",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 6,
+     "name": "Mic6",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 7,
+     "name": "Mic7",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 8,
+     "name": "Mic8",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 9,
+     "name": "Volume",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "1974CX",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "hvjg",
+   "pluginName": "Marshall Cabinet Collection",
+   "linearGainOutput": 0.6309573,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Cab",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Mic1",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 2,
+     "name": "Mic2",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 3,
+     "name": "Mic3",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 4,
+     "name": "Mic4",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 5,
+     "name": "Mic5",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 6,
+     "name": "Mic6",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 7,
+     "name": "Mic7",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 8,
+     "name": "Mic8",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.0,
+     "displayName": "Mic"
+    },
+    {
+     "id": 9,
+     "name": "Volume",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 0.5
+    }
+   ]
+  }
+ ]
+}

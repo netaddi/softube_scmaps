@@ -1,0 +1,48 @@
+{
+ "maps": [
+  {
+   "mapName": "ModularM82VCF",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "ST03",
+   "pluginName": "Model 82 VCF",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Frequency",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Resonance",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.33
+    },
+    {
+     "id": 2,
+     "name": "Cutoff CV Amount",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Reso CV Amount",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Level",
+     "mapsTo": "MODULE_Param5",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Subsystem",
+     "value": 0.0,
+     "isSubsystemIndex": true
+    }
+   ]
+  }
+ ]
+}

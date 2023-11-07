@@ -1,0 +1,126 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "ts1r",
+   "pluginName": "TSAR-1R Reverb",
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Predelay",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Reverb Time",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.25
+    },
+    {
+     "id": 2,
+     "name": "Color",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Reverb Mix",
+     "mapsTo": "MODULE_Param4",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Output Vol",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.75
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterInputL",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterInputR",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeterOutputL",
+     "mapsTo": "MODULE_Meter3"
+    },
+    {
+     "id": 3,
+     "name": "eMeterOutputR",
+     "mapsTo": "MODULE_Meter4"
+    }
+   ]
+  },
+  {
+   "mapName": "AmpRoomTsar1r",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "ts1r",
+   "pluginName": "TSAR-1R Reverb",
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Predelay",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Reverb Time",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.25
+    },
+    {
+     "id": 2,
+     "name": "Color",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Reverb Mix",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Output Vol",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.75
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterInputL"
+    },
+    {
+     "id": 1,
+     "name": "eMeterInputR"
+    },
+    {
+     "id": 2,
+     "name": "eMeterOutputL"
+    },
+    {
+     "id": 3,
+     "name": "eMeterOutputR"
+    }
+   ]
+  }
+ ]
+}

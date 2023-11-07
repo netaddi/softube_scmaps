@@ -1,0 +1,46 @@
+{
+ "maps": [
+  {
+   "mapName": "AmpRoomSSXLoader_FabCab1936V",
+   "mapType": "SSX_TYPE_AMP_ROOM_CAB_SUB_MODULE",
+   "pluginId": "ST58",
+   "pluginName": "Marshall 1936V 2x12",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Mic Type",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Offset",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Position",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.333333
+    },
+    {
+     "id": 3,
+     "name": "Phase Align",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Reserved1",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Reserved2",
+     "value": 0.5
+    }
+   ]
+  }
+ ]
+}

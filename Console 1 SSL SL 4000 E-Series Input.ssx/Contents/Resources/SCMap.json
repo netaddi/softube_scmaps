@@ -1,0 +1,33 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_FILTER",
+   "pluginId": "scIN",
+   "pluginName": "Console 1 SSL SL 4000 E-Series Input",
+   "displayName": "SSL SL 4000 E-Series Filters",
+   "displayNameShort": "SSL 4000E",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "High Cut",
+     "mapsTo": "IN_High_Cut",
+     "value": 1.0,
+     "knobMode": "KNOB_MODE_REVERSED",
+     "leadParamValue": 1.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "mapsTo": "IN_Low_Cut",
+     "value": 0.0,
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    }
+   ]
+  }
+ ]
+}

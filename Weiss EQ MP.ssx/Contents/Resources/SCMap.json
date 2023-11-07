@@ -1,0 +1,655 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "pluginId": "odeb",
+   "pluginName": "Weiss EQ MP",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Bypass",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "MS Mode",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Channel",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Ganged",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Analyzer",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Output Gain Ch.1",
+     "value": 0.84252
+    },
+    {
+     "id": 6,
+     "name": "Solo Ch.1",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Output Gain Ch.2",
+     "value": 0.84252
+    },
+    {
+     "id": 8,
+     "name": "Solo Ch.2",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Filter Type 1 Ch.1",
+     "mapsTo": "EQ_LF_Type",
+     "value": 0.5,
+     "displayName": "Type",
+     "guiQuantization": 3,
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    },
+    {
+     "id": 10,
+     "name": "Frequency 1 Ch.1",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.3307087,
+     "displayName": "Freq.",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "name": "Q 1 Ch.1",
+     "mapsTo": "EQ_LF_Q",
+     "value": 0.04,
+     "displayName": "Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      },
+      {
+       "name": "EQ_LF_Type"
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "name": "Slope 1 Ch.1",
+     "mapsTo": "EQ_LF_Freq_Shift",
+     "value": 0.166667,
+     "maxValue": 0.1666667,
+     "displayName": "Slope",
+     "guiQuantization": 2
+    },
+    {
+     "id": 13,
+     "name": "Boost 1 Ch.1",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.511811,
+     "displayName": "Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.511811,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 14,
+     "name": "Filter On/Off 1 Ch.1",
+     "value": 1.0
+    },
+    {
+     "id": 15,
+     "name": "Filter Type 2 Ch.1",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Frequency 2 Ch.1",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.5905512,
+     "displayName": "Freq. 1",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 17,
+     "name": "Q 2 Ch.1",
+     "mapsTo": "EQ_LMF_Q",
+     "value": 0.07874,
+     "displayName": "Q 1",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 18,
+     "name": "Slope 2 Ch.1",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Boost 2 Ch.1",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.511811,
+     "displayName": "Gain 1",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.511811,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 20,
+     "name": "Filter On/Off 2 Ch.1",
+     "value": 1.0
+    },
+    {
+     "id": 21,
+     "name": "Filter Type 3 Ch.1",
+     "value": 0.5
+    },
+    {
+     "id": 22,
+     "name": "Frequency 3 Ch.1",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0.7401575,
+     "displayName": "Freq. 1",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 23,
+     "name": "Q 3 Ch.1",
+     "mapsTo": "EQ_HMF_Q",
+     "value": 0.07874,
+     "displayName": "Q 1",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 24,
+     "name": "Slope 3 Ch.1",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "Boost 3 Ch.1",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0.511811,
+     "displayName": "Gain 1",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.511811,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 26,
+     "name": "Filter On/Off 3 Ch.1",
+     "value": 1.0
+    },
+    {
+     "id": 27,
+     "name": "Filter Type 4 Ch.1",
+     "mapsTo": "EQ_HF_Type",
+     "value": 0.5,
+     "minValue": 0.25,
+     "maxValue": 0.75,
+     "displayName": "Type",
+     "guiQuantization": 3,
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    },
+    {
+     "id": 28,
+     "name": "Frequency 4 Ch.1",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.8661417,
+     "displayName": "Freq.",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 29,
+     "name": "Q 4 Ch.1",
+     "mapsTo": "EQ_HF_Q",
+     "value": 0.04,
+     "displayName": "Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      },
+      {
+       "name": "EQ_HF_Type"
+      }
+     ]
+    },
+    {
+     "id": 30,
+     "name": "Slope 4 Ch.1",
+     "mapsTo": "EQ_HF_Freq_Shift",
+     "value": 0.1666667,
+     "maxValue": 0.1666667,
+     "displayName": "Slope",
+     "guiQuantization": 2
+    },
+    {
+     "id": 31,
+     "name": "Boost 4 Ch.1",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.511811,
+     "displayName": "Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.511811,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 32,
+     "name": "Filter On/Off 4 Ch.1",
+     "value": 1.0
+    },
+    {
+     "id": 33,
+     "name": "Filter Type 5 Ch.1",
+     "value": 0.5
+    },
+    {
+     "id": 34,
+     "name": "Frequency 5 Ch.1",
+     "mapsTo": "EQ_LMF_Freq_Shift",
+     "value": 0.708661,
+     "displayName": "Freq. 2",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain_Shift"
+      }
+     ]
+    },
+    {
+     "id": 35,
+     "name": "Q 5 Ch.1",
+     "mapsTo": "EQ_LMF_Q_Shift",
+     "value": 0.07874,
+     "displayName": "Q 2",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain_Shift"
+      }
+     ]
+    },
+    {
+     "id": 36,
+     "name": "Slope 5 Ch.1",
+     "value": 0.0
+    },
+    {
+     "id": 37,
+     "name": "Boost 5 Ch.1",
+     "mapsTo": "EQ_LMF_Gain_Shift",
+     "value": 0.511811,
+     "displayName": "Gain 2",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.511811,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 38,
+     "name": "Filter On/Off 5 Ch.1",
+     "value": 1.0
+    },
+    {
+     "id": 39,
+     "name": "Filter Type 6 Ch.1",
+     "value": 0.5
+    },
+    {
+     "id": 40,
+     "name": "Frequency 6 Ch.1",
+     "mapsTo": "EQ_HMF_Freq_Shift",
+     "value": 0.858268,
+     "displayName": "Freq. 2",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain_Shift"
+      }
+     ]
+    },
+    {
+     "id": 41,
+     "name": "Q 6 Ch.1",
+     "mapsTo": "EQ_HMF_Q_Shift",
+     "value": 0.07874,
+     "displayName": "Q 2",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain_Shift"
+      }
+     ]
+    },
+    {
+     "id": 42,
+     "name": "Slope 6 Ch.1",
+     "value": 0.0
+    },
+    {
+     "id": 43,
+     "name": "Boost 6 Ch.1",
+     "mapsTo": "EQ_HMF_Gain_Shift",
+     "value": 0.511811,
+     "displayName": "Gain 2",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.511811,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 44,
+     "name": "Filter On/Off 6 Ch.1",
+     "value": 1.0
+    },
+    {
+     "id": 45,
+     "name": "Filter Type 7 Ch.1",
+     "value": 0.75
+    },
+    {
+     "id": 46,
+     "name": "Frequency 7 Ch.1",
+     "value": 0.952756
+    },
+    {
+     "id": 47,
+     "name": "Q 7 Ch.1",
+     "value": 0.07874
+    },
+    {
+     "id": 48,
+     "name": "Slope 7 Ch.1",
+     "value": 0.0
+    },
+    {
+     "id": 49,
+     "name": "Boost 7 Ch.1",
+     "value": 0.511811
+    },
+    {
+     "id": 50,
+     "name": "Filter On/Off 7 Ch.1",
+     "value": 0.0
+    },
+    {
+     "id": 51,
+     "name": "Filter Type 1 Ch.2",
+     "value": 1.0
+    },
+    {
+     "id": 52,
+     "name": "Frequency 1 Ch.2",
+     "value": 0.023622
+    },
+    {
+     "id": 53,
+     "name": "Q 1 Ch.2",
+     "value": 0.07874
+    },
+    {
+     "id": 54,
+     "name": "Slope 1 Ch.2",
+     "value": 0.166667
+    },
+    {
+     "id": 55,
+     "name": "Boost 1 Ch.2",
+     "value": 0.511811
+    },
+    {
+     "id": 56,
+     "name": "Filter On/Off 1 Ch.2",
+     "value": 0.0
+    },
+    {
+     "id": 57,
+     "name": "Filter Type 2 Ch.2",
+     "value": 0.0
+    },
+    {
+     "id": 58,
+     "name": "Frequency 2 Ch.2",
+     "value": 0.165354
+    },
+    {
+     "id": 59,
+     "name": "Q 2 Ch.2",
+     "value": 0.07874
+    },
+    {
+     "id": 60,
+     "name": "Slope 2 Ch.2",
+     "value": 0.0
+    },
+    {
+     "id": 61,
+     "name": "Boost 2 Ch.2",
+     "value": 0.511811
+    },
+    {
+     "id": 62,
+     "name": "Filter On/Off 2 Ch.2",
+     "value": 0.0
+    },
+    {
+     "id": 63,
+     "name": "Filter Type 3 Ch.2",
+     "value": 0.5
+    },
+    {
+     "id": 64,
+     "name": "Frequency 3 Ch.2",
+     "value": 0.362205
+    },
+    {
+     "id": 65,
+     "name": "Q 3 Ch.2",
+     "value": 0.07874
+    },
+    {
+     "id": 66,
+     "name": "Slope 3 Ch.2",
+     "value": 0.0
+    },
+    {
+     "id": 67,
+     "name": "Boost 3 Ch.2",
+     "value": 0.511811
+    },
+    {
+     "id": 68,
+     "name": "Filter On/Off 3 Ch.2",
+     "value": 0.0
+    },
+    {
+     "id": 69,
+     "name": "Filter Type 4 Ch.2",
+     "value": 0.5
+    },
+    {
+     "id": 70,
+     "name": "Frequency 4 Ch.2",
+     "value": 0.543307
+    },
+    {
+     "id": 71,
+     "name": "Q 4 Ch.2",
+     "value": 0.07874
+    },
+    {
+     "id": 72,
+     "name": "Slope 4 Ch.2",
+     "value": 0.0
+    },
+    {
+     "id": 73,
+     "name": "Boost 4 Ch.2",
+     "value": 0.511811
+    },
+    {
+     "id": 74,
+     "name": "Filter On/Off 4 Ch.2",
+     "value": 0.0
+    },
+    {
+     "id": 75,
+     "name": "Filter Type 5 Ch.2",
+     "value": 0.5
+    },
+    {
+     "id": 76,
+     "name": "Frequency 5 Ch.2",
+     "value": 0.708661
+    },
+    {
+     "id": 77,
+     "name": "Q 5 Ch.2",
+     "value": 0.07874
+    },
+    {
+     "id": 78,
+     "name": "Slope 5 Ch.2",
+     "value": 0.0
+    },
+    {
+     "id": 79,
+     "name": "Boost 5 Ch.2",
+     "value": 0.511811
+    },
+    {
+     "id": 80,
+     "name": "Filter On/Off 5 Ch.2",
+     "value": 0.0
+    },
+    {
+     "id": 81,
+     "name": "Filter Type 6 Ch.2",
+     "value": 0.25
+    },
+    {
+     "id": 82,
+     "name": "Frequency 6 Ch.2",
+     "value": 0.858268
+    },
+    {
+     "id": 83,
+     "name": "Q 6 Ch.2",
+     "value": 0.07874
+    },
+    {
+     "id": 84,
+     "name": "Slope 6 Ch.2",
+     "value": 0.0
+    },
+    {
+     "id": 85,
+     "name": "Boost 6 Ch.2",
+     "value": 0.511811
+    },
+    {
+     "id": 86,
+     "name": "Filter On/Off 6 Ch.2",
+     "value": 0.0
+    },
+    {
+     "id": 87,
+     "name": "Filter Type 7 Ch.2",
+     "value": 0.75
+    },
+    {
+     "id": 88,
+     "name": "Frequency 7 Ch.2",
+     "value": 0.952756
+    },
+    {
+     "id": 89,
+     "name": "Q 7 Ch.2",
+     "value": 0.07874
+    },
+    {
+     "id": 90,
+     "name": "Slope 7 Ch.2",
+     "value": 0.0
+    },
+    {
+     "id": 91,
+     "name": "Boost 7 Ch.2",
+     "value": 0.511811
+    },
+    {
+     "id": 92,
+     "name": "Filter On/Off 7 Ch.2",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

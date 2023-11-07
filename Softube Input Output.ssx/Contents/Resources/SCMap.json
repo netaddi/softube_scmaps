@@ -1,0 +1,28 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "pluginId": "olgw",
+   "pluginName": "Softube Input Output",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Process Mode",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "Output",
+   "pluginId": "olgw",
+   "pluginName": "Softube Input Output",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Process Mode",
+     "value": 1.0
+    }
+   ]
+  }
+ ]
+}

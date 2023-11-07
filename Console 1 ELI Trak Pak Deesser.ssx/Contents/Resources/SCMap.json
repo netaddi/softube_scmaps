@@ -1,0 +1,42 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_SHAPE",
+   "pluginId": "pspw",
+   "pluginName": "Console 1 ELI Trak Pak Deesser",
+   "displayName": "Empirical Labs Trak Pak Deesser",
+   "displayNameShort": "ELI Trak Pak",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Frequency",
+     "mapsTo": "SHAPE_GateRelease",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Threshold",
+     "mapsTo": "SHAPE_Gate",
+     "value": 0.5,
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 2,
+     "name": "HF Limiter",
+     "mapsTo": "SHAPE_HardGate",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterGRDSLiF",
+     "mapsTo": "SHAPE_MeterReduction"
+    }
+   ]
+  }
+ ]
+}

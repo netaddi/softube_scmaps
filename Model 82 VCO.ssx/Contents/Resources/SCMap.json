@@ -1,0 +1,84 @@
+{
+ "maps": [
+  {
+   "mapName": "ModularM82VCO",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "ST01",
+   "pluginName": "Model 82 VCO",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Mod",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "FM",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Range",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.33
+    },
+    {
+     "id": 3,
+     "name": "Tune",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Pulse Width",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "PW Source",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Square",
+     "mapsTo": "MODULE_Param7",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "Sawtooth",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Sub",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Sub Octave",
+     "mapsTo": "MODULE_Param10",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Noise",
+     "mapsTo": "MODULE_Param11",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Subsystem",
+     "value": 0.0,
+     "isSubsystemIndex": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,632 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "pluginId": "witi",
+   "pluginName": "Harmonics Analog Saturation Processor",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Drive",
+     "mapsTo": "MAIN_Drive",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Character",
+     "mapsTo": "MAIN_Character",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Dynamics",
+     "mapsTo": "MAIN_Dynamics",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Drive Type",
+     "mapsTo": "MAIN_DriveType",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "DryWet",
+     "mapsTo": "MAIN_DryWet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Pre/Post Distortion",
+     "mapsTo": "MAIN_PrePostDistortion",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Dynamics On/Off",
+     "mapsTo": "MAIN_DynamicsOnOff",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "Low Cut Type",
+     "mapsTo": "MAIN_LowCutType",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "High Cut Type",
+     "mapsTo": "MAIN_HighCutType",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Input",
+     "mapsTo": "MAIN_Input",
+     "value": 0.6
+    },
+    {
+     "id": 10,
+     "name": "Output",
+     "mapsTo": "MAIN_Output",
+     "value": 0.6
+    },
+    {
+     "id": 11,
+     "name": "Low Cut",
+     "mapsTo": "MAIN_LowCut",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "High Cut",
+     "mapsTo": "MAIN_HighCut",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Meter",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterLevelVUL"
+    },
+    {
+     "id": 1,
+     "name": "eMeterLevelVUR"
+    }
+   ]
+  },
+  {
+   "mapName": "C1FOut_Solid",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "witi",
+   "pluginName": "Harmonics Analog Saturation Processor",
+   "displayName": "Harmonics Solid",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Drive",
+     "mapsTo": "OUT_Drive",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Character",
+     "mapsTo": "OUT_Drive_Character",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR"
+    },
+    {
+     "id": 2,
+     "name": "Dynamics",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Drive Type",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "DryWet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Pre/Post Distortion",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Dynamics On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "Low Cut Type",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "High Cut Type",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Input",
+     "value": 0.6
+    },
+    {
+     "id": 10,
+     "name": "Output",
+     "value": 0.6
+    },
+    {
+     "id": 11,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "High Cut",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Meter",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "C1FOut2_Transf",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "witi",
+   "pluginName": "Harmonics Analog Saturation Processor",
+   "displayName": "Harmonics Transformer",
+   "displayNameShort": "Harmonics Transf.",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Drive",
+     "mapsTo": "OUT_Drive",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Character",
+     "mapsTo": "OUT_Drive_Character",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR"
+    },
+    {
+     "id": 2,
+     "name": "Dynamics",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Drive Type",
+     "value": 0.25
+    },
+    {
+     "id": 4,
+     "name": "DryWet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Pre/Post Distortion",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Dynamics On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "Low Cut Type",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "High Cut Type",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Input",
+     "value": 0.6
+    },
+    {
+     "id": 10,
+     "name": "Output",
+     "value": 0.6
+    },
+    {
+     "id": 11,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "High Cut",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Meter",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "C1FOut_Master",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "witi",
+   "pluginName": "Harmonics Analog Saturation Processor",
+   "displayName": "Harmonics Master",
+   "displayNameShort": "Harmonics Mst.",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Drive",
+     "mapsTo": "OUT_Drive",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Character",
+     "mapsTo": "OUT_Drive_Character",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR"
+    },
+    {
+     "id": 2,
+     "name": "Dynamics",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Drive Type",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "DryWet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Pre/Post Distortion",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Dynamics On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "Low Cut Type",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "High Cut Type",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Input",
+     "value": 0.6
+    },
+    {
+     "id": 10,
+     "name": "Output",
+     "value": 0.6
+    },
+    {
+     "id": 11,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "High Cut",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Meter",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "C1FOut_Tube",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "witi",
+   "pluginName": "Harmonics Analog Saturation Processor",
+   "displayName": "Harmonics Tube",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Drive",
+     "mapsTo": "OUT_Drive",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Character",
+     "mapsTo": "OUT_Drive_Character",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR"
+    },
+    {
+     "id": 2,
+     "name": "Dynamics",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Drive Type",
+     "value": 0.75
+    },
+    {
+     "id": 4,
+     "name": "DryWet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Pre/Post Distortion",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Dynamics On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "Low Cut Type",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "High Cut Type",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Input",
+     "value": 0.6
+    },
+    {
+     "id": 10,
+     "name": "Output",
+     "value": 0.6
+    },
+    {
+     "id": 11,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "High Cut",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Meter",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "C1FOut_Modern",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "witi",
+   "pluginName": "Harmonics Analog Saturation Processor",
+   "displayName": "Harmonics Modern",
+   "displayNameShort": "Harmonics Mod.",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Drive",
+     "mapsTo": "OUT_Drive",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Character",
+     "mapsTo": "OUT_Drive_Character",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR"
+    },
+    {
+     "id": 2,
+     "name": "Dynamics",
+     "value": 1.0
+    },
+    {
+     "id": 3,
+     "name": "Drive Type",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "DryWet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Pre/Post Distortion",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Dynamics On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "Low Cut Type",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "High Cut Type",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Input",
+     "value": 0.6
+    },
+    {
+     "id": 10,
+     "name": "Output",
+     "value": 0.6
+    },
+    {
+     "id": 11,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "High Cut",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Meter",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "C1_Shape",
+   "mapType": "SSX_TYPE_CONSOLE1_SHAPE",
+   "pluginId": "witi",
+   "pluginName": "Harmonics Analog Saturation Processor",
+   "displayName": "Harmonics",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Drive",
+     "mapsTo": "SHAPE_Gate",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Character",
+     "mapsTo": "SHAPE_Punch",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR"
+    },
+    {
+     "id": 2,
+     "name": "Dynamics",
+     "mapsTo": "SHAPE_Sustain",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR"
+    },
+    {
+     "id": 3,
+     "name": "Drive Type",
+     "mapsTo": "SHAPE_GateRelease",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "DryWet",
+     "mapsTo": "SHAPE_HardGate",
+     "value": 1.0,
+     "minValue": 1.0,
+     "maxValue": 0.5,
+     "guiQuantization": 2
+    },
+    {
+     "id": 5,
+     "name": "Pre/Post Distortion",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Dynamics On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "Low Cut Type",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "High Cut Type",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Input",
+     "value": 0.6
+    },
+    {
+     "id": 10,
+     "name": "Output",
+     "value": 0.6
+    },
+    {
+     "id": 11,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "High Cut",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Meter",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterLevelVUL"
+    },
+    {
+     "id": 1,
+     "name": "eMeterLevelVUR"
+    },
+    {
+     "id": 2,
+     "name": "eMeterTHDVUL"
+    },
+    {
+     "id": 3,
+     "name": "eMeterTHDVUR"
+    },
+    {
+     "id": 4,
+     "name": "eMeterSidebarIn"
+    },
+    {
+     "id": 5,
+     "name": "eMeterSidebarOut"
+    }
+   ]
+  }
+ ]
+}

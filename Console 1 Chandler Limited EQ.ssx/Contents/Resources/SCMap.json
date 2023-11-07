@@ -1,0 +1,140 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "pluginId": "aret",
+   "pluginName": "Console 1 Chandler Limited EQ",
+   "displayName": "Chandler Limited Zener-Bender EQ",
+   "displayNameShort": "Chandler",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Low Type",
+     "mapsTo": "EQ_LF_Type",
+     "value": 0.5,
+     "displayName": "Type",
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    },
+    {
+     "id": 1,
+     "name": "Low Frequency",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.6666667,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "name": "Low Gain",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 3,
+     "name": "Low Mid Frequency",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.5714286,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "name": "Low Mid Gain",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 5,
+     "name": "High Mid Frequency",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0.5714286,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "name": "High Mid Gain",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 7,
+     "name": "High Type",
+     "mapsTo": "EQ_HF_Type",
+     "value": 0.5,
+     "displayName": "Type",
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    },
+    {
+     "id": 8,
+     "name": "High Frequency",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.5714286,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "name": "High Gain",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    }
+   ]
+  }
+ ]
+}

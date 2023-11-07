@@ -1,0 +1,92 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "ksyw",
+   "pluginName": "Amp Room Guvnor",
+   "displayName": "MARSHALL GUVNOR",
+   "linearGainOutput": 1.584893,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Gain",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5,
+     "displayName": "Drive"
+    },
+    {
+     "id": 1,
+     "name": "Bass",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5,
+     "displayName": "Bass"
+    },
+    {
+     "id": 2,
+     "name": "Middle",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5,
+     "displayName": "Middle"
+    },
+    {
+     "id": 3,
+     "name": "Treble",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5,
+     "displayName": "Treble"
+    },
+    {
+     "id": 4,
+     "name": "Volume",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.5,
+     "displayName": "Level"
+    }
+   ]
+  },
+  {
+   "mapName": "CODEMode",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "ksyw",
+   "pluginName": "Amp Room Guvnor",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Gain",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5,
+     "displayName": "Drive"
+    },
+    {
+     "id": 1,
+     "name": "Bass",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5,
+     "displayName": "Bass"
+    },
+    {
+     "id": 2,
+     "name": "Middle",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5,
+     "displayName": "Middle"
+    },
+    {
+     "id": 3,
+     "name": "Treble",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5,
+     "displayName": "Treble"
+    },
+    {
+     "id": 4,
+     "name": "Volume",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.5,
+     "displayName": "Level"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "prpw",
+   "pluginName": "Amp Room EQ",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Band 1 Active",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Band 1 Gain",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Band 1 Frequency",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.2
+    },
+    {
+     "id": 3,
+     "name": "Band 1 Q",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Band 1 Type",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Band 2 Active",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Band 2 Gain",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Band 2 Frequency",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.35
+    },
+    {
+     "id": 8,
+     "name": "Band 2 Q",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Band 2 Type",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Band 3 Active",
+     "mapsTo": "SUBPLUGIN_Param11",
+     "value": 1.0
+    },
+    {
+     "id": 11,
+     "name": "Band 3 Gain",
+     "mapsTo": "SUBPLUGIN_Param12",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Band 3 Frequency",
+     "mapsTo": "SUBPLUGIN_Param13",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Band 3 Q",
+     "mapsTo": "SUBPLUGIN_Param14",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "Band 3 Type",
+     "mapsTo": "SUBPLUGIN_Param15",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Band 4 Active",
+     "mapsTo": "SUBPLUGIN_Param16",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Band 4 Gain",
+     "mapsTo": "SUBPLUGIN_Param17",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Band 4 Frequency",
+     "mapsTo": "SUBPLUGIN_Param18",
+     "value": 0.65
+    },
+    {
+     "id": 18,
+     "name": "Band 4 Q",
+     "mapsTo": "SUBPLUGIN_Param19",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Band 4 Type",
+     "mapsTo": "SUBPLUGIN_Param20",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Band 5 Active",
+     "mapsTo": "SUBPLUGIN_Param21",
+     "value": 1.0
+    },
+    {
+     "id": 21,
+     "name": "Band 5 Gain",
+     "mapsTo": "SUBPLUGIN_Param22",
+     "value": 0.5
+    },
+    {
+     "id": 22,
+     "name": "Band 5 Frequency",
+     "mapsTo": "SUBPLUGIN_Param23",
+     "value": 0.8
+    },
+    {
+     "id": 23,
+     "name": "Band 5 Q",
+     "mapsTo": "SUBPLUGIN_Param24",
+     "value": 0.5
+    },
+    {
+     "id": 24,
+     "name": "Band 5 Type",
+     "mapsTo": "SUBPLUGIN_Param25",
+     "value": 0.5
+    }
+   ]
+  }
+ ]
+}

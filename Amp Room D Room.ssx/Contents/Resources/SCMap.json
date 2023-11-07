@@ -1,0 +1,56 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "rgbm",
+   "pluginName": "Amp Room D Room",
+   "displayName": "SOFTUBE ROOM IR",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Far Pan",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Far Volume",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.6
+    },
+    {
+     "id": 2,
+     "name": "Near Pan",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Near Volume",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.6
+    },
+    {
+     "id": 4,
+     "name": "Predelay",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Dry/Wet",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Room",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.0,
+     "maxValue": 0.2106
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "satn",
+   "pluginName": "Saturation Knob",
+   "modularLatencyInSeconds": 0.001,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Saturation",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Saturation Type",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterSaturation",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  },
+  {
+   "mapName": "C1FOut",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "satn",
+   "pluginName": "Saturation Knob",
+   "displayNameShort": "Sat. Knob",
+   "modularLatencyInSeconds": 0.001,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Saturation",
+     "mapsTo": "OUT_Drive",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Saturation Type",
+     "mapsTo": "OUT_Drive_Character",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "AmpRoom",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "satn",
+   "pluginName": "Saturation Knob",
+   "modularLatencyInSeconds": 0.001,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Saturation",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Saturation Type",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterSaturation",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    }
+   ]
+  }
+ ]
+}

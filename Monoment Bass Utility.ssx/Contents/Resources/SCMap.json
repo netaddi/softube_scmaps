@@ -1,0 +1,1807 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "pluginId": "pvsy",
+   "pluginName": "Monoment Bass Utility",
+   "modularLatencyInSeconds": 0.00072562
+  },
+  {
+   "mapName": "MonomentBassFilter",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "pvsy",
+   "pluginName": "Monoment Bass Utility",
+   "displayName": "Monoment Filter",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Process Mode",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Note Gate",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Note Value",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Dirt to Filter",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Crossover On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Crossover Freq",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Source Mix",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Punch",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Release",
+     "value": 0.205
+    },
+    {
+     "id": 9,
+     "name": "Aging",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Volume",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Cut-Off",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.8,
+     "virtualInput": 0
+    },
+    {
+     "id": 12,
+     "name": "Resonance",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.48,
+     "virtualInput": 1
+    },
+    {
+     "id": 13,
+     "name": "Env Type",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.9,
+     "virtualInput": 2
+    },
+    {
+     "id": 14,
+     "name": "Env Amount",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.485,
+     "virtualInput": 3
+    },
+    {
+     "id": 15,
+     "name": "Keytrack",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Filter Type",
+     "mapsTo": "MODULE_Param5",
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "Filter On/Off",
+     "mapsTo": "MODULE_Param6",
+     "value": 1.0
+    },
+    {
+     "id": 18,
+     "name": "LFO On/Off",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "LFO Amount",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.8364,
+     "virtualInput": 6
+    },
+    {
+     "id": 20,
+     "name": "LFO Rise",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.5876,
+     "virtualInput": 4
+    },
+    {
+     "id": 21,
+     "name": "LFO Shape",
+     "mapsTo": "MODULE_Param10",
+     "value": 0.7818,
+     "virtualInput": 5
+    },
+    {
+     "id": 22,
+     "name": "LFO Tempo Sync",
+     "mapsTo": "MODULE_Param11",
+     "value": 1.0
+    },
+    {
+     "id": 23,
+     "name": "LFO DAW Speed",
+     "mapsTo": "MODULE_Param12",
+     "value": 0.6,
+     "virtualInput": 8
+    },
+    {
+     "id": 24,
+     "name": "LFO Speed",
+     "mapsTo": "MODULE_Param13",
+     "value": 0.5,
+     "virtualInput": 7
+    },
+    {
+     "id": 25,
+     "name": "Drive On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "Drive Type",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "Drive Amount",
+     "value": 0.5
+    },
+    {
+     "id": 28,
+     "name": "EQ On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "EQ Bass",
+     "value": 0.5
+    },
+    {
+     "id": 30,
+     "name": "EQ Tilt",
+     "value": 0.5
+    },
+    {
+     "id": 31,
+     "name": "Comp On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 32,
+     "name": "Comp Amount",
+     "value": 0.5
+    },
+    {
+     "id": 33,
+     "name": "Spatialization On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 34,
+     "name": "Monomaker",
+     "value": 0.5
+    },
+    {
+     "id": 35,
+     "name": "Stereo Widener",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterFilterModulation",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterMixLevelL"
+    },
+    {
+     "id": 2,
+     "name": "eMeterMixLevelR"
+    },
+    {
+     "id": 3,
+     "name": "eMeterOutputLevelL"
+    },
+    {
+     "id": 4,
+     "name": "eMeterOutputLevelR"
+    },
+    {
+     "id": 5,
+     "name": "eMeterGainReduction"
+    },
+    {
+     "id": 6,
+     "name": "eMeterGainReductionL"
+    },
+    {
+     "id": 7,
+     "name": "eMeterGainReductionM"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainReductionH"
+    }
+   ]
+  },
+  {
+   "mapName": "MonomentBassFilterAmpRoom",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "pvsy",
+   "pluginName": "Monoment Bass Utility",
+   "displayName": "Monoment Filter",
+   "modularLatencyInSeconds": 0.00072562,
+   "linearGainOutput": 1.1220185,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Process Mode",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Note Gate",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Note Value",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Dirt to Filter",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Crossover On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Crossover Freq",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Source Mix",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Punch",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Release",
+     "value": 0.205
+    },
+    {
+     "id": 9,
+     "name": "Aging",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Volume",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Cut-Off",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.8
+    },
+    {
+     "id": 12,
+     "name": "Resonance",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.48
+    },
+    {
+     "id": 13,
+     "name": "Env Type",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Env Amount",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Keytrack",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Filter Type",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "Filter On/Off",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 1.0
+    },
+    {
+     "id": 18,
+     "name": "LFO On/Off",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "LFO Amount",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.8364
+    },
+    {
+     "id": 20,
+     "name": "LFO Rise",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.5876
+    },
+    {
+     "id": 21,
+     "name": "LFO Shape",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.7818
+    },
+    {
+     "id": 22,
+     "name": "LFO Tempo Sync",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 1.0
+    },
+    {
+     "id": 23,
+     "name": "LFO DAW Speed",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 0.6
+    },
+    {
+     "id": 24,
+     "name": "LFO Speed",
+     "mapsTo": "SUBPLUGIN_Param11",
+     "value": 0.5
+    },
+    {
+     "id": 25,
+     "name": "Drive On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "Drive Type",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "Drive Amount",
+     "value": 0.5
+    },
+    {
+     "id": 28,
+     "name": "EQ On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "EQ Bass",
+     "value": 0.5
+    },
+    {
+     "id": 30,
+     "name": "EQ Tilt",
+     "value": 0.5
+    },
+    {
+     "id": 31,
+     "name": "Comp On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 32,
+     "name": "Comp Amount",
+     "value": 0.5
+    },
+    {
+     "id": 33,
+     "name": "Spatialization On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 34,
+     "name": "Monomaker",
+     "value": 0.5
+    },
+    {
+     "id": 35,
+     "name": "Stereo Widener",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterFilterModulation",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterMixLevelL"
+    },
+    {
+     "id": 2,
+     "name": "eMeterMixLevelR"
+    },
+    {
+     "id": 3,
+     "name": "eMeterOutputLevelL"
+    },
+    {
+     "id": 4,
+     "name": "eMeterOutputLevelR"
+    },
+    {
+     "id": 5,
+     "name": "eMeterGainReduction"
+    },
+    {
+     "id": 6,
+     "name": "eMeterGainReductionL"
+    },
+    {
+     "id": 7,
+     "name": "eMeterGainReductionM"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainReductionH"
+    }
+   ]
+  },
+  {
+   "mapName": "MonomentBassEffectsAmpRoom",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "pvsy",
+   "pluginName": "Monoment Bass Utility",
+   "displayName": "Monoment Effects",
+   "modularLatencyInSeconds": 0.00072562,
+   "linearGainOutput": 1.9498446,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Process Mode",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Note Gate",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Note Value",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Dirt to Filter",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Crossover On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Crossover Freq",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Source Mix",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Punch",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Release",
+     "value": 0.205
+    },
+    {
+     "id": 9,
+     "name": "Aging",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Volume",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Cut-Off",
+     "value": 0.8
+    },
+    {
+     "id": 12,
+     "name": "Resonance",
+     "value": 0.48
+    },
+    {
+     "id": 13,
+     "name": "Env Type",
+     "value": 0.9
+    },
+    {
+     "id": 14,
+     "name": "Env Amount",
+     "value": 0.485
+    },
+    {
+     "id": 15,
+     "name": "Keytrack",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Filter Type",
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "Filter On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "LFO On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "LFO Amount",
+     "value": 0.8364
+    },
+    {
+     "id": 20,
+     "name": "LFO Rise",
+     "value": 0.5876
+    },
+    {
+     "id": 21,
+     "name": "LFO Shape",
+     "value": 0.7818
+    },
+    {
+     "id": 22,
+     "name": "LFO Tempo Sync",
+     "value": 1.0
+    },
+    {
+     "id": 23,
+     "name": "LFO DAW Speed",
+     "value": 0.6
+    },
+    {
+     "id": 24,
+     "name": "LFO Speed",
+     "value": 0.5
+    },
+    {
+     "id": 25,
+     "name": "Drive On/Off",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 1.0
+    },
+    {
+     "id": 26,
+     "name": "Drive Type",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "Drive Amount",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 28,
+     "name": "EQ On/Off",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "EQ Bass",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 30,
+     "name": "EQ Tilt",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 31,
+     "name": "Comp On/Off",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 0.0
+    },
+    {
+     "id": 32,
+     "name": "Comp Amount",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 33,
+     "name": "Spatialization On/Off",
+     "mapsTo": "SUBPLUGIN_Param11",
+     "value": 0.0
+    },
+    {
+     "id": 34,
+     "name": "Monomaker",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.5
+    },
+    {
+     "id": 35,
+     "name": "Stereo Widener",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterFilterModulation"
+    },
+    {
+     "id": 1,
+     "name": "eMeterMixLevelL"
+    },
+    {
+     "id": 2,
+     "name": "eMeterMixLevelR"
+    },
+    {
+     "id": 3,
+     "name": "eMeterOutputLevelL"
+    },
+    {
+     "id": 4,
+     "name": "eMeterOutputLevelR"
+    },
+    {
+     "id": 5,
+     "name": "eMeterGainReduction"
+    },
+    {
+     "id": 6,
+     "name": "eMeterGainReductionL",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 7,
+     "name": "eMeterGainReductionM",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainReductionH",
+     "mapsTo": "SUBPLUGIN_Meter3"
+    }
+   ]
+  },
+  {
+   "mapName": "MonomentBassEffects",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "pvsy",
+   "pluginName": "Monoment Bass Utility",
+   "displayName": "Monoment Effects",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Process Mode",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Note Gate",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Note Value",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Dirt to Filter",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Crossover On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Crossover Freq",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Source Mix",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Punch",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Release",
+     "value": 0.205
+    },
+    {
+     "id": 9,
+     "name": "Aging",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Volume",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Cut-Off",
+     "value": 0.8
+    },
+    {
+     "id": 12,
+     "name": "Resonance",
+     "value": 0.48
+    },
+    {
+     "id": 13,
+     "name": "Env Type",
+     "value": 0.9
+    },
+    {
+     "id": 14,
+     "name": "Env Amount",
+     "value": 0.485
+    },
+    {
+     "id": 15,
+     "name": "Keytrack",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Filter Type",
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "Filter On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "LFO On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "LFO Amount",
+     "value": 0.8364
+    },
+    {
+     "id": 20,
+     "name": "LFO Rise",
+     "value": 0.5876
+    },
+    {
+     "id": 21,
+     "name": "LFO Shape",
+     "value": 0.7818
+    },
+    {
+     "id": 22,
+     "name": "LFO Tempo Sync",
+     "value": 1.0
+    },
+    {
+     "id": 23,
+     "name": "LFO DAW Speed",
+     "value": 0.6
+    },
+    {
+     "id": 24,
+     "name": "LFO Speed",
+     "value": 0.5
+    },
+    {
+     "id": 25,
+     "name": "Drive On/Off",
+     "mapsTo": "MODULE_Param8",
+     "value": 1.0
+    },
+    {
+     "id": 26,
+     "name": "Drive Type",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "Drive Amount",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "virtualInput": 0
+    },
+    {
+     "id": 28,
+     "name": "EQ On/Off",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "EQ Bass",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5,
+     "virtualInput": 1
+    },
+    {
+     "id": 30,
+     "name": "EQ Tilt",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5,
+     "virtualInput": 2
+    },
+    {
+     "id": 31,
+     "name": "Comp On/Off",
+     "mapsTo": "MODULE_Param10",
+     "value": 0.0
+    },
+    {
+     "id": 32,
+     "name": "Comp Amount",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.5,
+     "virtualInput": 3
+    },
+    {
+     "id": 33,
+     "name": "Spatialization On/Off",
+     "mapsTo": "MODULE_Param11",
+     "value": 0.0
+    },
+    {
+     "id": 34,
+     "name": "Monomaker",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.5,
+     "virtualInput": 4
+    },
+    {
+     "id": 35,
+     "name": "Stereo Widener",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.5,
+     "virtualInput": 5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterFilterModulation"
+    },
+    {
+     "id": 1,
+     "name": "eMeterMixLevelL"
+    },
+    {
+     "id": 2,
+     "name": "eMeterMixLevelR"
+    },
+    {
+     "id": 3,
+     "name": "eMeterOutputLevelL"
+    },
+    {
+     "id": 4,
+     "name": "eMeterOutputLevelR"
+    },
+    {
+     "id": 5,
+     "name": "eMeterGainReduction"
+    },
+    {
+     "id": 6,
+     "name": "eMeterGainReductionL",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 7,
+     "name": "eMeterGainReductionM",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainReductionH",
+     "mapsTo": "MODULE_Meter3"
+    }
+   ]
+  },
+  {
+   "mapName": "MonomentBassDrive",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "pvsy",
+   "pluginName": "Monoment Bass Utility",
+   "displayName": "Monoment Bass Drive",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Process Mode",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Note Gate",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Note Value",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Dirt to Filter",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Crossover On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Crossover Freq",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Source Mix",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Punch",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Release",
+     "value": 0.205
+    },
+    {
+     "id": 9,
+     "name": "Aging",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Volume",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Cut-Off",
+     "value": 0.8
+    },
+    {
+     "id": 12,
+     "name": "Resonance",
+     "value": 0.48
+    },
+    {
+     "id": 13,
+     "name": "Env Type",
+     "value": 0.9
+    },
+    {
+     "id": 14,
+     "name": "Env Amount",
+     "value": 0.485
+    },
+    {
+     "id": 15,
+     "name": "Keytrack",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Filter Type",
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "Filter On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "LFO On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "LFO Amount",
+     "value": 0.8364
+    },
+    {
+     "id": 20,
+     "name": "LFO Rise",
+     "value": 0.5876
+    },
+    {
+     "id": 21,
+     "name": "LFO Shape",
+     "value": 0.7818
+    },
+    {
+     "id": 22,
+     "name": "LFO Tempo Sync",
+     "value": 1.0
+    },
+    {
+     "id": 23,
+     "name": "LFO DAW Speed",
+     "value": 0.6
+    },
+    {
+     "id": 24,
+     "name": "LFO Speed",
+     "value": 0.5
+    },
+    {
+     "id": 25,
+     "name": "Drive On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 26,
+     "name": "Drive Type",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "Drive Amount",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "virtualInput": 0
+    },
+    {
+     "id": 28,
+     "name": "EQ On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "EQ Bass",
+     "value": 0.5
+    },
+    {
+     "id": 30,
+     "name": "EQ Tilt",
+     "value": 0.5
+    },
+    {
+     "id": 31,
+     "name": "Comp On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 32,
+     "name": "Comp Amount",
+     "value": 0.5
+    },
+    {
+     "id": 33,
+     "name": "Spatialization On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 34,
+     "name": "Monomaker",
+     "value": 0.5
+    },
+    {
+     "id": 35,
+     "name": "Stereo Widener",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "MonomentBassEQ",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "pvsy",
+   "pluginName": "Monoment Bass Utility",
+   "displayName": "Monoment Bass EQ",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Process Mode",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Note Gate",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Note Value",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Dirt to Filter",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Crossover On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Crossover Freq",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Source Mix",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Punch",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Release",
+     "value": 0.205
+    },
+    {
+     "id": 9,
+     "name": "Aging",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Volume",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Cut-Off",
+     "value": 0.8
+    },
+    {
+     "id": 12,
+     "name": "Resonance",
+     "value": 0.48
+    },
+    {
+     "id": 13,
+     "name": "Env Type",
+     "value": 0.9
+    },
+    {
+     "id": 14,
+     "name": "Env Amount",
+     "value": 0.485
+    },
+    {
+     "id": 15,
+     "name": "Keytrack",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Filter Type",
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "Filter On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "LFO On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "LFO Amount",
+     "value": 0.8364
+    },
+    {
+     "id": 20,
+     "name": "LFO Rise",
+     "value": 0.5876
+    },
+    {
+     "id": 21,
+     "name": "LFO Shape",
+     "value": 0.7818
+    },
+    {
+     "id": 22,
+     "name": "LFO Tempo Sync",
+     "value": 1.0
+    },
+    {
+     "id": 23,
+     "name": "LFO DAW Speed",
+     "value": 0.6
+    },
+    {
+     "id": 24,
+     "name": "LFO Speed",
+     "value": 0.5
+    },
+    {
+     "id": 25,
+     "name": "Drive On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "Drive Type",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "Drive Amount",
+     "value": 0.5
+    },
+    {
+     "id": 28,
+     "name": "EQ On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 29,
+     "name": "EQ Bass",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "virtualInput": 0
+    },
+    {
+     "id": 30,
+     "name": "EQ Tilt",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "virtualInput": 1
+    },
+    {
+     "id": 31,
+     "name": "Comp On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 32,
+     "name": "Comp Amount",
+     "value": 0.5
+    },
+    {
+     "id": 33,
+     "name": "Spatialization On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 34,
+     "name": "Monomaker",
+     "value": 0.5
+    },
+    {
+     "id": 35,
+     "name": "Stereo Widener",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "MonomentBassMultiband",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "pvsy",
+   "pluginName": "Monoment Bass Utility",
+   "displayName": "Monoment Bass Multiband",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Process Mode",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Note Gate",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Note Value",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Dirt to Filter",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Crossover On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Crossover Freq",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Source Mix",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Punch",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Release",
+     "value": 0.205
+    },
+    {
+     "id": 9,
+     "name": "Aging",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Volume",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Cut-Off",
+     "value": 0.8
+    },
+    {
+     "id": 12,
+     "name": "Resonance",
+     "value": 0.48
+    },
+    {
+     "id": 13,
+     "name": "Env Type",
+     "value": 0.9
+    },
+    {
+     "id": 14,
+     "name": "Env Amount",
+     "value": 0.485
+    },
+    {
+     "id": 15,
+     "name": "Keytrack",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Filter Type",
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "Filter On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "LFO On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "LFO Amount",
+     "value": 0.8364
+    },
+    {
+     "id": 20,
+     "name": "LFO Rise",
+     "value": 0.5876
+    },
+    {
+     "id": 21,
+     "name": "LFO Shape",
+     "value": 0.7818
+    },
+    {
+     "id": 22,
+     "name": "LFO Tempo Sync",
+     "value": 1.0
+    },
+    {
+     "id": 23,
+     "name": "LFO DAW Speed",
+     "value": 0.6
+    },
+    {
+     "id": 24,
+     "name": "LFO Speed",
+     "value": 0.5
+    },
+    {
+     "id": 25,
+     "name": "Drive On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "Drive Type",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "Drive Amount",
+     "value": 0.5
+    },
+    {
+     "id": 28,
+     "name": "EQ On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "EQ Bass",
+     "value": 0.5
+    },
+    {
+     "id": 30,
+     "name": "EQ Tilt",
+     "value": 0.5
+    },
+    {
+     "id": 31,
+     "name": "Comp On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 32,
+     "name": "Comp Amount",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "virtualInput": 0
+    },
+    {
+     "id": 33,
+     "name": "Spatialization On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 34,
+     "name": "Monomaker",
+     "value": 0.5
+    },
+    {
+     "id": 35,
+     "name": "Stereo Widener",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterFilterModulation"
+    },
+    {
+     "id": 1,
+     "name": "eMeterMixLevelL"
+    },
+    {
+     "id": 2,
+     "name": "eMeterMixLevelR"
+    },
+    {
+     "id": 3,
+     "name": "eMeterOutputLevelL"
+    },
+    {
+     "id": 4,
+     "name": "eMeterOutputLevelR"
+    },
+    {
+     "id": 5,
+     "name": "eMeterGainReduction"
+    },
+    {
+     "id": 6,
+     "name": "eMeterGainReductionL",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 7,
+     "name": "eMeterGainReductionM",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 8,
+     "name": "eMeterGainReductionH",
+     "mapsTo": "MODULE_Meter3"
+    }
+   ]
+  },
+  {
+   "mapName": "MonomentBassSpatialization",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "pvsy",
+   "pluginName": "Monoment Bass Utility",
+   "displayName": "Monoment Bass Spatialization",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Process Mode",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Note Gate",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Note Value",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Dirt to Filter",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Crossover On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Crossover Freq",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Source Mix",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Punch",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Release",
+     "value": 0.205
+    },
+    {
+     "id": 9,
+     "name": "Aging",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Volume",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Cut-Off",
+     "value": 0.8
+    },
+    {
+     "id": 12,
+     "name": "Resonance",
+     "value": 0.48
+    },
+    {
+     "id": 13,
+     "name": "Env Type",
+     "value": 0.9
+    },
+    {
+     "id": 14,
+     "name": "Env Amount",
+     "value": 0.485
+    },
+    {
+     "id": 15,
+     "name": "Keytrack",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Filter Type",
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "Filter On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "LFO On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "LFO Amount",
+     "value": 0.8364
+    },
+    {
+     "id": 20,
+     "name": "LFO Rise",
+     "value": 0.5876
+    },
+    {
+     "id": 21,
+     "name": "LFO Shape",
+     "value": 0.7818
+    },
+    {
+     "id": 22,
+     "name": "LFO Tempo Sync",
+     "value": 1.0
+    },
+    {
+     "id": 23,
+     "name": "LFO DAW Speed",
+     "value": 0.6
+    },
+    {
+     "id": 24,
+     "name": "LFO Speed",
+     "value": 0.5
+    },
+    {
+     "id": 25,
+     "name": "Drive On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "Drive Type",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "Drive Amount",
+     "value": 0.5
+    },
+    {
+     "id": 28,
+     "name": "EQ On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "EQ Bass",
+     "value": 0.5
+    },
+    {
+     "id": 30,
+     "name": "EQ Tilt",
+     "value": 0.5
+    },
+    {
+     "id": 31,
+     "name": "Comp On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 32,
+     "name": "Comp Amount",
+     "value": 0.5
+    },
+    {
+     "id": 33,
+     "name": "Spatialization On/Off",
+     "value": 1.0
+    },
+    {
+     "id": 34,
+     "name": "Monomaker",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "virtualInput": 0
+    },
+    {
+     "id": 35,
+     "name": "Stereo Widener",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "virtualInput": 1
+    }
+   ]
+  }
+ ]
+}

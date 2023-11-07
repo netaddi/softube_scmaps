@@ -1,0 +1,54 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "gghz",
+   "pluginName": "Console 1 Chandler Limited Compressor",
+   "displayName": "Chandler Limited Zener-Bender Compressor",
+   "displayNameShort": "Chandler",
+   "autoMakeup": 0.25,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Ext/Int Sidechain",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Threshold",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "value": 0.1
+    },
+    {
+     "id": 3,
+     "name": "Comp. Mode",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.0,
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 4,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "value": 0.1
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterGainReduction",
+     "mapsTo": "COMP_MeterReduction"
+    }
+   ]
+  }
+ ]
+}

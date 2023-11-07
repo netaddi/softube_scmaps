@@ -1,0 +1,390 @@
+// Monoment Utility Pagetable v.1
+PluginID: pvsy
+PluginName: "Monoment Bass Utility"
+PluginType: Module
+PluginModularLatencyInSeconds: 0.00072562
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+
+// "Plugin parameter" = <"Control or Value">"HW location"
+// Add <Control> tags to map parameter to Console 1 control
+// ex. <Control>(COMP_Release)<Value>(0.5)<Min>(1.0)<Max>(0.0)
+MapStart<Default>
+PluginDisplayName = "Monoment Bass Utility"
+PluginDisplayType = <Dummy>
+MapEnd
+
+MapStart<MonomentBassFilter><10> // Don't use iSsxMappingType = <1>, since that could interfere with the Continuum LFO implementation
+PluginDisplayName = "Monoment Filter"
+ProcessMode = <Value>(0.0)
+NoteGate = <Value>(1.0)
+NoteValue = <Value>(0.0)
+DirttoFilter = <Value>(1.0)
+CrossoverOn/Off = <Value>(0.0)
+CrossoverFreq = <Value>(0.5)
+SourceMix = <Value>(0.5)
+Punch = <Value>(0.5)
+Release = <Value>(0.205)
+Aging = <Value>(0.5)
+Volume = <Value>(0.5)
+Cut-Off = <Control>(MODULE_Param1)<Value>(0.80000001)<VirtualInput>(0)
+Resonance = <Control>(MODULE_Param2)<Value>(0.47999999)<VirtualInput>(1)
+EnvType = <Control>(MODULE_Param3)<Value>(0.89999998)<VirtualInput>(2)
+EnvAmount = <Control>(MODULE_Param4)<Value>(0.48500001)<VirtualInput>(3)
+Keytrack = <Value>(0.0)
+FilterType = <Control>(MODULE_Param5)<Value>(1.0)
+FilterOn/Off = <Control>(MODULE_Param6)<Value>(1.0)
+LFOOn/Off = <Control>(MODULE_Param7)<Value>(0.0)
+LFOAmount = <Control>(MODULE_Param8)<Value>(0.83639997)<VirtualInput>(6)
+LFORise = <Control>(MODULE_Param9)<Value>(0.58759999)<VirtualInput>(4)
+LFOShape = <Control>(MODULE_Param10)<Value>(0.78179997)<VirtualInput>(5)
+LFOTempoSync = <Control>(MODULE_Param11)<Value>(1.0)
+LFODAWSpeed = <Control>(MODULE_Param12)<Value>(0.60000002)<VirtualInput>(8)
+LFOSpeed = <Control>(MODULE_Param13)<Value>(0.5)<VirtualInput>(7)
+DriveOn/Off = <Value>(0.0)
+DriveType = <Value>(0.0)
+DriveAmount = <Value>(0.5)
+EQOn/Off = <Value>(0.0)
+EQBass = <Value>(0.5)
+EQTilt = <Value>(0.5)
+CompOn/Off = <Value>(0.0)
+CompAmount = <Value>(0.5)
+SpatializationOn/Off = <Value>(0.0)
+Monomaker = <Value>(0.5)
+StereoWidener = <Value>(0.5)
+
+MeterFilterModulation = <Meter>(MODULE_Meter1)
+MeterMixLevelL = <MeterNotMapped>
+MeterMixLevelR = <MeterNotMapped>
+MeterOutputLevelL = <MeterNotMapped>
+MeterOutputLevelR = <MeterNotMapped>
+MeterGainReduction = <MeterNotMapped>
+MeterGainReductionL = <MeterNotMapped>
+MeterGainReductionM = <MeterNotMapped>
+MeterGainReductionH = <MeterNotMapped>
+MapEnd
+
+MapStart<MonomentBassFilterAmpRoom><10> // Don't use iSsxMappingType = <1>, since that could interfere with the Continuum LFO implementation
+PluginDisplayName = "Monoment Filter"
+PluginDisplayType = <AmpRoomModule>
+PluginLinearGainOutput: 1.1220185
+ProcessMode = <Value>(0.0)
+NoteGate = <Value>(1.0)
+NoteValue = <Value>(0.0)
+DirttoFilter = <Value>(1.0)
+CrossoverOn/Off = <Value>(0.0)
+CrossoverFreq = <Value>(0.5)
+SourceMix = <Value>(0.5)
+Punch = <Value>(0.5)
+Release = <Value>(0.205)
+Aging = <Value>(0.5)
+Volume = <Value>(0.5)
+Cut-Off = <Control>(SUBPLUGIN_Param1)<Value>(0.80000001)
+Resonance = <Control>(SUBPLUGIN_Param2)<Value>(0.47999999)
+EnvType = <Value>(0.0)
+EnvAmount = <Value>(0.0)
+Keytrack = <Value>(0.0)
+FilterType = <Control>(SUBPLUGIN_Param3)<Value>(1.0)
+FilterOn/Off = <Control>(SUBPLUGIN_Param4)<Value>(1.0)
+LFOOn/Off = <Control>(SUBPLUGIN_Param5)<Value>(0.0)
+LFOAmount = <Control>(SUBPLUGIN_Param6)<Value>(0.83639997)
+LFORise = <Control>(SUBPLUGIN_Param7)<Value>(0.58759999)
+LFOShape = <Control>(SUBPLUGIN_Param8)<Value>(0.78179997)
+LFOTempoSync = <Control>(SUBPLUGIN_Param9)<Value>(1.0)
+LFODAWSpeed = <Control>(SUBPLUGIN_Param10)<Value>(0.60000002)
+LFOSpeed = <Control>(SUBPLUGIN_Param11)<Value>(0.5)
+DriveOn/Off = <Value>(0.0)
+DriveType = <Value>(0.0)
+DriveAmount = <Value>(0.5)
+EQOn/Off = <Value>(0.0)
+EQBass = <Value>(0.5)
+EQTilt = <Value>(0.5)
+CompOn/Off = <Value>(0.0)
+CompAmount = <Value>(0.5)
+SpatializationOn/Off = <Value>(0.0)
+Monomaker = <Value>(0.5)
+StereoWidener = <Value>(0.5)
+
+MeterFilterModulation = <Meter>(SUBPLUGIN_Meter1)
+MeterMixLevelL = <MeterNotMapped>
+MeterMixLevelR = <MeterNotMapped>
+MeterOutputLevelL = <MeterNotMapped>
+MeterOutputLevelR = <MeterNotMapped>
+MeterGainReduction = <MeterNotMapped>
+MeterGainReductionL = <MeterNotMapped>
+MeterGainReductionM = <MeterNotMapped>
+MeterGainReductionH = <MeterNotMapped>
+MapEnd
+
+MapStart<MonomentBassEffectsAmpRoom>
+PluginDisplayName = "Monoment Effects"
+PluginDisplayType = <AmpRoomModule>
+PluginLinearGainOutput: 1.9498446
+ProcessMode = <Value>(1.0)
+NoteGate = <Value>(0.0)
+NoteValue = <Value>(0.0)
+DirttoFilter = <Value>(1.0)
+CrossoverOn/Off = <Value>(0.0)
+CrossoverFreq = <Value>(0.5)
+SourceMix = <Value>(0.5)
+Punch = <Value>(0.5)
+Release = <Value>(0.205)
+Aging = <Value>(0.5)
+Volume = <Value>(0.5)
+Cut-Off = <Value>(0.80000001)
+Resonance = <Value>(0.47999999)
+EnvType = <Value>(0.89999998)
+EnvAmount = <Value>(0.48500001)
+Keytrack = <Value>(1.0)
+FilterType = <Value>(1.0)
+FilterOn/Off = <Value>(0.0)
+LFOOn/Off = <Value>(0.0)
+LFOAmount = <Value>(0.83639997)
+LFORise = <Value>(0.58759999)
+LFOShape = <Value>(0.78179997)
+LFOTempoSync = <Value>(1.0)
+LFODAWSpeed = <Value>(0.60000002)
+LFOSpeed = <Value>(0.5)
+DriveOn/Off = <Control>(SUBPLUGIN_Param8)<Value>(1.0)
+DriveType = <Control>(SUBPLUGIN_Param1)<Value>(0.0)
+DriveAmount = <Control>(SUBPLUGIN_Param2)<Value>(0.5)
+EQOn/Off = <Control>(SUBPLUGIN_Param9)<Value>(0.0)
+EQBass = <Control>(SUBPLUGIN_Param3)<Value>(0.5)
+EQTilt = <Control>(SUBPLUGIN_Param4)<Value>(0.5)
+CompOn/Off = <Control>(SUBPLUGIN_Param10)<Value>(0.0)
+CompAmount = <Value>(0.5)<Control>(SUBPLUGIN_Param5)
+SpatializationOn/Off = <Control>(SUBPLUGIN_Param11)<Value>(0.0)
+Monomaker = <Control>(SUBPLUGIN_Param6)<Value>(0.5)
+StereoWidener = <Control>(SUBPLUGIN_Param7)<Value>(0.5)
+
+MeterFilterModulation = <MeterNotMapped>
+MeterMixLevelL = <MeterNotMapped>
+MeterMixLevelR = <MeterNotMapped>
+MeterOutputLevelL = <MeterNotMapped>
+MeterOutputLevelR = <MeterNotMapped>
+MeterGainReduction = <MeterNotMapped>
+MeterGainReductionL = <Meter>(SUBPLUGIN_Meter1)
+MeterGainReductionM = <Meter>(SUBPLUGIN_Meter2)
+MeterGainReductionH = <Meter>(SUBPLUGIN_Meter3)
+MapEnd
+
+
+MapStart<MonomentBassEffects>
+PluginDisplayName = "Monoment Effects"
+ProcessMode = <Value>(1.0)
+NoteGate = <Value>(0.0)
+NoteValue = <Value>(0.0)
+DirttoFilter = <Value>(1.0)
+CrossoverOn/Off = <Value>(0.0)
+CrossoverFreq = <Value>(0.5)
+SourceMix = <Value>(0.5)
+Punch = <Value>(0.5)
+Release = <Value>(0.205)
+Aging = <Value>(0.5)
+Volume = <Value>(0.5)
+Cut-Off = <Value>(0.80000001)
+Resonance = <Value>(0.47999999)
+EnvType = <Value>(0.89999998)
+EnvAmount = <Value>(0.48500001)
+Keytrack = <Value>(1.0)
+FilterType = <Value>(1.0)
+FilterOn/Off = <Value>(0.0)
+LFOOn/Off = <Value>(0.0)
+LFOAmount = <Value>(0.83639997)
+LFORise = <Value>(0.58759999)
+LFOShape = <Value>(0.78179997)
+LFOTempoSync = <Value>(1.0)
+LFODAWSpeed = <Value>(0.60000002)
+LFOSpeed = <Value>(0.5)
+DriveOn/Off = <Control>(MODULE_Param8)<Value>(1.0)
+DriveType = <Control>(MODULE_Param1)<Value>(0.0)
+DriveAmount = <Control>(MODULE_Param2)<Value>(0.5)<VirtualInput>(0)
+EQOn/Off = <Control>(MODULE_Param9)<Value>(0.0)
+EQBass = <Control>(MODULE_Param3)<Value>(0.5)<VirtualInput>(1)
+EQTilt = <Control>(MODULE_Param4)<Value>(0.5)<VirtualInput>(2)
+CompOn/Off = <Control>(MODULE_Param10)<Value>(0.0)
+CompAmount = <Value>(0.5)<Control>(MODULE_Param5)<VirtualInput>(3)
+SpatializationOn/Off = <Control>(MODULE_Param11)<Value>(0.0)
+Monomaker = <Control>(MODULE_Param6)<Value>(0.5)<VirtualInput>(4)
+StereoWidener = <Control>(MODULE_Param7)<Value>(0.5)<VirtualInput>(5)
+
+MeterFilterModulation = <MeterNotMapped>
+MeterMixLevelL = <MeterNotMapped>
+MeterMixLevelR = <MeterNotMapped>
+MeterOutputLevelL = <MeterNotMapped>
+MeterOutputLevelR = <MeterNotMapped>
+MeterGainReduction = <MeterNotMapped>
+MeterGainReductionL = <Meter>(MODULE_Meter1)
+MeterGainReductionM = <Meter>(MODULE_Meter2)
+MeterGainReductionH = <Meter>(MODULE_Meter3)
+MapEnd
+
+MapStart<MonomentBassDrive>
+PluginDisplayName = "Monoment Bass Drive"
+ProcessMode = <Value>(1.0)
+NoteGate = <Value>(0.0)
+NoteValue = <Value>(0.0)
+DirttoFilter = <Value>(1.0)
+CrossoverOn/Off = <Value>(0.0)
+CrossoverFreq = <Value>(0.5)
+SourceMix = <Value>(0.5)
+Punch = <Value>(0.5)
+Release = <Value>(0.205)
+Aging = <Value>(0.5)
+Volume = <Value>(0.5)
+Cut-Off = <Value>(0.80000001)
+Resonance = <Value>(0.47999999)
+EnvType = <Value>(0.89999998)
+EnvAmount = <Value>(0.48500001)
+Keytrack = <Value>(1.0)
+FilterType = <Value>(1.0)
+FilterOn/Off = <Value>(0.0)
+LFOOn/Off = <Value>(0.0)
+LFOAmount = <Value>(0.83639997)
+LFORise = <Value>(0.58759999)
+LFOShape = <Value>(0.78179997)
+LFOTempoSync = <Value>(1.0)
+LFODAWSpeed = <Value>(0.60000002)
+LFOSpeed = <Value>(0.5)
+DriveOn/Off = <Value>(1.0)
+DriveType = <Control>(MODULE_Param1)<Value>(0.0)
+DriveAmount = <Control>(MODULE_Param2)<Value>(0.5)<VirtualInput>(0)
+EQOn/Off = <Value>(0.0)
+EQBass = <Value>(0.5)<
+EQTilt = <Value>(0.5)
+CompOn/Off = <Value>(0.0)
+CompAmount = <Value>(0.5)
+SpatializationOn/Off = <Value>(0.0)
+Monomaker = <Value>(0.5)
+StereoWidener = <Value>(0.5)
+MapEnd
+
+MapStart<MonomentBassEQ>
+PluginDisplayName = "Monoment Bass EQ"
+ProcessMode = <Value>(1.0)
+NoteGate = <Value>(0.0)
+NoteValue = <Value>(0.0)
+DirttoFilter = <Value>(1.0)
+CrossoverOn/Off = <Value>(0.0)
+CrossoverFreq = <Value>(0.5)
+SourceMix = <Value>(0.5)
+Punch = <Value>(0.5)
+Release = <Value>(0.205)
+Aging = <Value>(0.5)
+Volume = <Value>(0.5)
+Cut-Off = <Value>(0.80000001)
+Resonance = <Value>(0.47999999)
+EnvType = <Value>(0.89999998)
+EnvAmount = <Value>(0.48500001)
+Keytrack = <Value>(1.0)
+FilterType = <Value>(1.0)
+FilterOn/Off = <Value>(0.0)
+LFOOn/Off = <Value>(0.0)
+LFOAmount = <Value>(0.83639997)
+LFORise = <Value>(0.58759999)
+LFOShape = <Value>(0.78179997)
+LFOTempoSync = <Value>(1.0)
+LFODAWSpeed = <Value>(0.60000002)
+LFOSpeed = <Value>(0.5)
+DriveOn/Off = <Value>(0.0)
+DriveType = <Value>(0.0)
+DriveAmount = <Value>(0.5)
+EQOn/Off = <Value>(1.0)
+EQBass = <Control>(MODULE_Param1)<Value>(0.5)<VirtualInput>(0)
+EQTilt = <Control>(MODULE_Param2)<Value>(0.5)<VirtualInput>(1)
+CompOn/Off = <Value>(0.0)
+CompAmount = <Value>(0.5)
+SpatializationOn/Off = <Value>(0.0)
+Monomaker = <Value>(0.5)
+StereoWidener = <Value>(0.5)
+MapEnd
+
+MapStart<MonomentBassMultiband>
+PluginDisplayName = "Monoment Bass Multiband"
+ProcessMode = <Value>(1.0)
+NoteGate = <Value>(0.0)
+NoteValue = <Value>(0.0)
+DirttoFilter = <Value>(1.0)
+CrossoverOn/Off = <Value>(0.0)
+CrossoverFreq = <Value>(0.5)
+SourceMix = <Value>(0.5)
+Punch = <Value>(0.5)
+Release = <Value>(0.205)
+Aging = <Value>(0.5)
+Volume = <Value>(0.5)
+Cut-Off = <Value>(0.80000001)
+Resonance = <Value>(0.47999999)
+EnvType = <Value>(0.89999998)
+EnvAmount = <Value>(0.48500001)
+Keytrack = <Value>(1.0)
+FilterType = <Value>(1.0)
+FilterOn/Off = <Value>(0.0)
+LFOOn/Off = <Value>(0.0)
+LFOAmount = <Value>(0.83639997)
+LFORise = <Value>(0.58759999)
+LFOShape = <Value>(0.78179997)
+LFOTempoSync = <Value>(1.0)
+LFODAWSpeed = <Value>(0.60000002)
+LFOSpeed = <Value>(0.5)
+DriveOn/Off = <Value>(0.0)
+DriveType = <Value>(0.0)
+DriveAmount = <Value>(0.5)
+EQOn/Off = <Value>(0.0)
+EQBass = <Value>(0.5)
+EQTilt = <Value>(0.5)
+CompOn/Off = <Value>(1.0)
+CompAmount = <Value>(0.5)<Control>(MODULE_Param1)<VirtualInput>(0)
+SpatializationOn/Off = <Value>(0.0)
+Monomaker = <Value>(0.5)
+StereoWidener = <Value>(0.5)
+
+MeterFilterModulation = <MeterNotMapped>
+MeterMixLevelL = <MeterNotMapped>
+MeterMixLevelR = <MeterNotMapped>
+MeterOutputLevelL = <MeterNotMapped>
+MeterOutputLevelR = <MeterNotMapped>
+MeterGainReduction = <MeterNotMapped>
+MeterGainReductionL = <Meter>(MODULE_Meter1)
+MeterGainReductionM = <Meter>(MODULE_Meter2)
+MeterGainReductionH = <Meter>(MODULE_Meter3)
+MapEnd
+
+MapStart<MonomentBassSpatialization>
+PluginDisplayName = "Monoment Bass Spatialization"
+ProcessMode = <Value>(1.0)
+NoteGate = <Value>(0.0)
+NoteValue = <Value>(0.0)
+DirttoFilter = <Value>(1.0)
+CrossoverOn/Off = <Value>(0.0)
+CrossoverFreq = <Value>(0.5)
+SourceMix = <Value>(0.5)
+Punch = <Value>(0.5)
+Release = <Value>(0.205)
+Aging = <Value>(0.5)
+Volume = <Value>(0.5)
+Cut-Off = <Value>(0.80000001)
+Resonance = <Value>(0.47999999)
+EnvType = <Value>(0.89999998)
+EnvAmount = <Value>(0.48500001)
+Keytrack = <Value>(1.0)
+FilterType = <Value>(1.0)
+FilterOn/Off = <Value>(0.0)
+LFOOn/Off = <Value>(0.0)
+LFOAmount = <Value>(0.83639997)
+LFORise = <Value>(0.58759999)
+LFOShape = <Value>(0.78179997)
+LFOTempoSync = <Value>(1.0)
+LFODAWSpeed = <Value>(0.60000002)
+LFOSpeed = <Value>(0.5)
+DriveOn/Off = <Value>(0.0)
+DriveType = <Value>(0.0)
+DriveAmount = <Value>(0.5)
+EQOn/Off = <Value>(0.0)
+EQBass = <Value>(0.5)
+EQTilt = <Value>(0.5)
+CompOn/Off = <Value>(0.0)
+CompAmount = <Value>(0.5)
+SpatializationOn/Off = <Value>(1.0)
+Monomaker = <Control>(MODULE_Param1)<Value>(0.5)<VirtualInput>(0)
+StereoWidener = <Control>(MODULE_Param2)<Value>(0.5)<VirtualInput>(1)
+MapEnd

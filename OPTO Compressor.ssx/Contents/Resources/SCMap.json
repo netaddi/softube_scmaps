@@ -1,0 +1,158 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "qeme",
+   "pluginName": "OPTO Compressor",
+   "autoMakeup": 0.25,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Time",
+     "mapsTo": "COMP_Attack",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Compression",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Sidechain Emphasis",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "HF Make-Up",
+     "mapsTo": "COMP_Attack_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Sidechain Punch",
+     "mapsTo": "COMP_Ratio_Shift",
+     "value": 0.0,
+     "displayName": "Punch"
+    },
+    {
+     "id": 6,
+     "name": "Stereo Link",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "External Sidechain",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 9,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Drive",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterReduction",
+     "mapsTo": "COMP_MeterReduction"
+    },
+    {
+     "id": 1,
+     "name": "eMeterReductionVU"
+    },
+    {
+     "id": 2,
+     "name": "eMeterOutput"
+    },
+    {
+     "id": 3,
+     "name": "eMeterClip"
+    }
+   ]
+  },
+  {
+   "mapName": "Drive",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "qeme",
+   "pluginName": "OPTO Compressor",
+   "autoMakeup": 0.25,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Time",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Compression",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Sidechain Emphasis",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Ratio",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "HF Make-Up",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Sidechain Punch",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Stereo Link",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "External Sidechain",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 9,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Drive",
+     "mapsTo": "OUT_Drive",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,523 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "pluginId": "azum",
+   "pluginName": "Console 1 American Class A Equalizer",
+   "displayName": "American Class A Original EQ",
+   "displayNameShort": "ACA Orig.",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "EQ On",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "EQ Low Type",
+     "mapsTo": "EQ_LF_Type",
+     "value": 0.0,
+     "displayName": "Type",
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    },
+    {
+     "id": 2,
+     "name": "EQ Low Frequency",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "name": "EQ Low Gain",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.5,
+     "displayName": "Low Gain",
+     "leadParamValue": 0.5,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 4,
+     "name": "EQ Low Mid Frequency",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "name": "EQ Low Mid Q",
+     "value": 0.5,
+     "displayName": "Q",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "name": "EQ Low Mid Gain",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.5,
+     "displayName": "Low Mid Gain",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 7,
+     "name": "EQ High Mid Frequency",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "name": "EQ High Mid Q",
+     "value": 0.5,
+     "displayName": "Q",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "name": "EQ High Mid Gain",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0.5,
+     "displayName": "High Mid Gain",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 10,
+     "name": "EQ High Type",
+     "mapsTo": "EQ_HF_Type",
+     "value": 0.0,
+     "displayName": "Type",
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    },
+    {
+     "id": 11,
+     "name": "EQ High Frequency",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "name": "EQ High Gain",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.5,
+     "displayName": "High Gain",
+     "leadParamValue": 0.5,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 13,
+     "name": "EQ Gain Multiplier",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "EQ Auto Multiplier",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "EQ Auto Low Gain",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "EQ Auto Low Mid Gain",
+     "value": 0.0
+    },
+    {
+     "id": 17,
+     "name": "EQ Auto High Mid Gain",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "EQ Auto High Gain",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "Alt1",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "pluginId": "azum",
+   "pluginName": "Console 1 American Class A Equalizer",
+   "displayName": "American Class A Extended EQ",
+   "displayNameShort": "ACA Ext.",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_AMERICAN_CLASS_A",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "EQ On",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "EQ Low Type",
+     "mapsTo": "EQ_LF_Type",
+     "value": 0.0,
+     "displayName": "Type",
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    },
+    {
+     "id": 2,
+     "name": "EQ Low Frequency",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "name": "EQ Low Gain",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "EQ Low Mid Frequency",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "name": "EQ Low Mid Q",
+     "mapsTo": "EQ_LMF_Q",
+     "value": 0.5,
+     "displayName": "Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "name": "EQ Low Mid Gain",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "EQ High Mid Frequency",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "name": "EQ High Mid Q",
+     "mapsTo": "EQ_HMF_Q",
+     "value": 0.5,
+     "displayName": "Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "name": "EQ High Mid Gain",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "EQ High Type",
+     "mapsTo": "EQ_HF_Type",
+     "value": 0.0,
+     "displayName": "Type",
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    },
+    {
+     "id": 11,
+     "name": "EQ High Frequency",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "name": "EQ High Gain",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "EQ Gain Multiplier",
+     "value": 0.4711
+    },
+    {
+     "id": 14,
+     "name": "EQ Auto Multiplier",
+     "value": 1.0
+    },
+    {
+     "id": 15,
+     "name": "EQ Auto Low Gain",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.5,
+     "displayName": "Low Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 16,
+     "name": "EQ Auto Low Mid Gain",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.5,
+     "displayName": "Low Mid Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 17,
+     "name": "EQ Auto High Mid Gain",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0.5,
+     "displayName": "High Mid Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 18,
+     "name": "EQ Auto High Gain",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.5,
+     "displayName": "High Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    }
+   ]
+  },
+  {
+   "mapName": "Alt2",
+   "pluginId": "azum",
+   "pluginName": "Console 1 American Class A Equalizer",
+   "displayName": "American Class A Native EQ",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "EQ On",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "EQ Low Type",
+     "mapsTo": "EQ_LF_Type",
+     "value": 0.0,
+     "displayName": "Type"
+    },
+    {
+     "id": 2,
+     "name": "EQ Low Frequency",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency"
+    },
+    {
+     "id": 3,
+     "name": "EQ Low Gain",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.5,
+     "displayName": "Low Gain"
+    },
+    {
+     "id": 4,
+     "name": "EQ Low Mid Frequency",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency"
+    },
+    {
+     "id": 5,
+     "name": "EQ Low Mid Q",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "EQ Low Mid Gain",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.5,
+     "displayName": "Low Mid Gain"
+    },
+    {
+     "id": 7,
+     "name": "EQ High Mid Frequency",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency"
+    },
+    {
+     "id": 8,
+     "name": "EQ High Mid Q",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "EQ High Mid Gain",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0.5,
+     "displayName": "High Mid Gain"
+    },
+    {
+     "id": 10,
+     "name": "EQ High Type",
+     "mapsTo": "EQ_HF_Type",
+     "value": 0.0,
+     "displayName": "Type"
+    },
+    {
+     "id": 11,
+     "name": "EQ High Frequency",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency"
+    },
+    {
+     "id": 12,
+     "name": "EQ High Gain",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.5,
+     "displayName": "High Gain"
+    },
+    {
+     "id": 13,
+     "name": "EQ Gain Multiplier",
+     "mapsTo": "EQ_Gain_Multiplier",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "EQ Auto Multiplier",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "EQ Auto Low Gain",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "EQ Auto Low Mid Gain",
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "EQ Auto High Mid Gain",
+     "value": 1.0
+    },
+    {
+     "id": 18,
+     "name": "EQ Auto High Gain",
+     "value": 1.0
+    }
+   ]
+  }
+ ]
+}

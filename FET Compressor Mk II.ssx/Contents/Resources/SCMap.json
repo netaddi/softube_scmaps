@@ -1,0 +1,205 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "vjcb",
+   "pluginName": "FET Compressor Mk II",
+   "displayNameShort": "FET Mk II",
+   "autoMakeup": 0.25,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Input",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Drive",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Transformer Drive",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "FET Drive",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "value": 0.5,
+     "minValue": 1.0,
+     "maxValue": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "value": 0.5,
+     "minValue": 1.0,
+     "maxValue": 0.0
+    },
+    {
+     "id": 9,
+     "name": "HF Make-Up",
+     "mapsTo": "COMP_Attack_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Stereo Link",
+     "value": 1.0
+    },
+    {
+     "id": 11,
+     "name": "Sidechain Punch",
+     "mapsTo": "COMP_Ratio_Shift",
+     "value": 0.0,
+     "displayName": "Punch"
+    },
+    {
+     "id": 12,
+     "name": "Sidechain Filter",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "External Sidechain",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.291498,
+     "minValue": 0.2943,
+     "displayName": "Compression"
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterInput"
+    },
+    {
+     "id": 1,
+     "name": "eMeterOutput"
+    },
+    {
+     "id": 2,
+     "name": "eMeterReduction",
+     "mapsTo": "COMP_MeterReduction"
+    },
+    {
+     "id": 3,
+     "name": "eMeterReductionVU"
+    },
+    {
+     "id": 4,
+     "name": "eMeterClip"
+    }
+   ]
+  },
+  {
+   "mapName": "Drive",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "vjcb",
+   "pluginName": "FET Compressor Mk II",
+   "displayNameShort": "FET Mk II",
+   "autoMakeup": 0.25,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Input",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Drive",
+     "mapsTo": "OUT_Drive",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Transformer Drive",
+     "mapsTo": "OUT_Drive_Character",
+     "value": 0.5,
+     "minValue": 0.02,
+     "maxValue": 0.98,
+     "knobMode": "KNOB_MODE_BIPOLAR"
+    },
+    {
+     "id": 4,
+     "name": "FET Drive",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Ratio",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Attack",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Release",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "HF Make-Up",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Stereo Link",
+     "value": 1.0
+    },
+    {
+     "id": 11,
+     "name": "Sidechain Punch",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "Sidechain Filter",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "External Sidechain",
+     "value": 0.5
+    }
+   ]
+  }
+ ]
+}

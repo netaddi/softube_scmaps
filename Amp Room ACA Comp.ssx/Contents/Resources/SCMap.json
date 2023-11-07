@@ -1,0 +1,78 @@
+{
+ "maps": [
+  {
+   "mapName": "AmpRoomACAComp",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "nekq",
+   "pluginName": "Amp Room ACA Comp",
+   "displayName": "ACA 25 COMP",
+   "linearGainOutput": 1.1220185,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Comp On",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Comp Ratio",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.2,
+     "displayName": "Ratio"
+    },
+    {
+     "id": 2,
+     "name": "Comp Attack",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 1.0,
+     "displayName": "Attack"
+    },
+    {
+     "id": 3,
+     "name": "Comp Release",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5,
+     "displayName": "Release"
+    },
+    {
+     "id": 4,
+     "name": "Comp Threshold",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.35,
+     "displayName": "Threshold"
+    },
+    {
+     "id": 5,
+     "name": "Comp Knee",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0,
+     "displayName": "Knee"
+    },
+    {
+     "id": 6,
+     "name": "Comp Type",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.0,
+     "displayName": "Type"
+    },
+    {
+     "id": 7,
+     "name": "C1 Gain",
+     "value": 0.283
+    },
+    {
+     "id": 8,
+     "name": "External Sidechain",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterReductionCompressor",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    }
+   ]
+  }
+ ]
+}

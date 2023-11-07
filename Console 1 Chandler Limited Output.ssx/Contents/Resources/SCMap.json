@@ -1,0 +1,36 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "lwmw",
+   "pluginName": "Console 1 Chandler Limited Output",
+   "displayName": "Chandler Limited Zener-Bender Drive",
+   "displayNameShort": "Chandler",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Drive",
+     "mapsTo": "OUT_Drive",
+     "value": 0.0,
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 1,
+     "name": "Drive Character",
+     "mapsTo": "OUT_Drive_Character",
+     "value": 0.5,
+     "displayName": "Character",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leaderParams": [
+      {
+       "name": "OUT_Drive"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

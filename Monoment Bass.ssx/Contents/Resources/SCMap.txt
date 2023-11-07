@@ -1,0 +1,61 @@
+// Monoment Bass Pagetable v.1
+PluginID: h1zx
+PluginName: "Monoment Bass"
+PluginType: Module
+PluginModularLatencyInSeconds: 0.00145125
+
+// IMPORTANT: Editing of this file may have unexpected consequences!
+// Make sure ALL the parameters below are mapped to a value or a control and that they are mapped in the following order:
+
+MapStart<MonomentBassSource>
+PluginDisplayName = "Monoment Source"
+SourceASelect = <Control>(MODULE_Param1)<Value>(0.0040000002)
+SourceBSelect = <Control>(MODULE_Param2)<Value>(0.088)
+SourceBOctave = <Control>(MODULE_Param3)<Value>(0.5)<VirtualInput>(0)
+SourceBDetune = <Control>(MODULE_Param4)<Value>(0.5)<VirtualInput>(1)
+DirtSelect = <Control>(MODULE_Param6)<Value>(0.0020000001)
+DirttoFilter = <Value>(1.0)
+CrossoverOn/Off = <Value>(0)
+CrossoverFreq = <Value>(0)
+SourceMix = <Control>(MODULE_Param5)<Value>(0.5)
+Velocity = <Control>(MODULE_Param7)<Value>(0.0)
+GlideType = <Control>(MODULE_Param8)<Value>(1.0)
+GlideTime = <Control>(MODULE_Param9)<Value>(0.0)<VirtualInput>(2)
+Punch = <Control>(MODULE_Param10)<Value>(0.5)<VirtualInput>(3)
+Release = <Control>(MODULE_Param11)<Value>(0.205)<VirtualInput>(4)
+Aging = <Control>(MODULE_Param12)<Value>(0.5)<VirtualInput>(5)
+Volume = <Value>(0.5)
+Cut-Off = <Value>(0)
+Resonance = <Value>(0)
+EnvType = <Value>(0)
+EnvAmount = <Value>(0)
+Keytrack = <Value>(0)
+FilterType = <Value>(0)
+FilterOn/Off = <Value>(0)
+LFOOn/Off = <Value>(0)
+LFOAmount = <Value>(0)
+LFORise = <Value>(0)
+LFOShape = <Value>(0)
+LFOTempoSync = <Value>(0)
+LFODAWSpeed = <Value>(0)
+LFOSpeed = <Value>(0)
+ViewTone/Effects = <Value>(0)
+DriveOn/Off = <Value>(0)
+DriveType = <Value>(0)
+DriveAmount = <Value>(0)
+AmbienceOn/Off = <Value>(0.0)
+AmbienceTone = <Value>(0)
+AmbienceDry/Wet = <Value>(0)
+AmbienceType = <Value>(0.0)
+EQOn/Off = <Value>(0)
+EQBass = <Value>(0)
+EQTilt = <Value>(0)
+CompOn/Off = <Value>(0)
+CompAmount = <Value>(0)
+SpatializationOn/Off = <Value>(0)
+Monomaker = <Value>(0)
+StereoWidener = <Value>(0)
+MidiChannel = <Control>(MODULE_Param13)<Value>(0.059)<MidiChannel>
+CVGate = <Control>(MODULE_Param14)<Value>(0)<VirtualInput>(6)<MidiCVGate>
+CVNote = <Control>(MODULE_Param15)<Value>(0)<VirtualInput>(7)<MidiCVNote>
+MapEnd

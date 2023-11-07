@@ -1,0 +1,159 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "bs6y",
+   "pluginName": "Drawmer S73",
+   "displayNameShort": "S73",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Amount",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Air",
+     "mapsTo": "COMP_Attack",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Style",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Mix",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Gain",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterOutputVU1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterOutputVU2"
+    },
+    {
+     "id": 2,
+     "name": "eMeterOutputGRMax",
+     "mapsTo": "COMP_MeterReduction"
+    },
+    {
+     "id": 3,
+     "name": "eMeterOutputGRLow"
+    },
+    {
+     "id": 4,
+     "name": "eMeterOutputGRMid"
+    },
+    {
+     "id": 5,
+     "name": "eMeterOutputGRHigh"
+    },
+    {
+     "id": 6,
+     "name": "eMeterOutputGRSLow"
+    },
+    {
+     "id": 7,
+     "name": "eMeterOutputGRSMid"
+    },
+    {
+     "id": 8,
+     "name": "eMeterOutputGRSHigh"
+    }
+   ]
+  },
+  {
+   "mapName": "AmpRoomDrawmerS73",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "bs6y",
+   "pluginName": "Drawmer S73",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Amount",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Air",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Style",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Mix",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Gain",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterOutputVU1",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterOutputVU2",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeterOutputGRMax",
+     "mapsTo": "SUBPLUGIN_Meter3"
+    },
+    {
+     "id": 3,
+     "name": "eMeterOutputGRLow"
+    },
+    {
+     "id": 4,
+     "name": "eMeterOutputGRMid"
+    },
+    {
+     "id": 5,
+     "name": "eMeterOutputGRHigh"
+    },
+    {
+     "id": 6,
+     "name": "eMeterOutputGRSLow"
+    },
+    {
+     "id": 7,
+     "name": "eMeterOutputGRSMid"
+    },
+    {
+     "id": 8,
+     "name": "eMeterOutputGRSHigh"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "pluginId": "SCEQ",
+   "pluginName": "Console 1 SSL SL 4000 E-Series Equalizer",
+   "displayName": "SSL SL 4000 E-Series Equalizer",
+   "displayNameShort": "SSL 4000E",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Low Gain",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.5,
+     "displayName": "Low Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 1,
+     "name": "Low Frequency",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "name": "Low Type",
+     "mapsTo": "EQ_LF_Type",
+     "value": 0.5,
+     "displayName": "Type",
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    },
+    {
+     "id": 3,
+     "name": "Low Mid Gain",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.5,
+     "displayName": "Low Mid Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 4,
+     "name": "Low Mid Frequency",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "name": "Low Mid Q",
+     "mapsTo": "EQ_LMF_Q",
+     "value": 0.0,
+     "displayName": "Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "name": "High Mid Gain",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0.5,
+     "displayName": "High Mid Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 7,
+     "name": "High Mid Frequency",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "name": "High Mid Q",
+     "mapsTo": "EQ_HMF_Q",
+     "value": 0.0,
+     "displayName": "Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "name": "High Gain",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.5,
+     "displayName": "High Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 10,
+     "name": "High Frequency",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "name": "High Type",
+     "mapsTo": "EQ_HF_Type",
+     "value": 0.5,
+     "displayName": "Type",
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    }
+   ]
+  }
+ ]
+}

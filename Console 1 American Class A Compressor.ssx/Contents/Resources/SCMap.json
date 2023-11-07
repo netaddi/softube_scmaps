@@ -1,0 +1,234 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "braa",
+   "pluginName": "Console 1 American Class A Compressor",
+   "displayName": "American Class A Smooth Compressor",
+   "displayNameShort": "ACA Smooth",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Comp On",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Comp Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.2,
+     "displayName": "Ratio",
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 2,
+     "name": "Comp Attack",
+     "mapsTo": "COMP_Attack",
+     "value": 1.0,
+     "displayName": "Attack"
+    },
+    {
+     "id": 3,
+     "name": "Comp Release",
+     "mapsTo": "COMP_Release",
+     "value": 0.5,
+     "displayName": "Release"
+    },
+    {
+     "id": 4,
+     "name": "Comp Threshold",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.35,
+     "displayName": "Threshold"
+    },
+    {
+     "id": 5,
+     "name": "Comp Knee",
+     "mapsTo": "COMP_Ratio_Shift",
+     "value": 0.0,
+     "displayName": "Knee"
+    },
+    {
+     "id": 6,
+     "name": "Comp Type",
+     "mapsTo": "COMP_Attack_Shift",
+     "value": 1.0,
+     "displayName": "Type"
+    },
+    {
+     "id": 7,
+     "name": "C1 Gain",
+     "value": 0.472
+    },
+    {
+     "id": 8,
+     "name": "External Sidechain",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterReductionCompressor",
+     "mapsTo": "COMP_MeterReduction"
+    }
+   ]
+  },
+  {
+   "mapName": "Alt1",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "braa",
+   "pluginName": "Console 1 American Class A Compressor",
+   "displayName": "American Class A Punchy Compressor",
+   "displayNameShort": "ACA Punch",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Comp On",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Comp Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.2,
+     "displayName": "Ratio",
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 2,
+     "name": "Comp Attack",
+     "mapsTo": "COMP_Attack",
+     "value": 1.0,
+     "displayName": "Attack"
+    },
+    {
+     "id": 3,
+     "name": "Comp Release",
+     "mapsTo": "COMP_Release",
+     "value": 0.5,
+     "displayName": "Release"
+    },
+    {
+     "id": 4,
+     "name": "Comp Threshold",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.35,
+     "displayName": "Threshold"
+    },
+    {
+     "id": 5,
+     "name": "Comp Knee",
+     "mapsTo": "COMP_Ratio_Shift",
+     "value": 1.0,
+     "displayName": "Knee"
+    },
+    {
+     "id": 6,
+     "name": "Comp Type",
+     "mapsTo": "COMP_Attack_Shift",
+     "value": 0.0,
+     "displayName": "Type"
+    },
+    {
+     "id": 7,
+     "name": "C1 Gain",
+     "value": 0.283
+    },
+    {
+     "id": 8,
+     "name": "External Sidechain",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterReductionCompressor",
+     "mapsTo": "COMP_MeterReduction"
+    }
+   ]
+  },
+  {
+   "mapName": "Alt2",
+   "pluginId": "braa",
+   "pluginName": "Console 1 American Class A Compressor",
+   "displayName": "American Class A Native Compressor",
+   "displayNameShort": "ACA Comp.",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Comp On",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Comp Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.2,
+     "displayName": "Ratio",
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 2,
+     "name": "Comp Attack",
+     "mapsTo": "COMP_Attack",
+     "value": 1.0,
+     "displayName": "Attack"
+    },
+    {
+     "id": 3,
+     "name": "Comp Release",
+     "mapsTo": "COMP_Release",
+     "value": 0.5,
+     "displayName": "Release"
+    },
+    {
+     "id": 4,
+     "name": "Comp Threshold",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.35,
+     "displayName": "Threshold"
+    },
+    {
+     "id": 5,
+     "name": "Comp Knee",
+     "mapsTo": "COMP_Knee",
+     "value": 0.0,
+     "displayName": "Knee"
+    },
+    {
+     "id": 6,
+     "name": "Comp Type",
+     "mapsTo": "COMP_Type",
+     "value": 0.0,
+     "displayName": "Type"
+    },
+    {
+     "id": 7,
+     "name": "C1 Gain",
+     "value": 0.283
+    },
+    {
+     "id": 8,
+     "name": "External Sidechain",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterReductionCompressor",
+     "mapsTo": "COMP_MeterReduction"
+    }
+   ]
+  }
+ ]
+}

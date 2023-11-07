@@ -1,0 +1,285 @@
+{
+ "maps": [
+  {
+   "mapName": "MonomentBassSource",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "h1zx",
+   "pluginName": "Monoment Bass",
+   "displayName": "Monoment Source",
+   "modularLatencyInSeconds": 0.00145125,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Source A Select",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.004
+    },
+    {
+     "id": 1,
+     "name": "Source B Select",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.088
+    },
+    {
+     "id": 2,
+     "name": "Source B Octave",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5,
+     "virtualInput": 0
+    },
+    {
+     "id": 3,
+     "name": "Source B Detune",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5,
+     "virtualInput": 1
+    },
+    {
+     "id": 4,
+     "name": "Dirt Select",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.002
+    },
+    {
+     "id": 5,
+     "name": "Dirt to Filter",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Crossover On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Crossover Freq",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Source Mix",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Velocity",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Glide Type",
+     "mapsTo": "MODULE_Param8",
+     "value": 1.0
+    },
+    {
+     "id": 11,
+     "name": "Glide Time",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.0,
+     "virtualInput": 2
+    },
+    {
+     "id": 12,
+     "name": "Punch",
+     "mapsTo": "MODULE_Param10",
+     "value": 0.5,
+     "virtualInput": 3
+    },
+    {
+     "id": 13,
+     "name": "Release",
+     "mapsTo": "MODULE_Param11",
+     "value": 0.205,
+     "virtualInput": 4
+    },
+    {
+     "id": 14,
+     "name": "Aging",
+     "mapsTo": "MODULE_Param12",
+     "value": 0.5,
+     "virtualInput": 5
+    },
+    {
+     "id": 15,
+     "name": "Volume",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Cut-Off",
+     "value": 0.0
+    },
+    {
+     "id": 17,
+     "name": "Resonance",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Env Type",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Env Amount",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Keytrack",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Filter Type",
+     "value": 0.0
+    },
+    {
+     "id": 22,
+     "name": "Filter On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 23,
+     "name": "LFO On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "LFO Amount",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "LFO Rise",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "LFO Shape",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "LFO Tempo Sync",
+     "value": 0.0
+    },
+    {
+     "id": 28,
+     "name": "LFO DAW Speed",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "LFO Speed",
+     "value": 0.0
+    },
+    {
+     "id": 30,
+     "name": "View Tone/Effects",
+     "value": 0.0
+    },
+    {
+     "id": 31,
+     "name": "Drive On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 32,
+     "name": "Drive Type",
+     "value": 0.0
+    },
+    {
+     "id": 33,
+     "name": "Drive Amount",
+     "value": 0.0
+    },
+    {
+     "id": 34,
+     "name": "Ambience On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 35,
+     "name": "Ambience Tone",
+     "value": 0.0
+    },
+    {
+     "id": 36,
+     "name": "Ambience Dry/Wet",
+     "value": 0.0
+    },
+    {
+     "id": 37,
+     "name": "Ambience Type",
+     "value": 0.0
+    },
+    {
+     "id": 38,
+     "name": "EQ On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 39,
+     "name": "EQ Bass",
+     "value": 0.0
+    },
+    {
+     "id": 40,
+     "name": "EQ Tilt",
+     "value": 0.0
+    },
+    {
+     "id": 41,
+     "name": "Comp On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 42,
+     "name": "Comp Amount",
+     "value": 0.0
+    },
+    {
+     "id": 43,
+     "name": "Spatialization On/Off",
+     "value": 0.0
+    },
+    {
+     "id": 44,
+     "name": "Monomaker",
+     "value": 0.0
+    },
+    {
+     "id": 45,
+     "name": "Stereo Widener",
+     "value": 0.0
+    },
+    {
+     "id": 46,
+     "name": "MIDI Channel",
+     "mapsTo": "MODULE_Param13",
+     "value": 0.059,
+     "isMidiChannel": true
+    },
+    {
+     "id": 47,
+     "name": "CV Gate",
+     "mapsTo": "MODULE_Param14",
+     "value": 0.0,
+     "virtualInput": 6,
+     "isMidiCvGate": true
+    },
+    {
+     "id": 48,
+     "name": "CV Note",
+     "mapsTo": "MODULE_Param15",
+     "value": 0.0,
+     "virtualInput": 7,
+     "isMidiCvNote": true
+    }
+   ]
+  }
+ ]
+}

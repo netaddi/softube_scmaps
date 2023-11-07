@@ -1,0 +1,385 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "gaeu",
+   "pluginName": "Weiss Compressor Limiter",
+   "displayNameShort": "Weiss Comp/Lim",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Input Gain",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Output Gain",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Limiter Gain",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Safety Limiter",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Safety Limiter Mode",
+     "value": 0.1
+    },
+    {
+     "id": 5,
+     "name": "Bypass",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Monitor",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Channel",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Auto Make-Up",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Preview",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "RMS",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Filter Type 1",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "Bandwidth 1",
+     "value": 0.234
+    },
+    {
+     "id": 13,
+     "name": "Center Frequency 1",
+     "value": 0.381
+    },
+    {
+     "id": 14,
+     "name": "Attack 1",
+     "mapsTo": "COMP_Attack",
+     "value": 0.6744,
+     "displayName": "Attack"
+    },
+    {
+     "id": 15,
+     "name": "Release Delay 1",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Release Fast 1",
+     "mapsTo": "COMP_Release",
+     "value": 0.6415,
+     "displayName": "Release"
+    },
+    {
+     "id": 17,
+     "name": "Average 1",
+     "value": 0.5849
+    },
+    {
+     "id": 18,
+     "name": "Release Slow 1",
+     "value": 0.6981
+    },
+    {
+     "id": 19,
+     "name": "Soft Knee 1",
+     "mapsTo": "COMP_Ratio_Shift",
+     "value": 1.0,
+     "displayName": "Knee"
+    },
+    {
+     "id": 20,
+     "name": "Threshold 1",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.9833,
+     "displayName": "Threshold"
+    },
+    {
+     "id": 21,
+     "name": "Ratio 1",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.5,
+     "displayName": "Ratio"
+    },
+    {
+     "id": 22,
+     "name": "Gain Make-Up 1",
+     "value": 0.5
+    },
+    {
+     "id": 23,
+     "name": "Filter Type 2",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "Bandwidth 2",
+     "value": 0.234
+    },
+    {
+     "id": 25,
+     "name": "Center Frequency 2",
+     "value": 0.381
+    },
+    {
+     "id": 26,
+     "name": "Attack 2",
+     "value": 0.6744
+    },
+    {
+     "id": 27,
+     "name": "Release Delay 2",
+     "value": 0.0
+    },
+    {
+     "id": 28,
+     "name": "Release Fast 2",
+     "value": 0.6415
+    },
+    {
+     "id": 29,
+     "name": "Average 2",
+     "value": 0.5849
+    },
+    {
+     "id": 30,
+     "name": "Release Slow 2",
+     "value": 0.6981
+    },
+    {
+     "id": 31,
+     "name": "Soft Knee 2",
+     "value": 1.0
+    },
+    {
+     "id": 32,
+     "name": "Threshold 2",
+     "value": 0.9833
+    },
+    {
+     "id": 33,
+     "name": "Ratio 2",
+     "value": 0.5
+    },
+    {
+     "id": 34,
+     "name": "Gain Make-Up 2",
+     "value": 0.5
+    },
+    {
+     "id": 35,
+     "name": "MS Mode",
+     "value": 0.0
+    },
+    {
+     "id": 36,
+     "name": "Sidechain Link",
+     "value": 0.0
+    },
+    {
+     "id": 37,
+     "name": "Sidechain",
+     "value": 1.0
+    },
+    {
+     "id": 38,
+     "name": "Parallel Compression",
+     "value": 0.0
+    },
+    {
+     "id": 39,
+     "name": "Parallel Mix",
+     "value": 1.0
+    },
+    {
+     "id": 40,
+     "name": "Dither",
+     "value": 0.0
+    },
+    {
+     "id": 41,
+     "name": "Ganged",
+     "value": 1.0
+    },
+    {
+     "id": 42,
+     "name": "Knee Range",
+     "value": 0.3333
+    },
+    {
+     "id": 43,
+     "name": "Frequency Zoom",
+     "value": 1.0
+    },
+    {
+     "id": 44,
+     "name": "Auto Release 1",
+     "value": 0.6525
+    },
+    {
+     "id": 45,
+     "name": "Auto Release 2",
+     "value": 0.6525
+    },
+    {
+     "id": 46,
+     "name": "Sidechain Filtering",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterPeakIn1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterPeakIn2"
+    },
+    {
+     "id": 2,
+     "name": "eMeterPeakOut1"
+    },
+    {
+     "id": 3,
+     "name": "eMeterPeakOut2"
+    },
+    {
+     "id": 4,
+     "name": "eMeterPeakWaveIn1"
+    },
+    {
+     "id": 5,
+     "name": "eMeterPeakWaveIn2"
+    },
+    {
+     "id": 6,
+     "name": "eMeterPeakWaveOut1"
+    },
+    {
+     "id": 7,
+     "name": "eMeterPeakWaveOut2"
+    },
+    {
+     "id": 8,
+     "name": "eMeterRMSIn1"
+    },
+    {
+     "id": 9,
+     "name": "eMeterRMSIn2"
+    },
+    {
+     "id": 10,
+     "name": "eMeterRMSOut1"
+    },
+    {
+     "id": 11,
+     "name": "eMeterRMSOut2"
+    },
+    {
+     "id": 12,
+     "name": "eMeterGR1"
+    },
+    {
+     "id": 13,
+     "name": "eMeterGR2"
+    },
+    {
+     "id": 14,
+     "name": "eMeterOV1"
+    },
+    {
+     "id": 15,
+     "name": "eMeterOV2"
+    },
+    {
+     "id": 16,
+     "name": "eMeterTH1"
+    },
+    {
+     "id": 17,
+     "name": "eMeterTH2"
+    },
+    {
+     "id": 18,
+     "name": "eMeterRS1"
+    },
+    {
+     "id": 19,
+     "name": "eMeterRS2"
+    },
+    {
+     "id": 20,
+     "name": "eMeterRF1"
+    },
+    {
+     "id": 21,
+     "name": "eMeterRF2"
+    },
+    {
+     "id": 22,
+     "name": "eMeterSK1"
+    },
+    {
+     "id": 23,
+     "name": "eMeterSK2"
+    },
+    {
+     "id": 24,
+     "name": "eMeterGRToHost",
+     "mapsTo": "COMP_MeterReduction"
+    },
+    {
+     "id": 25,
+     "name": "eMeterRelease1"
+    },
+    {
+     "id": 26,
+     "name": "eMeterRelease2"
+    },
+    {
+     "id": 27,
+     "name": "eMeterLimGR1"
+    },
+    {
+     "id": 28,
+     "name": "eMeterLimGR2"
+    },
+    {
+     "id": 29,
+     "name": "eMeterCombinedGR1"
+    },
+    {
+     "id": 30,
+     "name": "eMeterCombinedGR2"
+    }
+   ]
+  }
+ ]
+}

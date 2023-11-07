@@ -1,0 +1,25 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "sinp",
+   "pluginName": "British Open Back Cab 2x12",
+   "displayName": "BRITISH OR 2X12 OPEN BACK",
+   "linearGainOutput": 0.7079458,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Volume",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Mic",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

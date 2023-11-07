@@ -1,0 +1,77 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_SHAPE",
+   "pluginId": "scSH",
+   "pluginName": "Console 1 SSL SL 4000 E-Series Dynamic Shaper",
+   "displayName": "SSL SL 4000 E-Series Dynamic Shaper",
+   "displayNameShort": "SSL 4000E",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Gate",
+     "mapsTo": "SHAPE_Gate",
+     "value": 0.0,
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 1,
+     "name": "Gate Release",
+     "mapsTo": "SHAPE_GateRelease",
+     "value": 0.5,
+     "leaderParams": [
+      {
+       "name": "SHAPE_Gate"
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "name": "Hard Gate",
+     "mapsTo": "SHAPE_HardGate",
+     "value": 0.0,
+     "leaderParams": [
+      {
+       "name": "SHAPE_Gate"
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "name": "Punch",
+     "mapsTo": "SHAPE_Punch",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 4,
+     "name": "Sustain",
+     "mapsTo": "SHAPE_Sustain",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 5,
+     "name": "External Sidechain",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterGainReduction",
+     "mapsTo": "SHAPE_MeterReduction"
+    }
+   ]
+  }
+ ]
+}

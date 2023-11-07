@@ -1,0 +1,485 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "pluginId": "nnfw",
+   "pluginName": "Tape",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Meter",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Color Amount",
+     "mapsTo": "MAIN_ColorAmount",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Color Type",
+     "mapsTo": "MAIN_ColorType",
+     "value": 1.0
+    },
+    {
+     "id": 3,
+     "name": "Tape Speed",
+     "mapsTo": "MAIN_TapeSpeed",
+     "value": 0.75
+    },
+    {
+     "id": 4,
+     "name": "Dry/Wet",
+     "mapsTo": "MAIN_DryWet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Speed Stability",
+     "mapsTo": "MAIN_SpeedStability",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "High Freq Trim",
+     "mapsTo": "MAIN_HighFreqTrim",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Crosstalk",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Input",
+     "mapsTo": "MAIN_Input",
+     "value": 0.6
+    },
+    {
+     "id": 9,
+     "name": "Output",
+     "mapsTo": "MAIN_Output",
+     "value": 0.6
+    },
+    {
+     "id": 10,
+     "name": "Noise",
+     "mapsTo": "MAIN_Noise",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Playback",
+     "mapsTo": "MAIN_Playback",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "View",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Reserved",
+     "value": 0.0,
+     "isSubsystemIndex": true
+    }
+   ]
+  },
+  {
+   "mapName": "C1FOut",
+   "mapType": "SSX_TYPE_CONSOLE1_DRIVE",
+   "pluginId": "nnfw",
+   "pluginName": "Tape",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Meter",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Color Amount",
+     "mapsTo": "OUT_Drive",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Color Type",
+     "mapsTo": "OUT_Drive_Character",
+     "value": 0.0,
+     "minValue": 1.0,
+     "maxValue": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Tape Speed",
+     "value": 0.75
+    },
+    {
+     "id": 4,
+     "name": "Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Speed Stability",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "High Freq Trim",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Crosstalk",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Input",
+     "value": 0.6
+    },
+    {
+     "id": 9,
+     "name": "Output",
+     "value": 0.6
+    },
+    {
+     "id": 10,
+     "name": "Noise",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Playback",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "View",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Reserved",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "AmpRoomTape",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "nnfw",
+   "pluginName": "Tape",
+   "displayName": "Softube Tape",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Meter",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Color Amount",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Color Type",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Tape Speed",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.75
+    },
+    {
+     "id": 4,
+     "name": "Dry/Wet",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Speed Stability",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "High Freq Trim",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Crosstalk",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Input",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.6
+    },
+    {
+     "id": 9,
+     "name": "Output",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.6
+    },
+    {
+     "id": 10,
+     "name": "Noise",
+     "mapsTo": "SUBPLUGIN_Param11",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Playback",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "View",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Reserved",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterLevelVUL"
+    },
+    {
+     "id": 1,
+     "name": "eMeterLevelVUR"
+    },
+    {
+     "id": 2,
+     "name": "eMeterTHDVUL"
+    },
+    {
+     "id": 3,
+     "name": "eMeterTHDVUR"
+    },
+    {
+     "id": 4,
+     "name": "eMeterTransportState"
+    },
+    {
+     "id": 5,
+     "name": "eMeterSidebarIn",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    },
+    {
+     "id": 6,
+     "name": "eMeterSidebarOut",
+     "mapsTo": "SUBPLUGIN_Meter2"
+    }
+   ]
+  },
+  {
+   "mapName": "Alt1",
+   "mapType": "SSX_TYPE_CONSOLE1_SHAPE",
+   "pluginId": "nnfw",
+   "pluginName": "Tape",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Meter",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Color Amount",
+     "mapsTo": "SHAPE_Gate",
+     "value": 0.5,
+     "displayName": "Amount"
+    },
+    {
+     "id": 2,
+     "name": "Color Type",
+     "mapsTo": "SHAPE_GateRelease",
+     "value": 0.0,
+     "minValue": 1.0,
+     "maxValue": 0.0,
+     "displayName": "Type"
+    },
+    {
+     "id": 3,
+     "name": "Tape Speed",
+     "mapsTo": "SHAPE_Sustain",
+     "value": 0.75
+    },
+    {
+     "id": 4,
+     "name": "Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Speed Stability",
+     "mapsTo": "SHAPE_Punch",
+     "value": 0.0,
+     "displayName": "Stability"
+    },
+    {
+     "id": 6,
+     "name": "High Freq Trim",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Crosstalk",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Input",
+     "value": 0.6
+    },
+    {
+     "id": 9,
+     "name": "Output",
+     "value": 0.6
+    },
+    {
+     "id": 10,
+     "name": "Noise",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Playback",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "View",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Reserved",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterLevelVUL"
+    },
+    {
+     "id": 1,
+     "name": "eMeterLevelVUR"
+    },
+    {
+     "id": 2,
+     "name": "eMeterTHDVUL"
+    },
+    {
+     "id": 3,
+     "name": "eMeterTHDVUR"
+    },
+    {
+     "id": 4,
+     "name": "eMeterTransportState"
+    },
+    {
+     "id": 5,
+     "name": "eMeterSidebarIn"
+    },
+    {
+     "id": 6,
+     "name": "eMeterSidebarOut"
+    }
+   ]
+  },
+  {
+   "mapName": "C1PreA",
+   "mapType": "SSX_TYPE_CONSOLE1_PRE_AMP",
+   "pluginId": "nnfw",
+   "pluginName": "Tape",
+   "displayName": "Tape: Type A",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Meter",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Color Amount",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Color Type",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "C1PreB",
+   "mapType": "SSX_TYPE_CONSOLE1_PRE_AMP",
+   "pluginId": "nnfw",
+   "pluginName": "Tape",
+   "displayName": "Tape: Type B",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Meter",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Color Amount",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Color Type",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "C1PreC",
+   "mapType": "SSX_TYPE_CONSOLE1_PRE_AMP",
+   "pluginId": "nnfw",
+   "pluginName": "Tape",
+   "displayName": "Tape: Type C",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Meter",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Color Amount",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Color Type",
+     "value": 1.0
+    }
+   ]
+  }
+ ]
+}

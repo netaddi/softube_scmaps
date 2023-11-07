@@ -1,0 +1,49 @@
+{
+ "maps": [
+  {
+   "mapName": "ModularM82LFO",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "ST00",
+   "pluginName": "Model 82 LFO",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Rate",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "DAW Division",
+     "mapsTo": "MODULE_Param2",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "DAW Sync",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Waveform",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Subsystem",
+     "value": 0.0,
+     "isSubsystemIndex": true
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterLFOLED",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  }
+ ]
+}

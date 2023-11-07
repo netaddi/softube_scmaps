@@ -1,0 +1,41 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "u8la",
+   "pluginName": "Amp Room Delay",
+   "displayName": "SOFTUBE WILD BOAR",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Delay",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5,
+     "displayName": "Delay"
+    },
+    {
+     "id": 1,
+     "name": "Feedback",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5,
+     "displayName": "Feedback"
+    },
+    {
+     "id": 2,
+     "name": "Tone",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5,
+     "displayName": "Tone"
+    },
+    {
+     "id": 3,
+     "name": "Mix",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5,
+     "displayName": "Mix"
+    }
+   ]
+  }
+ ]
+}

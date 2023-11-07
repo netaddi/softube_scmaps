@@ -1,0 +1,130 @@
+{
+ "maps": [
+  {
+   "mapName": "AmpRoomACAEQ",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "nllo",
+   "pluginName": "Amp Room ACA EQ",
+   "displayName": "ACA 55 EQ",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "EQ On",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "EQ Low Type",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.0,
+     "maxValue": 0.5,
+     "displayName": "Low Type"
+    },
+    {
+     "id": 2,
+     "name": "EQ Low Frequency",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5,
+     "displayName": "Low Frequency"
+    },
+    {
+     "id": 3,
+     "name": "EQ Low Gain",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5,
+     "displayName": "Low Gain"
+    },
+    {
+     "id": 4,
+     "name": "EQ Low Mid Frequency",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5,
+     "displayName": "Low Mid Freq"
+    },
+    {
+     "id": 5,
+     "name": "EQ Low Mid Q",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "EQ Low Mid Gain",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.5,
+     "displayName": "Low Mid Gain"
+    },
+    {
+     "id": 7,
+     "name": "EQ High Mid Frequency",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.5,
+     "displayName": "High Mid Freq"
+    },
+    {
+     "id": 8,
+     "name": "EQ High Mid Q",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "EQ High Mid Gain",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.5,
+     "displayName": "High Mid Gain"
+    },
+    {
+     "id": 10,
+     "name": "EQ High Type",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.0,
+     "maxValue": 0.5,
+     "displayName": "High Type"
+    },
+    {
+     "id": 11,
+     "name": "EQ High Frequency",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.5,
+     "displayName": "High Frequency"
+    },
+    {
+     "id": 12,
+     "name": "EQ High Gain",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 0.5,
+     "displayName": "High Gain"
+    },
+    {
+     "id": 13,
+     "name": "EQ Gain Multiplier",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "EQ Auto Multiplier",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "EQ Auto Low Gain",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "EQ Auto Low Mid Gain",
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "EQ Auto High Mid Gain",
+     "value": 1.0
+    },
+    {
+     "id": 18,
+     "name": "EQ Auto High Gain",
+     "value": 1.0
+    }
+   ]
+  }
+ ]
+}

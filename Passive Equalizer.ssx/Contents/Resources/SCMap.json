@@ -1,0 +1,47 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "pluginId": "PvEQ",
+   "pluginName": "Passive Equalizer",
+   "displayNameShort": "Passive",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Low Gain",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.625,
+     "knobMode": "KNOB_MODE_SINGLE"
+    },
+    {
+     "id": 1,
+     "name": "Mid Gain",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.0,
+     "knobMode": "KNOB_MODE_SINGLE"
+    },
+    {
+     "id": 2,
+     "name": "Mid Frequency",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.0,
+     "displayName": "Frequency",
+     "knobMode": "KNOB_MODE_SINGLE"
+    },
+    {
+     "id": 3,
+     "name": "High Gain",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.5556,
+     "knobMode": "KNOB_MODE_SINGLE"
+    },
+    {
+     "id": 4,
+     "name": "Output",
+     "value": 0.5
+    }
+   ]
+  }
+ ]
+}
