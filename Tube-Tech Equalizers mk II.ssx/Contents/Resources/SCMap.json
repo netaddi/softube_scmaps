@@ -1,0 +1,365 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "pluginId": "zvxz",
+   "pluginName": "Tube-Tech Equalizers mk II",
+   "displayName": "Tube-Tech EQs mk II",
+   "displayNameShort": "Tube-Tech mk II",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "PE1C Low Boost",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.0,
+     "displayName": "Low Boost"
+    },
+    {
+     "id": 1,
+     "name": "PE1C Low Atten",
+     "mapsTo": "EQ_LF_Type",
+     "value": 0.0,
+     "displayName": "Low Atten"
+    },
+    {
+     "id": 2,
+     "name": "PE1C Low Frequency",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.333333,
+     "displayName": "Low Freq.",
+     "knobMode": "KNOB_MODE_SINGLE"
+    },
+    {
+     "id": 3,
+     "name": "PE1C High Bandwidth",
+     "mapsTo": "EQ_HF_Type",
+     "value": 0.0,
+     "displayName": "High BW"
+    },
+    {
+     "id": 4,
+     "name": "PE1C High Boost",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.0,
+     "displayName": "High Boost"
+    },
+    {
+     "id": 5,
+     "name": "PE1C High Frequency",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.444444,
+     "displayName": "High Freq.",
+     "knobMode": "KNOB_MODE_SINGLE"
+    },
+    {
+     "id": 6,
+     "name": "PE1C High Atten",
+     "mapsTo": "EQ_HF_Gain_Shift",
+     "value": 0.0,
+     "displayName": "High Atten"
+    },
+    {
+     "id": 7,
+     "name": "PE1C High Atten Sel",
+     "mapsTo": "EQ_HF_Freq_Shift",
+     "value": 0.5,
+     "displayName": "High Atten Sel"
+    },
+    {
+     "id": 8,
+     "name": "PE1C Output Gain",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "PE1C In",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "ME1B Low Frequency",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.5,
+     "displayName": "Low Mid Freq.",
+     "knobMode": "KNOB_MODE_SINGLE"
+    },
+    {
+     "id": 11,
+     "name": "ME1B Low Peak",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.0,
+     "displayName": "Low Mid Peak"
+    },
+    {
+     "id": 12,
+     "name": "ME1B Mid Frequency",
+     "mapsTo": "EQ_LMF_Freq_Shift",
+     "value": 0.5,
+     "displayName": "Mid Freq.",
+     "knobMode": "KNOB_MODE_SINGLE"
+    },
+    {
+     "id": 13,
+     "name": "ME1B Mid Dip",
+     "mapsTo": "EQ_LMF_Gain_Shift",
+     "value": 0.0,
+     "displayName": "Mid Dip"
+    },
+    {
+     "id": 14,
+     "name": "ME1B High Frequency",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0.5,
+     "displayName": "High Mid Freq.",
+     "knobMode": "KNOB_MODE_SINGLE"
+    },
+    {
+     "id": 15,
+     "name": "ME1B High Peak",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0.0,
+     "displayName": "High Mid Peak"
+    },
+    {
+     "id": 16,
+     "name": "ME1B Output Gain",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "ME1B In",
+     "value": 1.0
+    }
+   ]
+  },
+  {
+   "mapName": "Alt1",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "pluginId": "zvxz",
+   "pluginName": "Tube-Tech Equalizers mk II",
+   "displayName": "Tube-Tech EQs mk II (ME 1B)",
+   "displayNameShort": "Tube-Tech ME 1B",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "PE1C Low Boost",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "PE1C Low Atten",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "PE1C Low Frequency",
+     "value": 0.333333
+    },
+    {
+     "id": 3,
+     "name": "PE1C High Bandwidth",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "PE1C High Boost",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "PE1C High Frequency",
+     "value": 0.444444
+    },
+    {
+     "id": 6,
+     "name": "PE1C High Atten",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "PE1C High Atten Sel",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "PE1C Output Gain",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "PE1C In",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "ME1B Low Frequency",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.5,
+     "displayName": "Low Frequency"
+    },
+    {
+     "id": 11,
+     "name": "ME1B Low Peak",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.0,
+     "displayName": "Low Peak"
+    },
+    {
+     "id": 12,
+     "name": "ME1B Mid Frequency",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.5,
+     "displayName": "Mid Frequency"
+    },
+    {
+     "id": 13,
+     "name": "ME1B Mid Dip",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.0,
+     "displayName": "Mid Dip"
+    },
+    {
+     "id": 14,
+     "name": "ME1B High Frequency",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0.5,
+     "displayName": "High Frequency"
+    },
+    {
+     "id": 15,
+     "name": "ME1B High Peak",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0.0,
+     "displayName": "High Peak"
+    },
+    {
+     "id": 16,
+     "name": "ME1B Output Gain",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "ME1B In",
+     "value": 1.0
+    }
+   ]
+  },
+  {
+   "mapName": "Alt2",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "pluginId": "zvxz",
+   "pluginName": "Tube-Tech Equalizers mk II",
+   "displayName": "Tube-Tech EQs mk II (PE 1C)",
+   "displayNameShort": "Tube-Tech PE 1C",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "PE1C Low Boost",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.0,
+     "displayName": "Low Boost"
+    },
+    {
+     "id": 1,
+     "name": "PE1C Low Atten",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.0,
+     "displayName": "Low Atten"
+    },
+    {
+     "id": 2,
+     "name": "PE1C Low Frequency",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.333333,
+     "displayName": "Low Frequency"
+    },
+    {
+     "id": 3,
+     "name": "PE1C High Bandwidth",
+     "mapsTo": "EQ_HMF_Q",
+     "value": 0.0,
+     "displayName": "High Bandwidth"
+    },
+    {
+     "id": 4,
+     "name": "PE1C High Boost",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0.0,
+     "displayName": "High Boost"
+    },
+    {
+     "id": 5,
+     "name": "PE1C High Frequency",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0.444444,
+     "displayName": "High Frequency"
+    },
+    {
+     "id": 6,
+     "name": "PE1C High Atten",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.0,
+     "displayName": "High Atten"
+    },
+    {
+     "id": 7,
+     "name": "PE1C High Atten Sel",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.5,
+     "displayName": "High Atten Sel"
+    },
+    {
+     "id": 8,
+     "name": "PE1C Output Gain",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "PE1C In",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "ME1B Low Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "ME1B Low Peak",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "ME1B Mid Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "ME1B Mid Dip",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "ME1B High Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "ME1B High Peak",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "ME1B Output Gain",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "ME1B In",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

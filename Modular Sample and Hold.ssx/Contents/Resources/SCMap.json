@@ -1,0 +1,25 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "0hny",
+   "pluginName": "Modular Sample and Hold",
+   "displayName": "Sample & Hold",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Dummy",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterTriggerIn",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  }
+ ]
+}

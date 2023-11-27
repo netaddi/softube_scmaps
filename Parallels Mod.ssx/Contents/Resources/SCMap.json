@@ -1,0 +1,1691 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "pluginId": "sgly",
+   "pluginName": "Parallels Mod",
+   "modularLatencyInSeconds": 0.00072562
+  },
+  {
+   "mapName": "ParallelsMods",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "sgly",
+   "pluginName": "Parallels Mod",
+   "displayName": "Parallels Modulation",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Modulation",
+     "mapsTo": "MODULE_Param50",
+     "value": 0.25
+    },
+    {
+     "id": 1,
+     "name": "Audio Rate",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Note",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Modulation Slot",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "LFO Rise",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "LFO Shape",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "LFO DAW Speed",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "LFO Speed",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "LFO Tempo Sync",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "LFO Link",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "RND Rain",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "RND Noise",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "RND Wave",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "RND Storm",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "RND Link",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "EUC Fill",
+     "mapsTo": "MODULE_Param10",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "EUC Steps",
+     "mapsTo": "MODULE_Param11",
+     "value": 0.4839
+    },
+    {
+     "id": 17,
+     "name": "EUC Shift",
+     "mapsTo": "MODULE_Param12",
+     "value": 0.5
+    },
+    {
+     "id": 18,
+     "name": "EUC ReTrig",
+     "mapsTo": "MODULE_Param13",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "EUC Link",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "SEQ First Step",
+     "mapsTo": "MODULE_Param14",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "SEQ Last Step",
+     "mapsTo": "MODULE_Param15",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "SEQ Slew",
+     "mapsTo": "MODULE_Param16",
+     "value": 0.0
+    },
+    {
+     "id": 23,
+     "name": "SEQ Trig",
+     "mapsTo": "MODULE_Param17",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "SEQ Link",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "SEQ Step 1 CV",
+     "mapsTo": "MODULE_Param18",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "SEQ Step 2 CV",
+     "mapsTo": "MODULE_Param19",
+     "value": 0.05
+    },
+    {
+     "id": 27,
+     "name": "SEQ Step 3 CV",
+     "mapsTo": "MODULE_Param20",
+     "value": 0.1
+    },
+    {
+     "id": 28,
+     "name": "SEQ Step 4 CV",
+     "mapsTo": "MODULE_Param21",
+     "value": 0.15
+    },
+    {
+     "id": 29,
+     "name": "SEQ Step 5 CV",
+     "mapsTo": "MODULE_Param22",
+     "value": 0.2
+    },
+    {
+     "id": 30,
+     "name": "SEQ Step 6 CV",
+     "mapsTo": "MODULE_Param23",
+     "value": 0.25
+    },
+    {
+     "id": 31,
+     "name": "SEQ Step 7 CV",
+     "mapsTo": "MODULE_Param24",
+     "value": 0.3
+    },
+    {
+     "id": 32,
+     "name": "SEQ Step 8 CV",
+     "mapsTo": "MODULE_Param25",
+     "value": 0.4
+    },
+    {
+     "id": 33,
+     "name": "SEQ Step 9 CV",
+     "mapsTo": "MODULE_Param26",
+     "value": 0.5
+    },
+    {
+     "id": 34,
+     "name": "SEQ Step 10 CV",
+     "mapsTo": "MODULE_Param27",
+     "value": 0.4
+    },
+    {
+     "id": 35,
+     "name": "SEQ Step 11 CV",
+     "mapsTo": "MODULE_Param28",
+     "value": 0.3
+    },
+    {
+     "id": 36,
+     "name": "SEQ Step 12 CV",
+     "mapsTo": "MODULE_Param29",
+     "value": 0.25
+    },
+    {
+     "id": 37,
+     "name": "SEQ Step 13 CV",
+     "mapsTo": "MODULE_Param30",
+     "value": 0.2
+    },
+    {
+     "id": 38,
+     "name": "SEQ Step 14 CV",
+     "mapsTo": "MODULE_Param31",
+     "value": 0.15
+    },
+    {
+     "id": 39,
+     "name": "SEQ Step 15 CV",
+     "mapsTo": "MODULE_Param32",
+     "value": 0.1
+    },
+    {
+     "id": 40,
+     "name": "SEQ Step 16 CV",
+     "mapsTo": "MODULE_Param33",
+     "value": 0.05
+    },
+    {
+     "id": 41,
+     "name": "SEQ Step 1 Trig",
+     "mapsTo": "MODULE_Param34",
+     "value": 0.0
+    },
+    {
+     "id": 42,
+     "name": "SEQ Step 2 Trig",
+     "mapsTo": "MODULE_Param35",
+     "value": 0.0
+    },
+    {
+     "id": 43,
+     "name": "SEQ Step 3 Trig",
+     "mapsTo": "MODULE_Param36",
+     "value": 0.0
+    },
+    {
+     "id": 44,
+     "name": "SEQ Step 4 Trig",
+     "mapsTo": "MODULE_Param37",
+     "value": 0.0
+    },
+    {
+     "id": 45,
+     "name": "SEQ Step 5 Trig",
+     "mapsTo": "MODULE_Param38",
+     "value": 0.0
+    },
+    {
+     "id": 46,
+     "name": "SEQ Step 6 Trig",
+     "mapsTo": "MODULE_Param39",
+     "value": 0.0
+    },
+    {
+     "id": 47,
+     "name": "SEQ Step 7 Trig",
+     "mapsTo": "MODULE_Param40",
+     "value": 0.0
+    },
+    {
+     "id": 48,
+     "name": "SEQ Step 8 Trig",
+     "mapsTo": "MODULE_Param41",
+     "value": 0.0
+    },
+    {
+     "id": 49,
+     "name": "SEQ Step 9 Trig",
+     "mapsTo": "MODULE_Param42",
+     "value": 0.0
+    },
+    {
+     "id": 50,
+     "name": "SEQ Step 10 Trig",
+     "mapsTo": "MODULE_Param43",
+     "value": 0.0
+    },
+    {
+     "id": 51,
+     "name": "SEQ Step 11 Trig",
+     "mapsTo": "MODULE_Param44",
+     "value": 0.0
+    },
+    {
+     "id": 52,
+     "name": "SEQ Step 12 Trig",
+     "mapsTo": "MODULE_Param45",
+     "value": 0.0
+    },
+    {
+     "id": 53,
+     "name": "SEQ Step 13 Trig",
+     "mapsTo": "MODULE_Param46",
+     "value": 0.0
+    },
+    {
+     "id": 54,
+     "name": "SEQ Step 14 Trig",
+     "mapsTo": "MODULE_Param47",
+     "value": 0.0
+    },
+    {
+     "id": 55,
+     "name": "SEQ Step 15 Trig",
+     "mapsTo": "MODULE_Param48",
+     "value": 0.0
+    },
+    {
+     "id": 56,
+     "name": "SEQ Step 16 Trig",
+     "mapsTo": "MODULE_Param49",
+     "value": 0.0
+    },
+    {
+     "id": 57,
+     "name": "RunningInModular",
+     "value": 1.0
+    },
+    {
+     "id": 58,
+     "name": "Subsystem",
+     "value": 0.0,
+     "isSubsystemIndex": true
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterModulation"
+    },
+    {
+     "id": 1,
+     "name": "eMeterRNDWave",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 2,
+     "name": "eMeterEUCPlay",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 3,
+     "name": "eMeterEUCActiveSequence",
+     "mapsTo": "MODULE_Meter3"
+    },
+    {
+     "id": 4,
+     "name": "eMeterSEQPlay",
+     "mapsTo": "MODULE_Meter4"
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsEuclidian",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "sgly",
+   "pluginName": "Parallels Mod",
+   "displayName": "Parallels Mod Euclidian",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Modulation",
+     "value": 0.75
+    },
+    {
+     "id": 1,
+     "name": "Audio Rate",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Note",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Modulation Slot",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "LFO Rise",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "LFO Shape",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "LFO DAW Speed",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "LFO Speed",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "LFO Tempo Sync",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "LFO Link",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "RND Rain",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "RND Noise",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "RND Wave",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "RND Storm",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "RND Link",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "EUC Fill",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "EUC Steps",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.4839
+    },
+    {
+     "id": 17,
+     "name": "EUC Shift",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 18,
+     "name": "EUC ReTrig",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "EUC Link",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "SEQ First Step",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "SEQ Last Step",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "SEQ Slew",
+     "value": 0.0
+    },
+    {
+     "id": 23,
+     "name": "SEQ Trig",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "SEQ Link",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "SEQ Step 1 CV",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "SEQ Step 2 CV",
+     "value": 0.05
+    },
+    {
+     "id": 27,
+     "name": "SEQ Step 3 CV",
+     "value": 0.1
+    },
+    {
+     "id": 28,
+     "name": "SEQ Step 4 CV",
+     "value": 0.15
+    },
+    {
+     "id": 29,
+     "name": "SEQ Step 5 CV",
+     "value": 0.2
+    },
+    {
+     "id": 30,
+     "name": "SEQ Step 6 CV",
+     "value": 0.25
+    },
+    {
+     "id": 31,
+     "name": "SEQ Step 7 CV",
+     "value": 0.3
+    },
+    {
+     "id": 32,
+     "name": "SEQ Step 8 CV",
+     "value": 0.4
+    },
+    {
+     "id": 33,
+     "name": "SEQ Step 9 CV",
+     "value": 0.5
+    },
+    {
+     "id": 34,
+     "name": "SEQ Step 10 CV",
+     "value": 0.4
+    },
+    {
+     "id": 35,
+     "name": "SEQ Step 11 CV",
+     "value": 0.3
+    },
+    {
+     "id": 36,
+     "name": "SEQ Step 12 CV",
+     "value": 0.25
+    },
+    {
+     "id": 37,
+     "name": "SEQ Step 13 CV",
+     "value": 0.2
+    },
+    {
+     "id": 38,
+     "name": "SEQ Step 14 CV",
+     "value": 0.15
+    },
+    {
+     "id": 39,
+     "name": "SEQ Step 15 CV",
+     "value": 0.1
+    },
+    {
+     "id": 40,
+     "name": "SEQ Step 16 CV",
+     "value": 0.05
+    },
+    {
+     "id": 41,
+     "name": "SEQ Step 1 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 42,
+     "name": "SEQ Step 2 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 43,
+     "name": "SEQ Step 3 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 44,
+     "name": "SEQ Step 4 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 45,
+     "name": "SEQ Step 5 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 46,
+     "name": "SEQ Step 6 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 47,
+     "name": "SEQ Step 7 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 48,
+     "name": "SEQ Step 8 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 49,
+     "name": "SEQ Step 9 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 50,
+     "name": "SEQ Step 10 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 51,
+     "name": "SEQ Step 11 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 52,
+     "name": "SEQ Step 12 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 53,
+     "name": "SEQ Step 13 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 54,
+     "name": "SEQ Step 14 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 55,
+     "name": "SEQ Step 15 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 56,
+     "name": "SEQ Step 16 Trig",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterModulation"
+    },
+    {
+     "id": 1,
+     "name": "eMeterRNDWave"
+    },
+    {
+     "id": 2,
+     "name": "eMeterEUCPlay",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 3,
+     "name": "eMeterEUCActiveSequence",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 4,
+     "name": "eMeterSEQPlay"
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsLFO",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "sgly",
+   "pluginName": "Parallels Mod",
+   "displayName": "Parallels Mod LFO",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Modulation",
+     "value": 0.25
+    },
+    {
+     "id": 1,
+     "name": "Audio Rate",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Note",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Modulation Slot",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "LFO Rise",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "LFO Shape",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "LFO DAW Speed",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "LFO Speed",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "LFO Tempo Sync",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "LFO Link",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "RND Rain",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "RND Noise",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "RND Wave",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "RND Storm",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "RND Link",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "EUC Fill",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "EUC Steps",
+     "value": 0.4839
+    },
+    {
+     "id": 17,
+     "name": "EUC Shift",
+     "value": 0.5
+    },
+    {
+     "id": 18,
+     "name": "EUC ReTrig",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "EUC Link",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "SEQ First Step",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "SEQ Last Step",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "SEQ Slew",
+     "value": 0.0
+    },
+    {
+     "id": 23,
+     "name": "SEQ Trig",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "SEQ Link",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "SEQ Step 1 CV",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "SEQ Step 2 CV",
+     "value": 0.05
+    },
+    {
+     "id": 27,
+     "name": "SEQ Step 3 CV",
+     "value": 0.1
+    },
+    {
+     "id": 28,
+     "name": "SEQ Step 4 CV",
+     "value": 0.15
+    },
+    {
+     "id": 29,
+     "name": "SEQ Step 5 CV",
+     "value": 0.2
+    },
+    {
+     "id": 30,
+     "name": "SEQ Step 6 CV",
+     "value": 0.25
+    },
+    {
+     "id": 31,
+     "name": "SEQ Step 7 CV",
+     "value": 0.3
+    },
+    {
+     "id": 32,
+     "name": "SEQ Step 8 CV",
+     "value": 0.4
+    },
+    {
+     "id": 33,
+     "name": "SEQ Step 9 CV",
+     "value": 0.5
+    },
+    {
+     "id": 34,
+     "name": "SEQ Step 10 CV",
+     "value": 0.4
+    },
+    {
+     "id": 35,
+     "name": "SEQ Step 11 CV",
+     "value": 0.3
+    },
+    {
+     "id": 36,
+     "name": "SEQ Step 12 CV",
+     "value": 0.25
+    },
+    {
+     "id": 37,
+     "name": "SEQ Step 13 CV",
+     "value": 0.2
+    },
+    {
+     "id": 38,
+     "name": "SEQ Step 14 CV",
+     "value": 0.15
+    },
+    {
+     "id": 39,
+     "name": "SEQ Step 15 CV",
+     "value": 0.1
+    },
+    {
+     "id": 40,
+     "name": "SEQ Step 16 CV",
+     "value": 0.05
+    },
+    {
+     "id": 41,
+     "name": "SEQ Step 1 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 42,
+     "name": "SEQ Step 2 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 43,
+     "name": "SEQ Step 3 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 44,
+     "name": "SEQ Step 4 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 45,
+     "name": "SEQ Step 5 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 46,
+     "name": "SEQ Step 6 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 47,
+     "name": "SEQ Step 7 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 48,
+     "name": "SEQ Step 8 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 49,
+     "name": "SEQ Step 9 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 50,
+     "name": "SEQ Step 10 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 51,
+     "name": "SEQ Step 11 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 52,
+     "name": "SEQ Step 12 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 53,
+     "name": "SEQ Step 13 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 54,
+     "name": "SEQ Step 14 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 55,
+     "name": "SEQ Step 15 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 56,
+     "name": "SEQ Step 16 Trig",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsRandom",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "sgly",
+   "pluginName": "Parallels Mod",
+   "displayName": "Parallels Mod Random>",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Modulation",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Audio Rate",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Note",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Modulation Slot",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "LFO Rise",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "LFO Shape",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "LFO DAW Speed",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "LFO Speed",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "LFO Tempo Sync",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "LFO Link",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "RND Rain",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "RND Noise",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "RND Wave",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "RND Storm",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "RND Link",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "EUC Fill",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "EUC Steps",
+     "value": 0.4839
+    },
+    {
+     "id": 17,
+     "name": "EUC Shift",
+     "value": 0.5
+    },
+    {
+     "id": 18,
+     "name": "EUC ReTrig",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "EUC Link",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "SEQ First Step",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "SEQ Last Step",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "SEQ Slew",
+     "value": 0.0
+    },
+    {
+     "id": 23,
+     "name": "SEQ Trig",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "SEQ Link",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "SEQ Step 1 CV",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "SEQ Step 2 CV",
+     "value": 0.05
+    },
+    {
+     "id": 27,
+     "name": "SEQ Step 3 CV",
+     "value": 0.1
+    },
+    {
+     "id": 28,
+     "name": "SEQ Step 4 CV",
+     "value": 0.15
+    },
+    {
+     "id": 29,
+     "name": "SEQ Step 5 CV",
+     "value": 0.2
+    },
+    {
+     "id": 30,
+     "name": "SEQ Step 6 CV",
+     "value": 0.25
+    },
+    {
+     "id": 31,
+     "name": "SEQ Step 7 CV",
+     "value": 0.3
+    },
+    {
+     "id": 32,
+     "name": "SEQ Step 8 CV",
+     "value": 0.4
+    },
+    {
+     "id": 33,
+     "name": "SEQ Step 9 CV",
+     "value": 0.5
+    },
+    {
+     "id": 34,
+     "name": "SEQ Step 10 CV",
+     "value": 0.4
+    },
+    {
+     "id": 35,
+     "name": "SEQ Step 11 CV",
+     "value": 0.3
+    },
+    {
+     "id": 36,
+     "name": "SEQ Step 12 CV",
+     "value": 0.25
+    },
+    {
+     "id": 37,
+     "name": "SEQ Step 13 CV",
+     "value": 0.2
+    },
+    {
+     "id": 38,
+     "name": "SEQ Step 14 CV",
+     "value": 0.15
+    },
+    {
+     "id": 39,
+     "name": "SEQ Step 15 CV",
+     "value": 0.1
+    },
+    {
+     "id": 40,
+     "name": "SEQ Step 16 CV",
+     "value": 0.05
+    },
+    {
+     "id": 41,
+     "name": "SEQ Step 1 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 42,
+     "name": "SEQ Step 2 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 43,
+     "name": "SEQ Step 3 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 44,
+     "name": "SEQ Step 4 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 45,
+     "name": "SEQ Step 5 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 46,
+     "name": "SEQ Step 6 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 47,
+     "name": "SEQ Step 7 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 48,
+     "name": "SEQ Step 8 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 49,
+     "name": "SEQ Step 9 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 50,
+     "name": "SEQ Step 10 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 51,
+     "name": "SEQ Step 11 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 52,
+     "name": "SEQ Step 12 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 53,
+     "name": "SEQ Step 13 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 54,
+     "name": "SEQ Step 14 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 55,
+     "name": "SEQ Step 15 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 56,
+     "name": "SEQ Step 16 Trig",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterModulation"
+    },
+    {
+     "id": 1,
+     "name": "eMeterRNDWave",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 2,
+     "name": "eMeterEUCPlay"
+    },
+    {
+     "id": 3,
+     "name": "eMeterEUCActiveSequence"
+    },
+    {
+     "id": 4,
+     "name": "eMeterSEQPlay"
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsSequencer",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "sgly",
+   "pluginName": "Parallels Mod",
+   "displayName": "Parallels Mod Sequencer",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Modulation",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Audio Rate",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Note",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Modulation Slot",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "LFO Rise",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "LFO Shape",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "LFO DAW Speed",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "LFO Speed",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "LFO Tempo Sync",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "LFO Link",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "RND Rain",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "RND Noise",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "RND Wave",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "RND Storm",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "RND Link",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "EUC Fill",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "EUC Steps",
+     "value": 0.4839
+    },
+    {
+     "id": 17,
+     "name": "EUC Shift",
+     "value": 0.5
+    },
+    {
+     "id": 18,
+     "name": "EUC ReTrig",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "EUC Link",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "SEQ First Step",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "SEQ Last Step",
+     "mapsTo": "MODULE_Param2",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "SEQ Slew",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0
+    },
+    {
+     "id": 23,
+     "name": "SEQ Trig",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "SEQ Link",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "SEQ Step 1 CV",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "SEQ Step 2 CV",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.05
+    },
+    {
+     "id": 27,
+     "name": "SEQ Step 3 CV",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.1
+    },
+    {
+     "id": 28,
+     "name": "SEQ Step 4 CV",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.15
+    },
+    {
+     "id": 29,
+     "name": "SEQ Step 5 CV",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.2
+    },
+    {
+     "id": 30,
+     "name": "SEQ Step 6 CV",
+     "mapsTo": "MODULE_Param10",
+     "value": 0.25
+    },
+    {
+     "id": 31,
+     "name": "SEQ Step 7 CV",
+     "mapsTo": "MODULE_Param11",
+     "value": 0.3
+    },
+    {
+     "id": 32,
+     "name": "SEQ Step 8 CV",
+     "mapsTo": "MODULE_Param12",
+     "value": 0.4
+    },
+    {
+     "id": 33,
+     "name": "SEQ Step 9 CV",
+     "mapsTo": "MODULE_Param13",
+     "value": 0.5
+    },
+    {
+     "id": 34,
+     "name": "SEQ Step 10 CV",
+     "mapsTo": "MODULE_Param14",
+     "value": 0.4
+    },
+    {
+     "id": 35,
+     "name": "SEQ Step 11 CV",
+     "mapsTo": "MODULE_Param15",
+     "value": 0.3
+    },
+    {
+     "id": 36,
+     "name": "SEQ Step 12 CV",
+     "mapsTo": "MODULE_Param16",
+     "value": 0.25
+    },
+    {
+     "id": 37,
+     "name": "SEQ Step 13 CV",
+     "mapsTo": "MODULE_Param17",
+     "value": 0.2
+    },
+    {
+     "id": 38,
+     "name": "SEQ Step 14 CV",
+     "mapsTo": "MODULE_Param18",
+     "value": 0.15
+    },
+    {
+     "id": 39,
+     "name": "SEQ Step 15 CV",
+     "mapsTo": "MODULE_Param19",
+     "value": 0.1
+    },
+    {
+     "id": 40,
+     "name": "SEQ Step 16 CV",
+     "mapsTo": "MODULE_Param20",
+     "value": 0.05
+    },
+    {
+     "id": 41,
+     "name": "SEQ Step 1 Trig",
+     "mapsTo": "MODULE_Param21",
+     "value": 0.0
+    },
+    {
+     "id": 42,
+     "name": "SEQ Step 2 Trig",
+     "mapsTo": "MODULE_Param22",
+     "value": 0.0
+    },
+    {
+     "id": 43,
+     "name": "SEQ Step 3 Trig",
+     "mapsTo": "MODULE_Param23",
+     "value": 0.0
+    },
+    {
+     "id": 44,
+     "name": "SEQ Step 4 Trig",
+     "mapsTo": "MODULE_Param24",
+     "value": 0.0
+    },
+    {
+     "id": 45,
+     "name": "SEQ Step 5 Trig",
+     "mapsTo": "MODULE_Param25",
+     "value": 0.0
+    },
+    {
+     "id": 46,
+     "name": "SEQ Step 6 Trig",
+     "mapsTo": "MODULE_Param26",
+     "value": 0.0
+    },
+    {
+     "id": 47,
+     "name": "SEQ Step 7 Trig",
+     "mapsTo": "MODULE_Param27",
+     "value": 0.0
+    },
+    {
+     "id": 48,
+     "name": "SEQ Step 8 Trig",
+     "mapsTo": "MODULE_Param28",
+     "value": 0.0
+    },
+    {
+     "id": 49,
+     "name": "SEQ Step 9 Trig",
+     "mapsTo": "MODULE_Param29",
+     "value": 0.0
+    },
+    {
+     "id": 50,
+     "name": "SEQ Step 10 Trig",
+     "mapsTo": "MODULE_Param30",
+     "value": 0.0
+    },
+    {
+     "id": 51,
+     "name": "SEQ Step 11 Trig",
+     "mapsTo": "MODULE_Param31",
+     "value": 0.0
+    },
+    {
+     "id": 52,
+     "name": "SEQ Step 12 Trig",
+     "mapsTo": "MODULE_Param32",
+     "value": 0.0
+    },
+    {
+     "id": 53,
+     "name": "SEQ Step 13 Trig",
+     "mapsTo": "MODULE_Param33",
+     "value": 0.0
+    },
+    {
+     "id": 54,
+     "name": "SEQ Step 14 Trig",
+     "mapsTo": "MODULE_Param34",
+     "value": 0.0
+    },
+    {
+     "id": 55,
+     "name": "SEQ Step 15 Trig",
+     "mapsTo": "MODULE_Param35",
+     "value": 0.0
+    },
+    {
+     "id": 56,
+     "name": "SEQ Step 16 Trig",
+     "mapsTo": "MODULE_Param36",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterModulation"
+    },
+    {
+     "id": 1,
+     "name": "eMeterRNDWave"
+    },
+    {
+     "id": 2,
+     "name": "eMeterEUCPlay"
+    },
+    {
+     "id": 3,
+     "name": "eMeterEUCActiveSequence"
+    },
+    {
+     "id": 4,
+     "name": "eMeterSEQPlay",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  }
+ ]
+}

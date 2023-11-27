@@ -1,0 +1,55 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "rs2y",
+   "pluginName": "Modular Logic Tool",
+   "displayName": "Logic Tool",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Dummy",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterInv1",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterInv2",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeterAND",
+     "mapsTo": "MODULE_Meter3"
+    },
+    {
+     "id": 3,
+     "name": "eMeterOR",
+     "mapsTo": "MODULE_Meter4"
+    },
+    {
+     "id": 4,
+     "name": "eMeterNAND",
+     "mapsTo": "MODULE_Meter5"
+    },
+    {
+     "id": 5,
+     "name": "eMeterNOR",
+     "mapsTo": "MODULE_Meter6"
+    },
+    {
+     "id": 6,
+     "name": "eMeterXOR",
+     "mapsTo": "MODULE_Meter7"
+    }
+   ]
+  }
+ ]
+}

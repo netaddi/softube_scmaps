@@ -1,0 +1,47 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "cmrt",
+   "pluginName": "Doepfer A-147 VCLFO",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Frequency",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "CV",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Subsystem",
+     "value": 0.0,
+     "isSubsystemIndex": true
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterSine",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterSquare",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeterSaw",
+     "mapsTo": "MODULE_Meter3"
+    }
+   ]
+  }
+ ]
+}

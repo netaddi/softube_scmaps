@@ -1,0 +1,2697 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance M (4 Knobs)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param5",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param7",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "customGroup": 1,
+     "isCustomValue": true
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "mapsTo": "MODULE_Param8",
+     "value": 1.0,
+     "displayName": "2-Param",
+     "customGroup": 1,
+     "isCustomParam": true
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.0,
+     "displayName": "2-Min",
+     "customGroup": 1,
+     "isCustomMin": true
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "mapsTo": "MODULE_Param10",
+     "value": 1.0,
+     "displayName": "2-Max",
+     "customGroup": 1,
+     "isCustomMax": true
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5,
+     "customGroup": 2,
+     "isCustomValue": true
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "mapsTo": "MODULE_Param11",
+     "value": 1.0,
+     "displayName": "3-Param",
+     "customGroup": 2,
+     "isCustomParam": true
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "mapsTo": "MODULE_Param12",
+     "value": 0.0,
+     "displayName": "3-Min",
+     "customGroup": 2,
+     "isCustomMin": true
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "mapsTo": "MODULE_Param13",
+     "value": 1.0,
+     "displayName": "3-Max",
+     "customGroup": 2,
+     "isCustomMax": true
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5,
+     "customGroup": 3,
+     "isCustomValue": true
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "mapsTo": "MODULE_Param14",
+     "value": 1.0,
+     "displayName": "4-Param",
+     "customGroup": 3,
+     "isCustomParam": true
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "mapsTo": "MODULE_Param15",
+     "value": 0.0,
+     "displayName": "4-Min",
+     "customGroup": 3,
+     "isCustomMin": true
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "mapsTo": "MODULE_Param16",
+     "value": 1.0,
+     "displayName": "4-Max",
+     "customGroup": 3,
+     "isCustomMax": true
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1"
+    }
+   ]
+  },
+  {
+   "mapName": "M4s",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance M (4 Switches)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param5",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param7",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "customGroup": 1,
+     "isCustomValue": true
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "mapsTo": "MODULE_Param8",
+     "value": 1.0,
+     "displayName": "2-Param",
+     "customGroup": 1,
+     "isCustomParam": true
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.0,
+     "displayName": "2-Min",
+     "customGroup": 1,
+     "isCustomMin": true
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "mapsTo": "MODULE_Param10",
+     "value": 1.0,
+     "displayName": "2-Max",
+     "customGroup": 1,
+     "isCustomMax": true
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5,
+     "customGroup": 2,
+     "isCustomValue": true
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "mapsTo": "MODULE_Param11",
+     "value": 1.0,
+     "displayName": "3-Param",
+     "customGroup": 2,
+     "isCustomParam": true
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "mapsTo": "MODULE_Param12",
+     "value": 0.0,
+     "displayName": "3-Min",
+     "customGroup": 2,
+     "isCustomMin": true
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "mapsTo": "MODULE_Param13",
+     "value": 1.0,
+     "displayName": "3-Max",
+     "customGroup": 2,
+     "isCustomMax": true
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5,
+     "customGroup": 3,
+     "isCustomValue": true
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "mapsTo": "MODULE_Param14",
+     "value": 1.0,
+     "displayName": "4-Param",
+     "customGroup": 3,
+     "isCustomParam": true
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "mapsTo": "MODULE_Param15",
+     "value": 0.0,
+     "displayName": "4-Min",
+     "customGroup": 3,
+     "isCustomMin": true
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "mapsTo": "MODULE_Param16",
+     "value": 1.0,
+     "displayName": "4-Max",
+     "customGroup": 3,
+     "isCustomMax": true
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1"
+    }
+   ]
+  },
+  {
+   "mapName": "R4f",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance R (4 Faders)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param5",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param7",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "customGroup": 1,
+     "isCustomValue": true
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "mapsTo": "MODULE_Param8",
+     "value": 1.0,
+     "displayName": "2-Param",
+     "customGroup": 1,
+     "isCustomParam": true
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.0,
+     "displayName": "2-Min",
+     "customGroup": 1,
+     "isCustomMin": true
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "mapsTo": "MODULE_Param10",
+     "value": 1.0,
+     "displayName": "2-Max",
+     "customGroup": 1,
+     "isCustomMax": true
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5,
+     "customGroup": 2,
+     "isCustomValue": true
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "mapsTo": "MODULE_Param11",
+     "value": 1.0,
+     "displayName": "3-Param",
+     "customGroup": 2,
+     "isCustomParam": true
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "mapsTo": "MODULE_Param12",
+     "value": 0.0,
+     "displayName": "3-Min",
+     "customGroup": 2,
+     "isCustomMin": true
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "mapsTo": "MODULE_Param13",
+     "value": 1.0,
+     "displayName": "3-Max",
+     "customGroup": 2,
+     "isCustomMax": true
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5,
+     "customGroup": 3,
+     "isCustomValue": true
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "mapsTo": "MODULE_Param14",
+     "value": 1.0,
+     "displayName": "4-Param",
+     "customGroup": 3,
+     "isCustomParam": true
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "mapsTo": "MODULE_Param15",
+     "value": 0.0,
+     "displayName": "4-Min",
+     "customGroup": 3,
+     "isCustomMin": true
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "mapsTo": "MODULE_Param16",
+     "value": 1.0,
+     "displayName": "4-Max",
+     "customGroup": 3,
+     "isCustomMax": true
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1"
+    }
+   ]
+  },
+  {
+   "mapName": "Alt1",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance M (3 Knobs)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param4",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param6",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "customGroup": 1,
+     "isCustomValue": true
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "mapsTo": "MODULE_Param7",
+     "value": 1.0,
+     "displayName": "2-Param",
+     "customGroup": 1,
+     "isCustomParam": true
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.0,
+     "displayName": "2-Min",
+     "customGroup": 1,
+     "isCustomMin": true
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "mapsTo": "MODULE_Param9",
+     "value": 1.0,
+     "displayName": "2-Max",
+     "customGroup": 1,
+     "isCustomMax": true
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5,
+     "customGroup": 2,
+     "isCustomValue": true
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "mapsTo": "MODULE_Param10",
+     "value": 1.0,
+     "displayName": "3-Param",
+     "customGroup": 2,
+     "isCustomParam": true
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "mapsTo": "MODULE_Param11",
+     "value": 0.0,
+     "displayName": "3-Min",
+     "customGroup": 2,
+     "isCustomMin": true
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "mapsTo": "MODULE_Param12",
+     "value": 1.0,
+     "displayName": "3-Max",
+     "customGroup": 2,
+     "isCustomMax": true
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1"
+    }
+   ]
+  },
+  {
+   "mapName": "R3f",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance R (3 Faders)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param4",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param6",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "customGroup": 1,
+     "isCustomValue": true
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "mapsTo": "MODULE_Param7",
+     "value": 1.0,
+     "displayName": "2-Param",
+     "customGroup": 1,
+     "isCustomParam": true
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.0,
+     "displayName": "2-Min",
+     "customGroup": 1,
+     "isCustomMin": true
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "mapsTo": "MODULE_Param9",
+     "value": 1.0,
+     "displayName": "2-Max",
+     "customGroup": 1,
+     "isCustomMax": true
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5,
+     "customGroup": 2,
+     "isCustomValue": true
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "mapsTo": "MODULE_Param10",
+     "value": 1.0,
+     "displayName": "3-Param",
+     "customGroup": 2,
+     "isCustomParam": true
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "mapsTo": "MODULE_Param11",
+     "value": 0.0,
+     "displayName": "3-Min",
+     "customGroup": 2,
+     "isCustomMin": true
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "mapsTo": "MODULE_Param12",
+     "value": 1.0,
+     "displayName": "3-Max",
+     "customGroup": 2,
+     "isCustomMax": true
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1"
+    }
+   ]
+  },
+  {
+   "mapName": "M3s",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance M (3 Switches)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param4",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param6",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "customGroup": 1,
+     "isCustomValue": true
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "mapsTo": "MODULE_Param7",
+     "value": 1.0,
+     "displayName": "2-Param",
+     "customGroup": 1,
+     "isCustomParam": true
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.0,
+     "displayName": "2-Min",
+     "customGroup": 1,
+     "isCustomMin": true
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "mapsTo": "MODULE_Param9",
+     "value": 1.0,
+     "displayName": "2-Max",
+     "customGroup": 1,
+     "isCustomMax": true
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5,
+     "customGroup": 2,
+     "isCustomValue": true
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "mapsTo": "MODULE_Param10",
+     "value": 1.0,
+     "displayName": "3-Param",
+     "customGroup": 2,
+     "isCustomParam": true
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "mapsTo": "MODULE_Param11",
+     "value": 0.0,
+     "displayName": "3-Min",
+     "customGroup": 2,
+     "isCustomMin": true
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "mapsTo": "MODULE_Param12",
+     "value": 1.0,
+     "displayName": "3-Max",
+     "customGroup": 2,
+     "isCustomMax": true
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1"
+    }
+   ]
+  },
+  {
+   "mapName": "M2k1s",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance M (2 Knobs, 1 Switch)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param4",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param6",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "customGroup": 1,
+     "isCustomValue": true
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "mapsTo": "MODULE_Param7",
+     "value": 1.0,
+     "displayName": "2-Param",
+     "customGroup": 1,
+     "isCustomParam": true
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.0,
+     "displayName": "2-Min",
+     "customGroup": 1,
+     "isCustomMin": true
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "mapsTo": "MODULE_Param9",
+     "value": 1.0,
+     "displayName": "2-Max",
+     "customGroup": 1,
+     "isCustomMax": true
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5,
+     "customGroup": 2,
+     "isCustomValue": true
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "mapsTo": "MODULE_Param10",
+     "value": 1.0,
+     "displayName": "3-Param",
+     "customGroup": 2,
+     "isCustomParam": true
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "mapsTo": "MODULE_Param11",
+     "value": 0.0,
+     "displayName": "3-Min",
+     "customGroup": 2,
+     "isCustomMin": true
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "mapsTo": "MODULE_Param12",
+     "value": 1.0,
+     "displayName": "3-Max",
+     "customGroup": 2,
+     "isCustomMax": true
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1"
+    }
+   ]
+  },
+  {
+   "mapName": "Alt2",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance M (2 Knobs)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param3",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param5",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "customGroup": 1,
+     "isCustomValue": true
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "mapsTo": "MODULE_Param6",
+     "value": 1.0,
+     "displayName": "2-Param",
+     "customGroup": 1,
+     "isCustomParam": true
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.0,
+     "displayName": "2-Min",
+     "customGroup": 1,
+     "isCustomMin": true
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "mapsTo": "MODULE_Param8",
+     "value": 1.0,
+     "displayName": "2-Max",
+     "customGroup": 1,
+     "isCustomMax": true
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1"
+    }
+   ]
+  },
+  {
+   "mapName": "R2f",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance R (2 Faders)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param3",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param5",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "customGroup": 1,
+     "isCustomValue": true
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "mapsTo": "MODULE_Param6",
+     "value": 1.0,
+     "displayName": "2-Param",
+     "customGroup": 1,
+     "isCustomParam": true
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.0,
+     "displayName": "2-Min",
+     "customGroup": 1,
+     "isCustomMin": true
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "mapsTo": "MODULE_Param8",
+     "value": 1.0,
+     "displayName": "2-Max",
+     "customGroup": 1,
+     "isCustomMax": true
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1"
+    }
+   ]
+  },
+  {
+   "mapName": "M1k1s",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance M (1 Knob, 1 Switch)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param3",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param5",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "customGroup": 1,
+     "isCustomValue": true
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "mapsTo": "MODULE_Param6",
+     "value": 1.0,
+     "displayName": "2-Param",
+     "customGroup": 1,
+     "isCustomParam": true
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.0,
+     "displayName": "2-Min",
+     "customGroup": 1,
+     "isCustomMin": true
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "mapsTo": "MODULE_Param8",
+     "value": 1.0,
+     "displayName": "2-Max",
+     "customGroup": 1,
+     "isCustomMax": true
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1"
+    }
+   ]
+  },
+  {
+   "mapName": "M2s",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance M (2 Switches)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param3",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param5",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "customGroup": 1,
+     "isCustomValue": true
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "mapsTo": "MODULE_Param6",
+     "value": 1.0,
+     "displayName": "2-Param",
+     "customGroup": 1,
+     "isCustomParam": true
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.0,
+     "displayName": "2-Min",
+     "customGroup": 1,
+     "isCustomMin": true
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "mapsTo": "MODULE_Param8",
+     "value": 1.0,
+     "displayName": "2-Max",
+     "customGroup": 1,
+     "isCustomMax": true
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1"
+    }
+   ]
+  },
+  {
+   "mapName": "Alt3",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance M (1 Switch)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param2",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param4",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  },
+  {
+   "mapName": "R1sB",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance R (1 Switch Blue)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param2",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param4",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  },
+  {
+   "mapName": "R1sY",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance R (1 Switch Yellow)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param2",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param4",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  },
+  {
+   "mapName": "R1sR",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance R (1 Switch Red)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param2",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param4",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  },
+  {
+   "mapName": "Alt4",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance R (1 Fader Blue)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param2",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param4",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  },
+  {
+   "mapName": "Alt5",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance R (1 Fader Red)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param2",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param4",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  },
+  {
+   "mapName": "Alt6",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance M Frame",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1"
+    }
+   ]
+  },
+  {
+   "mapName": "Alt7",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance R Frame",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1"
+    }
+   ]
+  },
+  {
+   "mapName": "M1k1l",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance M (1 Knob, 1 LED)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "customGroup": 0,
+     "isCustomValue": true
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "mapsTo": "MODULE_Param2",
+     "value": 1.0,
+     "displayName": "1-Param",
+     "customGroup": 0,
+     "isCustomParam": true
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0,
+     "displayName": "1-Min",
+     "customGroup": 0,
+     "isCustomMin": true
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "mapsTo": "MODULE_Param4",
+     "value": 1.0,
+     "displayName": "1-Max",
+     "customGroup": 0,
+     "isCustomMax": true
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  },
+  {
+   "mapName": "MMeterMono",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "bttw",
+   "pluginName": "Modular Interface",
+   "displayName": "Performance M (Mono LED Meter)",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Custom 1 Value",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Custom 1 Param",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Custom 1 Min",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Custom 1 Max",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Custom 2 Value",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Custom 2 Param",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Custom 2 Min",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Custom 2 Max",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Custom 3 Value",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Custom 3 Param",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Custom 3 Min",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Custom 3 Max",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Custom 4 Value",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Custom 4 Param",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Custom 4 Min",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Custom 4 Max",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Meter Enable",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeter1",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  }
+ ]
+}

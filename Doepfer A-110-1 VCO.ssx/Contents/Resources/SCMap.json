@@ -1,0 +1,48 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "ncx0",
+   "pluginName": "Doepfer A-110-1 VCO",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Range",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Tune",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "CV2",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "PW",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "PW CV2",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Subsystem",
+     "value": 0.0,
+     "isSubsystemIndex": true
+    }
+   ]
+  }
+ ]
+}

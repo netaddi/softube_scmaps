@@ -1,0 +1,48 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "v3pj",
+   "pluginName": "Doepfer A-132-3 Dual VCA",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "CV 1",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Gain 1",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Mode 1",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "CV 2",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Gain 2",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Mode 2",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "swdg",
+   "pluginName": "Modular MIDI Sequencer",
+   "displayName": "MIDI Sequencer",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Mode",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "MIDI Channel",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Length",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.246
+    },
+    {
+     "id": 3,
+     "name": "Direction",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Loop",
+     "mapsTo": "MODULE_Param9",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Glide",
+     "mapsTo": "MODULE_Param10",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterStep",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterMIDINote",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeterTie",
+     "mapsTo": "MODULE_Meter3"
+    },
+    {
+     "id": 3,
+     "name": "eMeterAccent",
+     "mapsTo": "MODULE_Meter4"
+    },
+    {
+     "id": 4,
+     "name": "eMeterRest",
+     "mapsTo": "MODULE_Meter5"
+    }
+   ]
+  }
+ ]
+}

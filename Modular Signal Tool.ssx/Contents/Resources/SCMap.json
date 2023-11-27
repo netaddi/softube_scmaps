@@ -1,0 +1,25 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "t9sn",
+   "pluginName": "Modular Signal Tool",
+   "displayName": "Signal Tool",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Dummy",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeter12",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  }
+ ]
+}

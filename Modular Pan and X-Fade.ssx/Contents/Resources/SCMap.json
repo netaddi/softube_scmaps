@@ -1,0 +1,102 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "0byg",
+   "pluginName": "Modular Pan and X-Fade",
+   "displayName": "Dual Pan",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Mode",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Pan 1",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Pan 2",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterPan1L",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterPan1R",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeterPan2L",
+     "mapsTo": "MODULE_Meter3"
+    },
+    {
+     "id": 3,
+     "name": "eMeterPan2R",
+     "mapsTo": "MODULE_Meter4"
+    }
+   ]
+  },
+  {
+   "mapName": "XFade",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "0byg",
+   "pluginName": "Modular Pan and X-Fade",
+   "displayName": "Dual X-Fade",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Mode",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Pan 1",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "displayName": "X-Fade 1"
+    },
+    {
+     "id": 2,
+     "name": "Pan 2",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "displayName": "X-Fade 2"
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterPan1L",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterPan1R",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeterPan2L",
+     "mapsTo": "MODULE_Meter3"
+    },
+    {
+     "id": 3,
+     "name": "eMeterPan2R",
+     "mapsTo": "MODULE_Meter4"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,346 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "pluginId": "irvu",
+   "pluginName": "Parallels Shaper",
+   "modularLatencyInSeconds": 0.00072562
+  },
+  {
+   "mapName": "ParallelsShapes",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "irvu",
+   "pluginName": "Parallels Shaper",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Shaper Type",
+     "mapsTo": "MODULE_Param10",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "SVF Frequency",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "SVF Resonance",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "SVF Type",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "RES Center Freq",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "RES Tilt",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "RES Spread",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "LPG Frequency",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "LPG Resonance",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "LPG Slew Rate",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsShapesAmpRoom",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "irvu",
+   "pluginName": "Parallels Shaper",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Shaper Type",
+     "mapsTo": "SUBPLUGIN_Param10",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "SVF Frequency",
+     "mapsTo": "SUBPLUGIN_Param9",
+     "value": 0.5,
+     "virtualInput": 0
+    },
+    {
+     "id": 2,
+     "name": "SVF Resonance",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.5,
+     "virtualInput": 1
+    },
+    {
+     "id": 3,
+     "name": "SVF Type",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.0,
+     "virtualInput": 2
+    },
+    {
+     "id": 4,
+     "name": "RES Center Freq",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.5,
+     "virtualInput": 3
+    },
+    {
+     "id": 5,
+     "name": "RES Tilt",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5,
+     "virtualInput": 4
+    },
+    {
+     "id": 6,
+     "name": "RES Spread",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.5,
+     "virtualInput": 5
+    },
+    {
+     "id": 7,
+     "name": "LPG Frequency",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5,
+     "virtualInput": 6
+    },
+    {
+     "id": 8,
+     "name": "LPG Resonance",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5,
+     "virtualInput": 7
+    },
+    {
+     "id": 9,
+     "name": "LPG Slew Rate",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5,
+     "virtualInput": 8
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsLPG",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "irvu",
+   "pluginName": "Parallels Shaper",
+   "displayName": "Parallels Shape LPG",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Shaper Type",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "SVF Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "SVF Resonance",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "SVF Type",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "RES Center Freq",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "RES Tilt",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "RES Spread",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "LPG Frequency",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "LPG Resonance",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "LPG Slew Rate",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsRES",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "irvu",
+   "pluginName": "Parallels Shaper",
+   "displayName": "Parallels Shape RES",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Shaper Type",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "SVF Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "SVF Resonance",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "SVF Type",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "RES Center Freq",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "RES Tilt",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "RES Spread",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "LPG Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "LPG Resonance",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "LPG Slew Rate",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsSVF",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "irvu",
+   "pluginName": "Parallels Shaper",
+   "displayName": "Parallels Shape SVF",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Shaper Type",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "SVF Frequency",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "SVF Resonance",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "SVF Type",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "RES Center Freq",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "RES Tilt",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "RES Spread",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "LPG Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "LPG Resonance",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "LPG Slew Rate",
+     "value": 0.5
+    }
+   ]
+  }
+ ]
+}

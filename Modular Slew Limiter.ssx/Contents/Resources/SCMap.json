@@ -1,0 +1,78 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "fbbw",
+   "pluginName": "Modular Slew Limiter",
+   "displayName": "Slew Limiter",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Mode",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Time",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Attack",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Release",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterEnvelope"
+    }
+   ]
+  },
+  {
+   "mapName": "EnvFollower",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "fbbw",
+   "pluginName": "Modular Slew Limiter",
+   "displayName": "Envelope Follower",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Mode",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Time",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Attack",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Release",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterEnvelope",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  }
+ ]
+}

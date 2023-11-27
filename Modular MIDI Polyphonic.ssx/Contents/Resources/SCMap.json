@@ -1,0 +1,53 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "wviq",
+   "pluginName": "Modular MIDI Polyphonic",
+   "displayName": "Quadraphonic MIDI to CV",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "MIDI Channel",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Transpose",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Mode",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterGate1",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterGate2",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeterGate3",
+     "mapsTo": "MODULE_Meter3"
+    },
+    {
+     "id": 3,
+     "name": "eMeterGate4",
+     "mapsTo": "MODULE_Meter4"
+    }
+   ]
+  }
+ ]
+}

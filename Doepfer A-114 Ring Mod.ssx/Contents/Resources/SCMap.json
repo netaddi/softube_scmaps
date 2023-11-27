@@ -1,0 +1,18 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "dezz",
+   "pluginName": "Doepfer A-114 Ring Mod",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Param x",
+     "mapsTo": "MODULE_Param1",
+     "value": 1.0
+    }
+   ]
+  }
+ ]
+}

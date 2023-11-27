@@ -1,0 +1,70 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "6lgg",
+   "pluginName": "Modular Clock",
+   "displayName": "DAW Sync",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Tempo",
+     "value": 0.3571429
+    },
+    {
+     "id": 1,
+     "name": "Run",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Sync to DAW",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeter11",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeter14",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeter18",
+     "mapsTo": "MODULE_Meter3"
+    },
+    {
+     "id": 3,
+     "name": "eMeter18T",
+     "mapsTo": "MODULE_Meter4"
+    },
+    {
+     "id": 4,
+     "name": "eMeter116",
+     "mapsTo": "MODULE_Meter5"
+    },
+    {
+     "id": 5,
+     "name": "eMeter132",
+     "mapsTo": "MODULE_Meter6"
+    },
+    {
+     "id": 6,
+     "name": "eMeterReset",
+     "mapsTo": "MODULE_Meter7"
+    },
+    {
+     "id": 7,
+     "name": "eMeterRun",
+     "mapsTo": "MODULE_Meter8"
+    }
+   ]
+  }
+ ]
+}

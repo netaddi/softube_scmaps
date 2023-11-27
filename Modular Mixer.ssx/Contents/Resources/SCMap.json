@@ -1,0 +1,361 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "qa2f",
+   "pluginName": "Modular Mixer",
+   "displayName": "Empty",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Enable",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Mode",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Input 1 (Lin)",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Input 2 (Lin)",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Input 3 (Lin)",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Input 4 (Lin)",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Output (Lin)",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "Alt1",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "qa2f",
+   "pluginName": "Modular Mixer",
+   "displayName": "CV Mix",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Enable",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Mode",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Input 1 (Lin)",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.25,
+     "displayName": "Input 1"
+    },
+    {
+     "id": 3,
+     "name": "Input 2 (Lin)",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.25,
+     "displayName": "Input 2"
+    },
+    {
+     "id": 4,
+     "name": "Input 3 (Lin)",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.25,
+     "displayName": "Input 3"
+    },
+    {
+     "id": 5,
+     "name": "Input 4 (Lin)",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.25,
+     "displayName": "Input 4"
+    },
+    {
+     "id": 6,
+     "name": "Output (Lin)",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.25,
+     "displayName": "Output"
+    },
+    {
+     "id": 7,
+     "name": "Input 1 (Exp)",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Input 2 (Exp)",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Input 3 (Exp)",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Input 4 (Exp)",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Output (Exp)",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "Input 1 (Pol)",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Input 2 (Pol)",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Input 3 (Pol)",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Input 4 (Pol)",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Output (Pol)",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "Alt2",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "qa2f",
+   "pluginName": "Modular Mixer",
+   "displayName": "Audio Mix",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Enable",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Mode",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Input 1 (Lin)",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Input 2 (Lin)",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Input 3 (Lin)",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Input 4 (Lin)",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Output (Lin)",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Input 1 (Exp)",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5,
+     "displayName": "Input 1"
+    },
+    {
+     "id": 8,
+     "name": "Input 2 (Exp)",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5,
+     "displayName": "Input 2"
+    },
+    {
+     "id": 9,
+     "name": "Input 3 (Exp)",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5,
+     "displayName": "Input 3"
+    },
+    {
+     "id": 10,
+     "name": "Input 4 (Exp)",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5,
+     "displayName": "Input 4"
+    },
+    {
+     "id": 11,
+     "name": "Output (Exp)",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.5,
+     "displayName": "Output"
+    },
+    {
+     "id": 12,
+     "name": "Input 1 (Pol)",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Input 2 (Pol)",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Input 3 (Pol)",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Input 4 (Pol)",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Output (Pol)",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "Alt3",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "qa2f",
+   "pluginName": "Modular Mixer",
+   "displayName": "Pol Mix",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Enable",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Mode",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Input 1 (Lin)",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Input 2 (Lin)",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Input 3 (Lin)",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Input 4 (Lin)",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Output (Lin)",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Input 1 (Exp)",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Input 2 (Exp)",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Input 3 (Exp)",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Input 4 (Exp)",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Output (Exp)",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "Input 1 (Pol)",
+     "mapsTo": "MODULE_Param1",
+     "value": 1.0,
+     "displayName": "Input 1"
+    },
+    {
+     "id": 13,
+     "name": "Input 2 (Pol)",
+     "mapsTo": "MODULE_Param2",
+     "value": 1.0,
+     "displayName": "Input 2"
+    },
+    {
+     "id": 14,
+     "name": "Input 3 (Pol)",
+     "mapsTo": "MODULE_Param3",
+     "value": 1.0,
+     "displayName": "Input 3"
+    },
+    {
+     "id": 15,
+     "name": "Input 4 (Pol)",
+     "mapsTo": "MODULE_Param4",
+     "value": 1.0,
+     "displayName": "Input 4"
+    },
+    {
+     "id": 16,
+     "name": "Output (Pol)",
+     "mapsTo": "MODULE_Param5",
+     "value": 1.0,
+     "displayName": "Output"
+    }
+   ]
+  }
+ ]
+}

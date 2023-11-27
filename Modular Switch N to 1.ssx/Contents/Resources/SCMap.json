@@ -1,0 +1,41 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "jdpw",
+   "pluginName": "Modular Switch N to 1",
+   "displayName": "Switch 4 to 1",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Select Input",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterSelected1",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterSelected2",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeterSelected3",
+     "mapsTo": "MODULE_Meter3"
+    },
+    {
+     "id": 3,
+     "name": "eMeterSelected4",
+     "mapsTo": "MODULE_Meter4"
+    }
+   ]
+  }
+ ]
+}

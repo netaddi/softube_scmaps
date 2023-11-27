@@ -1,0 +1,2466 @@
+{
+ "maps": [
+  {
+   "mapName": "ParallelsSource",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "girv",
+   "pluginName": "Parallels",
+   "displayName": "Parallels Source",
+   "modularLatencyInSeconds": 0.00145125,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Mod A Active",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Mod A Type",
+     "value": 0.25
+    },
+    {
+     "id": 2,
+     "name": "Mod A B-Link",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Mod A LFO Rise",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Mod A LFO Shape",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Mod A LFO DAW speed",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Mod A LFO Speed",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Mod A LFO Tempo Sync",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Mod A RND Rain",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Mod A RND Noise",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Mod A RND Wave",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Mod A RND Storm",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "Mod A EUC Fill",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Mod A EUC Steps",
+     "value": 0.4839
+    },
+    {
+     "id": 14,
+     "name": "Mod A EUC Shift",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Mod A EUC Retrig",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Mod A ENV Attack",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Mod A ENV Release",
+     "value": 0.5
+    },
+    {
+     "id": 18,
+     "name": "Mod A ENV Sustain",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Mod A ENV Decay",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Mod A SEQ First Step",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Mod A SEQ Last Step",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Mod A SEQ Slew",
+     "value": 0.0
+    },
+    {
+     "id": 23,
+     "name": "Mod A SEQ Trig",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "Mod A SEQ Step 1 CV",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "Mod A SEQ Step 2 CV",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "Mod A SEQ Step 3 CV",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "Mod A SEQ Step 4 CV",
+     "value": 0.0
+    },
+    {
+     "id": 28,
+     "name": "Mod A SEQ Step 5 CV",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "Mod A SEQ Step 6 CV",
+     "value": 0.0
+    },
+    {
+     "id": 30,
+     "name": "Mod A SEQ Step 7 CV",
+     "value": 0.0
+    },
+    {
+     "id": 31,
+     "name": "Mod A SEQ Step 8 CV",
+     "value": 0.0
+    },
+    {
+     "id": 32,
+     "name": "Mod A SEQ Step 9 CV",
+     "value": 0.0
+    },
+    {
+     "id": 33,
+     "name": "Mod A SEQ Step 10 CV",
+     "value": 0.0
+    },
+    {
+     "id": 34,
+     "name": "Mod A SEQ Step 11 CV",
+     "value": 0.0
+    },
+    {
+     "id": 35,
+     "name": "Mod A SEQ Step 12 CV",
+     "value": 0.0
+    },
+    {
+     "id": 36,
+     "name": "Mod A SEQ Step 13 CV",
+     "value": 0.0
+    },
+    {
+     "id": 37,
+     "name": "Mod A SEQ Step 14 CV",
+     "value": 0.0
+    },
+    {
+     "id": 38,
+     "name": "Mod A SEQ Step 15 CV",
+     "value": 0.0
+    },
+    {
+     "id": 39,
+     "name": "Mod A SEQ Step 16 CV",
+     "value": 0.0
+    },
+    {
+     "id": 40,
+     "name": "Mod A SEQ Step 1 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 41,
+     "name": "Mod A SEQ Step 2 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 42,
+     "name": "Mod A SEQ Step 3 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 43,
+     "name": "Mod A SEQ Step 4 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 44,
+     "name": "Mod A SEQ Step 5 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 45,
+     "name": "Mod A SEQ Step 6 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 46,
+     "name": "Mod A SEQ Step 7 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 47,
+     "name": "Mod A SEQ Step 8 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 48,
+     "name": "Mod A SEQ Step 9 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 49,
+     "name": "Mod A SEQ Step 10 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 50,
+     "name": "Mod A SEQ Step 11 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 51,
+     "name": "Mod A SEQ Step 12 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 52,
+     "name": "Mod A SEQ Step 13 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 53,
+     "name": "Mod A SEQ Step 14 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 54,
+     "name": "Mod A SEQ Step 15 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 55,
+     "name": "Mod A SEQ Step 16 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 56,
+     "name": "Mod B Active",
+     "value": 0.0
+    },
+    {
+     "id": 57,
+     "name": "Mod B Type",
+     "value": 0.75
+    },
+    {
+     "id": 58,
+     "name": "Mod B C-Link",
+     "value": 0.0
+    },
+    {
+     "id": 59,
+     "name": "Mod B LFO Rise",
+     "value": 0.5
+    },
+    {
+     "id": 60,
+     "name": "Mod B LFO Shape",
+     "value": 0.5
+    },
+    {
+     "id": 61,
+     "name": "Mod B LFO DAW speed",
+     "value": 0.0
+    },
+    {
+     "id": 62,
+     "name": "Mod B LFO Speed",
+     "value": 0.0
+    },
+    {
+     "id": 63,
+     "name": "Mod B LFO Tempo Sync",
+     "value": 0.0
+    },
+    {
+     "id": 64,
+     "name": "Mod B RND Rain",
+     "value": 0.5
+    },
+    {
+     "id": 65,
+     "name": "Mod B RND Noise",
+     "value": 0.5
+    },
+    {
+     "id": 66,
+     "name": "Mod B RND Wave",
+     "value": 0.5
+    },
+    {
+     "id": 67,
+     "name": "Mod B RND Storm",
+     "value": 0.0
+    },
+    {
+     "id": 68,
+     "name": "Mod B EUC Fill",
+     "value": 0.5
+    },
+    {
+     "id": 69,
+     "name": "Mod B EUC Steps",
+     "value": 0.4839
+    },
+    {
+     "id": 70,
+     "name": "Mod B EUC Shift",
+     "value": 0.5
+    },
+    {
+     "id": 71,
+     "name": "Mod B EUC Retrig",
+     "value": 0.0
+    },
+    {
+     "id": 72,
+     "name": "Mod B ENV Attack",
+     "value": 0.5
+    },
+    {
+     "id": 73,
+     "name": "Mod B ENV Release",
+     "value": 0.5
+    },
+    {
+     "id": 74,
+     "name": "Mod B ENV Sustain",
+     "value": 0.5
+    },
+    {
+     "id": 75,
+     "name": "Mod B ENV Decay",
+     "value": 0.0
+    },
+    {
+     "id": 76,
+     "name": "Mod B SEQ First Step",
+     "value": 0.0
+    },
+    {
+     "id": 77,
+     "name": "Mod B SEQ Last Step",
+     "value": 1.0
+    },
+    {
+     "id": 78,
+     "name": "Mod B SEQ Slew",
+     "value": 0.0
+    },
+    {
+     "id": 79,
+     "name": "Mod B SEQ Trig",
+     "value": 0.0
+    },
+    {
+     "id": 80,
+     "name": "Mod B SEQ Step 1 CV",
+     "value": 0.0
+    },
+    {
+     "id": 81,
+     "name": "Mod B SEQ Step 2 CV",
+     "value": 0.0
+    },
+    {
+     "id": 82,
+     "name": "Mod B SEQ Step 3 CV",
+     "value": 0.0
+    },
+    {
+     "id": 83,
+     "name": "Mod B SEQ Step 4 CV",
+     "value": 0.0
+    },
+    {
+     "id": 84,
+     "name": "Mod B SEQ Step 5 CV",
+     "value": 0.0
+    },
+    {
+     "id": 85,
+     "name": "Mod B SEQ Step 6 CV",
+     "value": 0.0
+    },
+    {
+     "id": 86,
+     "name": "Mod B SEQ Step 7 CV",
+     "value": 0.0
+    },
+    {
+     "id": 87,
+     "name": "Mod B SEQ Step 8 CV",
+     "value": 0.0
+    },
+    {
+     "id": 88,
+     "name": "Mod B SEQ Step 9 CV",
+     "value": 0.0
+    },
+    {
+     "id": 89,
+     "name": "Mod B SEQ Step 10 CV",
+     "value": 0.0
+    },
+    {
+     "id": 90,
+     "name": "Mod B SEQ Step 11 CV",
+     "value": 0.0
+    },
+    {
+     "id": 91,
+     "name": "Mod B SEQ Step 12 CV",
+     "value": 0.0
+    },
+    {
+     "id": 92,
+     "name": "Mod B SEQ Step 13 CV",
+     "value": 0.0
+    },
+    {
+     "id": 93,
+     "name": "Mod B SEQ Step 14 CV",
+     "value": 0.0
+    },
+    {
+     "id": 94,
+     "name": "Mod B SEQ Step 15 CV",
+     "value": 0.0
+    },
+    {
+     "id": 95,
+     "name": "Mod B SEQ Step 16 CV",
+     "value": 0.0
+    },
+    {
+     "id": 96,
+     "name": "Mod B SEQ Step 1 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 97,
+     "name": "Mod B SEQ Step 2 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 98,
+     "name": "Mod B SEQ Step 3 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 99,
+     "name": "Mod B SEQ Step 4 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 100,
+     "name": "Mod B SEQ Step 5 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 101,
+     "name": "Mod B SEQ Step 6 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 102,
+     "name": "Mod B SEQ Step 7 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 103,
+     "name": "Mod B SEQ Step 8 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 104,
+     "name": "Mod B SEQ Step 9 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 105,
+     "name": "Mod B SEQ Step 10 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 106,
+     "name": "Mod B SEQ Step 11 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 107,
+     "name": "Mod B SEQ Step 12 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 108,
+     "name": "Mod B SEQ Step 13 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 109,
+     "name": "Mod B SEQ Step 14 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 110,
+     "name": "Mod B SEQ Step 15 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 111,
+     "name": "Mod B SEQ Step 16 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 112,
+     "name": "Mod C Active",
+     "value": 0.0
+    },
+    {
+     "id": 113,
+     "name": "Mod C Type",
+     "value": 0.0
+    },
+    {
+     "id": 114,
+     "name": "Mod C D-Link",
+     "value": 0.0
+    },
+    {
+     "id": 115,
+     "name": "Mod C LFO Rise",
+     "value": 0.5
+    },
+    {
+     "id": 116,
+     "name": "Mod C LFO Shape",
+     "value": 0.5
+    },
+    {
+     "id": 117,
+     "name": "Mod C LFO DAW speed",
+     "value": 0.0
+    },
+    {
+     "id": 118,
+     "name": "Mod C LFO Speed",
+     "value": 0.0
+    },
+    {
+     "id": 119,
+     "name": "Mod C LFO Tempo Sync",
+     "value": 0.0
+    },
+    {
+     "id": 120,
+     "name": "Mod C RND Rain",
+     "value": 0.5
+    },
+    {
+     "id": 121,
+     "name": "Mod C RND Noise",
+     "value": 0.5
+    },
+    {
+     "id": 122,
+     "name": "Mod C RND Wave",
+     "value": 0.5
+    },
+    {
+     "id": 123,
+     "name": "Mod C RND Storm",
+     "value": 0.0
+    },
+    {
+     "id": 124,
+     "name": "Mod C EUC Fill",
+     "value": 0.5
+    },
+    {
+     "id": 125,
+     "name": "Mod C EUC Steps",
+     "value": 0.4839
+    },
+    {
+     "id": 126,
+     "name": "Mod C EUC Shift",
+     "value": 0.5
+    },
+    {
+     "id": 127,
+     "name": "Mod C EUC Retrig",
+     "value": 0.0
+    },
+    {
+     "id": 128,
+     "name": "Mod C ENV Attack",
+     "value": 0.5
+    },
+    {
+     "id": 129,
+     "name": "Mod C ENV Release",
+     "value": 0.5
+    },
+    {
+     "id": 130,
+     "name": "Mod C ENV Sustain",
+     "value": 0.5
+    },
+    {
+     "id": 131,
+     "name": "Mod C ENV Decay",
+     "value": 0.0
+    },
+    {
+     "id": 132,
+     "name": "Mod C SEQ First Step",
+     "value": 0.0
+    },
+    {
+     "id": 133,
+     "name": "Mod C SEQ Last Step",
+     "value": 1.0
+    },
+    {
+     "id": 134,
+     "name": "Mod C SEQ Slew",
+     "value": 0.0
+    },
+    {
+     "id": 135,
+     "name": "Mod C SEQ Trig",
+     "value": 0.0
+    },
+    {
+     "id": 136,
+     "name": "Mod C SEQ Step 1 CV",
+     "value": 0.0
+    },
+    {
+     "id": 137,
+     "name": "Mod C SEQ Step 2 CV",
+     "value": 0.0
+    },
+    {
+     "id": 138,
+     "name": "Mod C SEQ Step 3 CV",
+     "value": 0.0
+    },
+    {
+     "id": 139,
+     "name": "Mod C SEQ Step 4 CV",
+     "value": 0.0
+    },
+    {
+     "id": 140,
+     "name": "Mod C SEQ Step 5 CV",
+     "value": 0.0
+    },
+    {
+     "id": 141,
+     "name": "Mod C SEQ Step 6 CV",
+     "value": 0.0
+    },
+    {
+     "id": 142,
+     "name": "Mod C SEQ Step 7 CV",
+     "value": 0.0
+    },
+    {
+     "id": 143,
+     "name": "Mod C SEQ Step 8 CV",
+     "value": 0.0
+    },
+    {
+     "id": 144,
+     "name": "Mod C SEQ Step 9 CV",
+     "value": 0.0
+    },
+    {
+     "id": 145,
+     "name": "Mod C SEQ Step 10 CV",
+     "value": 0.0
+    },
+    {
+     "id": 146,
+     "name": "Mod C SEQ Step 11 CV",
+     "value": 0.0
+    },
+    {
+     "id": 147,
+     "name": "Mod C SEQ Step 12 CV",
+     "value": 0.0
+    },
+    {
+     "id": 148,
+     "name": "Mod C SEQ Step 13 CV",
+     "value": 0.0
+    },
+    {
+     "id": 149,
+     "name": "Mod C SEQ Step 14 CV",
+     "value": 0.0
+    },
+    {
+     "id": 150,
+     "name": "Mod C SEQ Step 15 CV",
+     "value": 0.0
+    },
+    {
+     "id": 151,
+     "name": "Mod C SEQ Step 16 CV",
+     "value": 0.0
+    },
+    {
+     "id": 152,
+     "name": "Mod C SEQ Step 1 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 153,
+     "name": "Mod C SEQ Step 2 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 154,
+     "name": "Mod C SEQ Step 3 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 155,
+     "name": "Mod C SEQ Step 4 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 156,
+     "name": "Mod C SEQ Step 5 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 157,
+     "name": "Mod C SEQ Step 6 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 158,
+     "name": "Mod C SEQ Step 7 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 159,
+     "name": "Mod C SEQ Step 8 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 160,
+     "name": "Mod C SEQ Step 9 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 161,
+     "name": "Mod C SEQ Step 10 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 162,
+     "name": "Mod C SEQ Step 11 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 163,
+     "name": "Mod C SEQ Step 12 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 164,
+     "name": "Mod C SEQ Step 13 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 165,
+     "name": "Mod C SEQ Step 14 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 166,
+     "name": "Mod C SEQ Step 15 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 167,
+     "name": "Mod C SEQ Step 16 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 168,
+     "name": "Mod D Active",
+     "value": 0.0
+    },
+    {
+     "id": 169,
+     "name": "Mod D Type",
+     "value": 1.0
+    },
+    {
+     "id": 170,
+     "name": "Mod D A-Link",
+     "value": 0.0
+    },
+    {
+     "id": 171,
+     "name": "Mod D LFO Rise",
+     "value": 0.5
+    },
+    {
+     "id": 172,
+     "name": "Mod D LFO Shape",
+     "value": 0.5
+    },
+    {
+     "id": 173,
+     "name": "Mod D LFO DAW speed",
+     "value": 0.0
+    },
+    {
+     "id": 174,
+     "name": "Mod D LFO Speed",
+     "value": 0.0
+    },
+    {
+     "id": 175,
+     "name": "Mod D LFO Tempo Sync",
+     "value": 0.0
+    },
+    {
+     "id": 176,
+     "name": "Mod D RND Rain",
+     "value": 0.5
+    },
+    {
+     "id": 177,
+     "name": "Mod D RND Noise",
+     "value": 0.5
+    },
+    {
+     "id": 178,
+     "name": "Mod D RND Wave",
+     "value": 0.5
+    },
+    {
+     "id": 179,
+     "name": "Mod D RND Storm",
+     "value": 0.0
+    },
+    {
+     "id": 180,
+     "name": "Mod D EUC Fill",
+     "value": 0.5
+    },
+    {
+     "id": 181,
+     "name": "Mod D EUC Steps",
+     "value": 0.4839
+    },
+    {
+     "id": 182,
+     "name": "Mod D EUC Shift",
+     "value": 0.5
+    },
+    {
+     "id": 183,
+     "name": "Mod D EUC Retrig",
+     "value": 0.0
+    },
+    {
+     "id": 184,
+     "name": "Mod D ENV Attack",
+     "value": 0.5
+    },
+    {
+     "id": 185,
+     "name": "Mod D ENV Release",
+     "value": 0.5
+    },
+    {
+     "id": 186,
+     "name": "Mod D ENV Sustain",
+     "value": 0.5
+    },
+    {
+     "id": 187,
+     "name": "Mod D ENV Decay",
+     "value": 0.0
+    },
+    {
+     "id": 188,
+     "name": "Mod D SEQ First Step",
+     "value": 0.0
+    },
+    {
+     "id": 189,
+     "name": "Mod D SEQ Last Step",
+     "value": 1.0
+    },
+    {
+     "id": 190,
+     "name": "Mod D SEQ Slew",
+     "value": 0.0
+    },
+    {
+     "id": 191,
+     "name": "Mod D SEQ Trig",
+     "value": 0.0
+    },
+    {
+     "id": 192,
+     "name": "Mod D SEQ Step 1 CV",
+     "value": 0.0
+    },
+    {
+     "id": 193,
+     "name": "Mod D SEQ Step 2 CV",
+     "value": 0.0
+    },
+    {
+     "id": 194,
+     "name": "Mod D SEQ Step 3 CV",
+     "value": 0.0
+    },
+    {
+     "id": 195,
+     "name": "Mod D SEQ Step 4 CV",
+     "value": 0.0
+    },
+    {
+     "id": 196,
+     "name": "Mod D SEQ Step 5 CV",
+     "value": 0.0
+    },
+    {
+     "id": 197,
+     "name": "Mod D SEQ Step 6 CV",
+     "value": 0.0
+    },
+    {
+     "id": 198,
+     "name": "Mod D SEQ Step 7 CV",
+     "value": 0.0
+    },
+    {
+     "id": 199,
+     "name": "Mod D SEQ Step 8 CV",
+     "value": 0.0
+    },
+    {
+     "id": 200,
+     "name": "Mod D SEQ Step 9 CV",
+     "value": 0.0
+    },
+    {
+     "id": 201,
+     "name": "Mod D SEQ Step 10 CV",
+     "value": 0.0
+    },
+    {
+     "id": 202,
+     "name": "Mod D SEQ Step 11 CV",
+     "value": 0.0
+    },
+    {
+     "id": 203,
+     "name": "Mod D SEQ Step 12 CV",
+     "value": 0.0
+    },
+    {
+     "id": 204,
+     "name": "Mod D SEQ Step 13 CV",
+     "value": 0.0
+    },
+    {
+     "id": 205,
+     "name": "Mod D SEQ Step 14 CV",
+     "value": 0.0
+    },
+    {
+     "id": 206,
+     "name": "Mod D SEQ Step 15 CV",
+     "value": 0.0
+    },
+    {
+     "id": 207,
+     "name": "Mod D SEQ Step 16 CV",
+     "value": 0.0
+    },
+    {
+     "id": 208,
+     "name": "Mod D SEQ Step 1 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 209,
+     "name": "Mod D SEQ Step 2 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 210,
+     "name": "Mod D SEQ Step 3 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 211,
+     "name": "Mod D SEQ Step 4 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 212,
+     "name": "Mod D SEQ Step 5 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 213,
+     "name": "Mod D SEQ Step 6 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 214,
+     "name": "Mod D SEQ Step 7 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 215,
+     "name": "Mod D SEQ Step 8 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 216,
+     "name": "Mod D SEQ Step 9 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 217,
+     "name": "Mod D SEQ Step 10 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 218,
+     "name": "Mod D SEQ Step 11 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 219,
+     "name": "Mod D SEQ Step 12 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 220,
+     "name": "Mod D SEQ Step 13 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 221,
+     "name": "Mod D SEQ Step 14 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 222,
+     "name": "Mod D SEQ Step 15 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 223,
+     "name": "Mod D SEQ Step 16 Trig",
+     "value": 0.0
+    },
+    {
+     "id": 224,
+     "name": "Src 1 Active",
+     "value": 1.0
+    },
+    {
+     "id": 225,
+     "name": "Src 1 Map",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.002
+    },
+    {
+     "id": 226,
+     "name": "Src 1 Amplitude Attack",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.0,
+     "virtualInput": 0
+    },
+    {
+     "id": 227,
+     "name": "Src 1 Amplitude Sustain",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5,
+     "virtualInput": 1
+    },
+    {
+     "id": 228,
+     "name": "Src 1 Amplitude Release",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5,
+     "virtualInput": 2
+    },
+    {
+     "id": 229,
+     "name": "Src 1 Color Movement Attack",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.5,
+     "virtualInput": 3
+    },
+    {
+     "id": 230,
+     "name": "Src 1 Color Movement Decay",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.5,
+     "virtualInput": 4
+    },
+    {
+     "id": 231,
+     "name": "Src 1 Color Movement Amount",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.5,
+     "virtualInput": 5
+    },
+    {
+     "id": 232,
+     "name": "Src 1 Octave",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.5,
+     "virtualInput": 6
+    },
+    {
+     "id": 233,
+     "name": "Src 1 Pitch",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.5,
+     "virtualInput": 7
+    },
+    {
+     "id": 234,
+     "name": "Src 1 Pitch Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 235,
+     "name": "Src 1 Pitch Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 236,
+     "name": "Src 1 Pitch Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 237,
+     "name": "Src 1 Pitch Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 238,
+     "name": "Src 1 Color",
+     "mapsTo": "MODULE_Param10",
+     "value": 0.5,
+     "virtualInput": 8
+    },
+    {
+     "id": 239,
+     "name": "Src 1 Color Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 240,
+     "name": "Src 1 Color Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 241,
+     "name": "Src 1 Color Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 242,
+     "name": "Src 1 Color Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 243,
+     "name": "Src 1 Oneshot",
+     "mapsTo": "MODULE_Param11",
+     "value": 0.0
+    },
+    {
+     "id": 244,
+     "name": "Src 1 Vibrato",
+     "mapsTo": "MODULE_Param12",
+     "value": 0.0
+    },
+    {
+     "id": 245,
+     "name": "Src 2 Active",
+     "value": 0.0
+    },
+    {
+     "id": 246,
+     "name": "Src 2 Map",
+     "value": 0.027
+    },
+    {
+     "id": 247,
+     "name": "Src 2 Amplitude Attack",
+     "value": 0.0
+    },
+    {
+     "id": 248,
+     "name": "Src 2 Amplitude Sustain",
+     "value": 0.5
+    },
+    {
+     "id": 249,
+     "name": "Src 2 Amplitude Release",
+     "value": 0.5
+    },
+    {
+     "id": 250,
+     "name": "Src 2 Color Movement Attack",
+     "value": 0.5
+    },
+    {
+     "id": 251,
+     "name": "Src 2 Color Movement Decay",
+     "value": 0.5
+    },
+    {
+     "id": 252,
+     "name": "Src 2 Color Movement Amount",
+     "value": 0.5
+    },
+    {
+     "id": 253,
+     "name": "Src 2 Octave",
+     "value": 0.5
+    },
+    {
+     "id": 254,
+     "name": "Src 2 Pitch",
+     "value": 0.5
+    },
+    {
+     "id": 255,
+     "name": "Src 2 Pitch Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 256,
+     "name": "Src 2 Pitch Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 257,
+     "name": "Src 2 Pitch Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 258,
+     "name": "Src 2 Pitch Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 259,
+     "name": "Src 2 Color",
+     "value": 0.5
+    },
+    {
+     "id": 260,
+     "name": "Src 2 Color Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 261,
+     "name": "Src 2 Color Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 262,
+     "name": "Src 2 Color Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 263,
+     "name": "Src 2 Color Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 264,
+     "name": "Src 2 Oneshot",
+     "value": 0.0
+    },
+    {
+     "id": 265,
+     "name": "Src 2 Vibrato",
+     "value": 0.0
+    },
+    {
+     "id": 266,
+     "name": "Src Mix",
+     "value": 0.0
+    },
+    {
+     "id": 267,
+     "name": "Src Mix Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 268,
+     "name": "Src Mix Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 269,
+     "name": "Src Mix Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 270,
+     "name": "Src Mix Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 271,
+     "name": "Shaper 1 Active",
+     "value": 0.0
+    },
+    {
+     "id": 272,
+     "name": "Shaper 1 Type",
+     "value": 0.5
+    },
+    {
+     "id": 273,
+     "name": "Shaper 1 SVF Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 274,
+     "name": "Shaper 1 SVF Frequency Mod Amount",
+     "value": 0.5
+    },
+    {
+     "id": 275,
+     "name": "Shaper 1 SVF Frequency Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 276,
+     "name": "Shaper 1 SVF Frequency Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 277,
+     "name": "Shaper 1 SVF Frequency Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 278,
+     "name": "Shaper 1 SVF Resonance",
+     "value": 0.5
+    },
+    {
+     "id": 279,
+     "name": "Shaper 1 SVF Resonance Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 280,
+     "name": "Shaper 1 SVF Resonance Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 281,
+     "name": "Shaper 1 SVF Resonance Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 282,
+     "name": "Shaper 1 SVF Resonance Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 283,
+     "name": "Shaper 1 SVF Type",
+     "value": 0.0
+    },
+    {
+     "id": 284,
+     "name": "Shaper 1 SVF Type Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 285,
+     "name": "Shaper 1 SVF Type Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 286,
+     "name": "Shaper 1 SVF Type Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 287,
+     "name": "Shaper 1 SVF Type Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 288,
+     "name": "Shaper 1 RES Center Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 289,
+     "name": "Shaper 1 RES Center Frequency Mod Amount",
+     "value": 0.5
+    },
+    {
+     "id": 290,
+     "name": "Shaper 1 RES Center Frequency Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 291,
+     "name": "Shaper 1 RES Center Frequency Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 292,
+     "name": "Shaper 1 RES Center Frequency Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 293,
+     "name": "Shaper 1 RES Tilt",
+     "value": 0.5
+    },
+    {
+     "id": 294,
+     "name": "Shaper 1 RES Tilt Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 295,
+     "name": "Shaper 1 RES Tilt Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 296,
+     "name": "Shaper 1 RES Tilt Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 297,
+     "name": "Shaper 1 RES Tilt Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 298,
+     "name": "Shaper 1 RES Spread",
+     "value": 0.5
+    },
+    {
+     "id": 299,
+     "name": "Shaper 1 RES Spread Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 300,
+     "name": "Shaper 1 RES Spread Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 301,
+     "name": "Shaper 1 RES Spread Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 302,
+     "name": "Shaper 1 RES Spread Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 303,
+     "name": "Shaper 1 LPG Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 304,
+     "name": "Shaper 1 LPG Frequency Mod Amount",
+     "value": 0.5
+    },
+    {
+     "id": 305,
+     "name": "Shaper 1 LPG Frequency Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 306,
+     "name": "Shaper 1 LPG Frequency Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 307,
+     "name": "Shaper 1 LPG Frequency Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 308,
+     "name": "Shaper 1 LPG Resonance",
+     "value": 0.5
+    },
+    {
+     "id": 309,
+     "name": "Shaper 1 LPG Resonance Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 310,
+     "name": "Shaper 1 LPG Resonance Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 311,
+     "name": "Shaper 1 LPG Resonance Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 312,
+     "name": "Shaper 1 LPG Resonance Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 313,
+     "name": "Shaper 1 LPG Slew Rate",
+     "value": 0.5
+    },
+    {
+     "id": 314,
+     "name": "Shaper 1 LPG Slew Rate Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 315,
+     "name": "Shaper 1 LPG Slew Rate Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 316,
+     "name": "Shaper 1 LPG Slew Rate Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 317,
+     "name": "Shaper 1 LPG Slew Rate Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 318,
+     "name": "Shaper 2 Active",
+     "value": 0.0
+    },
+    {
+     "id": 319,
+     "name": "Shaper 2 Type",
+     "value": 1.0
+    },
+    {
+     "id": 320,
+     "name": "Shaper 2 SVF Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 321,
+     "name": "Shaper 2 SVF Frequency Mod Amount",
+     "value": 0.5
+    },
+    {
+     "id": 322,
+     "name": "Shaper 2 SVF Frequency Mod 1",
+     "value": 0.75
+    },
+    {
+     "id": 323,
+     "name": "Shaper 2 SVF Frequency Mod 2",
+     "value": 1.0
+    },
+    {
+     "id": 324,
+     "name": "Shaper 2 SVF Frequency Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 325,
+     "name": "Shaper 2 SVF Resonance",
+     "value": 0.5
+    },
+    {
+     "id": 326,
+     "name": "Shaper 2 SVF Resonance Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 327,
+     "name": "Shaper 2 SVF Resonance Mod 1",
+     "value": 0.75
+    },
+    {
+     "id": 328,
+     "name": "Shaper 2 SVF Resonance Mod 2",
+     "value": 1.0
+    },
+    {
+     "id": 329,
+     "name": "Shaper 2 SVF Resonance Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 330,
+     "name": "Shaper 2 SVF Type",
+     "value": 0.0
+    },
+    {
+     "id": 331,
+     "name": "Shaper 2 SVF Type Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 332,
+     "name": "Shaper 2 SVF Type Mod 1",
+     "value": 0.75
+    },
+    {
+     "id": 333,
+     "name": "Shaper 2 SVF Type Mod 2",
+     "value": 1.0
+    },
+    {
+     "id": 334,
+     "name": "Shaper 2 SVF Type Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 335,
+     "name": "Shaper 2 RES Center Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 336,
+     "name": "Shaper 2 RES Center Frequency Mod Amount",
+     "value": 0.5
+    },
+    {
+     "id": 337,
+     "name": "Shaper 2 RES Center Frequency Mod 1",
+     "value": 0.75
+    },
+    {
+     "id": 338,
+     "name": "Shaper 2 RES Center Frequency Mod 2",
+     "value": 1.0
+    },
+    {
+     "id": 339,
+     "name": "Shaper 2 RES Center Frequency Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 340,
+     "name": "Shaper 2 RES Tilt",
+     "value": 0.5
+    },
+    {
+     "id": 341,
+     "name": "Shaper 2 RES Tilt Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 342,
+     "name": "Shaper 2 RES Tilt Mod 1",
+     "value": 0.75
+    },
+    {
+     "id": 343,
+     "name": "Shaper 2 RES Tilt Mod 2",
+     "value": 1.0
+    },
+    {
+     "id": 344,
+     "name": "Shaper 2 RES Tilt Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 345,
+     "name": "Shaper 2 RES Spread",
+     "value": 0.5
+    },
+    {
+     "id": 346,
+     "name": "Shaper 2 RES Spread Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 347,
+     "name": "Shaper 2 RES Spread Mod 1",
+     "value": 0.75
+    },
+    {
+     "id": 348,
+     "name": "Shaper 2 RES Spread Mod 2",
+     "value": 1.0
+    },
+    {
+     "id": 349,
+     "name": "Shaper 2 RES Spread Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 350,
+     "name": "Shaper 2 LPG Frequency",
+     "value": 0.5
+    },
+    {
+     "id": 351,
+     "name": "Shaper 2 LPG Frequency Mod Amount",
+     "value": 0.5
+    },
+    {
+     "id": 352,
+     "name": "Shaper 2 LPG Frequency Mod 1",
+     "value": 0.75
+    },
+    {
+     "id": 353,
+     "name": "Shaper 2 LPG Frequency Mod 2",
+     "value": 1.0
+    },
+    {
+     "id": 354,
+     "name": "Shaper 2 LPG Frequency Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 355,
+     "name": "Shaper 2 LPG Resonance",
+     "value": 0.5
+    },
+    {
+     "id": 356,
+     "name": "Shaper 2 LPG Resonance Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 357,
+     "name": "Shaper 2 LPG Resonance Mod 1",
+     "value": 0.75
+    },
+    {
+     "id": 358,
+     "name": "Shaper 2 LPG Resonance Mod 2",
+     "value": 1.0
+    },
+    {
+     "id": 359,
+     "name": "Shaper 2 LPG Resonance Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 360,
+     "name": "Shaper 2 LPG Slew Rate",
+     "value": 0.5
+    },
+    {
+     "id": 361,
+     "name": "Shaper 2 LPG Slew Rate Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 362,
+     "name": "Shaper 2 LPG Slew Rate Mod 1",
+     "value": 0.75
+    },
+    {
+     "id": 363,
+     "name": "Shaper 2 LPG Slew Rate Mod 2",
+     "value": 1.0
+    },
+    {
+     "id": 364,
+     "name": "Shaper 2 LPG Slew Rate Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 365,
+     "name": "Distortion Active",
+     "value": 0.0
+    },
+    {
+     "id": 366,
+     "name": "Distortion Amount",
+     "value": 0.5
+    },
+    {
+     "id": 367,
+     "name": "Distortion Amount Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 368,
+     "name": "Distortion Amount Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 369,
+     "name": "Distortion Amount Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 370,
+     "name": "Distortion Amount Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 371,
+     "name": "Distortion Tone",
+     "value": 0.5
+    },
+    {
+     "id": 372,
+     "name": "Distortion Tone Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 373,
+     "name": "Distortion Tone Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 374,
+     "name": "Distortion Tone Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 375,
+     "name": "Distortion Tone Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 376,
+     "name": "Distortion Mix",
+     "value": 1.0
+    },
+    {
+     "id": 377,
+     "name": "Distortion Mix Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 378,
+     "name": "Distortion Mix Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 379,
+     "name": "Distortion Mix Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 380,
+     "name": "Distortion Mix Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 381,
+     "name": "Chorus Active",
+     "value": 0.0
+    },
+    {
+     "id": 382,
+     "name": "Chorus Speed",
+     "value": 0.5
+    },
+    {
+     "id": 383,
+     "name": "Chorus Speed Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 384,
+     "name": "Chorus Speed Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 385,
+     "name": "Chorus Speed Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 386,
+     "name": "Chorus Speed Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 387,
+     "name": "Chorus Width",
+     "value": 0.5
+    },
+    {
+     "id": 388,
+     "name": "Chorus Width Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 389,
+     "name": "Chorus Width Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 390,
+     "name": "Chorus Width Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 391,
+     "name": "Chorus Width Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 392,
+     "name": "Chorus Mix",
+     "value": 1.0
+    },
+    {
+     "id": 393,
+     "name": "Chorus Mix Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 394,
+     "name": "Chorus Mix Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 395,
+     "name": "Chorus Mix Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 396,
+     "name": "Chorus Mix Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 397,
+     "name": "Flanger Active",
+     "value": 0.0
+    },
+    {
+     "id": 398,
+     "name": "Flanger Speed",
+     "value": 0.5
+    },
+    {
+     "id": 399,
+     "name": "Flanger Speed Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 400,
+     "name": "Flanger Speed Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 401,
+     "name": "Flanger Speed Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 402,
+     "name": "Flanger Speed Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 403,
+     "name": "Flanger Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 404,
+     "name": "Flanger Feedback Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 405,
+     "name": "Flanger Feedback Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 406,
+     "name": "Flanger Feedback Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 407,
+     "name": "Flanger Feedback Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 408,
+     "name": "Flanger Mix",
+     "value": 1.0
+    },
+    {
+     "id": 409,
+     "name": "Flanger Mix Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 410,
+     "name": "Flanger Mix Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 411,
+     "name": "Flanger Mix Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 412,
+     "name": "Flanger Mix Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 413,
+     "name": "Delay Active",
+     "value": 0.0
+    },
+    {
+     "id": 414,
+     "name": "Delay Time",
+     "value": 0.5
+    },
+    {
+     "id": 415,
+     "name": "Delay Time Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 416,
+     "name": "Delay Time Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 417,
+     "name": "Delay Time Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 418,
+     "name": "Delay Time Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 419,
+     "name": "Delay Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 420,
+     "name": "Delay Feedback Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 421,
+     "name": "Delay Feedback Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 422,
+     "name": "Delay Feedback Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 423,
+     "name": "Delay Feedback Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 424,
+     "name": "Delay Mix",
+     "value": 0.4
+    },
+    {
+     "id": 425,
+     "name": "Delay Mix Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 426,
+     "name": "Delay Mix Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 427,
+     "name": "Delay Mix Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 428,
+     "name": "Delay Mix Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 429,
+     "name": "Reverb Active",
+     "value": 0.0
+    },
+    {
+     "id": 430,
+     "name": "Reverb Time",
+     "value": 0.5
+    },
+    {
+     "id": 431,
+     "name": "Reverb Time Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 432,
+     "name": "Reverb Time Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 433,
+     "name": "Reverb Time Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 434,
+     "name": "Reverb Time Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 435,
+     "name": "Reverb Tone",
+     "value": 0.5
+    },
+    {
+     "id": 436,
+     "name": "Reverb Tone Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 437,
+     "name": "Reverb Tone Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 438,
+     "name": "Reverb Tone Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 439,
+     "name": "Reverb Tone Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 440,
+     "name": "Reverb Mix",
+     "value": 0.3
+    },
+    {
+     "id": 441,
+     "name": "Reverb Mix Mod Amount",
+     "value": 0.0
+    },
+    {
+     "id": 442,
+     "name": "Reverb Mix Mod 1",
+     "value": 0.25
+    },
+    {
+     "id": 443,
+     "name": "Reverb Mix Mod 2",
+     "value": 0.5
+    },
+    {
+     "id": 444,
+     "name": "Reverb Mix Mod Mix",
+     "value": 0.5
+    },
+    {
+     "id": 445,
+     "name": "Output Volume",
+     "value": 0.5
+    },
+    {
+     "id": 446,
+     "name": "Velocity",
+     "value": 1.0
+    },
+    {
+     "id": 447,
+     "name": "MIDI Channel",
+     "mapsTo": "MODULE_Param13",
+     "value": 0.059,
+     "isMidiChannel": true
+    },
+    {
+     "id": 448,
+     "name": "CV Gate",
+     "mapsTo": "MODULE_Param14",
+     "value": 0.0,
+     "virtualInput": 9,
+     "isMidiCvGate": true
+    },
+    {
+     "id": 449,
+     "name": "CV Note",
+     "mapsTo": "MODULE_Param15",
+     "value": 0.0,
+     "virtualInput": 10,
+     "isMidiCvNote": true
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterModARNDWave"
+    },
+    {
+     "id": 1,
+     "name": "eMeterModAEUCPlay"
+    },
+    {
+     "id": 2,
+     "name": "eMeterModAEUCActiveSequence"
+    },
+    {
+     "id": 3,
+     "name": "eMeterModASEQPlay"
+    },
+    {
+     "id": 4,
+     "name": "eMeterModBRNDWave"
+    },
+    {
+     "id": 5,
+     "name": "eMeterModBEUCPlay"
+    },
+    {
+     "id": 6,
+     "name": "eMeterModBEUCActiveSequence"
+    },
+    {
+     "id": 7,
+     "name": "eMeterModBSEQPlay"
+    },
+    {
+     "id": 8,
+     "name": "eMeterModCRNDWave"
+    },
+    {
+     "id": 9,
+     "name": "eMeterModCEUCPlay"
+    },
+    {
+     "id": 10,
+     "name": "eMeterModCEUCActiveSequence"
+    },
+    {
+     "id": 11,
+     "name": "eMeterModCSEQPlay"
+    },
+    {
+     "id": 12,
+     "name": "eMeterModDRNDWave"
+    },
+    {
+     "id": 13,
+     "name": "eMeterModDEUCPlay"
+    },
+    {
+     "id": 14,
+     "name": "eMeterModDEUCActiveSequence"
+    },
+    {
+     "id": 15,
+     "name": "eMeterModDSEQPlay"
+    },
+    {
+     "id": 16,
+     "name": "eMeterSrc1MapLevel",
+     "mapsTo": "MODULE_Meter3"
+    },
+    {
+     "id": 17,
+     "name": "eMeterSrc1MapStartPosition",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 18,
+     "name": "eMeterSrc1MapPlayPosition",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 19,
+     "name": "eMeterSrc2MapLevel"
+    },
+    {
+     "id": 20,
+     "name": "eMeterSrc2MapStartPosition"
+    },
+    {
+     "id": 21,
+     "name": "eMeterSrc2MapPlayPosition"
+    },
+    {
+     "id": 22,
+     "name": "eMeterDistortion"
+    },
+    {
+     "id": 23,
+     "name": "eMeterChorus"
+    },
+    {
+     "id": 24,
+     "name": "eMeterFlanger"
+    },
+    {
+     "id": 25,
+     "name": "eMeterDelay"
+    },
+    {
+     "id": 26,
+     "name": "eMeterReverb"
+    },
+    {
+     "id": 27,
+     "name": "eMeterOutL"
+    },
+    {
+     "id": 28,
+     "name": "eMeterOutR"
+    },
+    {
+     "id": 29,
+     "name": "eMeterSrcMixModulation"
+    },
+    {
+     "id": 30,
+     "name": "eMeterModulationA"
+    },
+    {
+     "id": 31,
+     "name": "eMeterModulationB"
+    },
+    {
+     "id": 32,
+     "name": "eMeterModulationC"
+    },
+    {
+     "id": 33,
+     "name": "eMeterModulationD"
+    },
+    {
+     "id": 34,
+     "name": "eMeterModulationEnvelopeA1"
+    },
+    {
+     "id": 35,
+     "name": "eMeterModulationEnvelopeA2"
+    },
+    {
+     "id": 36,
+     "name": "eMeterModulationEnvelopeB1"
+    },
+    {
+     "id": 37,
+     "name": "eMeterModulationEnvelopeB2"
+    },
+    {
+     "id": 38,
+     "name": "eMeterModulationEnvelopeC1"
+    },
+    {
+     "id": 39,
+     "name": "eMeterModulationEnvelopeC2"
+    },
+    {
+     "id": 40,
+     "name": "eMeterModulationEnvelopeD1"
+    },
+    {
+     "id": 41,
+     "name": "eMeterModulationEnvelopeD2"
+    }
+   ]
+  }
+ ]
+}

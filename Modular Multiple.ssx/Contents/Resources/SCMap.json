@@ -1,0 +1,18 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "dsbo",
+   "pluginName": "Modular Multiple",
+   "displayName": "Multiple",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Dummy",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

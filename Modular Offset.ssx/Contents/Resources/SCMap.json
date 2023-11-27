@@ -1,0 +1,67 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "sx8d",
+   "pluginName": "Modular Offset",
+   "displayName": "Offset",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Offset 1",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Offset 2",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Offset 3",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Offset 4",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "Quad",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "sx8d",
+   "pluginName": "Modular Offset",
+   "displayName": "Quad Offset",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Offset 1",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Offset 2",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Offset 3",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Offset 4",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5
+    }
+   ]
+  }
+ ]
+}

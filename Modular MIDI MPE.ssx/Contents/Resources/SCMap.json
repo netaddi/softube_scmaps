@@ -1,0 +1,93 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "lja8",
+   "pluginName": "Modular MIDI MPE",
+   "displayName": "ROLI Seaboard RISE",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Glide to Note",
+     "mapsTo": "MODULE_Param1",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Mode",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterGate1"
+    },
+    {
+     "id": 1,
+     "name": "eMeterGate2"
+    },
+    {
+     "id": 2,
+     "name": "eMeterGate3"
+    },
+    {
+     "id": 3,
+     "name": "eMeterGate4"
+    },
+    {
+     "id": 4,
+     "name": "eMeterGateALL",
+     "mapsTo": "MODULE_Meter5"
+    },
+    {
+     "id": 5,
+     "name": "eMeterCV1",
+     "mapsTo": "MODULE_Meter6"
+    },
+    {
+     "id": 6,
+     "name": "eMeterCV2",
+     "mapsTo": "MODULE_Meter7"
+    },
+    {
+     "id": 7,
+     "name": "eMeterCV3",
+     "mapsTo": "MODULE_Meter8"
+    },
+    {
+     "id": 8,
+     "name": "eMeterCVX",
+     "mapsTo": "MODULE_Meter9"
+    },
+    {
+     "id": 9,
+     "name": "eMeterCVY",
+     "mapsTo": "MODULE_Meter10"
+    },
+    {
+     "id": 10,
+     "name": "eMeterPress1",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 11,
+     "name": "eMeterPress2",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 12,
+     "name": "eMeterPress3",
+     "mapsTo": "MODULE_Meter3"
+    },
+    {
+     "id": 13,
+     "name": "eMeterPress4",
+     "mapsTo": "MODULE_Meter4"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "yt3o",
+   "pluginName": "Modular Divider",
+   "displayName": "Clock Divider",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Divide",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterDivideOut",
+     "mapsTo": "MODULE_Meter1"
+    },
+    {
+     "id": 1,
+     "name": "eMeter2",
+     "mapsTo": "MODULE_Meter2"
+    },
+    {
+     "id": 2,
+     "name": "eMeter3",
+     "mapsTo": "MODULE_Meter3"
+    },
+    {
+     "id": 3,
+     "name": "eMeter4",
+     "mapsTo": "MODULE_Meter4"
+    },
+    {
+     "id": 4,
+     "name": "eMeter8",
+     "mapsTo": "MODULE_Meter5"
+    },
+    {
+     "id": 5,
+     "name": "eMeter16",
+     "mapsTo": "MODULE_Meter6"
+    }
+   ]
+  }
+ ]
+}

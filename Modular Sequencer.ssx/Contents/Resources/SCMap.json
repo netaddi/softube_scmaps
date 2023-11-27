@@ -1,0 +1,1925 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "opey",
+   "pluginName": "Modular Sequencer",
+   "displayName": "Sequencer 16 Stages",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "CV 1",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "CV 2",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "CV 3",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "CV 4",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "CV 5",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "CV 6",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "CV 7",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "CV 8",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "CV 9",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "CV 10",
+     "mapsTo": "MODULE_Param10",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "CV 11",
+     "mapsTo": "MODULE_Param11",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "CV 12",
+     "mapsTo": "MODULE_Param12",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "CV 13",
+     "mapsTo": "MODULE_Param13",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "CV 14",
+     "mapsTo": "MODULE_Param14",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "CV 15",
+     "mapsTo": "MODULE_Param15",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "CV 16",
+     "mapsTo": "MODULE_Param16",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Gate 1",
+     "mapsTo": "MODULE_Param17",
+     "value": 0.0
+    },
+    {
+     "id": 17,
+     "name": "Gate 2",
+     "mapsTo": "MODULE_Param18",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Gate 3",
+     "mapsTo": "MODULE_Param19",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Gate 4",
+     "mapsTo": "MODULE_Param20",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Gate 5",
+     "mapsTo": "MODULE_Param21",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Gate 6",
+     "mapsTo": "MODULE_Param22",
+     "value": 0.0
+    },
+    {
+     "id": 22,
+     "name": "Gate 7",
+     "mapsTo": "MODULE_Param23",
+     "value": 0.0
+    },
+    {
+     "id": 23,
+     "name": "Gate 8",
+     "mapsTo": "MODULE_Param24",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "Gate 9",
+     "mapsTo": "MODULE_Param25",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "Gate 10",
+     "mapsTo": "MODULE_Param26",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "Gate 11",
+     "mapsTo": "MODULE_Param27",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "Gate 12",
+     "mapsTo": "MODULE_Param28",
+     "value": 0.0
+    },
+    {
+     "id": 28,
+     "name": "Gate 13",
+     "mapsTo": "MODULE_Param29",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "Gate 14",
+     "mapsTo": "MODULE_Param30",
+     "value": 0.0
+    },
+    {
+     "id": 30,
+     "name": "Gate 15",
+     "mapsTo": "MODULE_Param31",
+     "value": 0.0
+    },
+    {
+     "id": 31,
+     "name": "Gate 16",
+     "mapsTo": "MODULE_Param32",
+     "value": 0.0
+    },
+    {
+     "id": 32,
+     "name": "Loop",
+     "mapsTo": "MODULE_Param33",
+     "value": 1.0
+    },
+    {
+     "id": 33,
+     "name": "Length",
+     "mapsTo": "MODULE_Param34",
+     "value": 1.0
+    },
+    {
+     "id": 34,
+     "name": "Quantize",
+     "mapsTo": "MODULE_Param35",
+     "value": 0.0
+    },
+    {
+     "id": 35,
+     "name": "Trig 2-1",
+     "value": 0.0
+    },
+    {
+     "id": 36,
+     "name": "Trig 2-2",
+     "value": 0.0
+    },
+    {
+     "id": 37,
+     "name": "Trig 2-3",
+     "value": 0.0
+    },
+    {
+     "id": 38,
+     "name": "Trig 2-4",
+     "value": 0.0
+    },
+    {
+     "id": 39,
+     "name": "Trig 2-5",
+     "value": 0.0
+    },
+    {
+     "id": 40,
+     "name": "Trig 2-6",
+     "value": 0.0
+    },
+    {
+     "id": 41,
+     "name": "Trig 2-7",
+     "value": 0.0
+    },
+    {
+     "id": 42,
+     "name": "Trig 2-8",
+     "value": 0.0
+    },
+    {
+     "id": 43,
+     "name": "Trig 2-9",
+     "value": 0.0
+    },
+    {
+     "id": 44,
+     "name": "Trig 2-10",
+     "value": 0.0
+    },
+    {
+     "id": 45,
+     "name": "Trig 2-11",
+     "value": 0.0
+    },
+    {
+     "id": 46,
+     "name": "Trig 2-12",
+     "value": 0.0
+    },
+    {
+     "id": 47,
+     "name": "Trig 2-13",
+     "value": 0.0
+    },
+    {
+     "id": 48,
+     "name": "Trig 2-14",
+     "value": 0.0
+    },
+    {
+     "id": 49,
+     "name": "Trig 2-15",
+     "value": 0.0
+    },
+    {
+     "id": 50,
+     "name": "Trig 2-16",
+     "value": 0.0
+    },
+    {
+     "id": 51,
+     "name": "Trig 3-1",
+     "value": 0.0
+    },
+    {
+     "id": 52,
+     "name": "Trig 3-2",
+     "value": 0.0
+    },
+    {
+     "id": 53,
+     "name": "Trig 3-3",
+     "value": 0.0
+    },
+    {
+     "id": 54,
+     "name": "Trig 3-4",
+     "value": 0.0
+    },
+    {
+     "id": 55,
+     "name": "Trig 3-5",
+     "value": 0.0
+    },
+    {
+     "id": 56,
+     "name": "Trig 3-6",
+     "value": 0.0
+    },
+    {
+     "id": 57,
+     "name": "Trig 3-7",
+     "value": 0.0
+    },
+    {
+     "id": 58,
+     "name": "Trig 3-8",
+     "value": 0.0
+    },
+    {
+     "id": 59,
+     "name": "Trig 3-9",
+     "value": 0.0
+    },
+    {
+     "id": 60,
+     "name": "Trig 3-10",
+     "value": 0.0
+    },
+    {
+     "id": 61,
+     "name": "Trig 3-11",
+     "value": 0.0
+    },
+    {
+     "id": 62,
+     "name": "Trig 3-12",
+     "value": 0.0
+    },
+    {
+     "id": 63,
+     "name": "Trig 3-13",
+     "value": 0.0
+    },
+    {
+     "id": 64,
+     "name": "Trig 3-14",
+     "value": 0.0
+    },
+    {
+     "id": 65,
+     "name": "Trig 3-15",
+     "value": 0.0
+    },
+    {
+     "id": 66,
+     "name": "Trig 3-16",
+     "value": 0.0
+    },
+    {
+     "id": 67,
+     "name": "Trig 4-1",
+     "value": 0.0
+    },
+    {
+     "id": 68,
+     "name": "Trig 4-2",
+     "value": 0.0
+    },
+    {
+     "id": 69,
+     "name": "Trig 4-3",
+     "value": 0.0
+    },
+    {
+     "id": 70,
+     "name": "Trig 4-4",
+     "value": 0.0
+    },
+    {
+     "id": 71,
+     "name": "Trig 4-5",
+     "value": 0.0
+    },
+    {
+     "id": 72,
+     "name": "Trig 4-6",
+     "value": 0.0
+    },
+    {
+     "id": 73,
+     "name": "Trig 4-7",
+     "value": 0.0
+    },
+    {
+     "id": 74,
+     "name": "Trig 4-8",
+     "value": 0.0
+    },
+    {
+     "id": 75,
+     "name": "Trig 4-9",
+     "value": 0.0
+    },
+    {
+     "id": 76,
+     "name": "Trig 4-10",
+     "value": 0.0
+    },
+    {
+     "id": 77,
+     "name": "Trig 4-11",
+     "value": 0.0
+    },
+    {
+     "id": 78,
+     "name": "Trig 4-12",
+     "value": 0.0
+    },
+    {
+     "id": 79,
+     "name": "Trig 4-13",
+     "value": 0.0
+    },
+    {
+     "id": 80,
+     "name": "Trig 4-14",
+     "value": 0.0
+    },
+    {
+     "id": 81,
+     "name": "Trig 4-15",
+     "value": 0.0
+    },
+    {
+     "id": 82,
+     "name": "Trig 4-16",
+     "value": 0.0
+    },
+    {
+     "id": 83,
+     "name": "CV Range",
+     "mapsTo": "MODULE_Param36",
+     "value": 0.0
+    },
+    {
+     "id": 84,
+     "name": "Swing",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterStageSelect",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  },
+  {
+   "mapName": "Stages8",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "opey",
+   "pluginName": "Modular Sequencer",
+   "displayName": "Sequencer 8 Stages",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "CV 1",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "CV 2",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "CV 3",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "CV 4",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "CV 5",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "CV 6",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "CV 7",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "CV 8",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "CV 9",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "CV 10",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "CV 11",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "CV 12",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "CV 13",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "CV 14",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "CV 15",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "CV 16",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Gate 1",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.0
+    },
+    {
+     "id": 17,
+     "name": "Gate 2",
+     "mapsTo": "MODULE_Param10",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Gate 3",
+     "mapsTo": "MODULE_Param11",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Gate 4",
+     "mapsTo": "MODULE_Param12",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Gate 5",
+     "mapsTo": "MODULE_Param13",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Gate 6",
+     "mapsTo": "MODULE_Param14",
+     "value": 0.0
+    },
+    {
+     "id": 22,
+     "name": "Gate 7",
+     "mapsTo": "MODULE_Param15",
+     "value": 0.0
+    },
+    {
+     "id": 23,
+     "name": "Gate 8",
+     "mapsTo": "MODULE_Param16",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "Gate 9",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "Gate 10",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "Gate 11",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "Gate 12",
+     "value": 0.0
+    },
+    {
+     "id": 28,
+     "name": "Gate 13",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "Gate 14",
+     "value": 0.0
+    },
+    {
+     "id": 30,
+     "name": "Gate 15",
+     "value": 0.0
+    },
+    {
+     "id": 31,
+     "name": "Gate 16",
+     "value": 0.0
+    },
+    {
+     "id": 32,
+     "name": "Loop",
+     "mapsTo": "MODULE_Param17",
+     "value": 1.0
+    },
+    {
+     "id": 33,
+     "name": "Length",
+     "mapsTo": "MODULE_Param18",
+     "value": 1.0,
+     "maxValue": 0.4285714,
+     "guiQuantization": 7
+    },
+    {
+     "id": 34,
+     "name": "Quantize",
+     "mapsTo": "MODULE_Param19",
+     "value": 0.0
+    },
+    {
+     "id": 35,
+     "name": "Trig 2-1",
+     "value": 0.0
+    },
+    {
+     "id": 36,
+     "name": "Trig 2-2",
+     "value": 0.0
+    },
+    {
+     "id": 37,
+     "name": "Trig 2-3",
+     "value": 0.0
+    },
+    {
+     "id": 38,
+     "name": "Trig 2-4",
+     "value": 0.0
+    },
+    {
+     "id": 39,
+     "name": "Trig 2-5",
+     "value": 0.0
+    },
+    {
+     "id": 40,
+     "name": "Trig 2-6",
+     "value": 0.0
+    },
+    {
+     "id": 41,
+     "name": "Trig 2-7",
+     "value": 0.0
+    },
+    {
+     "id": 42,
+     "name": "Trig 2-8",
+     "value": 0.0
+    },
+    {
+     "id": 43,
+     "name": "Trig 2-9",
+     "value": 0.0
+    },
+    {
+     "id": 44,
+     "name": "Trig 2-10",
+     "value": 0.0
+    },
+    {
+     "id": 45,
+     "name": "Trig 2-11",
+     "value": 0.0
+    },
+    {
+     "id": 46,
+     "name": "Trig 2-12",
+     "value": 0.0
+    },
+    {
+     "id": 47,
+     "name": "Trig 2-13",
+     "value": 0.0
+    },
+    {
+     "id": 48,
+     "name": "Trig 2-14",
+     "value": 0.0
+    },
+    {
+     "id": 49,
+     "name": "Trig 2-15",
+     "value": 0.0
+    },
+    {
+     "id": 50,
+     "name": "Trig 2-16",
+     "value": 0.0
+    },
+    {
+     "id": 51,
+     "name": "Trig 3-1",
+     "value": 0.0
+    },
+    {
+     "id": 52,
+     "name": "Trig 3-2",
+     "value": 0.0
+    },
+    {
+     "id": 53,
+     "name": "Trig 3-3",
+     "value": 0.0
+    },
+    {
+     "id": 54,
+     "name": "Trig 3-4",
+     "value": 0.0
+    },
+    {
+     "id": 55,
+     "name": "Trig 3-5",
+     "value": 0.0
+    },
+    {
+     "id": 56,
+     "name": "Trig 3-6",
+     "value": 0.0
+    },
+    {
+     "id": 57,
+     "name": "Trig 3-7",
+     "value": 0.0
+    },
+    {
+     "id": 58,
+     "name": "Trig 3-8",
+     "value": 0.0
+    },
+    {
+     "id": 59,
+     "name": "Trig 3-9",
+     "value": 0.0
+    },
+    {
+     "id": 60,
+     "name": "Trig 3-10",
+     "value": 0.0
+    },
+    {
+     "id": 61,
+     "name": "Trig 3-11",
+     "value": 0.0
+    },
+    {
+     "id": 62,
+     "name": "Trig 3-12",
+     "value": 0.0
+    },
+    {
+     "id": 63,
+     "name": "Trig 3-13",
+     "value": 0.0
+    },
+    {
+     "id": 64,
+     "name": "Trig 3-14",
+     "value": 0.0
+    },
+    {
+     "id": 65,
+     "name": "Trig 3-15",
+     "value": 0.0
+    },
+    {
+     "id": 66,
+     "name": "Trig 3-16",
+     "value": 0.0
+    },
+    {
+     "id": 67,
+     "name": "Trig 4-1",
+     "value": 0.0
+    },
+    {
+     "id": 68,
+     "name": "Trig 4-2",
+     "value": 0.0
+    },
+    {
+     "id": 69,
+     "name": "Trig 4-3",
+     "value": 0.0
+    },
+    {
+     "id": 70,
+     "name": "Trig 4-4",
+     "value": 0.0
+    },
+    {
+     "id": 71,
+     "name": "Trig 4-5",
+     "value": 0.0
+    },
+    {
+     "id": 72,
+     "name": "Trig 4-6",
+     "value": 0.0
+    },
+    {
+     "id": 73,
+     "name": "Trig 4-7",
+     "value": 0.0
+    },
+    {
+     "id": 74,
+     "name": "Trig 4-8",
+     "value": 0.0
+    },
+    {
+     "id": 75,
+     "name": "Trig 4-9",
+     "value": 0.0
+    },
+    {
+     "id": 76,
+     "name": "Trig 4-10",
+     "value": 0.0
+    },
+    {
+     "id": 77,
+     "name": "Trig 4-11",
+     "value": 0.0
+    },
+    {
+     "id": 78,
+     "name": "Trig 4-12",
+     "value": 0.0
+    },
+    {
+     "id": 79,
+     "name": "Trig 4-13",
+     "value": 0.0
+    },
+    {
+     "id": 80,
+     "name": "Trig 4-14",
+     "value": 0.0
+    },
+    {
+     "id": 81,
+     "name": "Trig 4-15",
+     "value": 0.0
+    },
+    {
+     "id": 82,
+     "name": "Trig 4-16",
+     "value": 0.0
+    },
+    {
+     "id": 83,
+     "name": "CV Range",
+     "mapsTo": "MODULE_Param20",
+     "value": 0.0
+    },
+    {
+     "id": 84,
+     "name": "Swing",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterStageSelect",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  },
+  {
+   "mapName": "Stages5",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "opey",
+   "pluginName": "Modular Sequencer",
+   "displayName": "Penta Sequenza",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "CV 1",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "CV 2",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "CV 3",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "CV 4",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "CV 5",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "CV 6",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "CV 7",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "CV 8",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "CV 9",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "CV 10",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "CV 11",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "CV 12",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "CV 13",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "CV 14",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "CV 15",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "CV 16",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Gate 1",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.0
+    },
+    {
+     "id": 17,
+     "name": "Gate 2",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Gate 3",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Gate 4",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Gate 5",
+     "mapsTo": "MODULE_Param10",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Gate 6",
+     "value": 0.0
+    },
+    {
+     "id": 22,
+     "name": "Gate 7",
+     "value": 0.0
+    },
+    {
+     "id": 23,
+     "name": "Gate 8",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "Gate 9",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "Gate 10",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "Gate 11",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "Gate 12",
+     "value": 0.0
+    },
+    {
+     "id": 28,
+     "name": "Gate 13",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "Gate 14",
+     "value": 0.0
+    },
+    {
+     "id": 30,
+     "name": "Gate 15",
+     "value": 0.0
+    },
+    {
+     "id": 31,
+     "name": "Gate 16",
+     "value": 0.0
+    },
+    {
+     "id": 32,
+     "name": "Loop",
+     "mapsTo": "MODULE_Param11",
+     "value": 1.0
+    },
+    {
+     "id": 33,
+     "name": "Length",
+     "mapsTo": "MODULE_Param12",
+     "value": 1.0,
+     "maxValue": 0.2142857,
+     "guiQuantization": 4
+    },
+    {
+     "id": 34,
+     "name": "Quantize",
+     "mapsTo": "MODULE_Param13",
+     "value": 0.0
+    },
+    {
+     "id": 35,
+     "name": "Trig 2-1",
+     "value": 0.0
+    },
+    {
+     "id": 36,
+     "name": "Trig 2-2",
+     "value": 0.0
+    },
+    {
+     "id": 37,
+     "name": "Trig 2-3",
+     "value": 0.0
+    },
+    {
+     "id": 38,
+     "name": "Trig 2-4",
+     "value": 0.0
+    },
+    {
+     "id": 39,
+     "name": "Trig 2-5",
+     "value": 0.0
+    },
+    {
+     "id": 40,
+     "name": "Trig 2-6",
+     "value": 0.0
+    },
+    {
+     "id": 41,
+     "name": "Trig 2-7",
+     "value": 0.0
+    },
+    {
+     "id": 42,
+     "name": "Trig 2-8",
+     "value": 0.0
+    },
+    {
+     "id": 43,
+     "name": "Trig 2-9",
+     "value": 0.0
+    },
+    {
+     "id": 44,
+     "name": "Trig 2-10",
+     "value": 0.0
+    },
+    {
+     "id": 45,
+     "name": "Trig 2-11",
+     "value": 0.0
+    },
+    {
+     "id": 46,
+     "name": "Trig 2-12",
+     "value": 0.0
+    },
+    {
+     "id": 47,
+     "name": "Trig 2-13",
+     "value": 0.0
+    },
+    {
+     "id": 48,
+     "name": "Trig 2-14",
+     "value": 0.0
+    },
+    {
+     "id": 49,
+     "name": "Trig 2-15",
+     "value": 0.0
+    },
+    {
+     "id": 50,
+     "name": "Trig 2-16",
+     "value": 0.0
+    },
+    {
+     "id": 51,
+     "name": "Trig 3-1",
+     "value": 0.0
+    },
+    {
+     "id": 52,
+     "name": "Trig 3-2",
+     "value": 0.0
+    },
+    {
+     "id": 53,
+     "name": "Trig 3-3",
+     "value": 0.0
+    },
+    {
+     "id": 54,
+     "name": "Trig 3-4",
+     "value": 0.0
+    },
+    {
+     "id": 55,
+     "name": "Trig 3-5",
+     "value": 0.0
+    },
+    {
+     "id": 56,
+     "name": "Trig 3-6",
+     "value": 0.0
+    },
+    {
+     "id": 57,
+     "name": "Trig 3-7",
+     "value": 0.0
+    },
+    {
+     "id": 58,
+     "name": "Trig 3-8",
+     "value": 0.0
+    },
+    {
+     "id": 59,
+     "name": "Trig 3-9",
+     "value": 0.0
+    },
+    {
+     "id": 60,
+     "name": "Trig 3-10",
+     "value": 0.0
+    },
+    {
+     "id": 61,
+     "name": "Trig 3-11",
+     "value": 0.0
+    },
+    {
+     "id": 62,
+     "name": "Trig 3-12",
+     "value": 0.0
+    },
+    {
+     "id": 63,
+     "name": "Trig 3-13",
+     "value": 0.0
+    },
+    {
+     "id": 64,
+     "name": "Trig 3-14",
+     "value": 0.0
+    },
+    {
+     "id": 65,
+     "name": "Trig 3-15",
+     "value": 0.0
+    },
+    {
+     "id": 66,
+     "name": "Trig 3-16",
+     "value": 0.0
+    },
+    {
+     "id": 67,
+     "name": "Trig 4-1",
+     "value": 0.0
+    },
+    {
+     "id": 68,
+     "name": "Trig 4-2",
+     "value": 0.0
+    },
+    {
+     "id": 69,
+     "name": "Trig 4-3",
+     "value": 0.0
+    },
+    {
+     "id": 70,
+     "name": "Trig 4-4",
+     "value": 0.0
+    },
+    {
+     "id": 71,
+     "name": "Trig 4-5",
+     "value": 0.0
+    },
+    {
+     "id": 72,
+     "name": "Trig 4-6",
+     "value": 0.0
+    },
+    {
+     "id": 73,
+     "name": "Trig 4-7",
+     "value": 0.0
+    },
+    {
+     "id": 74,
+     "name": "Trig 4-8",
+     "value": 0.0
+    },
+    {
+     "id": 75,
+     "name": "Trig 4-9",
+     "value": 0.0
+    },
+    {
+     "id": 76,
+     "name": "Trig 4-10",
+     "value": 0.0
+    },
+    {
+     "id": 77,
+     "name": "Trig 4-11",
+     "value": 0.0
+    },
+    {
+     "id": 78,
+     "name": "Trig 4-12",
+     "value": 0.0
+    },
+    {
+     "id": 79,
+     "name": "Trig 4-13",
+     "value": 0.0
+    },
+    {
+     "id": 80,
+     "name": "Trig 4-14",
+     "value": 0.0
+    },
+    {
+     "id": 81,
+     "name": "Trig 4-15",
+     "value": 0.0
+    },
+    {
+     "id": 82,
+     "name": "Trig 4-16",
+     "value": 0.0
+    },
+    {
+     "id": 83,
+     "name": "CV Range",
+     "mapsTo": "MODULE_Param14",
+     "value": 0.0
+    },
+    {
+     "id": 84,
+     "name": "Swing",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterStageSelect",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  },
+  {
+   "mapName": "Trig",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "opey",
+   "pluginName": "Modular Sequencer",
+   "displayName": "Beat Sequencer",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "CV 1",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "CV 2",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "CV 3",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "CV 4",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "CV 5",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "CV 6",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "CV 7",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "CV 8",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "CV 9",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "CV 10",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "CV 11",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "CV 12",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "CV 13",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "CV 14",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "CV 15",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "CV 16",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Gate 1",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0,
+     "displayName": "Trig 1-1"
+    },
+    {
+     "id": 17,
+     "name": "Gate 2",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.0,
+     "displayName": "Trig 1-2"
+    },
+    {
+     "id": 18,
+     "name": "Gate 3",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.0,
+     "displayName": "Trig 1-3"
+    },
+    {
+     "id": 19,
+     "name": "Gate 4",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.0,
+     "displayName": "Trig 1-4"
+    },
+    {
+     "id": 20,
+     "name": "Gate 5",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.0,
+     "displayName": "Trig 1-5"
+    },
+    {
+     "id": 21,
+     "name": "Gate 6",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.0,
+     "displayName": "Trig 1-6"
+    },
+    {
+     "id": 22,
+     "name": "Gate 7",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.0,
+     "displayName": "Trig 1-7"
+    },
+    {
+     "id": 23,
+     "name": "Gate 8",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.0,
+     "displayName": "Trig 1-8"
+    },
+    {
+     "id": 24,
+     "name": "Gate 9",
+     "mapsTo": "MODULE_Param9",
+     "value": 0.0,
+     "displayName": "Trig 1-9"
+    },
+    {
+     "id": 25,
+     "name": "Gate 10",
+     "mapsTo": "MODULE_Param10",
+     "value": 0.0,
+     "displayName": "Trig 1-10"
+    },
+    {
+     "id": 26,
+     "name": "Gate 11",
+     "mapsTo": "MODULE_Param11",
+     "value": 0.0,
+     "displayName": "Trig 1-11"
+    },
+    {
+     "id": 27,
+     "name": "Gate 12",
+     "mapsTo": "MODULE_Param12",
+     "value": 0.0,
+     "displayName": "Trig 1-12"
+    },
+    {
+     "id": 28,
+     "name": "Gate 13",
+     "mapsTo": "MODULE_Param13",
+     "value": 0.0,
+     "displayName": "Trig 1-13"
+    },
+    {
+     "id": 29,
+     "name": "Gate 14",
+     "mapsTo": "MODULE_Param14",
+     "value": 0.0,
+     "displayName": "Trig 1-14"
+    },
+    {
+     "id": 30,
+     "name": "Gate 15",
+     "mapsTo": "MODULE_Param15",
+     "value": 0.0,
+     "displayName": "Trig 1-15"
+    },
+    {
+     "id": 31,
+     "name": "Gate 16",
+     "mapsTo": "MODULE_Param16",
+     "value": 0.0,
+     "displayName": "Trig 1-16"
+    },
+    {
+     "id": 32,
+     "name": "Loop",
+     "mapsTo": "MODULE_Param65",
+     "value": 1.0
+    },
+    {
+     "id": 33,
+     "name": "Length",
+     "mapsTo": "MODULE_Param66",
+     "value": 1.0
+    },
+    {
+     "id": 34,
+     "name": "Quantize",
+     "value": 0.0
+    },
+    {
+     "id": 35,
+     "name": "Trig 2-1",
+     "mapsTo": "MODULE_Param17",
+     "value": 0.0
+    },
+    {
+     "id": 36,
+     "name": "Trig 2-2",
+     "mapsTo": "MODULE_Param18",
+     "value": 0.0
+    },
+    {
+     "id": 37,
+     "name": "Trig 2-3",
+     "mapsTo": "MODULE_Param19",
+     "value": 0.0
+    },
+    {
+     "id": 38,
+     "name": "Trig 2-4",
+     "mapsTo": "MODULE_Param20",
+     "value": 0.0
+    },
+    {
+     "id": 39,
+     "name": "Trig 2-5",
+     "mapsTo": "MODULE_Param21",
+     "value": 0.0
+    },
+    {
+     "id": 40,
+     "name": "Trig 2-6",
+     "mapsTo": "MODULE_Param22",
+     "value": 0.0
+    },
+    {
+     "id": 41,
+     "name": "Trig 2-7",
+     "mapsTo": "MODULE_Param23",
+     "value": 0.0
+    },
+    {
+     "id": 42,
+     "name": "Trig 2-8",
+     "mapsTo": "MODULE_Param24",
+     "value": 0.0
+    },
+    {
+     "id": 43,
+     "name": "Trig 2-9",
+     "mapsTo": "MODULE_Param25",
+     "value": 0.0
+    },
+    {
+     "id": 44,
+     "name": "Trig 2-10",
+     "mapsTo": "MODULE_Param26",
+     "value": 0.0
+    },
+    {
+     "id": 45,
+     "name": "Trig 2-11",
+     "mapsTo": "MODULE_Param27",
+     "value": 0.0
+    },
+    {
+     "id": 46,
+     "name": "Trig 2-12",
+     "mapsTo": "MODULE_Param28",
+     "value": 0.0
+    },
+    {
+     "id": 47,
+     "name": "Trig 2-13",
+     "mapsTo": "MODULE_Param29",
+     "value": 0.0
+    },
+    {
+     "id": 48,
+     "name": "Trig 2-14",
+     "mapsTo": "MODULE_Param30",
+     "value": 0.0
+    },
+    {
+     "id": 49,
+     "name": "Trig 2-15",
+     "mapsTo": "MODULE_Param31",
+     "value": 0.0
+    },
+    {
+     "id": 50,
+     "name": "Trig 2-16",
+     "mapsTo": "MODULE_Param32",
+     "value": 0.0
+    },
+    {
+     "id": 51,
+     "name": "Trig 3-1",
+     "mapsTo": "MODULE_Param33",
+     "value": 0.0
+    },
+    {
+     "id": 52,
+     "name": "Trig 3-2",
+     "mapsTo": "MODULE_Param34",
+     "value": 0.0
+    },
+    {
+     "id": 53,
+     "name": "Trig 3-3",
+     "mapsTo": "MODULE_Param35",
+     "value": 0.0
+    },
+    {
+     "id": 54,
+     "name": "Trig 3-4",
+     "mapsTo": "MODULE_Param36",
+     "value": 0.0
+    },
+    {
+     "id": 55,
+     "name": "Trig 3-5",
+     "mapsTo": "MODULE_Param37",
+     "value": 0.0
+    },
+    {
+     "id": 56,
+     "name": "Trig 3-6",
+     "mapsTo": "MODULE_Param38",
+     "value": 0.0
+    },
+    {
+     "id": 57,
+     "name": "Trig 3-7",
+     "mapsTo": "MODULE_Param39",
+     "value": 0.0
+    },
+    {
+     "id": 58,
+     "name": "Trig 3-8",
+     "mapsTo": "MODULE_Param40",
+     "value": 0.0
+    },
+    {
+     "id": 59,
+     "name": "Trig 3-9",
+     "mapsTo": "MODULE_Param41",
+     "value": 0.0
+    },
+    {
+     "id": 60,
+     "name": "Trig 3-10",
+     "mapsTo": "MODULE_Param42",
+     "value": 0.0
+    },
+    {
+     "id": 61,
+     "name": "Trig 3-11",
+     "mapsTo": "MODULE_Param43",
+     "value": 0.0
+    },
+    {
+     "id": 62,
+     "name": "Trig 3-12",
+     "mapsTo": "MODULE_Param44",
+     "value": 0.0
+    },
+    {
+     "id": 63,
+     "name": "Trig 3-13",
+     "mapsTo": "MODULE_Param45",
+     "value": 0.0
+    },
+    {
+     "id": 64,
+     "name": "Trig 3-14",
+     "mapsTo": "MODULE_Param46",
+     "value": 0.0
+    },
+    {
+     "id": 65,
+     "name": "Trig 3-15",
+     "mapsTo": "MODULE_Param47",
+     "value": 0.0
+    },
+    {
+     "id": 66,
+     "name": "Trig 3-16",
+     "mapsTo": "MODULE_Param48",
+     "value": 0.0
+    },
+    {
+     "id": 67,
+     "name": "Trig 4-1",
+     "mapsTo": "MODULE_Param49",
+     "value": 0.0
+    },
+    {
+     "id": 68,
+     "name": "Trig 4-2",
+     "mapsTo": "MODULE_Param50",
+     "value": 0.0
+    },
+    {
+     "id": 69,
+     "name": "Trig 4-3",
+     "mapsTo": "MODULE_Param51",
+     "value": 0.0
+    },
+    {
+     "id": 70,
+     "name": "Trig 4-4",
+     "mapsTo": "MODULE_Param52",
+     "value": 0.0
+    },
+    {
+     "id": 71,
+     "name": "Trig 4-5",
+     "mapsTo": "MODULE_Param53",
+     "value": 0.0
+    },
+    {
+     "id": 72,
+     "name": "Trig 4-6",
+     "mapsTo": "MODULE_Param54",
+     "value": 0.0
+    },
+    {
+     "id": 73,
+     "name": "Trig 4-7",
+     "mapsTo": "MODULE_Param55",
+     "value": 0.0
+    },
+    {
+     "id": 74,
+     "name": "Trig 4-8",
+     "mapsTo": "MODULE_Param56",
+     "value": 0.0
+    },
+    {
+     "id": 75,
+     "name": "Trig 4-9",
+     "mapsTo": "MODULE_Param57",
+     "value": 0.0
+    },
+    {
+     "id": 76,
+     "name": "Trig 4-10",
+     "mapsTo": "MODULE_Param58",
+     "value": 0.0
+    },
+    {
+     "id": 77,
+     "name": "Trig 4-11",
+     "mapsTo": "MODULE_Param59",
+     "value": 0.0
+    },
+    {
+     "id": 78,
+     "name": "Trig 4-12",
+     "mapsTo": "MODULE_Param60",
+     "value": 0.0
+    },
+    {
+     "id": 79,
+     "name": "Trig 4-13",
+     "mapsTo": "MODULE_Param61",
+     "value": 0.0
+    },
+    {
+     "id": 80,
+     "name": "Trig 4-14",
+     "mapsTo": "MODULE_Param62",
+     "value": 0.0
+    },
+    {
+     "id": 81,
+     "name": "Trig 4-15",
+     "mapsTo": "MODULE_Param63",
+     "value": 0.0
+    },
+    {
+     "id": 82,
+     "name": "Trig 4-16",
+     "mapsTo": "MODULE_Param64",
+     "value": 0.0
+    },
+    {
+     "id": 83,
+     "name": "CV Range",
+     "value": 0.0
+    },
+    {
+     "id": 84,
+     "name": "Swing",
+     "mapsTo": "MODULE_Param67",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterStageSelect",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "djfh",
+   "pluginName": "Modular Sine Oscillator",
+   "displayName": "Sine Oscillator",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Pitch",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    }
+   ]
+  }
+ ]
+}

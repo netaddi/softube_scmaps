@@ -1,0 +1,1383 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "pluginId": "akik",
+   "pluginName": "Parallels Effect",
+   "modularLatencyInSeconds": 0.00072562
+  },
+  {
+   "mapName": "ParallelsEffects",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "akik",
+   "pluginName": "Parallels Effect",
+   "displayName": "Parallels Effects",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Src Mix",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Distortion Active",
+     "mapsTo": "MODULE_Param18",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Distortion Amount",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Distortion Character",
+     "mapsTo": "MODULE_Param8",
+     "value": 0.5,
+     "displayName": "Distortion Tone"
+    },
+    {
+     "id": 4,
+     "name": "Distortion Dry/Wet",
+     "mapsTo": "MODULE_Param9",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Chorus Active",
+     "mapsTo": "MODULE_Param16",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Chorus Speed",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Chorus Width",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Chorus Dry/Wet",
+     "mapsTo": "MODULE_Param3"
+    },
+    {
+     "id": 9,
+     "name": "Flanger Active",
+     "mapsTo": "MODULE_Param19",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Flanger Speed",
+     "mapsTo": "MODULE_Param10",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Flanger Feedback",
+     "mapsTo": "MODULE_Param11",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Flanger Dry/Wet",
+     "mapsTo": "MODULE_Param12",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Delay Active",
+     "mapsTo": "MODULE_Param17",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Delay Time",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Delay Feedback",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Delay Dry/Wet",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.4
+    },
+    {
+     "id": 17,
+     "name": "Reverb Active",
+     "mapsTo": "MODULE_Param20",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Reverb Time",
+     "mapsTo": "MODULE_Param13",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Reverb Tone",
+     "mapsTo": "MODULE_Param14",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Reverb Dry/Wet",
+     "mapsTo": "MODULE_Param15",
+     "value": 0.3
+    },
+    {
+     "id": 21,
+     "name": "Output Volume",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsChorus",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "akik",
+   "pluginName": "Parallels Effect",
+   "displayName": "Parallels FX Chorus",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Src Mix",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Distortion Active",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Distortion Amount",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Distortion Character",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Distortion Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Chorus Active",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Chorus Speed",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Chorus Width",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Chorus Dry/Wet",
+     "mapsTo": "MODULE_Param3"
+    },
+    {
+     "id": 9,
+     "name": "Flanger Active",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Flanger Speed",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Flanger Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Flanger Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Delay Active",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Delay Time",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Delay Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Delay Dry/Wet",
+     "value": 0.4
+    },
+    {
+     "id": 17,
+     "name": "Reverb Active",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Reverb Time",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Reverb Tone",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Reverb Dry/Wet",
+     "value": 0.3
+    },
+    {
+     "id": 21,
+     "name": "Output Volume",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsDelay",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "akik",
+   "pluginName": "Parallels Effect",
+   "displayName": "Parallels FX Delay",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Src Mix",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Distortion Active",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Distortion Amount",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Distortion Character",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Distortion Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Chorus Active",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Chorus Speed",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Chorus Width",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Chorus Dry/Wet",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Flanger Active",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Flanger Speed",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Flanger Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Flanger Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Delay Active",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Delay Time",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Delay Feedback",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Delay Dry/Wet",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.4
+    },
+    {
+     "id": 17,
+     "name": "Reverb Active",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Reverb Time",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Reverb Tone",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Reverb Dry/Wet",
+     "value": 0.3
+    },
+    {
+     "id": 21,
+     "name": "Output Volume",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsDistortion",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "akik",
+   "pluginName": "Parallels Effect",
+   "displayName": "Parallels FX Distortion",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Src Mix",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Distortion Active",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Distortion Amount",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Distortion Character",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Distortion Dry/Wet",
+     "mapsTo": "MODULE_Param3",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Chorus Active",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Chorus Speed",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Chorus Width",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Chorus Dry/Wet",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Flanger Active",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Flanger Speed",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Flanger Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Flanger Dry/Wet",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Delay Active",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Delay Time",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Delay Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Delay Dry/Wet",
+     "value": 0.4
+    },
+    {
+     "id": 17,
+     "name": "Reverb Active",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Reverb Time",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Reverb Tone",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Reverb Dry/Wet",
+     "value": 0.3
+    },
+    {
+     "id": 21,
+     "name": "Output Volume",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsFlanger",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "akik",
+   "pluginName": "Parallels Effect",
+   "displayName": "Parallels FX Flanger",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Src Mix",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Distortion Active",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Distortion Amount",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Distortion Character",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Distortion Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Chorus Active",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Chorus Speed",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Chorus Width",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Chorus Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 9,
+     "name": "Flanger Active",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Flanger Speed",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Flanger Feedback",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Flanger Dry/Wet",
+     "mapsTo": "MODULE_Param3",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Delay Active",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Delay Time",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Delay Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Delay Dry/Wet",
+     "value": 0.4
+    },
+    {
+     "id": 17,
+     "name": "Reverb Active",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Reverb Time",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Reverb Tone",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Reverb Dry/Wet",
+     "value": 0.3
+    },
+    {
+     "id": 21,
+     "name": "Output Volume",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsReverb",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "akik",
+   "pluginName": "Parallels Effect",
+   "displayName": "Parallels FX Reverb",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Src Mix",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Distortion Active",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Distortion Amount",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Distortion Character",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Distortion Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Chorus Active",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Chorus Speed",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Chorus Width",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Chorus Dry/Wet",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Flanger Active",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Flanger Speed",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Flanger Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Flanger Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Delay Active",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Delay Time",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Delay Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Delay Dry/Wet",
+     "value": 0.4
+    },
+    {
+     "id": 17,
+     "name": "Reverb Active",
+     "value": 1.0
+    },
+    {
+     "id": 18,
+     "name": "Reverb Time",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Reverb Tone",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Reverb Dry/Wet",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.3
+    },
+    {
+     "id": 21,
+     "name": "Output Volume",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsDistortionAmpRoom",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "akik",
+   "pluginName": "Parallels Effect",
+   "displayName": "Parallels Effects",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Src Mix",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Distortion Active",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Distortion Amount",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Distortion Character",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5,
+     "displayName": "Distortion Tone"
+    },
+    {
+     "id": 4,
+     "name": "Distortion Dry/Wet",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Chorus Active",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Chorus Speed",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Chorus Width",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Chorus Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 9,
+     "name": "Flanger Active",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Flanger Speed",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Flanger Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Flanger Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Delay Active",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Delay Time",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Delay Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Delay Dry/Wet",
+     "value": 0.4
+    },
+    {
+     "id": 17,
+     "name": "Reverb Active",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Reverb Time",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Reverb Tone",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Reverb Dry/Wet",
+     "value": 0.3
+    },
+    {
+     "id": 21,
+     "name": "Output Volume",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsChorusAmpRoom",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "akik",
+   "pluginName": "Parallels Effect",
+   "displayName": "Parallels Effects",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Src Mix",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Distortion Active",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Distortion Amount",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Distortion Character",
+     "value": 0.5,
+     "displayName": "Distortion Tone"
+    },
+    {
+     "id": 4,
+     "name": "Distortion Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Chorus Active",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Chorus Speed",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Chorus Width",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Chorus Dry/Wet",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 1.0
+    },
+    {
+     "id": 9,
+     "name": "Flanger Active",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Flanger Speed",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Flanger Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Flanger Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Delay Active",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Delay Time",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Delay Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Delay Dry/Wet",
+     "value": 0.4
+    },
+    {
+     "id": 17,
+     "name": "Reverb Active",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Reverb Time",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Reverb Tone",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Reverb Dry/Wet",
+     "value": 0.3
+    },
+    {
+     "id": 21,
+     "name": "Output Volume",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsFlangerAmpRoom",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "akik",
+   "pluginName": "Parallels Effect",
+   "displayName": "Parallels Effects",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Src Mix",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Distortion Active",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Distortion Amount",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Distortion Character",
+     "value": 0.5,
+     "displayName": "Distortion Tone"
+    },
+    {
+     "id": 4,
+     "name": "Distortion Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Chorus Active",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Chorus Speed",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Chorus Width",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Chorus Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 9,
+     "name": "Flanger Active",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Flanger Speed",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Flanger Feedback",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Flanger Dry/Wet",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Delay Active",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Delay Time",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Delay Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Delay Dry/Wet",
+     "value": 0.4
+    },
+    {
+     "id": 17,
+     "name": "Reverb Active",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Reverb Time",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Reverb Tone",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Reverb Dry/Wet",
+     "value": 0.3
+    },
+    {
+     "id": 21,
+     "name": "Output Volume",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsDelayAmpRoom",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "akik",
+   "pluginName": "Parallels Effect",
+   "displayName": "Parallels Effects",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Src Mix",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Distortion Active",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Distortion Amount",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Distortion Character",
+     "value": 0.5,
+     "displayName": "Distortion Tone"
+    },
+    {
+     "id": 4,
+     "name": "Distortion Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Chorus Active",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Chorus Speed",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Chorus Width",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Chorus Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 9,
+     "name": "Flanger Active",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Flanger Speed",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Flanger Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Flanger Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Delay Active",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Delay Time",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Delay Feedback",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Delay Dry/Wet",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.4
+    },
+    {
+     "id": 17,
+     "name": "Reverb Active",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Reverb Time",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Reverb Tone",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Reverb Dry/Wet",
+     "value": 0.3
+    },
+    {
+     "id": 21,
+     "name": "Output Volume",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "ParallelsReverbAmpRoom",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "akik",
+   "pluginName": "Parallels Effect",
+   "displayName": "Parallels Effects",
+   "modularLatencyInSeconds": 0.00072562,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Src Mix",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Distortion Active",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Distortion Amount",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Distortion Character",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Distortion Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Chorus Active",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Chorus Speed",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Chorus Width",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Chorus Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 9,
+     "name": "Flanger Active",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Flanger Speed",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Flanger Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Flanger Dry/Wet",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Delay Active",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Delay Time",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Delay Feedback",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Delay Dry/Wet",
+     "value": 0.4
+    },
+    {
+     "id": 17,
+     "name": "Reverb Active",
+     "value": 1.0
+    },
+    {
+     "id": 18,
+     "name": "Reverb Time",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Reverb Tone",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 20,
+     "name": "Reverb Dry/Wet",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.3
+    },
+    {
+     "id": 21,
+     "name": "Output Volume",
+     "value": 0.5
+    }
+   ]
+  }
+ ]
+}

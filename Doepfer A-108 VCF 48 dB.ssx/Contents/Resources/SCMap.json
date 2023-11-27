@@ -1,0 +1,48 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "t6va",
+   "pluginName": "Doepfer A-108 VCF 48 dB",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Frequency",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "CV2",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "CV3",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Audio Level",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.2
+    },
+    {
+     "id": 4,
+     "name": "Emphasis",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Subsystem",
+     "value": 0.0,
+     "isSubsystemIndex": true
+    }
+   ]
+  }
+ ]
+}
