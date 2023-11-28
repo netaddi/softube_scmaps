@@ -429,7 +429,7 @@
     {
      "id": 2,
      "name": "Color Type",
-     "value": 0.0
+     "value": 1.0
     }
    ]
   },
@@ -477,7 +477,7 @@
     {
      "id": 2,
      "name": "Color Type",
-     "value": 1.0
+     "value": 0.0
     }
    ]
   }
