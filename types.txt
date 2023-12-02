@@ -1,0 +1,47 @@
+SSX_TYPE_CONSOLE1_EQUALIZER: [
+    "EQ_LF_Freq_Shift"
+    "EQ_LF_Freq"
+    "EQ_LF_Gain"
+    "EQ_LF_Q"
+    "EQ_LF_Type"
+    "EQ_LMF_Freq_Shift"
+    "EQ_LMF_Freq"
+    "EQ_LMF_Gain_Shift"
+    "EQ_LMF_Gain"
+    "EQ_LMF_Q_Shift"
+    "EQ_LMF_Q"
+    "EQ_HMF_Freq_Shift"
+    "EQ_HMF_Freq"
+    "EQ_HMF_Gain_Shift"
+    "EQ_HMF_Gain"
+    "EQ_HMF_Q_Shift"
+    "EQ_HMF_Q"
+    "EQ_HF_Freq_Shift"
+    "EQ_HF_Freq"
+    "EQ_HF_Gain_Shift"
+    "EQ_HF_Gain"
+    "EQ_HF_Q"
+    "EQ_HF_Type"
+]
+
+// 7 knobs, 1 button
+SSX_TYPE_CONSOLE1_SHAPE: [
+    "SHAPE_Gate",
+    "SHAPE_GateRelease",
+    "SHAPE_GateRelease_Shift",
+    "SHAPE_Punch",
+    "SHAPE_Punch_Shift"
+    "SHAPE_Sustain",
+    "SHAPE_Sustain_Shift",
+    "SHAPE_HardGate",
+]
+
+// 8 knobs
+SSX_TYPE_CONSOLE1_COMPRESSOR: [
+    "COMP_Attack_Shift",         # knob 1
+    "COMP_Ratio_Shift",          # knob 2
+    "COMP_Ratio",                # knob 3
+    "COMP_Release",              # knob 4
+    "COMP_Threshold",
+    "COMP_Attack"
+]
