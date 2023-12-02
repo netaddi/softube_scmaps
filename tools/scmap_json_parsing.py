@@ -1,8 +1,6 @@
 import os, sys
 import json
 
-
-
 # get current file dir
 current_dir = os.path.dirname(os.path.abspath(__file__))
 work_dir = f"{current_dir}/../"
@@ -19,20 +17,27 @@ for root, dirs, files in os.walk(work_dir):
             json_files.append(os.path.join(root, file))
 
 
+root_keyset = set()
 map_keyset = set()
+param_keyset = set()
+meter_keyset = set()
+
 key_value_set = {}
 type_param_set = {}
 
 # parse json files
 for json_file in json_files:
     print(f'parsing "{json_file}" ...')
-    conf_maps = json.loads(open(json_file).read())['maps']
+    conf = json.loads(open(json_file).read())
+    root_keyset.update(conf.keys())
+    conf_maps = conf['maps']
     for conf_map in conf_maps:
         name = conf_map.get('mapName', 'unknown')
         conf_type = conf_map.get('mapType', 'unknown')
         print(f"mapName: {name}, mapType: {conf_type}")
         parameters = conf_map.get('parameters', [])
         for param in parameters:
+            param_keyset.update(param.keys())
             map_type = param.get('mapsTo', None)
             print(f" -- mapType: {map_type}")
             if map_type is None:
@@ -40,6 +45,9 @@ for json_file in json_files:
             if conf_type not in type_param_set:
                 type_param_set[conf_type] = set()
             type_param_set[conf_type].add(map_type)
+        meters = conf_map.get('meters', [])
+        for meter in meters:
+            meter_keyset.update(meter.keys())
 
         for key in conf_map.keys():
             map_keyset.add(key)
@@ -50,13 +58,17 @@ for json_file in json_files:
                 key_value_set[key] = set()
             key_value_set[key].add(conf_map[key])
 
+print('-------------------------------------')
 
+print(root_keyset)
 print(map_keyset)
+print(param_keyset)
+print(meter_keyset)
 
 # print key value set
-for key in key_value_set.keys():
-    print(f"{key}: {key_value_set[key]}")
+# for key in key_value_set.keys():
+#     print(f"{key}: {key_value_set[key]}")
 
-print('-------------------------------------')
-for type in type_param_set.keys():
-    print(f"{type}: {json.dumps(list(type_param_set[type]), indent=4)}")
+# print('-------------------------------------')
+# for type in type_param_set.keys():
+#     print(f"{type}: {json.dumps(list(type_param_set[type]), indent=4)}")
