@@ -313,7 +313,7 @@
     {
      "id": 2,
      "name": "Color Type",
-     "mapsTo": "SHAPE_GateRelease",
+     "mapsTo": "SHAPE_HardGate",
      "value": 0.0,
      "minValue": 1.0,
      "maxValue": 0.0,
@@ -328,6 +328,7 @@
     {
      "id": 4,
      "name": "Dry/Wet",
+     "mapsTo": "SHAPE_Punch_Shift",
      "value": 1.0
     },
     {
@@ -340,11 +341,13 @@
     {
      "id": 6,
      "name": "High Freq Trim",
+     "mapsTo": "SHAPE_GateRelease_Shift",
      "value": 0.5
     },
     {
      "id": 7,
      "name": "Crosstalk",
+     "mapsTo": "SHAPE_GateRelease",
      "value": 0.0
     },
     {
@@ -360,6 +363,7 @@
     {
      "id": 10,
      "name": "Noise",
+     "mapsTo": "SHAPE_Sustain_Shift",
      "value": 0.0
     },
     {

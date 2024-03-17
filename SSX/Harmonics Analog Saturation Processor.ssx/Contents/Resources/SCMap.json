@@ -549,11 +549,8 @@
     {
      "id": 4,
      "name": "DryWet",
-     "mapsTo": "SHAPE_HardGate",
-     "value": 1.0,
-     "minValue": 1.0,
-     "maxValue": 0.5,
-     "guiQuantization": 2
+     "mapsTo": "SHAPE_GateRelease_Shift",
+     "value": 1.0
     },
     {
      "id": 5,
@@ -563,6 +560,7 @@
     {
      "id": 6,
      "name": "Dynamics On/Off",
+     "mapsTo": "SHAPE_HardGate",
      "value": 1.0
     },
     {
@@ -578,11 +576,13 @@
     {
      "id": 9,
      "name": "Input",
+     "mapsTo": "SHAPE_Sustain_Shift",
      "value": 0.6
     },
     {
      "id": 10,
      "name": "Output",
+     "mapsTo": "SHAPE_Punch_Shift",
      "value": 0.6
     },
     {
