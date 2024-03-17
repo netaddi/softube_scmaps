@@ -1,3 +1,89 @@
+PLUGIN_START,Amp Room Bass Amp Room.ssx
+MAP_START,usek,Amp Room Bass Amp Room,BassAmpMk2,CUSTOM 100W,,SSX_TYPE_AMP_ROOM_MODULE,,
+PARAMETER,0,Normal Volume,,SUBPLUGIN_Param1,0.5,,,,,
+PARAMETER,1,High Low Gain,,SUBPLUGIN_Param2,0.0,,,,,
+PARAMETER,2,Bass,,SUBPLUGIN_Param3,0.5,,,,,
+PARAMETER,3,Middle,,SUBPLUGIN_Param4,0.5,,,,,
+PARAMETER,4,Treble,,SUBPLUGIN_Param5,0.5,,,,,
+PARAMETER,5,Master Volume,,SUBPLUGIN_Param6,0.5,,,,,
+PARAMETER,6,Phase Invert,,SUBPLUGIN_Param7,0.0,,,,,
+PARAMETER,7,DI Amp Mix,,,1.0,,,,,
+PARAMETER,8,Mic Position 1,,,0.5,,,,,
+PARAMETER,9,Mic Position 2,,,0.455,,,,,
+PARAMETER,10,Mic Position 3,,,0.5,,,,,
+PARAMETER,11,Cab Switch,,,0.5,,,,,
+PARAMETER,12,DI Low Cut,,,0.0,,,,,
+PARAMETER,13,DI Tone,,,0.5,,,,,
+PARAMETER,14,DI High Cut,,,1.0,,,,,
+PARAMETER,15,DI Limiter,,,0.0,,,,,
+PARAMETER,16,DI Amp Solo,,,1.0,,,,,
+PARAMETER,17,Amp Cab Bypass,,,1.0,,,,,
+PARAMETER,18,Output Volume,,SUBPLUGIN_Param8,0.5,,,,,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+MAP_START,usek,Amp Room Bass Amp Room,BassCab8x10,Bass Amp Room Cabs,,SSX_TYPE_AMP_ROOM_MODULE,,
+PARAMETER,0,Normal Volume,,,0.5,,,,,
+PARAMETER,1,High Low Gain,,,0.0,,,,,
+PARAMETER,2,Bass,,,0.5,,,,,
+PARAMETER,3,Middle,,,0.5,,,,,
+PARAMETER,4,Treble,,,0.5,,,,,
+PARAMETER,5,Master Volume,,,0.5,,,,,
+PARAMETER,6,Phase Invert,,,0.0,,,,,
+PARAMETER,7,DI Amp Mix,,,1.0,,,,,
+PARAMETER,8,Mic Position 1,,SUBPLUGIN_Param2,0.5,,,,,
+PARAMETER,9,Mic Position 2,,SUBPLUGIN_Param3,0.5,,,,,
+PARAMETER,10,Mic Position 3,,SUBPLUGIN_Param4,0.5,,,,,
+PARAMETER,11,Cab Switch,,SUBPLUGIN_Param1,0.0,,,,,
+PARAMETER,12,DI Low Cut,,,0.0,,,,,
+PARAMETER,13,DI Tone,,,0.5,,,,,
+PARAMETER,14,DI High Cut,,,1.0,,,,,
+PARAMETER,15,DI Limiter,,,0.0,,,,,
+PARAMETER,16,DI Amp Solo,,,0.0,,,,,
+PARAMETER,17,Amp Cab Bypass,,,0.5,,,,,
+PARAMETER,18,Output Volume,,,1.0,,,,,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+MAP_START,usek,Amp Room Bass Amp Room,BassCab4x12,Bass Amp Room Cabs,,SSX_TYPE_AMP_ROOM_MODULE,,
+PARAMETER,0,Normal Volume,,,0.5,,,,,
+PARAMETER,1,High Low Gain,,,0.0,,,,,
+PARAMETER,2,Bass,,,0.5,,,,,
+PARAMETER,3,Middle,,,0.5,,,,,
+PARAMETER,4,Treble,,,0.5,,,,,
+PARAMETER,5,Master Volume,,,0.5,,,,,
+PARAMETER,6,Phase Invert,,,0.0,,,,,
+PARAMETER,7,DI Amp Mix,,,1.0,,,,,
+PARAMETER,8,Mic Position 1,,SUBPLUGIN_Param2,0.5,,,,,
+PARAMETER,9,Mic Position 2,,SUBPLUGIN_Param3,0.5,,,,,
+PARAMETER,10,Mic Position 3,,SUBPLUGIN_Param4,0.5,,,,,
+PARAMETER,11,Cab Switch,,SUBPLUGIN_Param1,0.5,,,,,
+PARAMETER,12,DI Low Cut,,,0.0,,,,,
+PARAMETER,13,DI Tone,,,0.5,,,,,
+PARAMETER,14,DI High Cut,,,1.0,,,,,
+PARAMETER,15,DI Limiter,,,0.0,,,,,
+PARAMETER,16,DI Amp Solo,,,0.0,,,,,
+PARAMETER,17,Amp Cab Bypass,,,0.5,,,,,
+PARAMETER,18,Output Volume,,,1.0,,,,,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+MAP_START,usek,Amp Room Bass Amp Room,BassCab1x12,Bass Amp Room Cabs,,SSX_TYPE_AMP_ROOM_MODULE,,
+PARAMETER,0,Normal Volume,,,0.5,,,,,
+PARAMETER,1,High Low Gain,,,0.0,,,,,
+PARAMETER,2,Bass,,,0.5,,,,,
+PARAMETER,3,Middle,,,0.5,,,,,
+PARAMETER,4,Treble,,,0.5,,,,,
+PARAMETER,5,Master Volume,,,0.5,,,,,
+PARAMETER,6,Phase Invert,,,0.0,,,,,
+PARAMETER,7,DI Amp Mix,,,1.0,,,,,
+PARAMETER,8,Mic Position 1,,SUBPLUGIN_Param2,0.5,,,,,
+PARAMETER,9,Mic Position 2,,SUBPLUGIN_Param3,0.5,,,,,
+PARAMETER,10,Mic Position 3,,SUBPLUGIN_Param4,0.5,,,,,
+PARAMETER,11,Cab Switch,,SUBPLUGIN_Param1,1.0,,,,,
+PARAMETER,12,DI Low Cut,,,0.0,,,,,
+PARAMETER,13,DI Tone,,,0.5,,,,,
+PARAMETER,14,DI High Cut,,,1.0,,,,,
+PARAMETER,15,DI Limiter,,,0.0,,,,,
+PARAMETER,16,DI Amp Solo,,,0.0,,,,,
+PARAMETER,17,Amp Cab Bypass,,,0.5,,,,,
+PARAMETER,18,Output Volume,,,1.0,,,,,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
 PLUGIN_START,Amp Room Guvnor.ssx
 MAP_START,ksyw,Amp Room Guvnor,Default,MARSHALL GUVNOR,,SSX_TYPE_AMP_ROOM_MODULE,,
 PARAMETER,0,Gain,Drive,SUBPLUGIN_Param1,0.5,,,,,
@@ -12,6 +98,16 @@ PARAMETER,1,Bass,Bass,SUBPLUGIN_Param2,0.5,,,,,
 PARAMETER,2,Middle,Middle,SUBPLUGIN_Param3,0.5,,,,,
 PARAMETER,3,Treble,Treble,SUBPLUGIN_Param4,0.5,,,,,
 PARAMETER,4,Volume,Level,SUBPLUGIN_Param5,0.5,,,,,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
+PLUGIN_START,Pacific Dual Black 2x12.ssx
+MAP_START,ST74,Pacific Dual Black 2x12,AmpRoomSSXLoader_FabCabBlackface,,,SSX_TYPE_AMP_ROOM_CAB_SUB_MODULE,,
+PARAMETER,0,Mic Type,,SUBPLUGIN_Param1,0.0,,,,,
+PARAMETER,1,Offset,,SUBPLUGIN_Param2,0.5,,,,,
+PARAMETER,2,Position,,SUBPLUGIN_Param3,0.333333,,,,,
+PARAMETER,3,Phase Align,,SUBPLUGIN_Param4,1.0,,,,,
+PARAMETER,4,Reserved1,,,0.5,,,,,
+PARAMETER,5,Reserved2,,,0.5,,,,,
 MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
 PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
 PLUGIN_START,Modular Delay.ssx
@@ -356,6 +452,19 @@ PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=====
 PLUGIN_START,Amp Room Gate.ssx
 MAP_START,qavn,Amp Room Gate,Default,SOFTUBE TROLLEGATER,,SSX_TYPE_AMP_ROOM_MODULE,,
 PARAMETER,0,Threshold,Threshold,SUBPLUGIN_Param1,0.0,,,,,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
+PLUGIN_START,Amp Room Vintage Green Amp.ssx
+MAP_START,peno,Amp Room Vintage Green Amp,GreenAmpMk2amp,30W TOP BOOST,,SSX_TYPE_AMP_ROOM_MODULE,,
+PARAMETER,0,Vib-Trem Off-On,,SUBPLUGIN_Param1,0.0,,,,,
+PARAMETER,1,Vib-Trem Speed,,SUBPLUGIN_Param2,0.0,,,,,
+PARAMETER,2,Vib-Trem Switch,,SUBPLUGIN_Param3,0.0,,,,,
+PARAMETER,3,Vib-Trem Volume,,SUBPLUGIN_Param4,0.5,,,,,
+PARAMETER,4,Normal Volume,,SUBPLUGIN_Param5,0.5,,,,,
+PARAMETER,5,Brilliant Volume,,SUBPLUGIN_Param6,0.5,,,,,
+PARAMETER,6,Tone,,SUBPLUGIN_Param7,0.5,,,,,
+PARAMETER,7,Microphone,,,0.5,,,,,
+PARAMETER,8,Amp Cab Bypass,,,1.0,,,,,
 MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
 PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
 PLUGIN_START,Wasted Space.ssx
@@ -1643,6 +1752,26 @@ METER,40,eMeterModulationEnvelopeD1,
 METER,41,eMeterModulationEnvelopeD2,
 MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
 PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
+PLUGIN_START,Top Boost Blue 2x12.ssx
+MAP_START,ST66,Top Boost Blue 2x12,AmpRoomSSXLoader_TopBoostBlue2x12,,,SSX_TYPE_AMP_ROOM_CAB_SUB_MODULE,,
+PARAMETER,0,Mic Type,,SUBPLUGIN_Param1,0.0,,,,,
+PARAMETER,1,Offset,,SUBPLUGIN_Param2,0.5,,,,,
+PARAMETER,2,Position,,SUBPLUGIN_Param3,0.333333,,,,,
+PARAMETER,3,Phase Align,,SUBPLUGIN_Param4,1.0,,,,,
+PARAMETER,4,Reserved1,,,0.5,,,,,
+PARAMETER,5,Reserved2,,,0.5,,,,,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
+PLUGIN_START,Pacific Dual Silver 2x12.ssx
+MAP_START,ST55,Pacific Dual Silver 2x12,AmpRoomSSXLoader_PacificDualSilver,,,SSX_TYPE_AMP_ROOM_CAB_SUB_MODULE,,
+PARAMETER,0,Mic Type,,SUBPLUGIN_Param1,0.0,,,,,
+PARAMETER,1,Offset,,SUBPLUGIN_Param2,0.5,,,,,
+PARAMETER,2,Position,,SUBPLUGIN_Param3,0.333333,,,,,
+PARAMETER,3,Phase Align,,SUBPLUGIN_Param4,1.0,,,,,
+PARAMETER,4,Reserved1,,,0.5,,,,,
+PARAMETER,5,Reserved2,,,0.5,,,,,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
 PLUGIN_START,FET Compressor Mk II.ssx
 MAP_START,vjcb,FET Compressor Mk II,Default,,FET Mk II,SSX_TYPE_CONSOLE1_COMPRESSOR,0.25,
 PARAMETER,0,Input,,,0.5,,,,,
@@ -2203,6 +2332,92 @@ PARAMETER,8,Sync,,SUBPLUGIN_Param8,0.0,,,,,
 PARAMETER,9,Output Volume,,SUBPLUGIN_Param9,0.5,,,,,
 MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
 PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
+PLUGIN_START,Amp Room Vintage Amp Room.ssx
+MAP_START,owhu,Amp Room Vintage Amp Room,BrownAmpMk2,Pacific Dual Tremolo 100W Black,,SSX_TYPE_AMP_ROOM_MODULE,,
+PARAMETER,0,Amp Switch,,,0.5,,,,,
+PARAMETER,1,Presence (White),,,0.5,,,,,
+PARAMETER,2,Bass (White),,,0.5,,,,,
+PARAMETER,3,Middle (White),,,0.5,,,,,
+PARAMETER,4,Treble (White),,,0.5,,,,,
+PARAMETER,5,Master Vol (White),,,0.5,,,,,
+PARAMETER,6,Preamp Vol (White),,,0.5,,,,,
+PARAMETER,7,Microphone (White),,,0.5,,,,,
+PARAMETER,8,Bright Switch (Brown),,SUBPLUGIN_Param1,0.0,,,,,
+PARAMETER,9,Volume (Brown),,SUBPLUGIN_Param2,0.5,,,,,
+PARAMETER,10,Treble (Brown),,SUBPLUGIN_Param3,0.5,,,,,
+PARAMETER,11,Middle (Brown),,SUBPLUGIN_Param4,0.5,,,,,
+PARAMETER,12,Bass (Brown),,SUBPLUGIN_Param5,0.5,,,,,
+PARAMETER,13,Vibrato Switch (Brown),,SUBPLUGIN_Param6,0.0,,,,,
+PARAMETER,14,Vibrato Speed (Brown),,SUBPLUGIN_Param7,0.5,,,,,
+PARAMETER,15,Vibrato Intensity (Brown),,SUBPLUGIN_Param8,0.5,,,,,
+PARAMETER,16,Microphone (Brown),,,0.5,,,,,
+PARAMETER,17,Vib-Trem Off-On (Green),,,0.0,,,,,
+PARAMETER,18,Vib-Trem Speed (Green),,,0.0,,,,,
+PARAMETER,19,Vib-Trem Switch (Green),,,0.0,,,,,
+PARAMETER,20,Vib-Trem Volume (Green),,,0.5,,,,,
+PARAMETER,21,Normal Volume (Green),,,0.5,,,,,
+PARAMETER,22,Brilliant Volume (Green),,,0.5,,,,,
+PARAMETER,23,Tone (Green),,,0.5,,,,,
+PARAMETER,24,Microphone (Green),,,0.5,,,,,
+PARAMETER,25,Amp Cab Bypass,,,1.0,,,,,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+MAP_START,owhu,Amp Room Vintage Amp Room,BrownCab,Vintage Amp Room Cabs,,SSX_TYPE_AMP_ROOM_MODULE,,
+PARAMETER,0,Amp Switch,,SUBPLUGIN_Param1,0.5,,,,,
+PARAMETER,1,Presence (White),,,0.5,,,,,
+PARAMETER,2,Bass (White),,,0.5,,,,,
+PARAMETER,3,Middle (White),,,0.5,,,,,
+PARAMETER,4,Treble (White),,,0.5,,,,,
+PARAMETER,5,Master Vol (White),,,0.5,,,,,
+PARAMETER,6,Preamp Vol (White),,,0.5,,,,,
+PARAMETER,7,Microphone (White),,SUBPLUGIN_Param2,0.5,,,,,
+PARAMETER,8,Bright Switch (Brown),,,0.0,,,,,
+PARAMETER,9,Volume (Brown),,,0.5,,,,,
+PARAMETER,10,Treble (Brown),,,0.5,,,,,
+PARAMETER,11,Middle (Brown),,,0.5,,,,,
+PARAMETER,12,Bass (Brown),,,0.5,,,,,
+PARAMETER,13,Vibrato Switch (Brown),,,0.0,,,,,
+PARAMETER,14,Vibrato Speed (Brown),,,0.5,,,,,
+PARAMETER,15,Vibrato Intensity (Brown),,,0.5,,,,,
+PARAMETER,16,Microphone (Brown),,SUBPLUGIN_Param3,0.5,,,,,
+PARAMETER,17,Vib-Trem Off-On (Green),,,0.0,,,,,
+PARAMETER,18,Vib-Trem Speed (Green),,,0.0,,,,,
+PARAMETER,19,Vib-Trem Switch (Green),,,0.0,,,,,
+PARAMETER,20,Vib-Trem Volume (Green),,,0.5,,,,,
+PARAMETER,21,Normal Volume (Green),,,0.5,,,,,
+PARAMETER,22,Brilliant Volume (Green),,,0.5,,,,,
+PARAMETER,23,Tone (Green),,,0.5,,,,,
+PARAMETER,24,Microphone (Green),,SUBPLUGIN_Param4,0.5,,,,,
+PARAMETER,25,Amp Cab Bypass,,,0.5,,,,,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+MAP_START,owhu,Amp Room Vintage Amp Room,GreenCab,Vintage Amp Room Cabs,,SSX_TYPE_AMP_ROOM_MODULE,,
+PARAMETER,0,Amp Switch,,SUBPLUGIN_Param1,1.0,,,,,
+PARAMETER,1,Presence (White),,,0.5,,,,,
+PARAMETER,2,Bass (White),,,0.5,,,,,
+PARAMETER,3,Middle (White),,,0.5,,,,,
+PARAMETER,4,Treble (White),,,0.5,,,,,
+PARAMETER,5,Master Vol (White),,,0.5,,,,,
+PARAMETER,6,Preamp Vol (White),,,0.5,,,,,
+PARAMETER,7,Microphone (White),,SUBPLUGIN_Param2,0.5,,,,,
+PARAMETER,8,Bright Switch (Brown),,,0.0,,,,,
+PARAMETER,9,Volume (Brown),,,0.5,,,,,
+PARAMETER,10,Treble (Brown),,,0.5,,,,,
+PARAMETER,11,Middle (Brown),,,0.5,,,,,
+PARAMETER,12,Bass (Brown),,,0.5,,,,,
+PARAMETER,13,Vibrato Switch (Brown),,,0.0,,,,,
+PARAMETER,14,Vibrato Speed (Brown),,,0.5,,,,,
+PARAMETER,15,Vibrato Intensity (Brown),,,0.5,,,,,
+PARAMETER,16,Microphone (Brown),,SUBPLUGIN_Param3,0.5,,,,,
+PARAMETER,17,Vib-Trem Off-On (Green),,,0.0,,,,,
+PARAMETER,18,Vib-Trem Speed (Green),,,0.0,,,,,
+PARAMETER,19,Vib-Trem Switch (Green),,,0.0,,,,,
+PARAMETER,20,Vib-Trem Volume (Green),,,0.5,,,,,
+PARAMETER,21,Normal Volume (Green),,,0.5,,,,,
+PARAMETER,22,Brilliant Volume (Green),,,0.5,,,,,
+PARAMETER,23,Tone (Green),,,0.5,,,,,
+PARAMETER,24,Microphone (Green),,SUBPLUGIN_Param4,0.5,,,,,
+PARAMETER,25,Amp Cab Bypass,,,0.5,,,,,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
 PLUGIN_START,LoadIR.ssx
 MAP_START,wmxf,LoadIR,IRLoader,,,SSX_TYPE_AMP_ROOM_MODULE,,
 PARAMETER,0,Resonance,,SUBPLUGIN_Param1,0.5,,,,,
@@ -2211,6 +2426,7 @@ PARAMETER,2,Punch Gain,,SUBPLUGIN_Param3,0.5,,,,,
 PARAMETER,3,Punch Freq,,SUBPLUGIN_Param4,0.5,,,,,
 PARAMETER,4,Volume,,SUBPLUGIN_Param5,0.5,,,,,
 PARAMETER,5,Phase,,SUBPLUGIN_Param6,0.0,,,,,
+PARAMETER,6,Phase Align Dummy,,,0.0,,,,,
 METER,0,eMeterClip,SUBPLUGIN_Meter1,
 MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
 MAP_START,wmxf,LoadIR,AmpRoomSSXLoader_LoadIR,,,SSX_TYPE_AMP_ROOM_CAB_SUB_MODULE,,
@@ -2220,6 +2436,7 @@ PARAMETER,2,Punch Gain,,,0.5,,,,,
 PARAMETER,3,Punch Freq,,,0.5,,,,,
 PARAMETER,4,Volume,,,0.5,,,,,
 PARAMETER,5,Phase,,,0.0,,,,,
+PARAMETER,6,Phase Align Dummy,Phase Align,SUBPLUGIN_Param4,0.0,,,,,
 METER,0,eMeterClip,SUBPLUGIN_Meter1,
 MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
 PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
@@ -2299,6 +2516,14 @@ METER,0,eMeterInputL,MODULE_Meter1,
 METER,1,eMeterInputR,MODULE_Meter2,
 METER,2,eMeterOutputL,MODULE_Meter3,
 METER,3,eMeterOutputR,MODULE_Meter4,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
+PLUGIN_START,Amp Room Tremolo.ssx
+MAP_START,jeyp,Amp Room Tremolo,Default,SOFTUBE TINNERO,,SSX_TYPE_AMP_ROOM_MODULE,,
+PARAMETER,0,Speed,,SUBPLUGIN_Param1,0.5,,,,,
+PARAMETER,1,Depth,,SUBPLUGIN_Param2,0.5,,,,,
+PARAMETER,2,Shape,,SUBPLUGIN_Param3,0.0,,,,,
+PARAMETER,3,Dynamics,,SUBPLUGIN_Param4,0.5,,,,,
 MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
 PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
 PLUGIN_START,Parallels Effect.ssx
@@ -2920,6 +3145,16 @@ PARAMETER,32,Comp Amount,,,0.5,,,,,
 PARAMETER,33,Spatialization On/Off,,,1.0,,,,,
 PARAMETER,34,Monomaker,,MODULE_Param1,0.5,,,,,
 PARAMETER,35,Stereo Widener,,MODULE_Param2,0.5,,,,,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
+PLUGIN_START,Custom M 4x12.ssx
+MAP_START,ST69,Custom M 4x12,AmpRoomSSXLoader_FabCabHiwatt,,,SSX_TYPE_AMP_ROOM_CAB_SUB_MODULE,,
+PARAMETER,0,Mic Type,,SUBPLUGIN_Param1,0.0,,,,,
+PARAMETER,1,Offset,,SUBPLUGIN_Param2,0.5,,,,,
+PARAMETER,2,Position,,SUBPLUGIN_Param3,0.333333,,,,,
+PARAMETER,3,Phase Align,,SUBPLUGIN_Param4,1.0,,,,,
+PARAMETER,4,Reserved1,,,0.5,,,,,
+PARAMETER,5,Reserved2,,,0.5,,,,,
 MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
 PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
 PLUGIN_START,Marshall 2551AV 4x12.ssx
@@ -4178,6 +4413,27 @@ MAP_START,dezz,Doepfer A-114 Ring Mod,Default,,,SSX_TYPE_MODULAR_MODULE,,
 PARAMETER,0,Param x,,MODULE_Param1,1.0,,,,,
 MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
 PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
+PLUGIN_START,Dual Tremolo 100W SF.ssx
+MAP_START,acfb,Dual Tremolo 100W SF,Default,Pacific Dual Tremolo 100W Silver,,SSX_TYPE_AMP_ROOM_MODULE,,
+PARAMETER,0,Bright,Bright,SUBPLUGIN_Param1,0.0,,,,,
+PARAMETER,1,Volume,Volume,SUBPLUGIN_Param2,0.5,,,,,
+PARAMETER,2,Treble,Treble,SUBPLUGIN_Param3,0.5,,,,,
+PARAMETER,3,Middle,Middle,SUBPLUGIN_Param4,0.5,,,,,
+PARAMETER,4,Bass,Bass,SUBPLUGIN_Param5,0.5,,,,,
+PARAMETER,5,Vibrato,Vibrato,SUBPLUGIN_Param6,0.0,,,,,
+PARAMETER,6,Speed,Speed,SUBPLUGIN_Param7,0.5,,,,,
+PARAMETER,7,Intensity,Intensity,SUBPLUGIN_Param8,0.5,,,,,
+PARAMETER,8,Master Volume,Master Volume,SUBPLUGIN_Param9,0.5,,,,,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
+PLUGIN_START,Amp Room Compressor.ssx
+MAP_START,vjus,Amp Room Compressor,Default,SOFTUBE JET CITY,,SSX_TYPE_AMP_ROOM_MODULE,,
+PARAMETER,0,Intensity,Intensity,SUBPLUGIN_Param1,0.5,,,,,
+PARAMETER,1,Output,Output,SUBPLUGIN_Param2,0.5,,,,,
+PARAMETER,2,Attack,Attack,SUBPLUGIN_Param3,0.5,,,,,
+PARAMETER,3,Release,Release,SUBPLUGIN_Param4,0.5,,,,,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
 PLUGIN_START,Amp Room Vintage Amp Room JCM800.ssx
 MAP_START,ST13,Amp Room Vintage Amp Room JCM800,WhiteAmpMk2,MARSHALL JCM 800 LEAD SERIES,,SSX_TYPE_AMP_ROOM_MODULE,,
 PARAMETER,0,Amp Switch,,,0.0,,,,,
@@ -4692,6 +4948,16 @@ MAP_START,djfh,Modular Sine Oscillator,Default,Sine Oscillator,,SSX_TYPE_MODULAR
 PARAMETER,0,Pitch,,MODULE_Param1,0.5,,,,,
 MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
 PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
+PLUGIN_START,Marshall 1936 Classic 2x12.ssx
+MAP_START,ST60,Marshall 1936 Classic 2x12,AmpRoomSSXLoader_FabCab1936Classic,,,SSX_TYPE_AMP_ROOM_CAB_SUB_MODULE,,
+PARAMETER,0,Mic Type,,SUBPLUGIN_Param1,0.0,,,,,
+PARAMETER,1,Offset,,SUBPLUGIN_Param2,0.5,,,,,
+PARAMETER,2,Position,,SUBPLUGIN_Param3,0.333333,,,,,
+PARAMETER,3,Phase Align,,SUBPLUGIN_Param4,1.0,,,,,
+PARAMETER,4,Reserved1,,,0.5,,,,,
+PARAMETER,5,Reserved2,,,0.5,,,,,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
 PLUGIN_START,Console 1 Chandler Limited Compressor.ssx
 MAP_START,gghz,Console 1 Chandler Limited Compressor,Default,Chandler Limited Zener-Bender Compressor,Chandler,SSX_TYPE_CONSOLE1_COMPRESSOR,0.25,
 PARAMETER,0,Ext/Int Sidechain,,,1.0,,,,,
@@ -4937,6 +5203,13 @@ METER,0,eMeterGate1,MODULE_Meter1,
 METER,1,eMeterGate2,MODULE_Meter2,
 METER,2,eMeterGate3,MODULE_Meter3,
 METER,3,eMeterGate4,MODULE_Meter4,
+MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
+PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
+PLUGIN_START,Amp Room Chorus.ssx
+MAP_START,mjit,Amp Room Chorus,Default,SOFTUBE JJB,,SSX_TYPE_AMP_ROOM_MODULE,,
+PARAMETER,0,Speed,Speed,SUBPLUGIN_Param1,0.5,,,,,
+PARAMETER,1,Depth,Depth,SUBPLUGIN_Param2,0.5,,,,,
+PARAMETER,2,Mix,Mix,SUBPLUGIN_Param3,0.5,,,,,
 MAP_END,-------,-------,-------,-------,-------,-------,-------,-------,-------
 PLUGIN_END,=======,=======,=======,=======,=======,=======,=======,=======,=======
 PLUGIN_START,Console 1 Chandler Limited EQ.ssx
