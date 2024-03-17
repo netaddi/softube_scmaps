@@ -214,7 +214,8 @@
      "name": "Drive Type",
      "value": 1.0
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   }
  ]
 }

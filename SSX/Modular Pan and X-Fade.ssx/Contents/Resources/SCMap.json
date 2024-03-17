@@ -46,7 +46,8 @@
      "name": "eMeterPan2R",
      "mapsTo": "MODULE_Meter4"
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "XFade",
@@ -96,7 +97,8 @@
      "name": "eMeterPan2R",
      "mapsTo": "MODULE_Meter4"
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   }
  ]
 }

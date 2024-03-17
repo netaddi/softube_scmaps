@@ -12,7 +12,8 @@
      "name": "Dummy",
      "value": 0.0
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   }
  ]
 }

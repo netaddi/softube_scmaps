@@ -10,7 +10,8 @@
      "name": "Process Mode",
      "value": 0.0
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "Output",
@@ -22,7 +23,8 @@
      "name": "Process Mode",
      "value": 1.0
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   }
  ]
 }

@@ -1,0 +1,440 @@
+{
+ "maps": [
+  {
+   "mapName": "BrownAmpMk2",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "owhu",
+   "pluginName": "Amp Room Vintage Amp Room",
+   "displayName": "Pacific Dual Tremolo 100W Black",
+   "linearGainOutput": 0.4466839,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Amp Switch",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Presence (White)",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Bass (White)",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Middle (White)",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Treble (White)",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Master Vol (White)",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Preamp Vol (White)",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Microphone (White)",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Bright Switch (Brown)",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Volume (Brown)",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Treble (Brown)",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Middle (Brown)",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Bass (Brown)",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Vibrato Switch (Brown)",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Vibrato Speed (Brown)",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Vibrato Intensity (Brown)",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Microphone (Brown)",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Vib-Trem Off-On (Green)",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Vib-Trem Speed (Green)",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Vib-Trem Switch (Green)",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Vib-Trem Volume (Green)",
+     "value": 0.5
+    },
+    {
+     "id": 21,
+     "name": "Normal Volume (Green)",
+     "value": 0.5
+    },
+    {
+     "id": 22,
+     "name": "Brilliant Volume (Green)",
+     "value": 0.5
+    },
+    {
+     "id": 23,
+     "name": "Tone (Green)",
+     "value": 0.5
+    },
+    {
+     "id": 24,
+     "name": "Microphone (Green)",
+     "value": 0.5
+    },
+    {
+     "id": 25,
+     "name": "Amp Cab Bypass",
+     "value": 1.0
+    }
+   ]
+  },
+  {
+   "mapName": "BrownCab",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "owhu",
+   "pluginName": "Amp Room Vintage Amp Room",
+   "displayName": "Vintage Amp Room Cabs",
+   "linearGainOutput": 1.258925,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Amp Switch",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Presence (White)",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Bass (White)",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Middle (White)",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Treble (White)",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Master Vol (White)",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Preamp Vol (White)",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Microphone (White)",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Bright Switch (Brown)",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Volume (Brown)",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Treble (Brown)",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Middle (Brown)",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Bass (Brown)",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Vibrato Switch (Brown)",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Vibrato Speed (Brown)",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Vibrato Intensity (Brown)",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Microphone (Brown)",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Vib-Trem Off-On (Green)",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Vib-Trem Speed (Green)",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Vib-Trem Switch (Green)",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Vib-Trem Volume (Green)",
+     "value": 0.5
+    },
+    {
+     "id": 21,
+     "name": "Normal Volume (Green)",
+     "value": 0.5
+    },
+    {
+     "id": 22,
+     "name": "Brilliant Volume (Green)",
+     "value": 0.5
+    },
+    {
+     "id": 23,
+     "name": "Tone (Green)",
+     "value": 0.5
+    },
+    {
+     "id": 24,
+     "name": "Microphone (Green)",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 25,
+     "name": "Amp Cab Bypass",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "GreenCab",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "owhu",
+   "pluginName": "Amp Room Vintage Amp Room",
+   "displayName": "Vintage Amp Room Cabs",
+   "linearGainOutput": 1.122018,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Amp Switch",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Presence (White)",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Bass (White)",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Middle (White)",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Treble (White)",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Master Vol (White)",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Preamp Vol (White)",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Microphone (White)",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Bright Switch (Brown)",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Volume (Brown)",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Treble (Brown)",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Middle (Brown)",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Bass (Brown)",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Vibrato Switch (Brown)",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Vibrato Speed (Brown)",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Vibrato Intensity (Brown)",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Microphone (Brown)",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Vib-Trem Off-On (Green)",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Vib-Trem Speed (Green)",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Vib-Trem Switch (Green)",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Vib-Trem Volume (Green)",
+     "value": 0.5
+    },
+    {
+     "id": 21,
+     "name": "Normal Volume (Green)",
+     "value": 0.5
+    },
+    {
+     "id": 22,
+     "name": "Brilliant Volume (Green)",
+     "value": 0.5
+    },
+    {
+     "id": 23,
+     "name": "Tone (Green)",
+     "value": 0.5
+    },
+    {
+     "id": 24,
+     "name": "Microphone (Green)",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 25,
+     "name": "Amp Cab Bypass",
+     "value": 0.5
+    }
+   ]
+  }
+ ]
+}

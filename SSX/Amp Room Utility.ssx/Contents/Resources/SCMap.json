@@ -189,7 +189,8 @@
      "id": 15,
      "name": "eMeterVarPhaseVolumeRight"
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "CrossoverFilter",
@@ -380,7 +381,8 @@
      "id": 15,
      "name": "eMeterVarPhaseVolumeRight"
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "VariablePhase",
@@ -574,7 +576,8 @@
      "name": "eMeterVarPhaseVolumeRight",
      "mapsTo": "SUBPLUGIN_Meter2"
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "GainMute",
@@ -761,7 +764,8 @@
      "id": 13,
      "name": "eMeterDelayVolumeRight"
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "Splitter",
@@ -951,7 +955,8 @@
      "id": 15,
      "name": "eMeterVarPhaseVolumeRight"
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "PanVolume",
@@ -1145,7 +1150,8 @@
      "id": 15,
      "name": "eMeterVarPhaseVolumeRight"
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "SuperSplitter",
@@ -1344,7 +1350,8 @@
      "id": 15,
      "name": "eMeterVarPhaseVolumeRight"
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "SuperMixer",
@@ -1548,7 +1555,8 @@
      "id": 15,
      "name": "eMeterVarPhaseVolumeRight"
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "SuperMixer2",
@@ -1752,7 +1760,8 @@
      "id": 15,
      "name": "eMeterVarPhaseVolumeRight"
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "ShortDelay",
@@ -1945,7 +1954,8 @@
      "id": 15,
      "name": "eMeterVarPhaseVolumeRight"
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "SuperMixer3",
@@ -2151,7 +2161,8 @@
      "id": 15,
      "name": "eMeterVarPhaseVolumeRight"
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   }
  ]
 }

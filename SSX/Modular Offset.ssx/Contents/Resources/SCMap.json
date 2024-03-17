@@ -28,7 +28,8 @@
      "name": "Offset 4",
      "value": 0.5
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "Quad",
@@ -61,7 +62,8 @@
      "mapsTo": "MODULE_Param4",
      "value": 0.5
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   }
  ]
 }

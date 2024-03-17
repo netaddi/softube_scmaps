@@ -19,7 +19,8 @@
      "name": "eMeter12",
      "mapsTo": "MODULE_Meter1"
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   }
  ]
 }

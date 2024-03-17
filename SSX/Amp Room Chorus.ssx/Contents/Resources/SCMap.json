@@ -1,0 +1,34 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "mjit",
+   "pluginName": "Amp Room Chorus",
+   "displayName": "SOFTUBE JJB",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Speed",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5,
+     "displayName": "Speed"
+    },
+    {
+     "id": 1,
+     "name": "Depth",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5,
+     "displayName": "Depth"
+    },
+    {
+     "id": 2,
+     "name": "Mix",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5,
+     "displayName": "Mix"
+    }
+   ]
+  }
+ ]
+}

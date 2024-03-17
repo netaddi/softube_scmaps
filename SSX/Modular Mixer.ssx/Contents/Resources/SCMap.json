@@ -43,7 +43,8 @@
      "mapsTo": "MODULE_Param1",
      "value": 0.0
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "Alt1",
@@ -147,7 +148,8 @@
      "name": "Output (Pol)",
      "value": 0.0
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "Alt2",
@@ -251,7 +253,8 @@
      "name": "Output (Pol)",
      "value": 0.0
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   },
   {
    "mapName": "Alt3",
@@ -355,7 +358,8 @@
      "value": 1.0,
      "displayName": "Output"
     }
-   ]
+   ],
+   "skipModuleTagInPresetCollection": true
   }
  ]
 }

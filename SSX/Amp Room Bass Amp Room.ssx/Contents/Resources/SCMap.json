@@ -1,0 +1,441 @@
+{
+ "maps": [
+  {
+   "mapName": "BassAmpMk2",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "usek",
+   "pluginName": "Amp Room Bass Amp Room",
+   "displayName": "CUSTOM 100W",
+   "linearGainOutput": 1.9952623,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Normal Volume",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "High Low Gain",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Bass",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Middle",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Treble",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Master Volume",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Phase Invert",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "DI Amp Mix",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Mic Position 1",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Mic Position 2",
+     "value": 0.455
+    },
+    {
+     "id": 10,
+     "name": "Mic Position 3",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Cab Switch",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "DI Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "DI Tone",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "DI High Cut",
+     "value": 1.0
+    },
+    {
+     "id": 15,
+     "name": "DI Limiter",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "DI Amp Solo",
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "Amp Cab Bypass",
+     "value": 1.0
+    },
+    {
+     "id": 18,
+     "name": "Output Volume",
+     "mapsTo": "SUBPLUGIN_Param8",
+     "value": 0.5
+    }
+   ]
+  },
+  {
+   "mapName": "BassCab8x10",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "usek",
+   "pluginName": "Amp Room Bass Amp Room",
+   "displayName": "Bass Amp Room Cabs",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Normal Volume",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "High Low Gain",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Bass",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Middle",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Treble",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Master Volume",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "DI Amp Mix",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Mic Position 1",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Mic Position 2",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Mic Position 3",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Cab Switch",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "DI Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "DI Tone",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "DI High Cut",
+     "value": 1.0
+    },
+    {
+     "id": 15,
+     "name": "DI Limiter",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "DI Amp Solo",
+     "value": 0.0
+    },
+    {
+     "id": 17,
+     "name": "Amp Cab Bypass",
+     "value": 0.5
+    },
+    {
+     "id": 18,
+     "name": "Output Volume",
+     "value": 1.0
+    }
+   ]
+  },
+  {
+   "mapName": "BassCab4x12",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "usek",
+   "pluginName": "Amp Room Bass Amp Room",
+   "displayName": "Bass Amp Room Cabs",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Normal Volume",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "High Low Gain",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Bass",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Middle",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Treble",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Master Volume",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "DI Amp Mix",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Mic Position 1",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Mic Position 2",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Mic Position 3",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Cab Switch",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "DI Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "DI Tone",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "DI High Cut",
+     "value": 1.0
+    },
+    {
+     "id": 15,
+     "name": "DI Limiter",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "DI Amp Solo",
+     "value": 0.0
+    },
+    {
+     "id": 17,
+     "name": "Amp Cab Bypass",
+     "value": 0.5
+    },
+    {
+     "id": 18,
+     "name": "Output Volume",
+     "value": 1.0
+    }
+   ]
+  },
+  {
+   "mapName": "BassCab1x12",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "usek",
+   "pluginName": "Amp Room Bass Amp Room",
+   "displayName": "Bass Amp Room Cabs",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Normal Volume",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "High Low Gain",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Bass",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Middle",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Treble",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Master Volume",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Phase Invert",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "DI Amp Mix",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Mic Position 1",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Mic Position 2",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Mic Position 3",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Cab Switch",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "DI Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "DI Tone",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "DI High Cut",
+     "value": 1.0
+    },
+    {
+     "id": 15,
+     "name": "DI Limiter",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "DI Amp Solo",
+     "value": 0.0
+    },
+    {
+     "id": 17,
+     "name": "Amp Cab Bypass",
+     "value": 0.5
+    },
+    {
+     "id": 18,
+     "name": "Output Volume",
+     "value": 1.0
+    }
+   ]
+  }
+ ]
+}

@@ -41,6 +41,11 @@
      "name": "Phase",
      "mapsTo": "SUBPLUGIN_Param6",
      "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Phase Align Dummy",
+     "value": 0.0
     }
    ],
    "meters": [
@@ -86,6 +91,13 @@
      "id": 5,
      "name": "Phase",
      "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Phase Align Dummy",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.0,
+     "displayName": "Phase Align"
     }
    ],
    "meters": [
