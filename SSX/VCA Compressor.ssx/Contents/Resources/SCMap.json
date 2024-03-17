@@ -40,7 +40,6 @@
     {
      "id": 5,
      "name": "HF Make-Up",
-     "mapsTo": "COMP_Attack_Shift",
      "value": 0.0
     },
     {
@@ -51,13 +50,12 @@
     {
      "id": 7,
      "name": "Sidechain Punch",
-     "mapsTo": "COMP_Ratio_Shift",
-     "value": 0.0,
-     "displayName": "Punch"
+     "value": 0.0
     },
     {
      "id": 8,
      "name": "Sidechain Filter",
+     "mapsTo": "COMP_Ratio_Shift",
      "value": 0.0
     },
     {
@@ -68,6 +66,7 @@
     {
      "id": 10,
      "name": "Output Drive",
+     "mapsTo": "COMP_Attack_Shift",
      "value": 0.0
     },
     {

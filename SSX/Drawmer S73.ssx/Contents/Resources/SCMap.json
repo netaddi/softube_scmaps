@@ -33,6 +33,7 @@
     {
      "id": 4,
      "name": "Gain",
+     "mapsTo": "COMP_Release",
      "value": 0.5
     }
    ],

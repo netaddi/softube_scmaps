@@ -20,6 +20,7 @@
     {
      "id": 2,
      "name": "Limiter Gain",
+     "mapsTo": "COMP_Attack_Shift",
      "value": 0.0
     },
     {
