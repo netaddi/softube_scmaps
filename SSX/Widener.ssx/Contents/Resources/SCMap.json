@@ -1,0 +1,105 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_SHAPE",
+   "pluginId": "ypxm",
+   "pluginName": "Widener",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Widening Amount",
+     "mapsTo": "SHAPE_Gate",
+     "value": 0.5,
+     "displayName": "Amount"
+    },
+    {
+     "id": 1,
+     "name": "Widening Algo",
+     "mapsTo": "SHAPE_GateRelease",
+     "value": 0.0,
+     "displayName": "Algorithm"
+    },
+    {
+     "id": 2,
+     "name": "Widening Low Frequency",
+     "mapsTo": "SHAPE_Punch",
+     "value": 0.0,
+     "displayName": "Low Freq."
+    },
+    {
+     "id": 3,
+     "name": "Widening High Frequency",
+     "mapsTo": "SHAPE_Sustain",
+     "value": 1.0,
+     "displayName": "High Freq.",
+     "knobMode": "KNOB_MODE_REVERSED"
+    },
+    {
+     "id": 4,
+     "name": "Classic Size",
+     "mapsTo": "SHAPE_HardGate",
+     "value": 0.210526
+    },
+    {
+     "id": 5,
+     "name": "Freq. Spread Flip Sides",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Freq. Spread Low Frequency",
+     "mapsTo": "SHAPE_Punch_Shift",
+     "value": 0.375,
+     "displayName": "Freq. Sprd. LF"
+    },
+    {
+     "id": 7,
+     "name": "Freq. Spread High Frequency",
+     "mapsTo": "SHAPE_Sustain_Shift",
+     "value": 0.75,
+     "displayName": "Freq. Sprd. HF",
+     "knobMode": "KNOB_MODE_REVERSED"
+    },
+    {
+     "id": 8,
+     "name": "Rotation Emphasis",
+     "mapsTo": "SHAPE_GateRelease_Shift",
+     "value": 0.528306,
+     "displayName": "Rotation Emph.",
+     "knobMode": "KNOB_MODE_SINGLE"
+    },
+    {
+     "id": 9,
+     "name": "Rotation Flip Sides",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Ambience Size",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Reflections Size",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Width",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Mono Bass",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Output Gain",
+     "value": 0.833333
+    }
+   ]
+  }
+ ]
+}
