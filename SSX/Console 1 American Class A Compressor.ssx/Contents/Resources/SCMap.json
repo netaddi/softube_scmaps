@@ -7,6 +7,7 @@
    "pluginName": "Console 1 American Class A Compressor",
    "displayName": "American Class A Smooth Compressor",
    "displayNameShort": "ACA Smooth",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_AMERICAN_CLASS_A",
    "parameters": [
     {
      "id": 0,
@@ -84,6 +85,7 @@
    "pluginName": "Console 1 American Class A Compressor",
    "displayName": "American Class A Punchy Compressor",
    "displayNameShort": "ACA Punch",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_AMERICAN_CLASS_A",
    "parameters": [
     {
      "id": 0,

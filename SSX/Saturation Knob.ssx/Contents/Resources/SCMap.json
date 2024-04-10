@@ -13,7 +13,8 @@
      "id": 0,
      "name": "Saturation",
      "mapsTo": "MODULE_Param1",
-     "value": 0.0
+     "value": 0.0,
+     "virtualInput": 0
     },
     {
      "id": 1,

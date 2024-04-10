@@ -8,6 +8,7 @@
    "displayName": "Empirical Labs Trak Pak Compressor",
    "displayNameShort": "ELI Trak Pak",
    "autoMakeup": 0.25,
+   "collectionId": "SSX_COLLECTION_CONSOLE1_EMPIRICAL_LABS_TRAK_PAK",
    "parameters": [
     {
      "id": 0,

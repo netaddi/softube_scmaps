@@ -8,6 +8,7 @@
    "displayName": "Chandler Limited Zener-Bender Compressor",
    "displayNameShort": "Chandler",
    "autoMakeup": 0.25,
+   "collectionId": "SSX_COLLECTION_CONSOLE1_CHANDLER_LIMITED_ZENER_BENDER",
    "parameters": [
     {
      "id": 0,

@@ -7,6 +7,7 @@
    "pluginName": "Console 1 Chandler Limited Output",
    "displayName": "Chandler Limited Zener-Bender Drive",
    "displayNameShort": "Chandler",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_CHANDLER_LIMITED_ZENER_BENDER",
    "parameters": [
     {
      "id": 0,

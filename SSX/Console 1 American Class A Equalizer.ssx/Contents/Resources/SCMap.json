@@ -7,6 +7,7 @@
    "pluginName": "Console 1 American Class A Equalizer",
    "displayName": "American Class A Original EQ",
    "displayNameShort": "ACA Orig.",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_AMERICAN_CLASS_A",
    "parameters": [
     {
      "id": 0,

@@ -7,6 +7,7 @@
    "pluginName": "Console 1 American Class A Shape",
    "displayName": "American Class A Shape",
    "displayNameShort": "ACA",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_AMERICAN_CLASS_A",
    "parameters": [
     {
      "id": 0,

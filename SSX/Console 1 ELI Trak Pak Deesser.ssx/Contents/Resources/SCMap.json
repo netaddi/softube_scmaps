@@ -7,6 +7,7 @@
    "pluginName": "Console 1 ELI Trak Pak Deesser",
    "displayName": "Empirical Labs Trak Pak Deesser",
    "displayNameShort": "ELI Trak Pak",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_EMPIRICAL_LABS_TRAK_PAK",
    "parameters": [
     {
      "id": 0,
