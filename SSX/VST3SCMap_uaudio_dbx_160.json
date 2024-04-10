@@ -1,0 +1,56 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855333733}",
+   "pluginName": "uaudio_dbx_160",
+   "displayName": "UADx dbx160",
+   "autoMakeup": 0.25,
+   "estimateGrMeter": true,
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Thresh",
+     "mapsTo": "COMP_Threshold",
+     "value": 0,
+     "minValue": 1,
+     "maxValue": 0
+    },
+    {
+     "id": 1,
+     "name": "Compress",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.504943848
+    },
+    {
+     "id": 2,
+     "name": "Gain",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Meter",
+     "value": 1
+    },
+    {
+     "id": 4,
+     "name": "SCFilter",
+     "value": 0
+    },
+    {
+     "id": 5,
+     "name": "Mix",
+     "value": 1
+    },
+    {
+     "id": 6,
+     "name": "Power",
+     "value": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334158}",
+   "pluginName": "uaudio_fairchild_660",
+   "displayName": "UADx Fairchild 660 Compressor",
+   "displayNameShort": "UADx Fairchild 660 Comp.",
+   "estimateGrMeter": true,
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Meter",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Input",
+     "value": 0.8
+    },
+    {
+     "id": 2,
+     "name": "Thresh",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Time Const",
+     "setValueForDisplay": 0,
+     "mapsTo": "COMP_Release",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "SC Filt",
+     "setValueForDisplay": 0,
+     "mapsTo": "COMP_Ratio_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Bal",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "DC Thr",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.74768066
+    },
+    {
+     "id": 7,
+     "name": "Output",
+     "value": 0.34
+    },
+    {
+     "id": 8,
+     "name": "Mix",
+     "value": 1.0
+    },
+    {
+     "id": 9,
+     "name": "Headroom",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 11,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

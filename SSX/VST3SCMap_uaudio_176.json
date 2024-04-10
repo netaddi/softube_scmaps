@@ -1,0 +1,97 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-44785533434D}",
+   "pluginName": "uaudio_176",
+   "displayName": "UADx 176 Compressor",
+   "displayNameShort": "UADx 176 Comp.",
+   "autoMakeup": 0.25,
+   "externalThreshold": 1,
+   "estimateGrMeter": true,
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Ratio",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Input",
+     "value": 0.4
+    },
+    {
+     "id": 2,
+     "name": "Output",
+     "value": 0.7
+    },
+    {
+     "id": 3,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "setValueForDisplay": 0,
+     "value": 0.33333334
+    },
+    {
+     "id": 4,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "setValueForDisplay": 0,
+     "value": 0.6666667
+    },
+    {
+     "id": 5,
+     "name": "Meter",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Headroom",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Balance",
+     "value": 0.2
+    },
+    {
+     "id": 8,
+     "name": "SC Link",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Vernier",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Mix",
+     "value": 1.0
+    },
+    {
+     "id": 11,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Master Bypass",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "FakeThreshold",
+     "isVirtual": true,
+     "mapsTo": "COMP_Threshold",
+     "value": 0.25,
+     "minValue": 0.125,
+     "maxValue": 1.0
+    }
+   ]
+  }
+ ]
+}

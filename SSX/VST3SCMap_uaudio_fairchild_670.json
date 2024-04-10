@@ -1,0 +1,145 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334156}",
+   "pluginName": "uaudio_fairchild_670",
+   "displayName": "UADx Fairchild 670 Compressor",
+   "displayNameShort": "UADx Fairchild 670 Comp.",
+   "estimateGrMeter": true,
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "L Meter",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "L Input",
+     "value": 0.8
+    },
+    {
+     "id": 2,
+     "mapsTo": "COMP_Threshold",
+     "name": "L Thresh",
+     "value": 0.14987183,
+     "displayName": "Threshold"
+    },
+    {
+     "id": 3,
+     "name": "L TimeCnst",
+     "setValueForDisplay": 0,
+     "mapsTo": "COMP_Release",
+     "value": 0.8,
+     "displayName": "Time Const."
+    },
+    {
+     "id": 4,
+     "name": "L SC Filt",
+     "setValueForDisplay": 0,
+     "mapsTo": "COMP_Ratio_Shift",
+     "value": 0.0,
+     "displayName": "SC Filt."
+    },
+    {
+     "id": 5,
+     "name": "L Bal",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "L DC Thr",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.86083984,
+     "displayName": "DC Thres."
+    },
+    {
+     "id": 7,
+     "name": "L Output",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "R Meter",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "R Input",
+     "value": 0.8
+    },
+    {
+     "id": 10,
+     "name": "R Thresh",
+     "value": 0.14987183
+    },
+    {
+     "id": 11,
+     "name": "R TimeCnst",
+     "value": 0.8
+    },
+    {
+     "id": 12,
+     "name": "R SC Filt",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "R Bal",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "R DC Thr",
+     "value": 0.86083984
+    },
+    {
+     "id": 15,
+     "name": "R Output",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "AGC Matrix",
+     "mapsTo": "COMP_Attack",
+     "displayName": "AGC Matrix",
+     "value": 0.0
+    },
+    {
+     "id": 17,
+     "name": "SC Link",
+     "mapsTo": "COMP_Ratio_Shift",
+     "value": 1.0
+    },
+    {
+     "id": 18,
+     "name": "Ctrl Link",
+     "value": 1.0
+    },
+    {
+     "id": 19,
+     "name": "Mix",
+     "value": 1.0
+    },
+    {
+     "id": 20,
+     "name": "Headroom",
+     "value": 0.5
+    },
+    {
+     "id": 21,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

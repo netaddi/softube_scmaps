@@ -1,0 +1,65 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_PRE_AMP",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334431}",
+   "pluginName": "uaudio_manley_preamp",
+   "displayName": "UADx Manley Tube Pre",
+   "displayNameShort": "Manley Tube",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Source Select",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Polarity",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Pad",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Input",
+     "value": 0.30322266
+    },
+    {
+     "id": 5,
+     "name": "Gain",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "Transformer",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 9,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

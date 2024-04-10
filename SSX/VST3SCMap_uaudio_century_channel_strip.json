@@ -1,0 +1,290 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_PRE_AMP",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334343}",
+   "pluginName": "uaudio_century_channel_strip",
+   "displayName": "UADx Century Tube Pre",
+   "displayNameShort": "UADx Century",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Input Select",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Phase",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Pad",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Gain",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Level",
+     "value": 0.5809326
+    },
+    {
+     "id": 6,
+     "name": "High Shelf",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Mid Freq",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Mid Gain",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Low Shelf",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "EQ In",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Compression",
+     "value": 0.4638977
+    },
+    {
+     "id": 12,
+     "name": "GR In",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Output",
+     "value": 0.455
+    },
+    {
+     "id": 14,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 15,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "Map_EQ",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334343}",
+   "pluginName": "uaudio_century_channel_strip",
+   "displayName": "UADx Century Tube Equalizer",
+   "displayNameShort": "UADx Century EQ",
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Input Select",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Phase",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Pad",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Gain",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Level",
+     "value": 0.5809326
+    },
+    {
+     "id": 6,
+     "name": "High Shelf",
+     "mapsTo": "EQ_HF_Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Mid Freq",
+     "mapsTo": "EQ_LMF_Freq",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Mid Gain",
+     "mapsTo": "EQ_LMF_Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Low Shelf",
+     "mapsTo": "EQ_LF_Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "EQ In",
+     "value": 1.0
+    },
+    {
+     "id": 11,
+     "name": "Compression",
+     "value": 0.4638977
+    },
+    {
+     "id": 12,
+     "name": "GR In",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Output",
+     "value": 0.455
+    },
+    {
+     "id": 14,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 15,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "Map_Comp",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334343}",
+   "pluginName": "uaudio_century_channel_strip",
+   "autoMakeup": 0.25,
+   "estimateGrMeter": true,
+   "displayName": "UADx Century Tube Compressor",
+   "displayNameShort": "UADx Century Comp.",
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Input Select",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Phase",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Pad",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Gain",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Level",
+     "value": 0.5809326
+    },
+    {
+     "id": 6,
+     "name": "High Shelf",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Mid Freq",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Mid Gain",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Low Shelf",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "EQ In",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Compression",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.4638977
+    },
+    {
+     "id": 12,
+     "name": "GR In",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Output",
+     "value": 0.455
+    },
+    {
+     "id": 14,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 15,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

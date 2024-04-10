@@ -1,0 +1,338 @@
+{
+    "maps": [
+        {
+            "mapName": "Default",
+            "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+            "pluginId": "{72C4DB71-7A4D-459A-B97E-51745D84B39D}",
+            "pluginName": "FabFilter Pro-Q 3",
+            "displayName": "FabFilter Pro-Q 3",
+            "displayNameShort": "FabFilter Pro-Q 3",
+            "estimateDisplayCurves": true,
+            "collectionId": "SSX_COLLECTION_CONSOLE1_FABFILTER",
+            "parameters": [
+                {
+                    "id": 0,
+                    "name": "Band 1 Used",
+                    "value": 1.000000
+                },
+                {
+                    "id": 1,
+                    "name": "Band 1 Enabled",
+                    "value": 1.000000
+                },
+                {
+                    "id": 2,
+                    "name": "Band 1 Frequency",
+                    "displayName": "Freq.",
+                    "value": 0.2010197,
+                    "mapsTo": "EQ_LF_Freq",
+                    "knobMode": "KNOB_MODE_SINGLE"
+                },
+                {
+                    "id": 3,
+                    "name": "Band 1 Gain",
+                    "displayName": "Gain",
+                    "value": 0.500000,
+                    "mapsTo": "EQ_LF_Gain",
+                    "knobMode": "KNOB_MODE_BIPOLAR"
+                },
+                {
+                    "id": 4,
+                    "name": "Band 1 Dynamic Range",
+                    "value": 0.500000
+                },
+                {
+                    "id": 5,
+                    "name": "Band 1 Dynamics Enabled",
+                    "value": 1.000000
+                },
+                {
+                    "id": 6,
+                    "name": "Band 1 Threshold",
+                    "value": 1.000000
+                },
+                {
+                    "id": 7,
+                    "name": "Band 1 Q",
+                    "displayName": "Q",
+                    "value": 0.500000,
+                    "mapsTo": "EQ_LF_Q",
+                    "knobMode": "KNOB_MODE_SPREAD_REVERSED"
+                },
+                {
+                    "id": 8,
+                    "name": "Band 1 Shape",
+                    "displayName": "Shape",
+                    "value": 0.000000,
+                    "mapsTo": "EQ_LF_Type"
+                },
+                {
+                    "id": 9,
+                    "name": "Band 1 Slope",
+                    "displayName": "Slope",
+                    "value": 0.111111,
+                    "mapsTo": "EQ_LF_Freq_Shift"
+                },
+                {
+                    "id": 10,
+                    "name": "Band 1 Stereo Placement",
+                    "displayName": "Stereo Pos.",
+                    "mapsTo": "EQ_LF_Gain_Shift",
+                    "setValueForDisplay": 0.5,
+                    "value": 0.500000
+                },
+                {
+                    "id": 11,
+                    "name": "Band 1 Speakers",
+                    "value": 0.100000
+                },
+                {
+                    "id": 12,
+                    "name": "Band 1 Solo",
+                    "value": 0.000000
+                },
+                {
+                    "id": 13,
+                    "name": "Band 2 Used",
+                    "value": 1.000000
+                },
+                {
+                    "id": 14,
+                    "name": "Band 2 Enabled",
+                    "value": 1.000000
+                },
+                {
+                    "id": 15,
+                    "name": "Band 2 Frequency",
+                    "displayName": "Freq.",
+                    "value": 0.4248115,
+                    "mapsTo": "EQ_LMF_Freq",
+                    "knobMode": "KNOB_MODE_SINGLE"
+                },
+                {
+                    "id": 16,
+                    "name": "Band 2 Gain",
+                    "displayName": "Gain",
+                    "value": 0.500000,
+                    "mapsTo": "EQ_LMF_Gain",
+                    "knobMode": "KNOB_MODE_BIPOLAR"
+                },
+                {
+                    "id": 17,
+                    "name": "Band 2 Dynamic Range",
+                    "value": 0.500000
+                },
+                {
+                    "id": 18,
+                    "name": "Band 2 Dynamics Enabled",
+                    "value": 1.000000
+                },
+                {
+                    "id": 19,
+                    "name": "Band 2 Threshold",
+                    "value": 1.000000
+                },
+                {
+                    "id": 20,
+                    "name": "Band 2 Q",
+                    "displayName": "Q",
+                    "value": 0.500000,
+                    "mapsTo": "EQ_LMF_Q",
+                    "knobMode": "KNOB_MODE_SPREAD_REVERSED"
+                },
+                {
+                    "id": 21,
+                    "name": "Band 2 Shape",
+                    "displayName": "Shape",
+                    "value": 0.000000
+                },
+                {
+                    "id": 22,
+                    "name": "Band 2 Slope",
+                    "displayName": "Slope",
+                    "value": 0.111111,
+                    "mapsTo": "EQ_LMF_Freq_Shift"
+                },
+                {
+                    "id": 23,
+                    "name": "Band 2 Stereo Placement",
+                    "displayName": "Stereo Pos.",
+                    "mapsTo": "EQ_LMF_Gain_Shift",
+                    "setValueForDisplay": 0.5,
+                    "value": 0.500000
+                },
+                {
+                    "id": 24,
+                    "name": "Band 2 Speakers",
+                    "value": 0.100000
+                },
+                {
+                    "id": 25,
+                    "name": "Band 2 Solo",
+                    "value": 0.000000
+                },
+                {
+                    "id": 26,
+                    "name": "band 3 Used",
+                    "value": 1.000000
+                },
+                {
+                    "id": 27,
+                    "name": "band 3 Enabled",
+                    "value": 1.000000
+                },
+                {
+                    "id": 28,
+                    "name": "band 3 Frequency",
+                    "displayName": "Freq.",
+                    "value": 0.6617629,
+                    "mapsTo": "EQ_HMF_Freq",
+                    "knobMode": "KNOB_MODE_SINGLE"
+                },
+                {
+                    "id": 29,
+                    "name": "band 3 Gain",
+                    "displayName": "Gain",
+                    "value": 0.500000,
+                    "mapsTo": "EQ_HMF_Gain",
+                    "knobMode": "KNOB_MODE_BIPOLAR"
+                },
+                {
+                    "id": 30,
+                    "name": "band 3 Dynamic Range",
+                    "value": 0.500000
+                },
+                {
+                    "id": 31,
+                    "name": "band 3 Dynamics Enabled",
+                    "value": 1.000000
+                },
+                {
+                    "id": 32,
+                    "name": "band 3 Threshold",
+                    "value": 1.000000
+                },
+                {
+                    "id": 33,
+                    "name": "band 3 Q",
+                    "displayName": "Q",
+                    "value": 0.500000,
+                    "mapsTo": "EQ_HMF_Q",
+                    "knobMode": "KNOB_MODE_SPREAD_REVERSED"
+                },
+                {
+                    "id": 34,
+                    "name": "band 3 Shape",
+                    "displayName": "Shape",
+                    "value": 0.000000
+                },
+                {
+                    "id": 35,
+                    "name": "band 3 Slope",
+                    "displayName": "Slope",
+                    "value": 0.111111,
+                    "mapsTo": "EQ_HMF_Freq_Shift"
+                },
+                {
+                    "id": 36,
+                    "name": "band 3 Stereo Placement",
+                    "displayName": "Stereo Pos.",
+                    "mapsTo": "EQ_HMF_Gain_Shift",
+                    "setValueForDisplay": 0.5,
+                    "value": 0.500000
+                },
+                {
+                    "id": 37,
+                    "name": "band 3 Speakers",
+                    "value": 0.100000
+                },
+                {
+                    "id": 38,
+                    "name": "band 3 Solo",
+                    "value": 0.000000
+                },
+                {
+                    "id": 39,
+                    "name": "Band 4 Used",
+                    "value": 1.000000
+                },
+                {
+                    "id": 40,
+                    "name": "Band 4 Enabled",
+                    "value": 1.000000
+                },
+                {
+                    "id": 41,
+                    "name": "Band 4 Frequency",
+                    "displayName": "Freq.",
+                    "value": 0.8627827,
+                    "mapsTo": "EQ_HF_Freq",
+                    "knobMode": "KNOB_MODE_SINGLE"
+                },
+                {
+                    "id": 42,
+                    "name": "Band 4 Gain",
+                    "displayName": "Gain",
+                    "value": 0.500000,
+                    "mapsTo": "EQ_HF_Gain",
+                    "knobMode": "KNOB_MODE_BIPOLAR"
+                },
+                {
+                    "id": 43,
+                    "name": "Band 4 Dynamic Range",
+                    "value": 0.500000
+                },
+                {
+                    "id": 44,
+                    "name": "Band 4 Dynamics Enabled",
+                    "value": 1.000000
+                },
+                {
+                    "id": 45,
+                    "name": "Band 4 Threshold",
+                    "value": 1.000000
+                },
+                {
+                    "id": 46,
+                    "name": "Band 4 Q",
+                    "displayName": "Q",
+                    "value": 0.500000,
+                    "mapsTo": "EQ_HF_Q",
+                    "knobMode": "KNOB_MODE_SPREAD_REVERSED"
+                },
+                {
+                    "id": 47,
+                    "name": "Band 4 Shape",
+                    "displayName": "Shape",
+                    "value": 0.000000,
+                    "mapsTo": "EQ_HF_Type"
+                },
+                {
+                    "id": 48,
+                    "name": "Band 4 Slope",
+                    "displayName": "Slope",
+                    "value": 0.111111,
+                    "mapsTo": "EQ_HF_Freq_Shift"
+                },
+                {
+                    "id": 49,
+                    "name": "Band 4 Stereo Placement",
+                    "displayName": "Stereo Pos.",
+                    "mapsTo": "EQ_HF_Gain_Shift",
+                    "setValueForDisplay": 0.5,
+                    "value": 0.500000
+                },
+                {
+                    "id": 50,
+                    "name": "Band 4 Speakers",
+                    "value": 0.100000
+                },
+                {
+                    "id": 51,
+                    "name": "Band 4 Solo",
+                    "value": 0.000000
+                }
+            ]
+        }
+    ]
+}

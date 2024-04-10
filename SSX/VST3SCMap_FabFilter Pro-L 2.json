@@ -1,0 +1,221 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "{AFD92F72-9A04-47B7-B5E8-D1D568DEA985}",
+   "pluginName": "FabFilter Pro-L 2",
+   "displayName": "FabFilter Pro-L 2",
+   "displayNameShort": "FabFilter Pro-L 2",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_FABFILTER",
+   "autoMakeup": 0.0,
+   "estimateGrMeter": false,
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Gain",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Style",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.71428573
+    },
+    {
+     "id": 2,
+     "name": "Lookahead",
+     "mapsTo": "COMP_Attack_Shift",
+     "setValueForDisplay": 0,
+     "value": 0.036000002
+    },
+    {
+     "id": 3,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "setValueForDisplay": 0,
+     "value": 0.40722382
+    },
+    {
+     "id": 4,
+     "name": "Release",
+     "setValueForDisplay": 0,
+     "mapsTo": "COMP_Release",
+     "value": 0.38779825
+    },
+    {
+     "id": 5,
+     "name": "Channel Link Transients",
+     "value": 0.375
+    },
+    {
+     "id": 6,
+     "name": "Channel Link Release",
+     "displayName": "Ch. Link. Rel.",
+     "mapsTo": "COMP_Ratio_Shift",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Channel Link Center",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Channel Link LFE",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Oversampling",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "True Peak Limiting",
+     "value": 1.0
+    },
+    {
+     "id": 11,
+     "name": "Dithering",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "Noise Shaping",
+     "value": 0.6666667
+    },
+    {
+     "id": 13,
+     "name": "Filter DC Offset",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Side Chain Triggering",
+     "setValueForDisplay": 0,
+     "value": 1.0
+    },
+    {
+     "id": 15,
+     "name": "Unity Gain",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Audition Limiting",
+     "value": 0.0
+    },
+    {
+     "id": 17,
+     "name": "Bypass",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Output Level",
+     "value": 1.0
+    },
+    {
+     "id": 19,
+     "name": "Lock Output",
+     "value": 1.0
+    },
+    {
+     "id": 20,
+     "name": "Receive Midi",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Show Advanced",
+     "value": 0.0
+    },
+    {
+     "id": 22,
+     "name": "True Peak Metering",
+     "value": 1.0
+    },
+    {
+     "id": 23,
+     "name": "Display Mode",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "Meter Scale",
+     "value": 0.33333334
+    },
+    {
+     "id": 25,
+     "name": "Loudness Time Scale",
+     "value": 0.5
+    },
+    {
+     "id": 26,
+     "name": "Loudness Meter Scale",
+     "value": 0.0
+    },
+    {
+     "id": 27,
+     "name": "Loudness Meter Origin",
+     "value": 0.0
+    },
+    {
+     "id": 28,
+     "name": "Loudness Meter Target",
+     "value": 0.76666665
+    },
+    {
+     "id": 29,
+     "name": "Loudness Integrated Peak Time Scale",
+     "value": 0.0
+    },
+    {
+     "id": 30,
+     "name": "Loudness Recording",
+     "value": 1.0
+    },
+    {
+     "id": 31,
+     "name": "Loudness Auto-Reset",
+     "value": 0.0
+    },
+    {
+     "id": 32,
+     "name": "Host Bypass",
+     "value": 0.0
+    },
+    {
+     "id": 33,
+     "name": "Internal",
+     "value": 0.0
+    },
+    {
+     "id": 34,
+     "name": "MIDI CC",
+     "value": 0.0
+    },
+    {
+     "id": 35,
+     "name": "Pitch Bend",
+     "value": 0.0
+    },
+    {
+     "id": 36,
+     "name": "Channel Pressure",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+        "id": 0,
+        "name": "eMeterCompression",
+        "mapsTo": "COMP_MeterReduction"
+    }
+   ]
+  }
+ ]
+}

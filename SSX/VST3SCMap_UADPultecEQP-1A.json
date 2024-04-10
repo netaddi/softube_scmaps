@@ -1,0 +1,76 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-44785533414E}",
+   "pluginName": "uaudio_pultec_eqp-1a",
+   "displayName": "UADx Pultec EQP-1A",
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "LowFreq",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.333333343
+    },
+    {
+     "id": 1,
+     "name": "LFBoost",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0
+    },
+    {
+     "id": 2,
+     "name": "LFAtten",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0
+    },
+    {
+     "id": 3,
+     "name": "HighFreq",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "HFBoost",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0
+    },
+    {
+     "id": 5,
+     "name": "HFQ",
+     "mapsTo": "EQ_HMF_Q",
+     "value": 1,
+     "minValue": 1,
+     "maxValue": 0
+    },
+    {
+     "id": 6,
+     "name": "HFAttenFreq",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "HFAtten",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0
+    },
+    {
+     "id": 8,
+     "name": "Enable",
+     "value": 1,
+     "bypassValue": 0
+    },
+    {
+     "id": 9,
+     "name": "Output",
+     "value": 0.46
+    }
+   ]
+  }
+ ]
+}

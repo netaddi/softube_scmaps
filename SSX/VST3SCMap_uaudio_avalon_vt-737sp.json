@@ -1,0 +1,571 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_PRE_AMP",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-44785533434F}",
+   "pluginName": "uaudio_avalon_vt-737sp",
+   "displayName": "UADx Avalon VT-737",
+   "displayNameShort": "UADx Avalon",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Input Select",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Preamp Gain",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "High Gain",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Phase",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Pad",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Filter",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "HP Freq",
+     "value": 0.7
+    },
+    {
+     "id": 7,
+     "name": "Comp Threshold",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Comp Ratio",
+     "value": 0.3
+    },
+    {
+     "id": 9,
+     "name": "Comp Attack",
+     "value": 0.25
+    },
+    {
+     "id": 10,
+     "name": "Comp Rel",
+     "value": 0.75
+    },
+    {
+     "id": 11,
+     "name": "EQ to Comp",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "Comp Link",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Comp Meter",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Comp /4",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Comp In",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Bass Gain",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Bass Freq",
+     "value": 0.33333334
+    },
+    {
+     "id": 18,
+     "name": "Lo Mid Gain",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Lo Mid Q",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Lo Mid X10",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Lo Mid Freq",
+     "value": 0.5
+    },
+    {
+     "id": 22,
+     "name": "Hi Mid Gain",
+     "value": 0.5
+    },
+    {
+     "id": 23,
+     "name": "Hi Mid Q",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "Hi Mid X10",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "Hi Mid Freq",
+     "value": 0.5
+    },
+    {
+     "id": 26,
+     "name": "Treble Gain",
+     "value": 0.5
+    },
+    {
+     "id": 27,
+     "name": "Treble Freq",
+     "value": 0.6666667
+    },
+    {
+     "id": 28,
+     "name": "EQ to SC",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "EQ In",
+     "value": 0.0
+    },
+    {
+     "id": 30,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 31,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 32,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "Map_EQ",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-44785533434F}",
+   "pluginName": "uaudio_avalon_vt-737sp",
+   "displayName": "UADx Avalon VT-737",
+   "displayNameShort": "UADx Avalon EQ",
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Input Select",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Preamp Gain",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "High Gain",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Phase",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Pad",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Filter",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "HP Freq",
+     "value": 0.7
+    },
+    {
+     "id": 7,
+     "name": "Comp Threshold",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "Comp Ratio",
+     "value": 0.3
+    },
+    {
+     "id": 9,
+     "name": "Comp Attack",
+     "value": 0.25
+    },
+    {
+     "id": 10,
+     "name": "Comp Rel",
+     "value": 0.75
+    },
+    {
+     "id": 11,
+     "name": "EQ to Comp",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "Comp Link",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Comp Meter",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Comp /4",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Comp In",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Bass Gain",
+     "mapsTo": "EQ_LF_Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Bass Freq",
+     "mapsTo": "EQ_LF_Freq",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "value": 0.33333334
+    },
+    {
+     "id": 18,
+     "name": "Lo Mid Gain",
+     "mapsTo": "EQ_LMF_Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Lo Mid Q",
+     "mapsTo": "EQ_LMF_Q",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Lo Mid X10",
+     "mapsTo": "EQ_LMF_Freq_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Lo Mid Freq",
+     "mapsTo": "EQ_LMF_Freq",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "value": 0.5
+    },
+    {
+     "id": 22,
+     "name": "Hi Mid Gain",
+     "mapsTo": "EQ_HMF_Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "value": 0.5
+    },
+    {
+     "id": 23,
+     "name": "Hi Mid Q",
+     "mapsTo": "EQ_HMF_Q",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "Hi Mid X10",
+     "mapsTo": "EQ_HMF_Freq_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "Hi Mid Freq",
+     "mapsTo": "EQ_HMF_Freq",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "value": 0.5
+    },
+    {
+     "id": 26,
+     "name": "Treble Gain",
+     "mapsTo": "EQ_HF_Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "value": 0.5
+    },
+    {
+     "id": 27,
+     "name": "Treble Freq",
+     "mapsTo": "EQ_HF_Freq",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "value": 0.6666667
+    },
+    {
+     "id": 28,
+     "name": "EQ to SC",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "EQ In",
+     "value": 1.0
+    },
+    {
+     "id": 30,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 31,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 32,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "Map_Comp",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-44785533434F}",
+   "pluginName": "uaudio_avalon_vt-737sp",
+   "displayName": "UADx Avalon VT-737",
+   "displayNameShort": "UADx Avalon Comp.",
+   "autoMakeup": 0.25,
+   "estimateGrMeter": true,
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Input Select",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Preamp Gain",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "High Gain",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Phase",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Pad",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Filter",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "HP Freq",
+     "value": 0.7
+    },
+    {
+     "id": 7,
+     "name": "Comp Threshold",
+     "mapsTo": "COMP_Threshold",
+     "displayName": "Threshold",
+     "minValue": 1,
+     "maxValue": 0,
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Comp Ratio",
+     "mapsTo": "COMP_Ratio",
+     "displayName": "Ratio",
+     "value": 0.3
+    },
+    {
+     "id": 9,
+     "name": "Comp Attack",
+     "mapsTo": "COMP_Attack",
+     "displayName": "Attack",
+     "setValueForDisplay": 0,
+     "value": 0.25
+    },
+    {
+     "id": 10,
+     "name": "Comp Rel",
+     "mapsTo": "COMP_Release",
+     "displayName": "Release",
+     "setValueForDisplay": 0,
+     "value": 0.75
+    },
+    {
+     "id": 11,
+     "name": "EQ to Comp",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "Comp Link",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "name": "Comp Meter",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "Comp /4",
+     "mapsTo": "COMP_Attack_Shift",
+     "displayName": "Attack /4",
+     "setValueForDisplay": 1,
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Comp In",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Bass Gain",
+     "value": 0.5
+    },
+    {
+     "id": 17,
+     "name": "Bass Freq",
+     "value": 0.33333334
+    },
+    {
+     "id": 18,
+     "name": "Lo Mid Gain",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Lo Mid Q",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Lo Mid X10",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Lo Mid Freq",
+     "value": 0.5
+    },
+    {
+     "id": 22,
+     "name": "Hi Mid Gain",
+     "value": 0.5
+    },
+    {
+     "id": 23,
+     "name": "Hi Mid Q",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "Hi Mid X10",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "Hi Mid Freq",
+     "value": 0.5
+    },
+    {
+     "id": 26,
+     "name": "Treble Gain",
+     "value": 0.5
+    },
+    {
+     "id": 27,
+     "name": "Treble Freq",
+     "value": 0.6666667
+    },
+    {
+     "id": 28,
+     "name": "EQ to SC",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "EQ In",
+     "value": 0.0
+    },
+    {
+     "id": 30,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 31,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 32,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

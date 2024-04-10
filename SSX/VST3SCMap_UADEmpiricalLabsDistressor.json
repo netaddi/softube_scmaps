@@ -1,0 +1,96 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334334}",
+   "pluginName": "uaudio_distressor",
+   "displayName": "UADx Empirical Labs Distressor",
+   "displayNameShort": "UADx ELI Distressor",
+   "autoMakeup": 0.25,
+   "externalThreshold": 1,
+   "estimateGrMeter": true,
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Bypass",
+     "value": 0
+    },
+    {
+     "id": 1,
+     "name": "Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.571428597
+    },
+    {
+     "id": 2,
+     "mapsTo": "COMP_Attack_Shift",
+     "name": "Detector",
+     "value": 0
+    },
+    {
+     "id": 3,
+     "mapsTo": "COMP_Ratio_Shift",
+     "name": "Audio",
+     "value": 0
+    },
+    {
+     "id": 4,
+     "name": "Input",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "setValueForDisplay": 0,
+     "value": 0.476165771
+    },
+    {
+     "id": 6,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "setValueForDisplay": 0,
+     "value": 0.476165771
+    },
+    {
+     "id": 7,
+     "name": "Output",
+     "value": 0.0899
+    },
+    {
+     "id": 8,
+     "name": "Mix",
+     "value": 1
+    },
+    {
+     "id": 9,
+     "name": "Headroom",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "Power",
+     "value": 1,
+     "bypassValue": 0
+    },
+    {
+        "id": 11,
+        "name": "Master Bypass",
+        "value": 0
+    },
+    {
+     "id": 12,
+     "name": "FakeThreshold",
+     "isVirtual": true,
+     "mapsTo": "COMP_Threshold",
+     "value": 0.5,
+     "minValue": 0.0,
+     "maxValue": 0.5
+    }
+   ]
+  }
+ ]
+}

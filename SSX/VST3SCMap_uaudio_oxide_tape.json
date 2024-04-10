@@ -1,0 +1,55 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_PRE_AMP",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334244}",
+   "pluginName": "uaudio_oxide_tape",
+   "displayName": "UADx Oxide Tape",
+   "displayNameShort": "UADx Oxide",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Input Level",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Output Level",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Path Select",
+     "value": 1.0
+    },
+    {
+     "id": 3,
+     "name": "IPS",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "name": "Emphasis EQ",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Noise Reduct",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

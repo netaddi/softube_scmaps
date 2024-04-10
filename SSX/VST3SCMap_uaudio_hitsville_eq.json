@@ -1,0 +1,92 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334433}",
+   "pluginName": "uaudio_hitsville_eq",
+   "displayName": "UADx Hitsville EQ",
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "1-50",
+     "displayName": "50 Hz",
+     "mapsTo": "EQ_LF_Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "2-130",
+     "displayName": "130 Hz",
+     "mapsTo": "EQ_LF_Freq",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "3-320",
+     "displayName": "320 Hz",
+     "mapsTo": "EQ_LMF_Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "4-800",
+     "displayName": "800 Hz",
+     "mapsTo": "EQ_LMF_Freq",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "5-2000",
+     "displayName": "2 kHz",
+     "mapsTo": "EQ_HMF_Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "6-5000",
+     "displayName": "5 kHz",
+     "mapsTo": "EQ_HMF_Freq",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "value": 0.5
+    },
+    {
+     "id": 6,
+     "name": "7-12500",
+     "displayName": "12.5 kHz",
+     "mapsTo": "EQ_HF_Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "Bypass",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "Gain",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}
+

@@ -1,0 +1,579 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_PRE_AMP",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334250}",
+   "pluginName": "uaudio_manley_voxbox",
+   "displayName": "UADx Manley VOXBOX",
+   "displayNameShort": "VOXBOX Pre",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Source Select",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Phase",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Input",
+     "value": 0.285
+    },
+    {
+     "id": 4,
+     "name": "Gain",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "SC Link",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Comp Byp",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Comp Thresh",
+     "value": 0.49572754
+    },
+    {
+     "id": 8,
+     "name": "Comp Attack",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Comp Rel",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "EQ Byp",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Lo Peak",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "Lo Peak Freq",
+     "value": 0.3
+    },
+    {
+     "id": 13,
+     "name": "Mid Dip",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Mid Dip Freq",
+     "value": 0.1
+    },
+    {
+     "id": 15,
+     "name": "Hi Peak",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Hi Peak Freq",
+     "value": 0.8
+    },
+    {
+     "id": 17,
+     "name": "De Ess Byp",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "De Ess Sel",
+     "value": 1.0
+    },
+    {
+     "id": 19,
+     "name": "De Ess Thr",
+     "value": 0.411438
+    },
+    {
+     "id": 20,
+     "name": "Meter",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Transformer Byp",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 23,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 24,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "Map_Shape",
+   "mapType": "SSX_TYPE_CONSOLE1_SHAPE",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334250}",
+   "pluginName": "uaudio_manley_voxbox",
+   "displayName": "UADx Manley VOXBOX De Ess",
+   "displayNameShort": "VOXBOX De Ess",
+   "autoMakeup": 0.0,
+   "estimateGrMeter": true,
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Source Select",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Phase",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Input",
+     "value": 0.285
+    },
+    {
+     "id": 4,
+     "name": "Gain",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "SC Link",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Comp Byp",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Comp Thresh",
+     "value": 0.49572754
+    },
+    {
+     "id": 8,
+     "name": "Comp Attack",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Comp Rel",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "EQ Byp",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Lo Peak",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "Lo Peak Freq",
+     "value": 0.3
+    },
+    {
+     "id": 13,
+     "name": "Mid Dip",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Mid Dip Freq",
+     "value": 0.1
+    },
+    {
+     "id": 15,
+     "name": "Hi Peak",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Hi Peak Freq",
+     "value": 0.8
+    },
+    {
+     "id": 17,
+     "name": "De Ess Byp",
+     "value": 1.0
+    },
+    {
+     "id": 18,
+     "name": "De Ess Sel",
+     "mapsTo": "SHAPE_GateRelease",
+     "displayName": "Freq. Select",
+     "setValueForDisplay": 1,
+     "value": 1.0
+    },
+    {
+     "id": 19,
+     "name": "De Ess Thr",
+     "mapsTo": "SHAPE_Gate",
+     "displayName": "Threshold",
+     "value": 0.411438
+    },
+    {
+     "id": 20,
+     "name": "Meter",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Transformer Byp",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 23,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 24,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "Map_EQ",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334250}",
+   "pluginName": "uaudio_manley_voxbox",
+   "displayName": "UADx Manley VOXBOX EQ",
+   "displayNameShort": "UADx VOXBOX EQ",
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Source Select",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Phase",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Input",
+     "value": 0.285
+    },
+    {
+     "id": 4,
+     "name": "Gain",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "SC Link",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Comp Byp",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Comp Thresh",
+     "value": 0.49572754
+    },
+    {
+     "id": 8,
+     "name": "Comp Attack",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Comp Rel",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "EQ Byp",
+     "value": 1.0
+    },
+    {
+     "id": 11,
+     "name": "Lo Peak",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "Lo Peak Freq",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.3
+    },
+    {
+     "id": 13,
+     "name": "Mid Dip",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Mid Dip Freq",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.1
+    },
+    {
+     "id": 15,
+     "name": "Hi Peak",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Hi Peak Freq",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.8
+    },
+    {
+     "id": 17,
+     "name": "De Ess Byp",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "De Ess Sel",
+     "value": 1.0
+    },
+    {
+     "id": 19,
+     "name": "De Ess Thr",
+     "value": 0.411438
+    },
+    {
+     "id": 20,
+     "name": "Meter",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Transformer Byp",
+     "value": 0.0
+    },
+    {
+     "id": 22,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 23,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 24,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "Map_Comp",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334250}",
+   "pluginName": "uaudio_manley_voxbox",
+   "displayName": "UADx Manley VOXBOX Comp.",
+   "displayNameShort": "UADx VOXBOX Comp.",
+   "autoMakeup": 0.25,
+   "estimateGrMeter": true,
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Source Select",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Phase",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Input",
+     "value": 0.285
+    },
+    {
+     "id": 4,
+     "name": "Gain",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "SC Link",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Comp Byp",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "name": "Comp Thresh",
+     "mapsTo": "COMP_Threshold",
+     "displayName": "Threshold",
+     "value": 0.49572754
+    },
+    {
+     "id": 8,
+     "name": "Comp Attack",
+     "mapsTo": "COMP_Attack",
+     "displayName": "Attack",
+     "setValueForDisplay": 1,
+     "value": 0.5,
+     "minValue": 1,
+     "maxValue": 0
+    },
+    {
+     "id": 9,
+     "name": "Comp Rel",
+     "mapsTo": "COMP_Release",
+     "displayName": "Release",
+     "setValueForDisplay": 1,
+     "value": 0.5,
+     "minValue": 1,
+     "maxValue": 0
+    },
+    {
+     "id": 10,
+     "name": "EQ Byp",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Lo Peak",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "Lo Peak Freq",
+     "value": 0.3
+    },
+    {
+     "id": 13,
+     "name": "Mid Dip",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Mid Dip Freq",
+     "value": 0.1
+    },
+    {
+     "id": 15,
+     "name": "Hi Peak",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Hi Peak Freq",
+     "value": 0.8
+    },
+    {
+     "id": 17,
+     "name": "De Ess Byp",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "De Ess Sel",
+     "value": 1.0
+    },
+    {
+     "id": 19,
+     "name": "De Ess Thr",
+     "value": 0.411438
+    },
+    {
+     "id": 20,
+     "name": "Meter",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Transformer Byp",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Output",
+     "value": 0.5
+    },
+    {
+     "id": 23,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 24,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}
+

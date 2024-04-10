@@ -1,0 +1,233 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_SHAPE",
+   "pluginId": "{9D1DCCF7-918A-436F-A3CD-D7115D8B193B}",
+   "pluginName": "FabFilter Pro-G",
+   "displayName": "FabFilter Pro-G",
+   "displayNameShort": "FabFilter Pro-G",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_FABFILTER",
+   "estimateGrMeter": false,
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Threshold",
+     "mapsTo": "SHAPE_Gate",
+     "value": 0.7
+    },
+    {
+     "id": 1,
+     "name": "Threshold (Upward)",
+     "value": 0.8
+    },
+    {
+     "id": 2,
+     "name": "Ratio",
+     "mapsTo": "SHAPE_HardGate",
+     "value": 0.9
+    },
+    {
+     "id": 3,
+     "name": "Ratio (Upward)",
+     "value": 0.25
+    },
+    {
+     "id": 4,
+     "name": "Range",
+     "mapsTo": "SHAPE_Sustain",
+     "value": 0.7509091
+    },
+    {
+     "id": 5,
+     "name": "Style",
+     "mapsTo": "SHAPE_Sustain_Shift",
+     "value": 0.0,
+     "minValue": 0.0,
+     "maxValue": 0.8,
+     "guiQuantization": 4
+    },
+    {
+     "id": 6,
+     "name": "Attack",
+     "mapsTo": "SHAPE_Punch",
+     "setValueForDisplay": 0,
+     "value": 0.17782794
+    },
+    {
+     "id": 7,
+     "mapsTo": "SHAPE_GateRelease",
+     "setValueForDisplay": 0,
+     "name": "Release",
+     "value": 0.30779567
+    },
+    {
+     "id": 8,
+     "mapsTo": "SHAPE_GateRelease_Shift",
+     "setValueForDisplay": 0,
+     "name": "Hold",
+     "value": 0.118750006
+    },
+    {
+     "id": 9,
+     "name": "Knee",
+     "mapsTo": "SHAPE_Punch_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Lookahead",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Lookahead Enabled",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "Left Side Chain Level",
+     "value": 0.5
+    },
+    {
+     "id": 13,
+     "name": "Left Side Chain Mix",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "Right Side Chain Level",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Right Side Chain Mix",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Side Chain Input Signal",
+     "setValueForDisplay": 0,
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "Low Pass Frequency",
+     "value": 1.0
+    },
+    {
+     "id": 18,
+     "name": "High Pass Frequency",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Audition Side Chain",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Wet Level",
+     "value": 0.5
+    },
+    {
+     "id": 21,
+     "name": "Wet Pan",
+     "value": 0.5
+    },
+    {
+     "id": 22,
+     "name": "Dry Level",
+     "value": 0.0
+    },
+    {
+     "id": 23,
+     "name": "Dry Pan",
+     "value": 0.5
+    },
+    {
+     "id": 24,
+     "name": "Midi State",
+     "value": 0.0
+    },
+    {
+     "id": 25,
+     "name": "Oversampling",
+     "value": 0.0
+    },
+    {
+     "id": 26,
+     "name": "Expert Mode",
+     "setValueForDisplay": 0,
+     "value": 1.0
+    },
+    {
+     "id": 27,
+     "name": "Channel Mode",
+     "value": 0.0
+    },
+    {
+     "id": 28,
+     "name": "Input Level",
+     "value": 0.5
+    },
+    {
+     "id": 29,
+     "name": "Input Pan",
+     "value": 0.5
+    },
+    {
+     "id": 30,
+     "name": "Output Level",
+     "value": 0.5
+    },
+    {
+     "id": 31,
+     "name": "Output Pan",
+     "value": 0.5
+    },
+    {
+     "id": 32,
+     "name": "Bypass",
+     "value": 0.0
+    },
+    {
+     "id": 33,
+     "name": "Interface: Show Display",
+     "value": 1.0
+    },
+    {
+     "id": 34,
+     "name": "Ex Style",
+     "value": 0.0
+    },
+    {
+     "id": 35,
+     "name": "Host Bypass",
+     "value": 0.0
+    },
+    {
+     "id": 36,
+     "name": "Internal",
+     "value": 0.0
+    },
+    {
+     "id": 37,
+     "name": "MIDI CC",
+     "value": 0.0
+    },
+    {
+     "id": 38,
+     "name": "Pitch Bend",
+     "value": 0.0
+    },
+    {
+     "id": 39,
+     "name": "Channel Pressure",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

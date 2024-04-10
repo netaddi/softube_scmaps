@@ -1,0 +1,163 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334231}",
+   "pluginName": "uaudio_manley_variable_mu",
+   "displayName": "UADx Manley Variable Mu Compressor",
+   "displayNameShort": "UADx Manley Vari-Mu",
+   "autoMakeup": 0.25,
+   "estimateGrMeter": true,
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Dual Input",
+     "value": 0.6
+    },
+    {
+     "id": 1,
+     "name": "L Thresh",
+     "displayName": "Threshold",
+     "mapsTo": "COMP_Threshold",
+     "minValue": 1.0,
+     "maxValue": 0.0,
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "L Attack",
+     "displayName": "Attack",
+     "mapsTo": "COMP_Attack",
+     "setValueForDisplay": 1,
+     "minValue": 1.0,
+     "maxValue": 0.0,
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "L Recovery",
+     "displayName": "Recovery",
+     "mapsTo": "COMP_Release",
+     "setValueForDisplay": 1,
+     "minValue": 1.0,
+     "maxValue": 0.0,
+     "value": 0.25
+    },
+    {
+     "id": 4,
+     "name": "L Output",
+     "value": 0.45
+    },
+    {
+     "id": 5,
+     "name": "L Comp/Lim",
+     "displayName": "Comp/Lim",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "L HP SC Filt",
+     "displayName": "HP SC Filt",
+     "mapsTo": "COMP_Attack_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "L Bypass",
+     "value": 1.0
+    },
+    {
+     "id": 8,
+     "name": "R Thresh",
+     "value": 1.0
+    },
+    {
+     "id": 9,
+     "name": "R Attack",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "R Recovery",
+     "value": 0.75
+    },
+    {
+     "id": 11,
+     "name": "R Output",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "R Comp/Lim",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "R HP SC Filt",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "R Bypass",
+     "value": 1.0
+    },
+    {
+     "id": 15,
+     "name": "In Matrix",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Out Matrix",
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "SC Link",
+     "displayName": "SC Link",
+     "mapsTo": "COMP_Ratio_Shift",
+     "value": 1.0
+    },
+    {
+     "id": 18,
+     "name": "Ctrl Link",
+     "value": 1.0
+    },
+    {
+     "id": 19,
+     "name": "Mix",
+     "value": 1.0
+    },
+    {
+     "id": 20,
+     "name": "Headroom",
+     "value": 0.5
+    },
+    {
+     "id": 21,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "name": "Master Bypass",
+     "value": 0.0
+    },
+    {
+     "id": 23,
+     "name": "FakeThreshold",
+     "isVirtual": true,
+     "mapsTo": "COMP_Threshold",
+     "value": 0.25,
+     "minValue": 0.25,
+     "maxValue": 0.5
+    }
+
+   ]
+  }
+ ]
+}

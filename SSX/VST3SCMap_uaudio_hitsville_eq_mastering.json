@@ -1,0 +1,304 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334435}",
+   "pluginName": "uaudio_hitsville_eq_mastering",
+   "displayName": "UADx Hitsville EQ Mastering",
+   "displayNameShort": "UADx Hitsville EQ Mst.",
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Ctrl Link",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Filter",
+     "mapsTo": "EQ_LF_Type",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Left Byp",
+     "value": 1.0
+    },
+    {
+     "id": 3,
+     "name": "Left Speed",
+     "value": 1.0
+    },
+    {
+     "id": 4,
+     "displayName":  "1 Gain",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "displayName":  "1 Dip/Pk",
+     "mapsTo": "EQ_LF_Q",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "displayName":  "1 Freq",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 1.0
+    },
+    {
+     "id": 7,
+     "displayName":  "2 Gain",
+     "mapsTo": "EQ_LF_Gain_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "displayName":  "2 Dip/Pk",
+     "mapsTo": "EQ_LF_Q_Shift",
+     "value": 1.0
+    },
+    {
+     "id": 9,
+     "displayName":  "2 Freq",
+     "mapsTo": "EQ_LF_Freq_Shift",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "displayName":  "3 Gain",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "displayName":  "3 Dip/Pk",
+     "mapsTo": "EQ_LMF_Q",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "displayName":  "3 Freq",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 1.0
+    },
+    {
+     "id": 13,
+     "displayName":  "4 Gain",
+     "mapsTo": "EQ_LMF_Gain_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "displayName":  "4 Dip/Pk",
+     "mapsTo": "EQ_LMF_Q_Shift",
+     "value": 1.0
+    },
+    {
+     "id": 15,
+     "displayName":  "4 Freq",
+     "mapsTo": "EQ_LMF_Freq_Shift",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "displayName":  "5 Gain",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0.0
+    },
+    {
+     "id": 17,
+     "displayName":  "5 Dip/Pk",
+     "mapsTo": "EQ_HMF_Q",
+     "value": 1.0
+    },
+    {
+     "id": 18,
+     "displayName":  "5 Freq",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 1.0
+    },
+    {
+     "id": 19,
+     "displayName":  "6 Gain",
+     "mapsTo": "EQ_HMF_Gain_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "displayName":  "6 Dip/Pk",
+     "mapsTo": "EQ_HMF_Q_Shift",
+     "value": 1.0
+    },
+    {
+     "id": 21,
+     "displayName":  "6 Freq",
+     "mapsTo": "EQ_HMF_Freq_Shift",
+     "value": 1.0
+    },
+    {
+     "id": 22,
+     "displayName":  "7 Gain",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.0
+    },
+    {
+     "id": 23,
+     "displayName":  "7 Dip/Pk",
+     "mapsTo": "EQ_HF_Q",
+     "value": 1.0
+    },
+    {
+     "id": 24,
+     "displayName":  "7 Freq",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 1.0
+    },
+    {
+     "id": 25,
+     "name": "Left Gain",
+     "value": 0.5
+    },
+    {
+     "id": 26,
+     "name": "Right Byp",
+     "value": 1.0
+    },
+    {
+     "id": 27,
+     "name": "Right Speed",
+     "value": 1.0
+    },
+    {
+     "id": 28,
+     "name": "R1-Gain",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "R1-Dip/Pk",
+     "value": 0.0
+    },
+    {
+     "id": 30,
+     "name": "R1-Freq",
+     "value": 1.0
+    },
+    {
+     "id": 31,
+     "name": "R2-Gain",
+     "value": 0.0
+    },
+    {
+     "id": 32,
+     "name": "R2-Dip/Pk",
+     "value": 1.0
+    },
+    {
+     "id": 33,
+     "name": "R2-Freq",
+     "value": 1.0
+    },
+    {
+     "id": 34,
+     "name": "R3-Gain",
+     "value": 0.0
+    },
+    {
+     "id": 35,
+     "name": "R3-Dip/Pk",
+     "value": 0.0
+    },
+    {
+     "id": 36,
+     "name": "R3-Freq",
+     "value": 1.0
+    },
+    {
+     "id": 37,
+     "name": "R4-Gain",
+     "value": 0.0
+    },
+    {
+     "id": 38,
+     "name": "R4-Dip/Pk",
+     "value": 1.0
+    },
+    {
+     "id": 39,
+     "name": "R4-Freq",
+     "value": 1.0
+    },
+    {
+     "id": 40,
+     "name": "R5-Gain",
+     "value": 0.0
+    },
+    {
+     "id": 41,
+     "name": "R5-Dip/Pk",
+     "value": 1.0
+    },
+    {
+     "id": 42,
+     "name": "R5-Freq",
+     "value": 1.0
+    },
+    {
+     "id": 43,
+     "name": "R6-Gain",
+     "value": 0.0
+    },
+    {
+     "id": 44,
+     "name": "R6-Dip/Pk",
+     "value": 1.0
+    },
+    {
+     "id": 45,
+     "name": "R6-Freq",
+     "value": 1.0
+    },
+    {
+     "id": 46,
+     "name": "R7-Gain",
+     "value": 0.0
+    },
+    {
+     "id": 47,
+     "name": "R7-Dip/Pk",
+     "value": 1.0
+    },
+    {
+     "id": 48,
+     "name": "R7-Freq",
+     "value": 1.0
+    },
+    {
+     "id": 49,
+     "name": "Right Gain",
+     "value": 0.5
+    },
+    {
+     "id": 50,
+     "name": "Mid Side",
+     "value": 0.0
+    },
+    {
+     "id": 51,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 52,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}
+

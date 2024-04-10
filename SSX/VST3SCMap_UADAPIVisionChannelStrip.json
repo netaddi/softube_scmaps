@@ -1,0 +1,865 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334359}",
+   "pluginName": "uaudio_api_vision_channel_strip",
+   "displayName": "UADx API Vision EQ",
+   "displayNameShort": "UADx API EQ",
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "InputSelect",
+     "value": 0
+    },
+    {
+     "id": 1,
+     "name": "MicGain",
+     "value": 0.428985596
+    },
+    {
+     "id": 2,
+     "name": "LineGain",
+     "value": 0
+    },
+    {
+     "id": 3,
+     "name": "Pad",
+     "value": 0
+    },
+    {
+     "id": 4,
+     "name": "Phase",
+     "value": 0
+    },
+    {
+     "id": 5,
+     "name": "CutFilter",
+     "value": 0
+    },
+    {
+     "id": 6,
+     "name": "215LPFilter",
+     "value": 1
+    },
+    {
+     "id": 7,
+     "name": "215HPFilter",
+     "value": 0
+    },
+    {
+     "id": 8,
+     "name": "215DynSC",
+     "value": 0
+    },
+    {
+     "id": 9,
+     "name": "215On",
+     "value": 0
+    },
+    {
+     "id": 10,
+     "name": "235Thresh",
+     "value": 1
+    },
+    {
+     "id": 11,
+     "name": "235Depth",
+     "value": 1
+    },
+    {
+     "id": 12,
+     "name": "235Attack",
+     "value": 0
+    },
+    {
+     "id": 13,
+     "name": "235Release",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "235R/H",
+     "value": 0
+    },
+    {
+     "id": 15,
+     "name": "235G/E",
+     "value": 0
+    },
+    {
+     "id": 16,
+     "name": "235On",
+     "value": 0
+    },
+    {
+     "id": 17,
+     "name": "225Thresh",
+     "value": 0
+    },
+    {
+     "id": 18,
+     "name": "225Ratio",
+     "value": 0.46661377
+    },
+    {
+     "id": 19,
+     "name": "225Attack",
+     "value": 0
+    },
+    {
+     "id": 20,
+     "name": "225Release",
+     "value": 0.5
+    },
+    {
+     "id": 21,
+     "name": "225Knee",
+     "value": 1
+    },
+    {
+     "id": 22,
+     "name": "225Type",
+     "value": 0
+    },
+    {
+     "id": 23,
+     "name": "225On",
+     "value": 0
+    },
+    {
+     "id": 24,
+     "name": "550HFFreq",
+     "displayName": "HF Freq",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.166666672,
+     "minValue": 1,
+     "maxValue": 0
+    },
+    {
+     "id": 25,
+     "name": "550HFGain",
+     "displayName": "HF Gain",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.5
+    },
+    {
+     "id": 26,
+     "name": "550HFFilter",
+     "mapsTo": "EQ_HF_Type",
+     "value": 0
+    },
+    {
+     "id": 27,
+     "name": "550HMFFreq",
+     "displayName": "HMF Freq",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0.166666672,
+     "minValue": 1,
+     "maxValue": 0
+    },
+    {
+     "id": 28,
+     "name": "550HMFGain",
+     "displayName": "HMF Gain",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0.5
+    },
+    {
+     "id": 29,
+     "name": "550LMFFreq",
+     "displayName": "LMF Freq",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.166666672,
+     "minValue": 1,
+     "maxValue": 0
+    },
+    {
+     "id": 30,
+     "name": "550LMFGain",
+     "displayName": "LMF Gain",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.5
+    },
+    {
+     "id": 31,
+     "name": "550LFFreq",
+     "displayName": "LF Freq",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.166666672,
+     "minValue": 1,
+     "maxValue": 0
+    },
+    {
+     "id": 32,
+     "name": "550LFGain",
+     "displayName": "LF Gain",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.5
+    },
+    {
+     "id": 33,
+     "name": "550LFFilter",
+     "mapsTo": "EQ_LF_Type",
+     "value": 0
+    },
+    {
+     "id": 34,
+     "name": "56016kHz",
+     "value": 0.5
+    },
+    {
+     "id": 35,
+     "name": "5608kHz",
+     "value": 0.5
+    },
+    {
+     "id": 36,
+     "name": "5604kHz",
+     "value": 0.5
+    },
+    {
+     "id": 37,
+     "name": "5602kHz",
+     "value": 0.5
+    },
+    {
+     "id": 38,
+     "name": "5601kHz",
+     "value": 0.5
+    },
+    {
+     "id": 39,
+     "name": "560500Hz",
+     "value": 0.5
+    },
+    {
+     "id": 40,
+     "name": "560250Hz",
+     "value": 0.5
+    },
+    {
+     "id": 41,
+     "name": "560125Hz",
+     "value": 0.5
+    },
+    {
+     "id": 42,
+     "name": "56063Hz",
+     "value": 0.5
+    },
+    {
+     "id": 43,
+     "name": "56031Hz",
+     "value": 0.5
+    },
+    {
+     "id": 44,
+     "name": "EQPredyn",
+     "value": 0
+    },
+    {
+     "id": 45,
+     "name": "EQDynSC",
+     "value": 0
+    },
+    {
+     "id": 46,
+     "name": "EQType",
+     "value": 0
+    },
+    {
+     "id": 47,
+     "name": "EQOn",
+     "value": 1
+    },
+    {
+     "id": 48,
+     "name": "Level",
+     "value": 0.679992676
+    },
+    {
+     "id": 49,
+     "name": "SCLink",
+     "value": 1
+    },
+    {
+     "id": 50,
+     "name": "Power",
+     "value": 1,
+     "bypassValue": 0
+    }
+   ]
+  },
+  {
+   "mapName": "Alt1",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334359}",
+   "pluginName": "uaudio_api_vision_channel_strip",
+   "displayName": "UADx API Vision Comp.",
+   "displayNameShort": "UADx API Comp.",
+   "estimateDisplayCurves": true,
+   "estimateGrMeter": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "InputSelect",
+     "value": 0
+    },
+    {
+     "id": 1,
+     "name": "MicGain",
+     "value": 0.428985596
+    },
+    {
+     "id": 2,
+     "name": "LineGain",
+     "value": 0
+    },
+    {
+     "id": 3,
+     "name": "Pad",
+     "value": 0
+    },
+    {
+     "id": 4,
+     "name": "Phase",
+     "value": 0
+    },
+    {
+     "id": 5,
+     "name": "CutFilter",
+     "value": 0
+    },
+    {
+     "id": 6,
+     "name": "215LPFilter",
+     "value": 1
+    },
+    {
+     "id": 7,
+     "name": "215HPFilter",
+     "value": 0
+    },
+    {
+     "id": 8,
+     "name": "215DynSC",
+     "value": 0
+    },
+    {
+     "id": 9,
+     "name": "215On",
+     "value": 0
+    },
+    {
+     "id": 10,
+     "name": "235Thresh",
+     "value": 1
+    },
+    {
+     "id": 11,
+     "name": "235Depth",
+     "value": 1
+    },
+    {
+     "id": 12,
+     "name": "235Attack",
+     "value": 0
+    },
+    {
+     "id": 13,
+     "name": "235Release",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "235R/H",
+     "value": 0
+    },
+    {
+     "id": 15,
+     "name": "235G/E",
+     "value": 0
+    },
+    {
+     "id": 16,
+     "name": "235On",
+     "value": 0
+    },
+    {
+     "id": 17,
+     "name": "225Thresh",
+     "mapsTo": "COMP_Threshold",
+     "value": 0,
+     "displayName": "Threshold"
+    },
+    {
+     "id": 18,
+     "name": "225Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.46661377,
+     "displayName": "Ratio"
+    },
+    {
+     "id": 19,
+     "name": "225Attack",
+     "mapsTo": "COMP_Attack",
+     "setValueForDisplay": 0,
+     "value": 0,
+     "displayName": "Attack"
+    },
+    {
+     "id": 20,
+     "name": "225Release",
+     "mapsTo": "COMP_Release",
+     "setValueForDisplay": 0,
+     "value": 0.5,
+     "displayName": "Release"
+    },
+    {
+     "id": 21,
+     "name": "225Knee",
+     "mapsTo": "COMP_Ratio_Shift",
+     "displayName": "Knee",
+     "value": 1
+    },
+    {
+     "id": 22,
+     "name": "225Type",
+     "mapsTo": "COMP_Attack_Shift",
+     "displayName": "Type",
+     "value": 0
+    },
+    {
+     "id": 23,
+     "name": "225On",
+     "value": 1
+    },
+    {
+     "id": 24,
+     "name": "550HFFreq",
+     "value": 0.166666672
+    },
+    {
+     "id": 25,
+     "name": "550HFGain",
+     "value": 0.5
+    },
+    {
+     "id": 26,
+     "name": "550HFFilter",
+     "value": 0
+    },
+    {
+     "id": 27,
+     "name": "550HMFFreq",
+     "value": 0.166666672
+    },
+    {
+     "id": 28,
+     "name": "550HMFGain",
+     "value": 0.5
+    },
+    {
+     "id": 29,
+     "name": "550LMFFreq",
+     "value": 0.166666672
+    },
+    {
+     "id": 30,
+     "name": "550LMFGain",
+     "value": 0.5
+    },
+    {
+     "id": 31,
+     "name": "550LFFreq",
+     "value": 0.166666672
+    },
+    {
+     "id": 32,
+     "name": "550LFGain",
+     "value": 0.5
+    },
+    {
+     "id": 33,
+     "name": "550LFFilter",
+     "value": 0
+    },
+    {
+     "id": 34,
+     "name": "56016kHz",
+     "value": 0.5
+    },
+    {
+     "id": 35,
+     "name": "5608kHz",
+     "value": 0.5
+    },
+    {
+     "id": 36,
+     "name": "5604kHz",
+     "value": 0.5
+    },
+    {
+     "id": 37,
+     "name": "5602kHz",
+     "value": 0.5
+    },
+    {
+     "id": 38,
+     "name": "5601kHz",
+     "value": 0.5
+    },
+    {
+     "id": 39,
+     "name": "560500Hz",
+     "value": 0.5
+    },
+    {
+     "id": 40,
+     "name": "560250Hz",
+     "value": 0.5
+    },
+    {
+     "id": 41,
+     "name": "560125Hz",
+     "value": 0.5
+    },
+    {
+     "id": 42,
+     "name": "56063Hz",
+     "value": 0.5
+    },
+    {
+     "id": 43,
+     "name": "56031Hz",
+     "value": 0.5
+    },
+    {
+     "id": 44,
+     "name": "EQPredyn",
+     "value": 0
+    },
+    {
+     "id": 45,
+     "name": "EQDynSC",
+     "value": 0
+    },
+    {
+     "id": 46,
+     "name": "EQType",
+     "value": 0
+    },
+    {
+     "id": 47,
+     "name": "EQOn",
+     "value": 0
+    },
+    {
+     "id": 48,
+     "name": "Level",
+     "value": 0.679992676
+    },
+    {
+     "id": 49,
+     "name": "SCLink",
+     "value": 1
+    },
+    {
+     "id": 50,
+     "name": "Power",
+     "value": 1,
+     "bypassValue": 0
+    }
+   ]
+  },
+  {
+   "mapName": "Alt2",
+   "mapType": "SSX_TYPE_CONSOLE1_SHAPE",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334359}",
+   "pluginName": "uaudio_api_vision_channel_strip",
+   "displayName": "UADx API Vision Gate",
+   "displayNameShort": "UADx API Gate",
+   "estimateDisplayCurves": true,
+   "estimateGrMeter": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "InputSelect",
+     "value": 0
+    },
+    {
+     "id": 1,
+     "name": "MicGain",
+     "value": 0.428985596
+    },
+    {
+     "id": 2,
+     "name": "LineGain",
+     "value": 0
+    },
+    {
+     "id": 3,
+     "name": "Pad",
+     "value": 0
+    },
+    {
+     "id": 4,
+     "name": "Phase",
+     "value": 0
+    },
+    {
+     "id": 5,
+     "name": "CutFilter",
+     "value": 0
+    },
+    {
+     "id": 6,
+     "name": "215LPFilter",
+     "value": 1
+    },
+    {
+     "id": 7,
+     "name": "215HPFilter",
+     "value": 0
+    },
+    {
+     "id": 8,
+     "name": "215DynSC",
+     "value": 0
+    },
+    {
+     "id": 9,
+     "name": "215On",
+     "value": 0
+    },
+    {
+     "id": 10,
+     "name": "235Thresh",
+     "mapsTo": "SHAPE_Gate",
+     "value": 0,
+     "minValue": 1,
+     "maxValue": 0,
+     "displayName": "Threshold"
+    },
+    {
+     "id": 11,
+     "name": "235Depth",
+     "mapsTo": "SHAPE_Sustain",
+     "value": 1,
+     "displayName": "Depth"
+    },
+    {
+     "id": 12,
+     "name": "235Attack",
+     "mapsTo": "SHAPE_Punch",
+     "value": 0,
+     "displayName": "Attack"
+    },
+    {
+     "id": 13,
+     "name": "235Release",
+     "mapsTo": "SHAPE_GateRelease",
+     "setValueForDisplay": 0,
+     "value": 0.5,
+     "displayName": "Release"
+    },
+    {
+     "id": 14,
+     "name": "235R/H",
+     "mapsTo": "SHAPE_GateRelease_Shift",
+     "displayName": "Rel./Hold",
+     "value": 0
+    },
+    {
+     "id": 15,
+     "name": "235G/E",
+     "mapsTo": "SHAPE_HardGate",
+     "value": 0,
+     "displayName": "Gate Exp."
+    },
+    {
+     "id": 16,
+     "name": "235On",
+     "value": 1
+    },
+    {
+     "id": 17,
+     "name": "225Thresh",
+     "value": 0
+    },
+    {
+     "id": 18,
+     "name": "225Ratio",
+     "value": 0.46661377
+    },
+    {
+     "id": 19,
+     "name": "225Attack",
+     "value": 0
+    },
+    {
+     "id": 20,
+     "name": "225Release",
+     "value": 0.5
+    },
+    {
+     "id": 21,
+     "name": "225Knee",
+     "value": 1
+    },
+    {
+     "id": 22,
+     "name": "225Type",
+     "value": 0
+    },
+    {
+     "id": 23,
+     "name": "225On",
+     "value": 0
+    },
+    {
+     "id": 24,
+     "name": "550HFFreq",
+     "value": 0.166666672
+    },
+    {
+     "id": 25,
+     "name": "550HFGain",
+     "value": 0.5
+    },
+    {
+     "id": 26,
+     "name": "550HFFilter",
+     "value": 0
+    },
+    {
+     "id": 27,
+     "name": "550HMFFreq",
+     "value": 0.166666672
+    },
+    {
+     "id": 28,
+     "name": "550HMFGain",
+     "value": 0.5
+    },
+    {
+     "id": 29,
+     "name": "550LMFFreq",
+     "value": 0.166666672
+    },
+    {
+     "id": 30,
+     "name": "550LMFGain",
+     "value": 0.5
+    },
+    {
+     "id": 31,
+     "name": "550LFFreq",
+     "value": 0.166666672
+    },
+    {
+     "id": 32,
+     "name": "550LFGain",
+     "value": 0.5
+    },
+    {
+     "id": 33,
+     "name": "550LFFilter",
+     "value": 0
+    },
+    {
+     "id": 34,
+     "name": "56016kHz",
+     "value": 0.5
+    },
+    {
+     "id": 35,
+     "name": "5608kHz",
+     "value": 0.5
+    },
+    {
+     "id": 36,
+     "name": "5604kHz",
+     "value": 0.5
+    },
+    {
+     "id": 37,
+     "name": "5602kHz",
+     "value": 0.5
+    },
+    {
+     "id": 38,
+     "name": "5601kHz",
+     "value": 0.5
+    },
+    {
+     "id": 39,
+     "name": "560500Hz",
+     "value": 0.5
+    },
+    {
+     "id": 40,
+     "name": "560250Hz",
+     "value": 0.5
+    },
+    {
+     "id": 41,
+     "name": "560125Hz",
+     "value": 0.5
+    },
+    {
+     "id": 42,
+     "name": "56063Hz",
+     "value": 0.5
+    },
+    {
+     "id": 43,
+     "name": "56031Hz",
+     "value": 0.5
+    },
+    {
+     "id": 44,
+     "name": "EQPredyn",
+     "value": 0
+    },
+    {
+     "id": 45,
+     "name": "EQDynSC",
+     "value": 0
+    },
+    {
+     "id": 46,
+     "name": "EQType",
+     "value": 0
+    },
+    {
+     "id": 47,
+     "name": "EQOn",
+     "value": 0
+    },
+    {
+     "id": 48,
+     "name": "Level",
+     "value": 0.679992676
+    },
+    {
+     "id": 49,
+     "name": "SCLink",
+     "value": 1
+    },
+    {
+     "id": 50,
+     "name": "Power",
+     "value": 1,
+     "bypassValue": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_PRE_AMP",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855333942}",
+   "pluginName": "uaudio_studer_a800",
+   "displayName": "UADx Studer A800 Tape",
+   "displayNameShort": "UADx Studer A800",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Input Level",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Output Level",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Path Select",
+     "value": 1.0
+    },
+    {
+     "id": 3,
+     "name": "IPS",
+     "value": 0.6666667
+    },
+    {
+     "id": 4,
+     "name": "Tape Type",
+     "value": 0.33333334
+    },
+    {
+     "id": 5,
+     "name": "Cal Level",
+     "value": 0.33333334
+    },
+    {
+     "id": 6,
+     "name": "Emphasis EQ",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "HF Record EQ",
+     "value": 0.17999268
+    },
+    {
+     "id": 8,
+     "name": "Bias",
+     "value": 0.65649414
+    },
+    {
+     "id": 9,
+     "name": "Sync HF EQ",
+     "value": 0.3499756
+    },
+    {
+     "id": 10,
+     "name": "Sync LF EQ",
+     "value": 0.87997437
+    },
+    {
+     "id": 11,
+     "name": "Repro HF EQ",
+     "value": 0.3499756
+    },
+    {
+     "id": 12,
+     "name": "Repro LF EQ",
+     "value": 0.87997437
+    },
+    {
+     "id": 13,
+     "name": "Noise",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Hum Noise",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Hiss Noise",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Auto Cal",
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 18,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

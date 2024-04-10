@@ -1,0 +1,62 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334152}",
+   "pluginName": "uaudio_pultec_meq-5",
+   "displayName": "UADx Pultec MEQ-5",
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "LowFrequency",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0
+    },
+    {
+     "id": 1,
+     "name": "LowPeak",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0
+    },
+    {
+     "id": 2,
+     "name": "MidFrequency",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.3
+    },
+    {
+     "id": 3,
+     "name": "MidDip",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0
+    },
+    {
+     "id": 4,
+     "name": "HighFrequency",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0
+    },
+    {
+     "id": 5,
+     "name": "HighPeak",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0
+    },
+    {
+     "id": 6,
+     "name": "Enable",
+     "value": 1,
+     "bypassValue": 0
+    },
+    {
+     "id": 7,
+     "name": "Output",
+     "value": 0.5
+    }
+   ]
+  }
+ ]
+}

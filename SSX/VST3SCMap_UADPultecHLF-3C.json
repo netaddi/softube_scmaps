@@ -1,0 +1,34 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_FILTER",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334150}",
+   "pluginName": "uaudio_pultec_hlf-3c",
+   "displayName": "UADx Pultec HLF-3C",
+   "displayNameShort": "UADx Pultec",
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Low Cut",
+     "mapsTo": "IN_Low_Cut",
+     "value": 0
+    },
+    {
+     "id": 1,
+     "name": "High Cut",
+     "mapsTo": "IN_High_Cut",
+     "value": 1
+    },
+    {
+     "id": 2,
+     "name": "Enable",
+     "value": 1,
+     "bypassValue": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-44785533444A}",
+   "pluginName": "uaudio_teletronix_la-2a_tc",
+   "displayName": "UADx Teletronix LA-2A Tube",
+   "displayNameShort": "UADx LA-2A Tube",
+   "autoMakeup": 0.5,
+   "estimateGrMeter": true,
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "PeakReduct",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.349975586
+    },
+    {
+     "id": 1,
+     "name": "Gain",
+     "value": 0.41
+    },
+    {
+     "id": 2,
+     "name": "CompLimit",
+     "mapsTo": "COMP_Ratio",
+     "value": 0
+    },
+    {
+     "id": 3,
+     "name": "Meter",
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "Power",
+     "value": 1,
+     "bypassValue": 0
+    }
+   ]
+  }
+ ]
+}

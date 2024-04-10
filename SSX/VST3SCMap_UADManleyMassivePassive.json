@@ -1,0 +1,311 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855333931}",
+   "pluginName": "uaudio_manley_massive_passive",
+   "displayName": "UADx Manley Massive Passive EQ",
+   "displayNameShort": "UADx Massive Passive",
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Ch1LoEnable",
+     "displayName": "Cut/Out/Bst.",
+     "mapsTo": "EQ_LF_Gain_Shift",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Ch1LoShape",
+     "mapsTo": "EQ_LF_Type",
+     "value": 0,
+     "minValue": 1,
+     "maxValue": 0,
+     "displayName": "Lo Shape"
+    },
+    {
+     "id": 2,
+     "name": "Ch1LoGain",
+     "displayName": "Lo Boost",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0
+    },
+    {
+     "id": 3,
+     "name": "Ch1LoBW",
+     "mapsTo": "EQ_LF_Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "displayName": "Bandwidth",
+     "value": 0.501525879
+    },
+    {
+     "id": 4,
+     "name": "Ch1LoFreq",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency"
+    },
+    {
+     "id": 5,
+     "name": "Ch1LoMidEnable",
+     "displayName": "Cut/Out/Bst.",
+     "mapsTo": "EQ_LMF_Gain_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Ch1LoMidShape",
+     "value": 0
+    },
+    {
+     "id": 7,
+     "name": "Ch1LoMidGain",
+     "displayName": "Lo Mid Boost",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0
+    },
+    {
+     "id": 8,
+     "name": "Ch1LoMidBW",
+     "mapsTo": "EQ_LMF_Q",
+     "value": 0.498382568,
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "displayName": "Bandwidth"
+    },
+    {
+     "id": 9,
+     "name": "Ch1LoMidFreq",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency"
+    },
+    {
+     "id": 10,
+     "name": "Ch1HiMidEnable",
+     "displayName": "Cut/Out/Bst.",
+     "mapsTo": "EQ_HMF_Gain_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 11,
+     "name": "Ch1HiMidShape",
+     "value": 0
+    },
+    {
+     "id": 12,
+     "name": "Ch1HiMidGain",
+     "displayName": "Hi Mid Boost",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0
+    },
+    {
+     "id": 13,
+     "name": "Ch1HiMidBW",
+     "mapsTo": "EQ_HMF_Q",
+     "value": 0.497619629,
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "displayName": "Bandwidth"
+    },
+    {
+     "id": 14,
+     "name": "Ch1HiMidFreq",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency"
+    },
+    {
+     "id": 15,
+     "name": "Ch1HiEnable",
+     "displayName": "Cut/Out/Bst.",
+     "mapsTo": "EQ_HF_Gain_Shift",
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Ch1HiShape",
+     "mapsTo": "EQ_HF_Type",
+     "value": 0,
+     "minValue": 1,
+     "maxValue": 0,
+     "displayName": "Hi Shape"
+    },
+    {
+     "id": 17,
+     "name": "Ch1HiGain",
+     "displayName": "Hi Boost",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0
+    },
+    {
+     "id": 18,
+     "name": "Ch1HiBW",
+     "mapsTo": "EQ_HF_Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "displayName": "Bandwidth",
+     "value": 0.499145508
+    },
+    {
+     "id": 19,
+     "name": "Ch1HiFreq",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency"
+    },
+    {
+     "id": 20,
+     "name": "Ch1LoPass",
+     "value": 0
+    },
+    {
+     "id": 21,
+     "name": "Ch1HiPass",
+     "value": 0
+    },
+    {
+     "id": 22,
+     "name": "Ch1GAIN",
+     "value": 0.500335693
+    },
+    {
+     "id": 23,
+     "name": "Ch1ENABLE",
+     "value": 1
+    },
+    {
+     "id": 24,
+     "name": "Ch2LoEnable",
+     "value": 0.5
+    },
+    {
+     "id": 25,
+     "name": "Ch2LoShape",
+     "value": 1
+    },
+    {
+     "id": 26,
+     "name": "Ch2LoGain",
+     "value": 0
+    },
+    {
+     "id": 27,
+     "name": "Ch2LoBW",
+     "value": 0.501525879
+    },
+    {
+     "id": 28,
+     "name": "Ch2LoFreq",
+     "value": 0.5
+    },
+    {
+     "id": 29,
+     "name": "Ch2LoMidEnable",
+     "value": 0.5
+    },
+    {
+     "id": 30,
+     "name": "Ch2LoMidShape",
+     "value": 0
+    },
+    {
+     "id": 31,
+     "name": "Ch2LoMidGain",
+     "value": 0
+    },
+    {
+     "id": 32,
+     "name": "Ch2LoMidBW",
+     "value": 0.498382568
+    },
+    {
+     "id": 33,
+     "name": "Ch2LoMidFreq",
+     "value": 0.5
+    },
+    {
+     "id": 34,
+     "name": "Ch2HiMidEnable",
+     "value": 0.5
+    },
+    {
+     "id": 35,
+     "name": "Ch2HiMidShape",
+     "value": 0
+    },
+    {
+     "id": 36,
+     "name": "Ch2HiMidGain",
+     "value": 0
+    },
+    {
+     "id": 37,
+     "name": "Ch2HiMidBW",
+     "value": 0.497619629
+    },
+    {
+     "id": 38,
+     "name": "Ch2HiMidFreq",
+     "value": 0.5
+    },
+    {
+     "id": 39,
+     "name": "Ch2HiEnable",
+     "value": 0.5
+    },
+    {
+     "id": 40,
+     "name": "Ch2HiShape",
+     "value": 1
+    },
+    {
+     "id": 41,
+     "name": "Ch2HiGain",
+     "value": 0
+    },
+    {
+     "id": 42,
+     "name": "Ch2HiBW",
+     "value": 0.499145508
+    },
+    {
+     "id": 43,
+     "name": "Ch2HiFreq",
+     "value": 0.5
+    },
+    {
+     "id": 44,
+     "name": "Ch2LoPass",
+     "value": 0
+    },
+    {
+     "id": 45,
+     "name": "Ch2HiPass",
+     "value": 0
+    },
+    {
+     "id": 46,
+     "name": "Ch2GAIN",
+     "value": 0.500335693
+    },
+    {
+     "id": 47,
+     "name": "Ch2ENABLE",
+     "value": 1
+    },
+    {
+     "id": 48,
+     "name": "CtrlLink",
+     "value": 1
+    },
+    {
+     "id": 49,
+     "name": "Power",
+     "value": 1,
+     "bypassValue": 0
+    }
+   ]
+  }
+ ]
+}

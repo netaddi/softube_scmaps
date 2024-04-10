@@ -1,0 +1,92 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855333958}",
+   "pluginName": "uaudio_ua_1176ln_rev_e",
+   "displayName": "UADx 1176 LN Rev E",
+   "displayNameShort": "UADx 1176 LN E",
+   "autoMakeup": 0.25,
+   "externalThreshold": 1,
+   "estimateGrMeter": true,
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Input",
+     "value": 0.2
+    },
+    {
+     "id": 1,
+     "name": "Output",
+     "value": 0.666
+    },
+    {
+     "id": 2,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "setValueForDisplay": 1,
+     "value": 0.5,
+     "minValue": 1,
+     "maxValue": 0
+    },
+    {
+     "id": 3,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "setValueForDisplay": 1,
+     "value": 0.66595459,
+     "minValue": 1,
+     "maxValue": 0
+    },
+    {
+     "id": 4,
+     "name": "Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.1
+    },
+    {
+     "id": 5,
+     "name": "Meter",
+     "value": 1
+    },
+    {
+     "id": 6,
+     "name": "SCFilter",
+     "value": 0
+    },
+    {
+     "id": 7,
+     "name": "Mix",
+     "value": 1
+    },
+    {
+     "id": 8,
+     "name": "Headroom",
+     "value": 0.5
+    },
+    {
+     "id": 9,
+     "name": "Power",
+     "value": 1
+    },
+    {
+        "id": 10,
+        "name": "Bypass",
+        "value": 0
+    },
+    {
+     "id": 11,
+     "name": "FakeThreshold",
+     "isVirtual": true,
+     "mapsTo": "COMP_Threshold",
+     "value": 0.5,
+     "minValue": 0.125,
+     "maxValue": 0.625
+    }
+   ]
+  }
+ ]
+}

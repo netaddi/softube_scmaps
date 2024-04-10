@@ -1,0 +1,292 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "{79F415E3-C8E7-4807-AD5D-A3CF7024F618}",
+   "pluginName": "FabFilter Pro-C 2",
+   "displayName": "FabFilter Pro-C 2",
+   "displayNameShort": "FabFilter Pro-C 2",
+   "estimateDisplayCurves": true,
+   "collectionId": "SSX_COLLECTION_CONSOLE1_FABFILTER",
+   "estimateGrMeter": false,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Style",
+     "mapsTo": "COMP_Attack_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Threshold",
+     "mapsTo": "COMP_Threshold",
+     "minValue": 1.0,
+     "maxValue": 0.0,
+     "value": 0.3
+    },
+    {
+     "id": 2,
+     "name": "Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.6
+    },
+    {
+     "id": 3,
+     "name": "Knee",
+     "mapsTo": "COMP_Ratio_Shift",
+     "value": 0.25
+    },
+    {
+     "id": 4,
+     "name": "Range",
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "value": 0.1,
+     "setValueForDisplay": 0
+    },
+    {
+     "id": 6,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "value": 0.41123742,
+     "setValueForDisplay": 0
+    },
+    {
+     "id": 7,
+     "name": "Auto Release",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Lookahead",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Hold",
+     "mapsTo": "COMP_Attack_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "Wet Gain",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Wet Pan",
+     "value": 0.5
+    },
+    {
+     "id": 12,
+     "name": "Dry Gain",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Dry Pan",
+     "value": 0.5
+    },
+    {
+     "id": 14,
+     "name": "Auto Gain",
+     "value": 1.0
+    },
+    {
+     "id": 15,
+     "name": "Side Chain Expert Mode",
+     "setValueForDisplay": 0,
+     "value": 1.0
+    },
+    {
+     "id": 16,
+     "name": "Side Chain Input",
+     "setValueForDisplay": 0,
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "Side Chain Level",
+     "value": 0.5
+    },
+    {
+     "id": 18,
+     "name": "Stereo Link",
+     "value": 0.5
+    },
+    {
+     "id": 19,
+     "name": "Stereo Link Mode",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "Side Chain Low Enabled",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Side Chain Low Frequency",
+     "value": 0.23299
+    },
+    {
+     "id": 22,
+     "name": "Side Chain Low Slope",
+     "value": 0.375
+    },
+    {
+     "id": 23,
+     "name": "Side Chain Mid Auto",
+     "value": 1.0
+    },
+    {
+     "id": 24,
+     "name": "Side Chain Mid Enabled",
+     "value": 1.0
+    },
+    {
+     "id": 25,
+     "name": "Side Chain Mid Frequency",
+     "value": 0.56632334
+    },
+    {
+     "id": 26,
+     "name": "Side Chain Mid Gain",
+     "value": 0.5
+    },
+    {
+     "id": 27,
+     "name": "Side Chain Mid Q",
+     "value": 0.5
+    },
+    {
+     "id": 28,
+     "name": "Side Chain Mid Shape",
+     "value": 0.0
+    },
+    {
+     "id": 29,
+     "name": "Side Chain High Enabled",
+     "value": 0.0
+    },
+    {
+     "id": 30,
+     "name": "Side Chain High Frequency",
+     "value": 0.7993133
+    },
+    {
+     "id": 31,
+     "name": "Side Chain High Slope",
+     "value": 0.375
+    },
+    {
+     "id": 32,
+     "name": "Audition Side Chain",
+     "value": 0.0
+    },
+    {
+     "id": 33,
+     "name": "Audition Triggering",
+     "value": 0.0
+    },
+    {
+     "id": 34,
+     "name": "Mix",
+     "value": 0.5
+    },
+    {
+     "id": 35,
+     "name": "Input Level",
+     "value": 0.5
+    },
+    {
+     "id": 36,
+     "name": "Input Pan",
+     "value": 0.5
+    },
+    {
+     "id": 37,
+     "name": "Output Level",
+     "value": 0.5
+    },
+    {
+     "id": 38,
+     "name": "Output Pan",
+     "value": 0.5
+    },
+    {
+     "id": 39,
+     "name": "Bypass",
+     "value": 0.0
+    },
+    {
+     "id": 40,
+     "name": "Oversampling",
+     "value": 0.0
+    },
+    {
+     "id": 41,
+     "name": "Lookahead Enabled",
+     "value": 0.0
+    },
+    {
+     "id": 42,
+     "name": "Midi State",
+     "value": 0.0
+    },
+    {
+     "id": 43,
+     "name": "Meter Scale",
+     "value": 0.75
+    },
+    {
+     "id": 44,
+     "name": "Display Enabled",
+     "value": 1.0
+    },
+    {
+     "id": 45,
+     "name": "Knee Display Enabled",
+     "value": 1.0
+    },
+    {
+     "id": 46,
+     "name": "Host Bypass",
+     "value": 0.0
+    },
+    {
+     "id": 47,
+     "name": "Internal",
+     "value": 0.0
+    },
+    {
+     "id": 48,
+     "name": "MIDI CC",
+     "value": 0.0
+    },
+    {
+     "id": 49,
+     "name": "Pitch Bend",
+     "value": 0.0
+    },
+    {
+     "id": 50,
+     "name": "Channel Pressure",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+        "id": 0,
+        "name": "eMeterCompression",
+        "mapsTo": "COMP_MeterReduction"
+    }
+   ]
+  }
+ ]
+}

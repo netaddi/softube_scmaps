@@ -1,0 +1,180 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334441}",
+   "pluginName": "uaudio_capitol_compressor",
+   "displayName": "UADx Capitol Mastering Compressor",
+   "displayNameShort": "UADx Capitol Mastering",
+   "estimateGrMeter": true,
+   "autoMakeup": 0.25,
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Ctrl Link",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "L Ch In",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "L Input",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "L Thresh",
+     "displayName": "Threshold",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "L Attack",
+     "mapsTo": "COMP_Attack",
+     "displayName": "Attack",
+     "setValueForDisplay": 1,
+     "minValue": 1,
+     "maxValue": 0,
+     "value": 1.0
+    },
+    {
+     "id": 5,
+     "name": "L Release",
+     "mapsTo": "COMP_Release",
+     "displayName": "Release",
+     "setValueForDisplay": 1,
+     "minValue": 1,
+     "maxValue": 0,
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "L Ratio",
+     "mapsTo": "COMP_Ratio",
+     "displayName": "Ratio",
+     "value": 0.5
+    },
+    {
+     "id": 7,
+     "name": "L Output",
+     "value": 0.39130434
+    },
+    {
+     "id": 8,
+     "name": "L SC Filt",
+     "value": 1.0
+    },
+    {
+     "id": 9,
+     "name": "R Ch In",
+     "value": 1.0
+    },
+    {
+     "id": 10,
+     "name": "R Input",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "R Thresh",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "R Attack",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "R Release",
+     "value": 1.0
+    },
+    {
+     "id": 14,
+     "name": "R Ratio",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "R Output",
+     "value": 0.39130434
+    },
+    {
+     "id": 16,
+     "name": "R SC Filt",
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "VU Meter",
+     "value": 1.0
+    },
+    {
+     "id": 18,
+     "name": "Output Meter",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "GR Matrix",
+     "value": 0.0
+    },
+    {
+     "id": 20,
+     "name": "SC Link",
+     "value": 0.0
+    },
+    {
+     "id": 21,
+     "name": "Mono Fold",
+     "value": 0.0
+    },
+    {
+     "id": 22,
+     "name": "Gain",
+     "value": 0.5
+    },
+    {
+     "id": 23,
+     "name": "Saturator",
+     "mapsTo": "COMP_Attack_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 24,
+     "name": "Shape",
+     "displayName": "Sat. Shape",
+     "mapsTo": "COMP_Ratio_Shift",
+     "value": 0.5
+    },
+    {
+     "id": 25,
+     "name": "Mix",
+     "value": 1.0
+    },
+    {
+     "id": 26,
+     "name": "Headroom",
+     "value": 0.5
+    },
+    {
+     "id": 27,
+     "name": "Power",
+     "value": 1.0
+    },
+    {
+     "id": 28,
+     "name": "Master Bypass",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

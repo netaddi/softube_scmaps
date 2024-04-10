@@ -1,0 +1,116 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_UADX",
+   "pluginId": "{ABCDEF01-9182-FAEB-5541-447855334255}",
+   "pluginName": "uaudio_api_2500",
+   "displayName": "UADx API 2500",
+   "displayNameShort": "UADx API 2500",
+   "estimateGrMeter": true,
+   "estimateDisplayCurves": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Threshold",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "setValueForDisplay": 0,
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "setValueForDisplay": 0,
+     "value": 0.5
+    },
+    {
+     "id": 4,
+     "name": "ReleaseVari",
+     "mapsTo": "COMP_Attack_Shift",
+     "setValueForDisplay": 0,
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Knee",
+     "mapsTo": "COMP_Ratio_Shift",
+     "value": 1
+    },
+    {
+     "id": 6,
+     "name": "Thrust",
+     "value": 1
+    },
+    {
+     "id": 7,
+     "name": "Type",
+     "value": 1
+    },
+    {
+     "id": 8,
+     "name": "L/RLink",
+     "value": 1
+    },
+    {
+     "id": 9,
+     "name": "LinkShape",
+     "value": 0
+    },
+    {
+     "id": 10,
+     "name": "CompIn",
+     "value": 1
+    },
+    {
+     "id": 11,
+     "name": "Bypass",
+     "value": 0
+    },
+    {
+     "id": 12,
+     "name": "GainEnable",
+     "value": 1
+    },
+    {
+     "id": 13,
+     "name": "Gain",
+     "value": 0
+    },
+    {
+     "id": 14,
+     "name": "VUMeter",
+     "value": 1
+    },
+    {
+     "id": 15,
+     "name": "Mix",
+     "value": 1
+    },
+    {
+     "id": 16,
+     "name": "Headroom",
+     "value": 0.25
+    },
+    {
+     "id": 17,
+     "name": "Power",
+     "value": 1
+    }
+   ]
+  }
+ ]
+}
