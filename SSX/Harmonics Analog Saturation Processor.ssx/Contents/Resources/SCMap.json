@@ -531,14 +531,16 @@
      "name": "Character",
      "mapsTo": "SHAPE_Punch",
      "value": 0.5,
-     "knobMode": "KNOB_MODE_BIPOLAR"
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "setValueForDisplay": 0.5
     },
     {
      "id": 2,
      "name": "Dynamics",
      "mapsTo": "SHAPE_Sustain",
      "value": 0.5,
-     "knobMode": "KNOB_MODE_BIPOLAR"
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "setValueForDisplay": 0.5
     },
     {
      "id": 3,
@@ -626,7 +628,8 @@
      "id": 5,
      "name": "eMeterSidebarOut"
     }
-   ]
+   ],
+   "estimateDisplayCurves": true
   }
  ]
 }
