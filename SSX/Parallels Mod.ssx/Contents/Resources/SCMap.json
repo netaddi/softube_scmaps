@@ -39,25 +39,29 @@
      "id": 4,
      "name": "LFO Rise",
      "mapsTo": "MODULE_Param1",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 4
     },
     {
      "id": 5,
      "name": "LFO Shape",
      "mapsTo": "MODULE_Param2",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 5
     },
     {
      "id": 6,
      "name": "LFO DAW Speed",
      "mapsTo": "MODULE_Param5",
-     "value": 0.0
+     "value": 0.0,
+     "virtualInput": 6
     },
     {
      "id": 7,
      "name": "LFO Speed",
      "mapsTo": "MODULE_Param3",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 7
     },
     {
      "id": 8,
@@ -74,19 +78,22 @@
      "id": 10,
      "name": "RND Rain",
      "mapsTo": "MODULE_Param6",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 10
     },
     {
      "id": 11,
      "name": "RND Noise",
      "mapsTo": "MODULE_Param7",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 11
     },
     {
      "id": 12,
      "name": "RND Wave",
      "mapsTo": "MODULE_Param8",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 12
     },
     {
      "id": 13,
@@ -103,19 +110,22 @@
      "id": 15,
      "name": "EUC Fill",
      "mapsTo": "MODULE_Param10",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 15
     },
     {
      "id": 16,
      "name": "EUC Steps",
      "mapsTo": "MODULE_Param11",
-     "value": 0.4839
+     "value": 0.4839,
+     "virtualInput": 16
     },
     {
      "id": 17,
      "name": "EUC Shift",
      "mapsTo": "MODULE_Param12",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 17
     },
     {
      "id": 18,
@@ -132,19 +142,22 @@
      "id": 20,
      "name": "SEQ First Step",
      "mapsTo": "MODULE_Param14",
-     "value": 0.0
+     "value": 0.0,
+     "virtualInput": 20
     },
     {
      "id": 21,
      "name": "SEQ Last Step",
      "mapsTo": "MODULE_Param15",
-     "value": 1.0
+     "value": 1.0,
+     "virtualInput": 21
     },
     {
      "id": 22,
      "name": "SEQ Slew",
      "mapsTo": "MODULE_Param16",
-     "value": 0.0
+     "value": 0.0,
+     "virtualInput": 22
     },
     {
      "id": 23,

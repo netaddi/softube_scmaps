@@ -23,55 +23,64 @@
      "id": 1,
      "name": "SVF Frequency",
      "mapsTo": "MODULE_Param9",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 1
     },
     {
      "id": 2,
      "name": "SVF Resonance",
      "mapsTo": "MODULE_Param8",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 2
     },
     {
      "id": 3,
      "name": "SVF Type",
      "mapsTo": "MODULE_Param7",
-     "value": 0.0
+     "value": 0.0,
+     "virtualInput": 3
     },
     {
      "id": 4,
      "name": "RES Center Freq",
      "mapsTo": "MODULE_Param6",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 4
     },
     {
      "id": 5,
      "name": "RES Tilt",
      "mapsTo": "MODULE_Param4",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 5
     },
     {
      "id": 6,
      "name": "RES Spread",
      "mapsTo": "MODULE_Param5",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 6
     },
     {
      "id": 7,
      "name": "LPG Frequency",
      "mapsTo": "MODULE_Param3",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 7
     },
     {
      "id": 8,
      "name": "LPG Resonance",
      "mapsTo": "MODULE_Param2",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 8
     },
     {
      "id": 9,
      "name": "LPG Slew Rate",
      "mapsTo": "MODULE_Param1",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 9
     }
    ]
   },

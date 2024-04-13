@@ -7,6 +7,7 @@
    "pluginName": "Console 1 SSL SL 4000 E-Series Compressor",
    "displayName": "SSL SL 4000 E-Series Compressor",
    "displayNameShort": "SSL 4000E",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_SSL_4000_E",
    "parameters": [
     {
      "id": 0,

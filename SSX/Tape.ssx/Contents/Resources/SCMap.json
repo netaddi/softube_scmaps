@@ -411,7 +411,8 @@
      "id": 6,
      "name": "eMeterSidebarOut"
     }
-   ]
+   ],
+   "estimateDisplayCurves": true
   },
   {
    "mapName": "C1PreA",

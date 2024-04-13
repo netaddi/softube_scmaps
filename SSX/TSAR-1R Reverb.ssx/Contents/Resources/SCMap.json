@@ -31,13 +31,15 @@
      "id": 3,
      "name": "Reverb Mix",
      "mapsTo": "MODULE_Param4",
-     "value": 1.0
+     "value": 1.0,
+     "virtualInput": 3
     },
     {
      "id": 4,
      "name": "Output Vol",
      "mapsTo": "MODULE_Param5",
-     "value": 0.75
+     "value": 0.7,
+     "virtualInput": 4
     }
    ],
    "meters": [

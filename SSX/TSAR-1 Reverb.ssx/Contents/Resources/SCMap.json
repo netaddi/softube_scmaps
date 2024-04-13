@@ -31,13 +31,15 @@
      "id": 3,
      "name": "Reverb Tone",
      "mapsTo": "MODULE_Param4",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 3
     },
     {
      "id": 4,
      "name": "High Cut",
      "mapsTo": "MODULE_Param5",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 4
     },
     {
      "id": 5,
@@ -67,13 +69,15 @@
      "id": 9,
      "name": "Reverb Mix",
      "mapsTo": "MODULE_Param10",
-     "value": 1.0
+     "value": 1.0,
+     "virtualInput": 9
     },
     {
      "id": 10,
      "name": "Output Vol",
      "mapsTo": "MODULE_Param11",
-     "value": 0.75
+     "value": 0.75,
+     "virtualInput": 10
     }
    ],
    "meters": [

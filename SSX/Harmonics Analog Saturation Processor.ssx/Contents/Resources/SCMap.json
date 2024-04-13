@@ -551,8 +551,12 @@
     {
      "id": 4,
      "name": "DryWet",
-     "mapsTo": "SHAPE_GateRelease_Shift",
-     "value": 1.0
+     "mapsTo": "SHAPE_Punch_Shift",
+     "value": 0.0,
+     "minValue": 1.0,
+     "maxValue": 0.0,
+     "displayName": "Wet/Dry",
+     "setValueForDisplay": 1.0
     },
     {
      "id": 5,
@@ -584,7 +588,7 @@
     {
      "id": 10,
      "name": "Output",
-     "mapsTo": "SHAPE_Punch_Shift",
+     "mapsTo": "SHAPE_GateRelease_Shift",
      "value": 0.6
     },
     {

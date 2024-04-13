@@ -29,20 +29,23 @@
      "id": 2,
      "name": "Distortion Amount",
      "mapsTo": "MODULE_Param7",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 2
     },
     {
      "id": 3,
      "name": "Distortion Character",
      "mapsTo": "MODULE_Param8",
      "value": 0.5,
-     "displayName": "Distortion Tone"
+     "displayName": "Distortion Tone",
+     "virtualInput": 3
     },
     {
      "id": 4,
      "name": "Distortion Dry/Wet",
      "mapsTo": "MODULE_Param9",
-     "value": 1.0
+     "value": 1.0,
+     "virtualInput": 4
     },
     {
      "id": 5,
@@ -54,18 +57,21 @@
      "id": 6,
      "name": "Chorus Speed",
      "mapsTo": "MODULE_Param1",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 6
     },
     {
      "id": 7,
      "name": "Chorus Width",
      "mapsTo": "MODULE_Param2",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 7
     },
     {
      "id": 8,
      "name": "Chorus Dry/Wet",
-     "mapsTo": "MODULE_Param3"
+     "mapsTo": "MODULE_Param3",
+     "virtualInput": 8
     },
     {
      "id": 9,
@@ -77,19 +83,22 @@
      "id": 10,
      "name": "Flanger Speed",
      "mapsTo": "MODULE_Param10",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 10
     },
     {
      "id": 11,
      "name": "Flanger Feedback",
      "mapsTo": "MODULE_Param11",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 11
     },
     {
      "id": 12,
      "name": "Flanger Dry/Wet",
      "mapsTo": "MODULE_Param12",
-     "value": 1.0
+     "value": 1.0,
+     "virtualInput": 12
     },
     {
      "id": 13,
@@ -101,19 +110,22 @@
      "id": 14,
      "name": "Delay Time",
      "mapsTo": "MODULE_Param4",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 14
     },
     {
      "id": 15,
      "name": "Delay Feedback",
      "mapsTo": "MODULE_Param5",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 15
     },
     {
      "id": 16,
      "name": "Delay Dry/Wet",
      "mapsTo": "MODULE_Param6",
-     "value": 0.4
+     "value": 0.4,
+     "virtualInput": 16
     },
     {
      "id": 17,
@@ -125,19 +137,22 @@
      "id": 18,
      "name": "Reverb Time",
      "mapsTo": "MODULE_Param13",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 18
     },
     {
      "id": 19,
      "name": "Reverb Tone",
      "mapsTo": "MODULE_Param14",
-     "value": 0.5
+     "value": 0.5,
+     "virtualInput": 19
     },
     {
      "id": 20,
      "name": "Reverb Dry/Wet",
      "mapsTo": "MODULE_Param15",
-     "value": 0.3
+     "value": 0.3,
+     "virtualInput": 20
     },
     {
      "id": 21,
