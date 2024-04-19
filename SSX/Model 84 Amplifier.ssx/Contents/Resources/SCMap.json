@@ -1,0 +1,25 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "qmfk",
+   "pluginName": "Model 84 Amplifier",
+   "displayName": "Model 84 VCA",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Level",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Subsystem",
+     "value": 0.0,
+     "isSubsystemIndex": true
+    }
+   ]
+  }
+ ]
+}

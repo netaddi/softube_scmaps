@@ -1,0 +1,429 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "pluginId": "nveq",
+   "pluginName": "Console 1 British Class A Equalizer",
+   "displayName": "British Class A Equalizer",
+   "displayNameShort": "BCA",
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "collectionId": "SSX_COLLECTION_CONSOLE1_BRITISH_CLASS_A",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Low Frequency",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.25,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 1,
+     "name": "Low Type",
+     "mapsTo": "EQ_LF_Type",
+     "value": 0.0,
+     "displayName": "Type",
+     "guiQuantization": 2,
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    },
+    {
+     "id": 2,
+     "name": "Low Gain",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 3,
+     "name": "Low Mid Frequency",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.166667,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "name": "Low Mid Gain",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 5,
+     "name": "Low Mid Q",
+     "mapsTo": "EQ_LMF_Q",
+     "value": 0.0,
+     "displayName": "Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "name": "High Mid Frequency",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0.5,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "name": "High Mid Gain",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 8,
+     "name": "High Mid Q",
+     "mapsTo": "EQ_HMF_Q",
+     "value": 0.0,
+     "displayName": "Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "name": "High Gain",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 10,
+     "name": "High Frequency",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.6,
+     "displayName": "Frequency",
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "name": "High Type",
+     "mapsTo": "EQ_HF_Type",
+     "value": 0.0,
+     "displayName": "Type",
+     "guiQuantization": 2,
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    }
+   ]
+  },
+  {
+   "mapName": "BCANative",
+   "pluginId": "nveq",
+   "pluginName": "Console 1 British Class A Equalizer",
+   "displayName": "British Class A Native Equalizer",
+   "displayNameShort": "BCA EQ",
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Low Frequency",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Low Type",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Low Gain",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Low Mid Frequency",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.5,
+     "displayName": "Mid Frequency"
+    },
+    {
+     "id": 4,
+     "name": "Low Mid Gain",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.5,
+     "displayName": "Mid Gain"
+    },
+    {
+     "id": 5,
+     "name": "Low Mid Q",
+     "mapsTo": "EQ_LMF_Q",
+     "value": 0.0,
+     "displayName": "Mid Q"
+    },
+    {
+     "id": 6,
+     "name": "High Mid Frequency",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "High Mid Gain",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "High Mid Q",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "High Gain",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "High Frequency",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.33,
+     "minValue": 0.2,
+     "maxValue": 0.8,
+     "guiQuantization": 4
+    },
+    {
+     "id": 11,
+     "name": "High Type",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "AmpRoomBCAEQ",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "nveq",
+   "pluginName": "Console 1 British Class A Equalizer",
+   "displayName": "British Class A AmpRoom EQ",
+   "displayNameShort": "BCA EQ",
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Low Frequency",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Low Type",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Low Gain",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Low Mid Frequency",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.5,
+     "displayName": "Mid Frequency"
+    },
+    {
+     "id": 4,
+     "name": "Low Mid Gain",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.5,
+     "displayName": "Mid Gain"
+    },
+    {
+     "id": 5,
+     "name": "Low Mid Q",
+     "mapsTo": "SUBPLUGIN_Param5",
+     "value": 0.0,
+     "displayName": "Mid Q"
+    },
+    {
+     "id": 6,
+     "name": "High Mid Frequency",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "High Mid Gain",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "High Mid Q",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "High Gain",
+     "mapsTo": "SUBPLUGIN_Param6",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "High Frequency",
+     "mapsTo": "SUBPLUGIN_Param7",
+     "value": 0.33,
+     "minValue": 0.2,
+     "maxValue": 0.8,
+     "guiQuantization": 4
+    },
+    {
+     "id": 11,
+     "name": "High Type",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "BCAModular",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "nveq",
+   "pluginName": "Console 1 British Class A Equalizer",
+   "displayName": "British Class A EQ",
+   "displayNameShort": "BCA EQ",
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Low Frequency",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Low Type",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Low Gain",
+     "mapsTo": "MODULE_Param7",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Low Mid Frequency",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5,
+     "displayName": "Mid Frequency"
+    },
+    {
+     "id": 4,
+     "name": "Low Mid Gain",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.5,
+     "displayName": "Mid Gain"
+    },
+    {
+     "id": 5,
+     "name": "Low Mid Q",
+     "mapsTo": "MODULE_Param5",
+     "value": 0.0,
+     "displayName": "Mid Q"
+    },
+    {
+     "id": 6,
+     "name": "High Mid Frequency",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "High Mid Gain",
+     "value": 0.5
+    },
+    {
+     "id": 8,
+     "name": "High Mid Q",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "High Gain",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 10,
+     "name": "High Frequency",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.33,
+     "minValue": 0.2,
+     "maxValue": 0.8,
+     "guiQuantization": 4
+    },
+    {
+     "id": 11,
+     "name": "High Type",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "oxrd",
+   "pluginName": "Model 84 Filter",
+   "displayName": "Model 84 LPF",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Frequency",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.25
+    },
+    {
+     "id": 1,
+     "name": "Resonance",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.5
+    },
+    {
+     "id": 2,
+     "name": "Modulation",
+     "mapsTo": "MODULE_Param3",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Keyboard",
+     "mapsTo": "MODULE_Param4"
+    },
+    {
+     "id": 4,
+     "name": "Subsystem",
+     "value": 0.0,
+     "isSubsystemIndex": true
+    }
+   ]
+  }
+ ]
+}

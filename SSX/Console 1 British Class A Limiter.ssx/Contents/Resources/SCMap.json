@@ -1,0 +1,75 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "ie5z",
+   "pluginName": "Console 1 British Class A Limiter",
+   "displayName": "British Class A Limiter",
+   "displayNameShort": "BCA Lim.",
+   "autoMakeup": 0.5,
+   "collectionId": "SSX_COLLECTION_CONSOLE1_BRITISH_CLASS_A",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Threshold",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "External Sidechain",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterReduction",
+     "mapsTo": "COMP_MeterReduction"
+    }
+   ]
+  },
+  {
+   "mapName": "BCANative",
+   "pluginId": "ie5z",
+   "pluginName": "Console 1 British Class A Limiter",
+   "displayName": "British Class A Native Limiter",
+   "autoMakeup": 0.5,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Threshold",
+     "mapsTo": "LIMITER_Threshold",
+     "value": 0.0,
+     "displayName": "Limit Level"
+    },
+    {
+     "id": 1,
+     "name": "Release",
+     "mapsTo": "LIMITER_Release",
+     "value": 0.0,
+     "displayName": "Limit Release"
+    },
+    {
+     "id": 2,
+     "name": "External Sidechain",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterReduction",
+     "mapsTo": "LIMITER_MeterReduction"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_FILTER",
+   "pluginId": "nvIN",
+   "pluginName": "Console 1 British Class A Input",
+   "displayName": "British Class A Filters",
+   "displayNameShort": "BCA",
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "collectionId": "SSX_COLLECTION_CONSOLE1_BRITISH_CLASS_A",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "High Cut",
+     "mapsTo": "IN_High_Cut",
+     "value": 1.0,
+     "knobMode": "KNOB_MODE_REVERSED",
+     "leadParamValue": 1.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "mapsTo": "IN_Low_Cut",
+     "value": 0.0,
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    }
+   ]
+  },
+  {
+   "mapName": "BCANative",
+   "pluginId": "nvIN",
+   "pluginName": "Console 1 British Class A Input",
+   "displayName": "British Class A Input",
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "High Cut",
+     "mapsTo": "IN_High_Cut",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "mapsTo": "IN_Low_Cut",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "AmpRoomBCAFilter",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "nvIN",
+   "pluginName": "Console 1 British Class A Input",
+   "displayName": "British Class A Filter",
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "High Cut",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "BCAModular",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "nvIN",
+   "pluginName": "Console 1 British Class A Input",
+   "displayName": "British Class A Filter",
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "High Cut",
+     "mapsTo": "MODULE_Param2",
+     "value": 1.0
+    },
+    {
+     "id": 1,
+     "name": "Low Cut",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    }
+   ]
+  }
+ ]
+}

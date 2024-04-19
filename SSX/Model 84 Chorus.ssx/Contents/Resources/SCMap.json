@@ -1,0 +1,31 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "ttko",
+   "pluginName": "Model 84 Chorus",
+   "modularLatencyInSeconds": 0.003,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Chorus Mode",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Mono/Stereo",
+     "mapsTo": "MODULE_Param2",
+     "value": 1.0
+    },
+    {
+     "id": 2,
+     "name": "Subsystem",
+     "value": 0.0,
+     "isSubsystemIndex": true
+    }
+   ]
+  }
+ ]
+}

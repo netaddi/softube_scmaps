@@ -1,0 +1,100 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_SHAPE",
+   "pluginId": "nvsh",
+   "pluginName": "Console 1 British Class A Gate",
+   "displayName": "British Class A Gate",
+   "displayNameShort": "BCA",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Threshold",
+     "mapsTo": "SHAPE_Gate",
+     "value": 0.0,
+     "displayName": "Threshold",
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 1,
+     "name": "Recovery",
+     "mapsTo": "SHAPE_GateRelease",
+     "value": 0.5,
+     "displayName": "Recovery",
+     "leaderParams": [
+      {
+       "name": "SHAPE_Gate"
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "name": "Depth",
+     "mapsTo": "SHAPE_Punch",
+     "value": 1.0,
+     "displayName": "Depth"
+    },
+    {
+     "id": 3,
+     "name": "External Sidechain",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterGainReduction",
+     "mapsTo": "SHAPE_MeterReduction"
+    }
+   ]
+  },
+  {
+   "mapName": "BCANative",
+   "pluginId": "nvsh",
+   "pluginName": "Console 1 British Class A Gate",
+   "displayName": "British Class A Gate",
+   "displayNameShort": "BCA",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Threshold",
+     "mapsTo": "SHAPE_Gate",
+     "value": 0.0,
+     "displayName": "Gate Threshold",
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 1,
+     "name": "Recovery",
+     "mapsTo": "SHAPE_GateRelease",
+     "value": 0.5,
+     "displayName": "Gate Release"
+    },
+    {
+     "id": 2,
+     "name": "Depth",
+     "mapsTo": "SHAPE_Punch",
+     "value": 1.0,
+     "displayName": "Gate Depth"
+    },
+    {
+     "id": 3,
+     "name": "External Sidechain",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterGainReduction",
+     "mapsTo": "SHAPE_MeterReduction"
+    }
+   ]
+  }
+ ]
+}

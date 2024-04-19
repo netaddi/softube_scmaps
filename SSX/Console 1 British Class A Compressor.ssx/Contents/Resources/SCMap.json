@@ -1,0 +1,213 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "nvcp",
+   "pluginName": "Console 1 British Class A Compressor",
+   "displayName": "British Class A Compressor",
+   "displayNameShort": "BCA",
+   "autoMakeup": 0.5,
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "collectionId": "SSX_COLLECTION_CONSOLE1_BRITISH_CLASS_A",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.0,
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 2,
+     "name": "Threshold",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "External Sidechain",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterGainRed",
+     "mapsTo": "COMP_MeterReduction"
+    }
+   ]
+  },
+  {
+   "mapName": "BCANative",
+   "pluginId": "nvcp",
+   "pluginName": "Console 1 British Class A Compressor",
+   "displayName": "British Class A Compressor",
+   "autoMakeup": 0.5,
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "value": 0.0,
+     "displayName": "Comp Attack"
+    },
+    {
+     "id": 1,
+     "name": "Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.0,
+     "displayName": "Comp Ratio"
+    },
+    {
+     "id": 2,
+     "name": "Threshold",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.0,
+     "displayName": "Comp Threshold"
+    },
+    {
+     "id": 3,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "value": 0.0,
+     "displayName": "Comp Release"
+    },
+    {
+     "id": 4,
+     "name": "External Sidechain",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterGainRed",
+     "mapsTo": "COMP_MeterReduction"
+    }
+   ]
+  },
+  {
+   "mapName": "AmpRoomBCAComp",
+   "mapType": "SSX_TYPE_AMP_ROOM_MODULE",
+   "pluginId": "nvcp",
+   "pluginName": "Console 1 British Class A Compressor",
+   "displayName": "British Class A Compressor",
+   "autoMakeup": 0.5,
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Attack",
+     "mapsTo": "SUBPLUGIN_Param1",
+     "value": 0.0,
+     "displayName": "Comp Attack"
+    },
+    {
+     "id": 1,
+     "name": "Ratio",
+     "mapsTo": "SUBPLUGIN_Param2",
+     "value": 0.0,
+     "displayName": "Comp Ratio"
+    },
+    {
+     "id": 2,
+     "name": "Threshold",
+     "mapsTo": "SUBPLUGIN_Param3",
+     "value": 0.0,
+     "displayName": "Comp Threshold"
+    },
+    {
+     "id": 3,
+     "name": "Release",
+     "mapsTo": "SUBPLUGIN_Param4",
+     "value": 0.0,
+     "displayName": "Comp Release"
+    },
+    {
+     "id": 4,
+     "name": "External Sidechain",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterGainRed",
+     "mapsTo": "SUBPLUGIN_Meter1"
+    }
+   ]
+  },
+  {
+   "mapName": "BCAModular",
+   "mapType": "SSX_TYPE_MODULAR_MODULE",
+   "pluginId": "nvcp",
+   "pluginName": "Console 1 British Class A Compressor",
+   "displayName": "British Class A Compressor",
+   "autoMakeup": 0.5,
+   "modularLatencyInSeconds": 0.003,
+   "useModularInputNormalling": true,
+   "useModularOutputNormalling": true,
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Attack",
+     "mapsTo": "MODULE_Param1",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Ratio",
+     "mapsTo": "MODULE_Param4",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Threshold",
+     "mapsTo": "MODULE_Param6",
+     "value": 0.0,
+     "virtualInput": 0
+    },
+    {
+     "id": 3,
+     "name": "Release",
+     "mapsTo": "MODULE_Param2",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "External Sidechain",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterGainRed",
+     "mapsTo": "MODULE_Meter1"
+    }
+   ]
+  }
+ ]
+}
