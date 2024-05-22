@@ -1,0 +1,289 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "pluginId": "ST82",
+   "pluginName": "Console 1 EQ 2",
+   "displayName": "Core Suite Modern Equalizer",
+   "displayNameShort": "Core Modern",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_CORE_MIXING_SUITE",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Low Q",
+     "mapsTo": "EQ_LF_Q",
+     "value": 0.25,
+     "displayName": "Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 1,
+     "name": "Low Frequency",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.2912036,
+     "displayName": "Freq.",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "name": "Low Gain",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.5,
+     "displayName": "Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 3,
+     "name": "Low Slope",
+     "mapsTo": "EQ_LF_Freq_Shift",
+     "value": 0.5,
+     "displayName": "Slope"
+    },
+    {
+     "id": 4,
+     "name": "Low Type",
+     "mapsTo": "EQ_LF_Type",
+     "value": 0.0,
+     "displayName": "Type",
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    },
+    {
+     "id": 5,
+     "name": "Low Mid 1 Q",
+     "mapsTo": "EQ_LMF_Q",
+     "value": 0.1814416,
+     "displayName": "Q 1",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "name": "Low Mid 1 Frequency",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.503679,
+     "displayName": "Freq. 1",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "name": "Low Mid 1 Gain",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.5,
+     "displayName": "Gain 1",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 8,
+     "name": "Low Mid 2 Q",
+     "mapsTo": "EQ_LMF_Q_Shift",
+     "value": 0.3196863,
+     "displayName": "Q 2",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain_Shift"
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "name": "Low Mid 2 Frequency",
+     "mapsTo": "EQ_LMF_Freq_Shift",
+     "value": 0.3592175,
+     "displayName": "Freq. 2",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain_Shift"
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "name": "Low Mid 2 Gain",
+     "mapsTo": "EQ_LMF_Gain_Shift",
+     "value": 0.5,
+     "displayName": "Gain 2",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 11,
+     "name": "High Mid 1 Q",
+     "mapsTo": "EQ_HMF_Q",
+     "value": 0.1814416,
+     "displayName": "Q 1",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "name": "High Mid 1 Frequency",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0.6988825,
+     "displayName": "Freq. 1",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 13,
+     "name": "High Mid 1 Gain",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0.5,
+     "displayName": "Gain 1",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 14,
+     "name": "High Mid 2 Q",
+     "mapsTo": "EQ_HMF_Q_Shift",
+     "value": 0.3196863,
+     "displayName": "Q 2",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain_Shift"
+      }
+     ]
+    },
+    {
+     "id": 15,
+     "name": "High Mid 2 Frequency",
+     "mapsTo": "EQ_HMF_Freq_Shift",
+     "value": 0.8256494,
+     "displayName": "Freq. 2",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain_Shift"
+      }
+     ]
+    },
+    {
+     "id": 16,
+     "name": "High Mid 2 Gain",
+     "mapsTo": "EQ_HMF_Gain_Shift",
+     "value": 0.5,
+     "displayName": "Gain 2",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 17,
+     "name": "High Q",
+     "mapsTo": "EQ_HF_Q",
+     "value": 0.25,
+     "displayName": "Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 18,
+     "name": "High Frequency",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.8917641,
+     "displayName": "Freq.",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 19,
+     "name": "High Gain",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.5,
+     "displayName": "Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 20,
+     "name": "High Slope",
+     "mapsTo": "EQ_HF_Freq_Shift",
+     "value": 0.25,
+     "displayName": "Slope"
+    },
+    {
+     "id": 21,
+     "name": "High Type",
+     "mapsTo": "EQ_HF_Type",
+     "value": 0.0,
+     "displayName": "Type",
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "ST83",
+   "pluginName": "Console 1 Comp 1",
+   "displayName": "Core Suite Bus Compressor",
+   "displayNameShort": "Core Bus",
+   "autoMakeup": 0.25,
+   "collectionId": "SSX_COLLECTION_CONSOLE1_CORE_MIXING_SUITE",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Compression",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.2,
+     "minValue": 1.0,
+     "maxValue": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "value": 0.4
+    },
+    {
+     "id": 2,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "value": 0.5
+    },
+    {
+     "id": 3,
+     "name": "Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.333
+    },
+    {
+     "id": 4,
+     "name": "Knee",
+     "mapsTo": "COMP_Ratio_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 5,
+     "name": "Range",
+     "mapsTo": "COMP_Attack_Shift",
+     "value": 1.0
+    },
+    {
+     "id": 6,
+     "name": "Ext S/C",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterMeterGainReduction",
+     "mapsTo": "COMP_MeterReduction"
+    }
+   ]
+  }
+ ]
+}

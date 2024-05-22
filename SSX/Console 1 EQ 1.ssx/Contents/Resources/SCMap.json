@@ -1,0 +1,201 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_EQUALIZER",
+   "pluginId": "ST81",
+   "pluginName": "Console 1 EQ 1",
+   "displayName": "Core Suite Vintage Equalizer",
+   "displayNameShort": "Core Vintage",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_CORE_MIXING_SUITE",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Low Q",
+     "mapsTo": "EQ_LF_Q",
+     "value": 0.45,
+     "displayName": "Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 1,
+     "name": "Low Frequency",
+     "mapsTo": "EQ_LF_Freq",
+     "value": 0.34,
+     "displayName": "Frequency",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "name": "Low Gain",
+     "mapsTo": "EQ_LF_Gain",
+     "value": 0.5,
+     "displayName": "Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 3,
+     "name": "Low Type",
+     "mapsTo": "EQ_LF_Type",
+     "value": 0.0,
+     "displayName": "Type",
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_LF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    },
+    {
+     "id": 4,
+     "name": "Low Mid Q",
+     "mapsTo": "EQ_LMF_Q",
+     "value": 0.3,
+     "displayName": "Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "name": "Low Mid Frequency",
+     "mapsTo": "EQ_LMF_Freq",
+     "value": 0.35,
+     "displayName": "Frequency",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_LMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "name": "Low Mid Gain",
+     "mapsTo": "EQ_LMF_Gain",
+     "value": 0.5,
+     "displayName": "Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 7,
+     "name": "High Mid Q",
+     "mapsTo": "EQ_HMF_Q",
+     "value": 0.3,
+     "displayName": "Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "name": "High Mid Frequency",
+     "mapsTo": "EQ_HMF_Freq",
+     "value": 0.6,
+     "displayName": "Frequency",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_HMF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "name": "High Mid Gain",
+     "mapsTo": "EQ_HMF_Gain",
+     "value": 0.5,
+     "displayName": "Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 10,
+     "name": "High Q",
+     "mapsTo": "EQ_HF_Q",
+     "value": 0.1,
+     "displayName": "Q",
+     "knobMode": "KNOB_MODE_SPREAD_REVERSED",
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "name": "High Frequency",
+     "mapsTo": "EQ_HF_Freq",
+     "value": 0.7,
+     "displayName": "Frequency",
+     "knobMode": "KNOB_MODE_SINGLE",
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "name": "High Gain",
+     "mapsTo": "EQ_HF_Gain",
+     "value": 0.5,
+     "displayName": "Gain",
+     "knobMode": "KNOB_MODE_BIPOLAR",
+     "leadParamValue": 0.5,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Type"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 13,
+     "name": "High Type",
+     "mapsTo": "EQ_HF_Type",
+     "value": 0.0,
+     "displayName": "Type",
+     "leadParamValue": 1.0,
+     "leaderParams": [
+      {
+       "name": "EQ_HF_Gain"
+      }
+     ],
+     "leadOutcome": "LEAD_OUTCOME_OFF"
+    }
+   ]
+  }
+ ]
+}

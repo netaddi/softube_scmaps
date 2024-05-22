@@ -1,0 +1,13 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_PRE_AMP",
+   "pluginId": "ST77",
+   "pluginName": "Console 1 Preamp",
+   "displayName": "Core Suite Tape",
+   "displayNameShort": "Core Tape",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_CORE_MIXING_SUITE"
+  }
+ ]
+}

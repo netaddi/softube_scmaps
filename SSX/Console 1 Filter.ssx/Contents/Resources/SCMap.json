@@ -1,0 +1,48 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_FILTER",
+   "pluginId": "ST78",
+   "pluginName": "Console 1 Filter",
+   "displayName": "Core Suite Filters",
+   "displayNameShort": "Core Filters",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_CORE_MIXING_SUITE",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Low Cut",
+     "mapsTo": "IN_Low_Cut",
+     "value": 0.0,
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 1,
+     "name": "Low Cut Slope",
+     "mapsTo": "IN_Low_Cut_Shift",
+     "value": 0.25,
+     "displayName": "Slope"
+    },
+    {
+     "id": 2,
+     "name": "High Cut",
+     "mapsTo": "IN_High_Cut",
+     "value": 1.0,
+     "knobMode": "KNOB_MODE_REVERSED",
+     "leadParamValue": 1.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 3,
+     "name": "High Cut Slope",
+     "mapsTo": "IN_High_Cut_Shift",
+     "value": 0.25,
+     "displayName": "Slope"
+    }
+   ]
+  }
+ ]
+}

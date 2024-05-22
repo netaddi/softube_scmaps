@@ -1,0 +1,36 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_PRE_AMP",
+   "pluginId": "STb1",
+   "pluginName": "Console 1 Preamp 2",
+   "displayName": "Core Suite Vintage Preamp",
+   "displayNameShort": "Core Suite Vintage",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_CORE_MIXING_SUITE",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Style",
+     "value": 0.0
+    }
+   ]
+  },
+  {
+   "mapName": "DefaultMod",
+   "mapType": "SSX_TYPE_CONSOLE1_PRE_AMP",
+   "pluginId": "STb1",
+   "pluginName": "Console 1 Preamp 2",
+   "displayName": "Core Suite Modern Preamp",
+   "displayNameShort": "Core Suite Modern",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_CORE_MIXING_SUITE",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Style",
+     "value": 0.25
+    }
+   ]
+  }
+ ]
+}

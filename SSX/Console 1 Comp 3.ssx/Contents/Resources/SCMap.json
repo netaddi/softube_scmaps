@@ -1,0 +1,65 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "ST85",
+   "pluginName": "Console 1 Comp 3",
+   "displayName": "Core Suite FET Compressor",
+   "displayNameShort": "Core FET",
+   "autoMakeup": 0.25,
+   "collectionId": "SSX_COLLECTION_CONSOLE1_CORE_MIXING_SUITE",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.5,
+     "leadParamValue": 0.0,
+     "leadOutcome": "LEAD_OUTCOME_INACTIVE",
+     "followSelf": true
+    },
+    {
+     "id": 1,
+     "name": "Attack",
+     "mapsTo": "COMP_Attack",
+     "value": 0.5,
+     "leaderParams": [
+      {
+       "name": "COMP_Ratio"
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "name": "Release",
+     "mapsTo": "COMP_Release",
+     "value": 0.5,
+     "leaderParams": [
+      {
+       "name": "COMP_Ratio"
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "name": "Compression",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.6,
+     "leaderParams": [
+      {
+       "name": "COMP_Ratio"
+      }
+     ]
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterReduction",
+     "mapsTo": "COMP_MeterReduction"
+    }
+   ]
+  }
+ ]
+}

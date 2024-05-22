@@ -1,0 +1,48 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_COMPRESSOR",
+   "pluginId": "ST84",
+   "pluginName": "Console 1 Comp 2",
+   "displayName": "Core Suite Opto Compressor",
+   "displayNameShort": "Core Opto",
+   "autoMakeup": 0.25,
+   "collectionId": "SSX_COLLECTION_CONSOLE1_CORE_MIXING_SUITE",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Compression",
+     "mapsTo": "COMP_Threshold",
+     "value": 0.5
+    },
+    {
+     "id": 1,
+     "name": "Ratio",
+     "mapsTo": "COMP_Ratio",
+     "value": 0.0,
+     "minValue": 1.0,
+     "maxValue": 0.0
+    },
+    {
+     "id": 2,
+     "name": "External Sidechain",
+     "value": 1.0
+    },
+    {
+     "id": 3,
+     "name": "Time",
+     "mapsTo": "COMP_Release",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterReduction",
+     "mapsTo": "COMP_MeterReduction"
+    }
+   ]
+  }
+ ]
+}

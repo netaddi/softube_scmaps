@@ -1,0 +1,255 @@
+{
+ "maps": [
+  {
+   "mapName": "Default",
+   "mapType": "SSX_TYPE_CONSOLE1_SHAPE",
+   "pluginId": "ST80",
+   "pluginName": "Console 1 Shape 2",
+   "displayName": "Core Suite Panner",
+   "displayNameShort": "Core Panner",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_CORE_MIXING_SUITE",
+   "visualizationType": "SSX_VISUALIZATION_CIRCLE",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Sample delay coarse",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Sample delay fine",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Anti-hum Amount",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Anti-hum Frequency",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Pan",
+     "mapsTo": "SHAPE_Punch",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR"
+    },
+    {
+     "id": 5,
+     "name": "Depth",
+     "mapsTo": "SHAPE_Sustain",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Mono In",
+     "mapsTo": "SHAPE_Gate",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Swap L/R",
+     "mapsTo": "SHAPE_HardGate",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Absolute/Relative",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Hf Dynamics Amount",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "TweakFreq",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Dynamics/Utility/Panner",
+     "value": 1.0
+    },
+    {
+     "id": 12,
+     "name": "Lo Dynamics",
+     "value": 0.0
+    },
+    {
+     "id": 13,
+     "name": "Hi Dynamics",
+     "value": 0.0
+    },
+    {
+     "id": 14,
+     "name": "Speed",
+     "value": 0.0
+    },
+    {
+     "id": 15,
+     "name": "Crossover",
+     "value": 0.0
+    },
+    {
+     "id": 16,
+     "name": "Auto Make-Up",
+     "value": 0.0
+    },
+    {
+     "id": 17,
+     "name": "Lo Solo",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Hi Solo",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Threshold",
+     "value": 0.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterReduction",
+     "mapsTo": "SHAPE_MeterReduction"
+    }
+   ]
+  },
+  {
+   "mapName": "Comp",
+   "mapType": "SSX_TYPE_CONSOLE1_SHAPE",
+   "pluginId": "ST80",
+   "pluginName": "Console 1 Shape 2",
+   "displayName": "Core Suite Dual Dynamics",
+   "displayNameShort": "Core Dual Dyn.",
+   "collectionId": "SSX_COLLECTION_CONSOLE1_CORE_MIXING_SUITE",
+   "parameters": [
+    {
+     "id": 0,
+     "name": "Sample delay coarse",
+     "value": 0.0
+    },
+    {
+     "id": 1,
+     "name": "Sample delay fine",
+     "value": 0.0
+    },
+    {
+     "id": 2,
+     "name": "Anti-hum Amount",
+     "value": 0.0
+    },
+    {
+     "id": 3,
+     "name": "Anti-hum Frequency",
+     "value": 0.0
+    },
+    {
+     "id": 4,
+     "name": "Pan",
+     "value": 0.5
+    },
+    {
+     "id": 5,
+     "name": "Depth",
+     "value": 0.0
+    },
+    {
+     "id": 6,
+     "name": "Mono In",
+     "value": 0.0
+    },
+    {
+     "id": 7,
+     "name": "Swap L/R",
+     "value": 0.0
+    },
+    {
+     "id": 8,
+     "name": "Absolute/Relative",
+     "value": 0.0
+    },
+    {
+     "id": 9,
+     "name": "Hf Dynamics Amount",
+     "value": 0.0
+    },
+    {
+     "id": 10,
+     "name": "TweakFreq",
+     "value": 0.5
+    },
+    {
+     "id": 11,
+     "name": "Dynamics/Utility/Panner",
+     "value": 0.0
+    },
+    {
+     "id": 12,
+     "name": "Lo Dynamics",
+     "mapsTo": "SHAPE_Punch",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR"
+    },
+    {
+     "id": 13,
+     "name": "Hi Dynamics",
+     "mapsTo": "SHAPE_Sustain",
+     "value": 0.5,
+     "knobMode": "KNOB_MODE_BIPOLAR"
+    },
+    {
+     "id": 14,
+     "name": "Speed",
+     "mapsTo": "SHAPE_GateRelease",
+     "value": 0.5
+    },
+    {
+     "id": 15,
+     "name": "Crossover",
+     "mapsTo": "SHAPE_Gate",
+     "value": 0.5
+    },
+    {
+     "id": 16,
+     "name": "Auto Make-Up",
+     "mapsTo": "SHAPE_HardGate",
+     "value": 1.0
+    },
+    {
+     "id": 17,
+     "name": "Lo Solo",
+     "mapsTo": "SHAPE_Punch_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 18,
+     "name": "Hi Solo",
+     "mapsTo": "SHAPE_Sustain_Shift",
+     "value": 0.0
+    },
+    {
+     "id": 19,
+     "name": "Threshold",
+     "value": 1.0
+    }
+   ],
+   "meters": [
+    {
+     "id": 0,
+     "name": "eMeterReduction",
+     "mapsTo": "SHAPE_MeterReduction"
+    }
+   ]
+  }
+ ]
+}
