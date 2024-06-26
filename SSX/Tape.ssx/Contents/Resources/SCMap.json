@@ -485,6 +485,12 @@
      "value": 0.0
     }
    ]
+  },
+  {
+   "mapName": "FlowMasteringSuite",
+   "mapType": "SSX_TYPE_FLOW",
+   "pluginId": "nnfw",
+   "pluginName": "Tape"
   }
  ]
 }

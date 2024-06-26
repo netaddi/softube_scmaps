@@ -381,6 +381,14 @@
      "name": "eMeterCombinedGR2"
     }
    ]
+  },
+  {
+   "mapName": "FlowMasteringSuite",
+   "mapType": "SSX_TYPE_FLOW",
+   "pluginId": "gaeu",
+   "pluginName": "Weiss Compressor Limiter",
+   "displayName": "Weiss Compressor/Limiter",
+   "displayNameShort": "Weiss Comp./Lim"
   }
  ]
 }

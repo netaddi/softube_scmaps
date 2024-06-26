@@ -333,6 +333,12 @@
     }
    ],
    "estimateDisplayCurves": true
+  },
+  {
+   "mapName": "FlowMasteringSuite",
+   "mapType": "SSX_TYPE_FLOW",
+   "pluginId": "hrdi",
+   "pluginName": "Clipper"
   }
  ]
 }

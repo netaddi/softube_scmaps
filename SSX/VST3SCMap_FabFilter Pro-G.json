@@ -227,6 +227,13 @@
      "name": "Channel Pressure",
      "value": 0.0
     }
+   ],
+   "meters": [
+    {
+        "id": 0,
+        "name": "eMeterCompression",
+        "mapsTo": "SHAPE_MeterReduction"
+    }
    ]
   }
  ]
